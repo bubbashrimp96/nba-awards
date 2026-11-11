@@ -1,0 +1,34 @@
+{
+  "selected_variant": "lean_team_context",
+  "configs": {
+    "no_total_WS": {
+      "variant": "no_total_WS",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 1.3427043817978312,
+      "development_top1": 6
+    },
+    "team_wins": {
+      "variant": "team_wins",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8949422213973728,
+      "development_top1": 6
+    },
+    "team_wins_standing": {
+      "variant": "team_wins_standing",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8629712826365916,
+      "development_top1": 6
+    },
+    "lean_team_context": {
+      "variant": "lean_team_context",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8418468711373235,
+      "development_top1": 6
+    }
+  },
+  "selection": "Lowest mean rolling development log loss, season-ending years 2006-2015"
+}

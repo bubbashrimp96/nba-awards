@@ -1,0 +1,12 @@
+season,predicted,actual,winner_rank,winner_eligible,top1,top3,log_loss,candidates,latest_training_year
+2015-16,Stephen Curry,Stephen Curry,1,True,1,1,0.030828524567660054,20,2015
+2016-17,Stephen Curry,Russell Westbrook,6,True,0,0,4.679395228543795,20,2016
+2017-18,James Harden,James Harden,1,True,1,1,0.048021385180645026,20,2017
+2018-19,Giannis Antetokounmpo,Giannis Antetokounmpo,1,True,1,1,0.5356621509462212,20,2018
+2019-20,Giannis Antetokounmpo,Giannis Antetokounmpo,1,True,1,1,0.09160574339067828,20,2019
+2020-21,Nikola Jokić,Nikola Jokić,1,True,1,1,0.157487075345065,20,2020
+2021-22,Nikola Jokić,Nikola Jokić,1,True,1,1,0.635547749816407,20,2021
+2022-23,Jayson Tatum,Joel Embiid,2,True,0,1,2.4753117774740803,20,2022
+2023-24,Nikola Jokić,Nikola Jokić,1,True,1,1,0.7171283068477834,21,2023
+2024-25,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,True,1,1,0.08318600818487276,20,2024
+2025-26,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,True,1,1,0.072180177861501,20,2025

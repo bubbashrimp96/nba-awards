@@ -1,0 +1,3 @@
+variant,correct,top3,mean_log_loss
+previous_availability_model,9,9,1.0688524322155162
+top20_PPG_85pct_penalty,9,10,0.8660321934689736

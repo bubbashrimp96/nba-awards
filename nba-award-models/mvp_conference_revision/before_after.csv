@@ -1,0 +1,12 @@
+season,predicted_original,winner_rank_original,top1_original,predicted_revised,actual,winner_rank_revised,top1_revised
+2015-16,Stephen Curry,1,1,Stephen Curry,Stephen Curry,1,1
+2016-17,James Harden,2,0,James Harden,Russell Westbrook,4,0
+2017-18,James Harden,1,1,James Harden,James Harden,1,1
+2018-19,James Harden,2,0,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1
+2019-20,James Harden,2,0,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1
+2020-21,Nikola Jokić,1,1,Nikola Jokić,Nikola Jokić,1,1
+2021-22,Nikola Jokić,1,1,Nikola Jokić,Nikola Jokić,1,1
+2022-23,Nikola Jokić,2,0,Nikola Jokić,Joel Embiid,3,0
+2023-24,Nikola Jokić,1,1,Nikola Jokić,Nikola Jokić,1,1
+2024-25,Nikola Jokić,2,0,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,1
+2025-26,Nikola Jokić,2,0,Nikola Jokić,Shai Gilgeous-Alexander,2,0

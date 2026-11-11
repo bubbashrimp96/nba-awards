@@ -1,0 +1,6 @@
+variant,seasons,correct,top3,mean_log_loss,selected_on_development
+original,11,5,11,1.1354645241790091,False
+no_total_WS,11,6,11,1.0903965893271315,False
+team_wins,11,7,11,0.8718987246331333,False
+team_wins_standing,11,7,10,0.8980355714527305,False
+lean_team_context,11,7,10,0.8756560697079009,True

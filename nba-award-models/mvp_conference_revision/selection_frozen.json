@@ -1,0 +1,27 @@
+{
+  "selected_variant": "conference_plus_league",
+  "configs": {
+    "conference_plus_league": {
+      "variant": "conference_plus_league",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8252147626720925,
+      "development_top1": 6
+    },
+    "conference_instead_of_league": {
+      "variant": "conference_instead_of_league",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8431550984040502,
+      "development_top1": 6
+    },
+    "conference_with_VORP": {
+      "variant": "conference_with_VORP",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8546354959858368,
+      "development_top1": 6
+    }
+  },
+  "selection": "Lowest mean rolling development log loss, season-ending years 2006-2015"
+}

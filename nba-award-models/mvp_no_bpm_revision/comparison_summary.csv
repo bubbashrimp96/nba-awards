@@ -1,0 +1,4 @@
+variant,correct,top3,mean_log_loss,selected_on_development
+baseline,8,10,0.9733420575442898,False
+no_BPM_PER_STL_BLK_learned,8,10,1.0034520887497342,False
+no_BPM_PER_STL_BLK_small_positive,7,10,0.985796348793848,True

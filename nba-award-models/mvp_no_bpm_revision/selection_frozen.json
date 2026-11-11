@@ -1,0 +1,21 @@
+{
+  "selected": "no_BPM_PER_STL_BLK_small_positive",
+  "configs": {
+    "no_BPM_PER_STL_BLK_learned": {
+      "variant": "no_BPM_PER_STL_BLK_learned",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8803723841597695,
+      "development_correct": 6
+    },
+    "no_BPM_PER_STL_BLK_small_positive": {
+      "variant": "no_BPM_PER_STL_BLK_small_positive",
+      "half_life": 20,
+      "regularization": 0.03,
+      "development_log_loss": 0.8624503287118926,
+      "development_correct": 6
+    }
+  },
+  "criterion": "2006-2015 rolling mean log loss, before evaluating revised 2016-2026 outputs",
+  "defensive_bound": "Small-positive family constrains STL and BLK coefficients each to [0.05,0.25] score units per standardized input"
+}

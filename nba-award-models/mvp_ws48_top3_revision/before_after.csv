@@ -1,0 +1,12 @@
+season,predicted_previous,winner_rank_previous,top1_previous,top3_previous,predicted_revised,actual,winner_rank_revised,winner_top3_eligible,top1_revised,top3_revised,log_loss,top3_eligible_candidates,filled_top3
+2015-16,Stephen Curry,1,1,1,Stephen Curry,Stephen Curry,1,True,1,1,0.02833450113078584,6,3
+2016-17,Stephen Curry,7,0,0,Stephen Curry,Russell Westbrook,7,True,0,0,4.667322148423207,11,3
+2017-18,James Harden,1,1,1,James Harden,James Harden,1,True,1,1,0.035149055465740986,10,3
+2018-19,Giannis Antetokounmpo,1,1,1,Giannis Antetokounmpo,Giannis Antetokounmpo,1,True,1,1,0.5119613103830893,7,3
+2019-20,Giannis Antetokounmpo,1,1,1,Giannis Antetokounmpo,Giannis Antetokounmpo,1,True,1,1,0.09029957566350255,9,3
+2020-21,Nikola Jokić,1,1,1,Nikola Jokić,Nikola Jokić,1,True,1,1,0.12342755516416126,9,3
+2021-22,Nikola Jokić,1,1,1,Nikola Jokić,Nikola Jokić,1,True,1,1,0.5203007885816753,3,3
+2022-23,Nikola Jokić,3,0,1,Nikola Jokić,Joel Embiid,2,True,0,1,4.09522172742775,7,3
+2023-24,Nikola Jokić,1,1,1,Nikola Jokić,Nikola Jokić,1,True,1,1,0.6569586604884154,6,3
+2024-25,Shai Gilgeous-Alexander,1,1,1,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,True,1,1,0.07824684783735947,3,3
+2025-26,Shai Gilgeous-Alexander,1,1,1,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,True,1,1,0.05622839315995698,5,3

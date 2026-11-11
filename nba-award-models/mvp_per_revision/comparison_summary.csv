@@ -1,0 +1,5 @@
+variant,correct,top3,mean_log_loss,selected_on_development
+baseline,8,10,0.9733420575442898,False
+PER_only,8,10,0.9666944292641226,True
+PER_STL_BLK_learned,7,10,0.9875823329195387,False
+PER_STL_BLK_small_positive,8,10,0.987644776083656,False

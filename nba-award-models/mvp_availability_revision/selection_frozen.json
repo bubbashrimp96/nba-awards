@@ -1,0 +1,9 @@
+{
+  "chosen": {
+    "half_life": 20,
+    "regularization": 0.03,
+    "development_log_loss": 1.020536951498407,
+    "development_correct": 7
+  },
+  "criterion": "2006-2015 rolling log loss, selected before later evaluation"
+}

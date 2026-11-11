@@ -1,0 +1,71 @@
+{
+  "chosen": {
+    "bpm_multiplier": 0.25,
+    "ws48_multiplier": 1.25,
+    "correct": 6,
+    "mean_log_loss": 0.8085382371424867
+  },
+  "criterion": "2006-2015 rolling mean log loss; constrained to lower BPM and higher WS/48",
+  "settings": [
+    {
+      "bpm_multiplier": 1.0,
+      "ws48_multiplier": 1.0,
+      "correct": 6,
+      "mean_log_loss": 0.8252147626720925
+    },
+    {
+      "bpm_multiplier": 0.25,
+      "ws48_multiplier": 1.25,
+      "correct": 6,
+      "mean_log_loss": 0.8085382371424867
+    },
+    {
+      "bpm_multiplier": 0.25,
+      "ws48_multiplier": 1.5,
+      "correct": 6,
+      "mean_log_loss": 0.8216729027815107
+    },
+    {
+      "bpm_multiplier": 0.25,
+      "ws48_multiplier": 2.0,
+      "correct": 7,
+      "mean_log_loss": 0.8608523445034102
+    },
+    {
+      "bpm_multiplier": 0.5,
+      "ws48_multiplier": 1.25,
+      "correct": 6,
+      "mean_log_loss": 0.8174898560557944
+    },
+    {
+      "bpm_multiplier": 0.5,
+      "ws48_multiplier": 1.5,
+      "correct": 6,
+      "mean_log_loss": 0.8325892302310549
+    },
+    {
+      "bpm_multiplier": 0.5,
+      "ws48_multiplier": 2.0,
+      "correct": 7,
+      "mean_log_loss": 0.8749095921261791
+    },
+    {
+      "bpm_multiplier": 0.75,
+      "ws48_multiplier": 1.25,
+      "correct": 6,
+      "mean_log_loss": 0.8278669593802157
+    },
+    {
+      "bpm_multiplier": 0.75,
+      "ws48_multiplier": 1.5,
+      "correct": 6,
+      "mean_log_loss": 0.8447483825964724
+    },
+    {
+      "bpm_multiplier": 0.75,
+      "ws48_multiplier": 2.0,
+      "correct": 7,
+      "mean_log_loss": 0.8899254778706986
+    }
+  ]
+}

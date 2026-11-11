@@ -1,0 +1,5 @@
+variant,seasons,correct,top3,mean_log_loss,selected_on_development
+original,11,5,11,1.1354645241790091,False
+conference_plus_league,11,8,10,0.9733420575442898,True
+conference_instead_of_league,11,7,10,0.97199191458473,False
+conference_with_VORP,11,7,10,1.000710622459211,False

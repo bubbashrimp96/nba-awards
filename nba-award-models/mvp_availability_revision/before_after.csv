@@ -1,0 +1,12 @@
+season,predicted_previous,winner_rank_previous,top1_previous,log_loss_previous,predicted_revised,actual,winner_rank_revised,top1_revised,log_loss_revised
+2015-16,Stephen Curry,1,1,0.0374402099809039,Stephen Curry,Stephen Curry,1,1,0.03389008273815364
+2016-17,James Harden,4,0,3.4882896000437853,Stephen Curry,Russell Westbrook,8,0,4.721041707947352
+2017-18,James Harden,1,1,0.0736202538236874,James Harden,James Harden,1,1,0.061932725861716165
+2018-19,Giannis Antetokounmpo,1,1,0.7297072464442422,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1,0.5737861394592692
+2019-20,Giannis Antetokounmpo,1,1,0.2164639267515582,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1,0.10929442455691252
+2020-21,Nikola Jokić,1,1,0.2224499501761379,Nikola Jokić,Nikola Jokić,1,1,0.2714174900564146
+2021-22,Nikola Jokić,1,1,1.0629766245898669,Nikola Jokić,Nikola Jokić,1,1,0.7375659539236992
+2022-23,Nikola Jokić,3,0,3.4386732792546653,Nikola Jokić,Joel Embiid,4,0,4.299841812568796
+2023-24,Nikola Jokić,1,1,0.2315263071450317,Nikola Jokić,Nikola Jokić,1,1,0.7360629031215176
+2024-25,Shai Gilgeous-Alexander,1,1,0.4359540797984813,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,1,0.095467049277838
+2025-26,Nikola Jokić,2,0,1.1008714982387175,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,1,0.11707646485900902

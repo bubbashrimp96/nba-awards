@@ -1,0 +1,513 @@
+{
+  "provider": "ESPN with documented repairs",
+  "rank_definition": "Regular-season W/(W+L), average ranks for tied records; excludes playoff seeding and play-in outcomes",
+  "sources": [
+    {
+      "year": 1986,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1986&type=0&level=2",
+      "sha256": "a6e15da75e488d088b8364905dde7df821ee2795f80b0f311615826fa07ddc12"
+    },
+    {
+      "year": 1987,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1987&type=0&level=2",
+      "sha256": "737990c8ec6f98baa1990d2812a9b8ca2dec5ed57eeca63a7dbd3e6413147ee4"
+    },
+    {
+      "year": 1988,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1988&type=0&level=2",
+      "sha256": "8c40b359d1b591e122df824c9fecdc892881ee478535c194e171cdaa57f81043"
+    },
+    {
+      "year": 1989,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1989&type=0&level=2",
+      "sha256": "d40e606f3c9203fde5282fab5af04392935d650b28f514040f8b84593294c186"
+    },
+    {
+      "year": 1990,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1990&type=0&level=2",
+      "sha256": "0d7ca12b643ce4f471381b3eb14aa2c79d68912a7f263fea1646f66dfbf315be"
+    },
+    {
+      "year": 1991,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1991&type=0&level=2",
+      "sha256": "aa28bfc007b6bcfb6026bf72ee460f83220d98a59ffecc4dfdcefee87b665594"
+    },
+    {
+      "year": 1992,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1992&type=0&level=2",
+      "sha256": "2947691500b1d8e09817e306a78a9921b1ec8d7e1a3d863a2692b798d5d6d861"
+    },
+    {
+      "year": 1993,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1993&type=0&level=2",
+      "sha256": "7fdbd75534c5dbfe8235d09828a3d76553d8bea6c1a3ac696f0205a55ea44cd5"
+    },
+    {
+      "year": 1994,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1994&type=0&level=2",
+      "sha256": "84be35f8729b83a9890091a88466070b39bf1b6190ba0f5b9ca69b53c539eb6a"
+    },
+    {
+      "year": 1995,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1995&type=0&level=2",
+      "sha256": "d7db8c64c6821b4626db89237f6762398f597343dcfa9d13f60aa829c1a96618"
+    },
+    {
+      "year": 1996,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1996&type=0&level=2",
+      "sha256": "aab9b0b6b7ef38640271eaadc897ad5d7d98d16c771592ac910b07810fdb3597"
+    },
+    {
+      "year": 1997,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1997&type=0&level=2",
+      "sha256": "e2b81d727199aed57d92ca416c9f281b7eb1500b54775040226542862c90c8b7"
+    },
+    {
+      "year": 1998,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1998&type=0&level=2",
+      "sha256": "9cfc0464cd46b84355a95b706d3b9818063652b655f416feac7aed1349719f88"
+    },
+    {
+      "year": 1999,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=1999&type=0&level=2",
+      "sha256": "5b08e85ea4809836f9acfc729e1d6371cdac83e59a3f932ce41b3f94c15b88f8"
+    },
+    {
+      "year": 2000,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2000&type=0&level=2",
+      "sha256": "a91b334d86ac38522e8e0336d1a5caa0c4482b695fa72dc7c4eb141b08549a9b"
+    },
+    {
+      "year": 2001,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2001&type=0&level=2",
+      "sha256": "993fbd67191c0c3aa7af80ea4f41ad413a485f58523d8ad064ad117518ef38d6"
+    },
+    {
+      "year": 2002,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2002&type=0&level=2",
+      "sha256": "dd496b29e3e2ef4b99d5257beb2aadf19c9281dc8605b4be265863da347fc093"
+    },
+    {
+      "year": 2003,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2003&type=0&level=2",
+      "sha256": "ba42c66114259a3aff640012dcf8361686330d9c8b43e003dc3f741e9cadf7b4"
+    },
+    {
+      "year": 2004,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2004&type=0&level=2",
+      "sha256": "d85bf727a939bb8fc96cf4666318b7689ad4784318e3e29b3541c430459deeab"
+    },
+    {
+      "year": 2005,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2005&type=0&level=2",
+      "sha256": "47af2ceb38c5123de28ff6da8ec7197c750eb6505a2034692e987a94c601f53b"
+    },
+    {
+      "year": 2006,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2006&type=0&level=2",
+      "sha256": "fbf1eda201b72fd1edc0296132b39e6459938281682531255094be7a272e20f5"
+    },
+    {
+      "year": 2007,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2007&type=0&level=2",
+      "sha256": "68dbc2081d172f2955ceda5acff3f0351527e1494aefea89b23a50bb885c6b24"
+    },
+    {
+      "year": 2008,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2008&type=0&level=2",
+      "sha256": "853dd19fd37468d4cd174d6ae67fd7058fd1a090d0ac559be23f7deb044fd106"
+    },
+    {
+      "year": 2009,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2009&type=0&level=2",
+      "sha256": "714269e4fa4eea2d0ba73025c116b71044c3d2d54fa3f8bcc71f8f1270b7c154"
+    },
+    {
+      "year": 2010,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2010&type=0&level=2",
+      "sha256": "06b1779dd5fed5a6f6a91b25ee9851af73b942e5f01877ddbfe1352664bd97ef"
+    },
+    {
+      "year": 2011,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2011&type=0&level=2",
+      "sha256": "097900454e05761455744ff185a9d54a4a56c99a3f75eb0f59564d9d8aaf1ae7"
+    },
+    {
+      "year": 2012,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2012&type=0&level=2",
+      "sha256": "556815f73ca3d8554138ac8e1078baf7c1b041f5f1703bba0c8748f0ee1a978d"
+    },
+    {
+      "year": 2013,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2013&type=0&level=2",
+      "sha256": "9ed26e1021bb5eb848485d87f69808431c7819cdbc5ea20d144689747cdb2596"
+    },
+    {
+      "year": 2014,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2014&type=0&level=2",
+      "sha256": "410ad574af1ed7be3741135a2eb26efc383af857548b30875e5bcec0af7587d0"
+    },
+    {
+      "year": 2015,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2015&type=0&level=2",
+      "sha256": "b406e714cd85ad99cf811742578954c2b20d93a46402b51b41e3bb909c7ab7ed"
+    },
+    {
+      "year": 2016,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2016&type=0&level=2",
+      "sha256": "b286cbece25ad60fa8ae88917864d6a0175b774bf506bcd99e044f21df1cb35b"
+    },
+    {
+      "year": 2017,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2017&type=0&level=2",
+      "sha256": "096eb633b237a47badd676e3071b462ab0572d2aac22e7a8234368f735bded92"
+    },
+    {
+      "year": 2018,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2018&type=0&level=2",
+      "sha256": "1f588ed5e20a44a5efefaea430d9bcddcc78f8b9467c0ea7d2ce15279dab38ed"
+    },
+    {
+      "year": 2019,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2019&type=0&level=2",
+      "sha256": "f47802356a79ccb359a1652aeaa593191b1cfdf8974a225dac270d9c2adf5fcd"
+    },
+    {
+      "year": 2020,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2020&type=0&level=2",
+      "sha256": "3502c0114abacd7fa0533add182c0043bd87a304527d21a769396392fd120759"
+    },
+    {
+      "year": 2021,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2021&type=0&level=2",
+      "sha256": "2dd17819eb719a126cf0b3836f3c6f9887cab2b05fff33127afa40850cfd4e16"
+    },
+    {
+      "year": 2022,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2022&type=0&level=2",
+      "sha256": "b85a1fffa6865a3b366b1bee2594616177b8b32e2de6dcc1c31fbb774a2ee6f0"
+    },
+    {
+      "year": 2023,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&type=0&level=2",
+      "sha256": "7bba3f62a85d2de5d5e7cfc9172ef8b7db1102435dcc88307f5bf9cbe7a0a7f6"
+    },
+    {
+      "year": 2024,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2024&type=0&level=2",
+      "sha256": "8408b2653ab6d1ad58a8a74963b99800d40421b0ae81ae74fcd436a4ff7224d3"
+    },
+    {
+      "year": 2025,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&type=0&level=2",
+      "sha256": "5033f930528831ef2647b8e92b811b4e60bb4be524c1fd61a54a3ceeb8656deb"
+    },
+    {
+      "year": 2026,
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2026&type=0&level=2",
+      "sha256": "cec7fd20fd3793f8a571046814953e2f453fa0fce39811b5e449a03cf55a1440"
+    }
+  ],
+  "corrections": [
+    {
+      "year": 1994,
+      "Tm": "DAL",
+      "raw_wins": 13.0,
+      "raw_losses": 70.0,
+      "wins": 13.0,
+      "losses": 69.0,
+      "reason": "ESPN loss typo creates 83-game record; corrected against historical record",
+      "source": "https://www.basketball-reference.com/teams/DAL/1994.html"
+    },
+    {
+      "year": 1998,
+      "Tm": "DEN",
+      "raw_wins": 11.0,
+      "raw_losses": 72.0,
+      "wins": 11.0,
+      "losses": 71.0,
+      "reason": "ESPN loss typo creates 83-game record; corrected against historical record",
+      "source": "https://www.basketball-reference.com/teams/DEN/1998.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "IND",
+      "raw_wins": 55.0,
+      "raw_losses": 26.0,
+      "wins": 56.0,
+      "losses": 26.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "MIA",
+      "raw_wins": 51.0,
+      "raw_losses": 29.0,
+      "wins": 52.0,
+      "losses": 30.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "MIL",
+      "raw_wins": 41.0,
+      "raw_losses": 40.0,
+      "wins": 42.0,
+      "losses": 40.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "DET",
+      "raw_wins": 41.0,
+      "raw_losses": 39.0,
+      "wins": 42.0,
+      "losses": 40.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "TOR",
+      "raw_wins": 45.0,
+      "raw_losses": 35.0,
+      "wins": 45.0,
+      "losses": 37.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "CHH",
+      "raw_wins": 47.0,
+      "raw_losses": 33.0,
+      "wins": 49.0,
+      "losses": 33.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "PHI",
+      "raw_wins": 48.0,
+      "raw_losses": 33.0,
+      "wins": 49.0,
+      "losses": 33.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "NYK",
+      "raw_wins": 49.0,
+      "raw_losses": 31.0,
+      "wins": 50.0,
+      "losses": 32.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "CHI",
+      "raw_wins": 17.0,
+      "raw_losses": 63.0,
+      "wins": 17.0,
+      "losses": 65.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "ATL",
+      "raw_wins": 27.0,
+      "raw_losses": 53.0,
+      "wins": 28.0,
+      "losses": 54.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "WAS",
+      "raw_wins": 29.0,
+      "raw_losses": 51.0,
+      "wins": 29.0,
+      "losses": 53.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "CLE",
+      "raw_wins": 31.0,
+      "raw_losses": 49.0,
+      "wins": 32.0,
+      "losses": 50.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "NJN",
+      "raw_wins": 31.0,
+      "raw_losses": 49.0,
+      "wins": 31.0,
+      "losses": 51.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "BOS",
+      "raw_wins": 33.0,
+      "raw_losses": 47.0,
+      "wins": 35.0,
+      "losses": 47.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "ORL",
+      "raw_wins": 40.0,
+      "raw_losses": 41.0,
+      "wins": 41.0,
+      "losses": 41.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "LAL",
+      "raw_wins": 67.0,
+      "raw_losses": 13.0,
+      "wins": 67.0,
+      "losses": 15.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "UTA",
+      "raw_wins": 54.0,
+      "raw_losses": 26.0,
+      "wins": 55.0,
+      "losses": 27.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "SEA",
+      "raw_wins": 44.0,
+      "raw_losses": 37.0,
+      "wins": 45.0,
+      "losses": 37.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "SAC",
+      "raw_wins": 44.0,
+      "raw_losses": 36.0,
+      "wins": 44.0,
+      "losses": 38.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "MIN",
+      "raw_wins": 50.0,
+      "raw_losses": 31.0,
+      "wins": 50.0,
+      "losses": 32.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "SAS",
+      "raw_wins": 52.0,
+      "raw_losses": 29.0,
+      "wins": 53.0,
+      "losses": 29.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "PHO",
+      "raw_wins": 52.0,
+      "raw_losses": 28.0,
+      "wins": 53.0,
+      "losses": 29.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "POR",
+      "raw_wins": 59.0,
+      "raw_losses": 22.0,
+      "wins": 59.0,
+      "losses": 23.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "GSW",
+      "raw_wins": 19.0,
+      "raw_losses": 62.0,
+      "wins": 19.0,
+      "losses": 63.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "VAN",
+      "raw_wins": 21.0,
+      "raw_losses": 60.0,
+      "wins": 22.0,
+      "losses": 60.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "DEN",
+      "raw_wins": 33.0,
+      "raw_losses": 47.0,
+      "wins": 35.0,
+      "losses": 47.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "HOU",
+      "raw_wins": 33.0,
+      "raw_losses": 47.0,
+      "wins": 34.0,
+      "losses": 48.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    },
+    {
+      "year": 2000,
+      "Tm": "DAL",
+      "raw_wins": 38.0,
+      "raw_losses": 42.0,
+      "wins": 40.0,
+      "losses": 42.0,
+      "reason": "ESPN incomplete 1999-00 snapshot; use final cached wins and 82 games",
+      "source": "https://www.basketball-reference.com/leagues/NBA_2000_standings.html"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+variant,correct,top3,mean_log_loss
+previous_no_BPM,8,10,1.0034520887497342
+no_AST_TRB_G_85pct_penalty,9,9,1.0688524322155162

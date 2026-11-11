@@ -1,0 +1,1407 @@
+[
+  {
+    "award": "MVP",
+    "season": "2025-26",
+    "player": "Shai Gilgeous-Alexander"
+  },
+  {
+    "award": "MVP",
+    "season": "2024-25",
+    "player": "Shai Gilgeous-Alexander"
+  },
+  {
+    "award": "MVP",
+    "season": "2023-24",
+    "player": "Nikola Joki\u0107"
+  },
+  {
+    "award": "MVP",
+    "season": "2022-23",
+    "player": "Joel Embiid"
+  },
+  {
+    "award": "MVP",
+    "season": "2021-22",
+    "player": "Nikola Joki\u0107"
+  },
+  {
+    "award": "MVP",
+    "season": "2020-21",
+    "player": "Nikola Joki\u0107"
+  },
+  {
+    "award": "MVP",
+    "season": "2019-20",
+    "player": "Giannis Antetokounmpo"
+  },
+  {
+    "award": "MVP",
+    "season": "2018-19",
+    "player": "Giannis Antetokounmpo"
+  },
+  {
+    "award": "MVP",
+    "season": "2017-18",
+    "player": "James Harden"
+  },
+  {
+    "award": "MVP",
+    "season": "2016-17",
+    "player": "Russell Westbrook"
+  },
+  {
+    "award": "MVP",
+    "season": "2015-16",
+    "player": "Stephen Curry"
+  },
+  {
+    "award": "MVP",
+    "season": "2014-15",
+    "player": "Stephen Curry"
+  },
+  {
+    "award": "MVP",
+    "season": "2013-14",
+    "player": "Kevin Durant"
+  },
+  {
+    "award": "MVP",
+    "season": "2012-13",
+    "player": "LeBron James"
+  },
+  {
+    "award": "MVP",
+    "season": "2011-12",
+    "player": "LeBron James"
+  },
+  {
+    "award": "MVP",
+    "season": "2010-11",
+    "player": "Derrick Rose"
+  },
+  {
+    "award": "MVP",
+    "season": "2009-10",
+    "player": "LeBron James"
+  },
+  {
+    "award": "MVP",
+    "season": "2008-09",
+    "player": "LeBron James"
+  },
+  {
+    "award": "MVP",
+    "season": "2007-08",
+    "player": "Kobe Bryant"
+  },
+  {
+    "award": "MVP",
+    "season": "2006-07",
+    "player": "Dirk Nowitzki"
+  },
+  {
+    "award": "MVP",
+    "season": "2005-06",
+    "player": "Steve Nash"
+  },
+  {
+    "award": "MVP",
+    "season": "2004-05",
+    "player": "Steve Nash"
+  },
+  {
+    "award": "MVP",
+    "season": "2003-04",
+    "player": "Kevin Garnett"
+  },
+  {
+    "award": "MVP",
+    "season": "2002-03",
+    "player": "Tim Duncan"
+  },
+  {
+    "award": "MVP",
+    "season": "2001-02",
+    "player": "Tim Duncan"
+  },
+  {
+    "award": "MVP",
+    "season": "2000-01",
+    "player": "Allen Iverson"
+  },
+  {
+    "award": "MVP",
+    "season": "1999-00",
+    "player": "Shaquille O'Neal"
+  },
+  {
+    "award": "MVP",
+    "season": "1998-99",
+    "player": "Karl Malone"
+  },
+  {
+    "award": "MVP",
+    "season": "1997-98",
+    "player": "Michael Jordan"
+  },
+  {
+    "award": "MVP",
+    "season": "1996-97",
+    "player": "Karl Malone"
+  },
+  {
+    "award": "MVP",
+    "season": "1995-96",
+    "player": "Michael Jordan"
+  },
+  {
+    "award": "MVP",
+    "season": "1994-95",
+    "player": "David Robinson"
+  },
+  {
+    "award": "MVP",
+    "season": "1993-94",
+    "player": "Hakeem Olajuwon"
+  },
+  {
+    "award": "MVP",
+    "season": "1992-93",
+    "player": "Charles Barkley"
+  },
+  {
+    "award": "MVP",
+    "season": "1991-92",
+    "player": "Michael Jordan"
+  },
+  {
+    "award": "MVP",
+    "season": "1990-91",
+    "player": "Michael Jordan"
+  },
+  {
+    "award": "MVP",
+    "season": "1989-90",
+    "player": "Magic Johnson"
+  },
+  {
+    "award": "MVP",
+    "season": "1988-89",
+    "player": "Magic Johnson"
+  },
+  {
+    "award": "MVP",
+    "season": "1987-88",
+    "player": "Michael Jordan"
+  },
+  {
+    "award": "MVP",
+    "season": "1986-87",
+    "player": "Magic Johnson"
+  },
+  {
+    "award": "MVP",
+    "season": "1985-86",
+    "player": "Larry Bird"
+  },
+  {
+    "award": "MVP",
+    "season": "1984-85",
+    "player": "Larry Bird"
+  },
+  {
+    "award": "MVP",
+    "season": "1983-84",
+    "player": "Larry Bird"
+  },
+  {
+    "award": "MVP",
+    "season": "1982-83",
+    "player": "Moses Malone"
+  },
+  {
+    "award": "MVP",
+    "season": "1981-82",
+    "player": "Moses Malone"
+  },
+  {
+    "award": "MVP",
+    "season": "1980-81",
+    "player": "Julius Erving"
+  },
+  {
+    "award": "MVP",
+    "season": "1979-80",
+    "player": "Kareem Abdul-Jabbar"
+  },
+  {
+    "award": "MVP",
+    "season": "1978-79",
+    "player": "Moses Malone"
+  },
+  {
+    "award": "MVP",
+    "season": "1977-78",
+    "player": "Bill Walton"
+  },
+  {
+    "award": "MVP",
+    "season": "1976-77",
+    "player": "Kareem Abdul-Jabbar"
+  },
+  {
+    "award": "MVP",
+    "season": "1975-76",
+    "player": "Kareem Abdul-Jabbar"
+  },
+  {
+    "award": "MVP",
+    "season": "1974-75",
+    "player": "Bob McAdoo"
+  },
+  {
+    "award": "MVP",
+    "season": "1973-74",
+    "player": "Kareem Abdul-Jabbar"
+  },
+  {
+    "award": "MVP",
+    "season": "1972-73",
+    "player": "Dave Cowens"
+  },
+  {
+    "award": "MVP",
+    "season": "1971-72",
+    "player": "Kareem Abdul-Jabbar"
+  },
+  {
+    "award": "MVP",
+    "season": "1970-71",
+    "player": "Kareem Abdul-Jabbar"
+  },
+  {
+    "award": "MVP",
+    "season": "1969-70",
+    "player": "Willis Reed"
+  },
+  {
+    "award": "MVP",
+    "season": "1968-69",
+    "player": "Wes Unseld"
+  },
+  {
+    "award": "MVP",
+    "season": "1967-68",
+    "player": "Wilt Chamberlain"
+  },
+  {
+    "award": "MVP",
+    "season": "1966-67",
+    "player": "Wilt Chamberlain"
+  },
+  {
+    "award": "MVP",
+    "season": "1965-66",
+    "player": "Wilt Chamberlain"
+  },
+  {
+    "award": "MVP",
+    "season": "1964-65",
+    "player": "Bill Russell"
+  },
+  {
+    "award": "MVP",
+    "season": "1963-64",
+    "player": "Oscar Robertson"
+  },
+  {
+    "award": "MVP",
+    "season": "1962-63",
+    "player": "Bill Russell"
+  },
+  {
+    "award": "MVP",
+    "season": "1961-62",
+    "player": "Bill Russell"
+  },
+  {
+    "award": "MVP",
+    "season": "1960-61",
+    "player": "Bill Russell"
+  },
+  {
+    "award": "MVP",
+    "season": "1959-60",
+    "player": "Wilt Chamberlain"
+  },
+  {
+    "award": "MVP",
+    "season": "1958-59",
+    "player": "Bob Pettit"
+  },
+  {
+    "award": "MVP",
+    "season": "1957-58",
+    "player": "Bill Russell"
+  },
+  {
+    "award": "MVP",
+    "season": "1956-57",
+    "player": "Bob Cousy"
+  },
+  {
+    "award": "MVP",
+    "season": "1955-56",
+    "player": "Bob Pettit"
+  },
+  {
+    "award": "ROY",
+    "season": "2025-26",
+    "player": "Cooper Flagg"
+  },
+  {
+    "award": "ROY",
+    "season": "2024-25",
+    "player": "Stephon Castle"
+  },
+  {
+    "award": "ROY",
+    "season": "2023-24",
+    "player": "Victor Wembanyama"
+  },
+  {
+    "award": "ROY",
+    "season": "2022-23",
+    "player": "Paolo Banchero"
+  },
+  {
+    "award": "ROY",
+    "season": "2021-22",
+    "player": "Scottie Barnes"
+  },
+  {
+    "award": "ROY",
+    "season": "2020-21",
+    "player": "LaMelo Ball"
+  },
+  {
+    "award": "ROY",
+    "season": "2019-20",
+    "player": "Ja Morant"
+  },
+  {
+    "award": "ROY",
+    "season": "2018-19",
+    "player": "Luka Don\u010di\u0107"
+  },
+  {
+    "award": "ROY",
+    "season": "2017-18",
+    "player": "Ben Simmons"
+  },
+  {
+    "award": "ROY",
+    "season": "2016-17",
+    "player": "Malcolm Brogdon"
+  },
+  {
+    "award": "ROY",
+    "season": "2015-16",
+    "player": "Karl-Anthony Towns"
+  },
+  {
+    "award": "ROY",
+    "season": "2014-15",
+    "player": "Andrew Wiggins"
+  },
+  {
+    "award": "ROY",
+    "season": "2013-14",
+    "player": "Michael Carter-Williams"
+  },
+  {
+    "award": "ROY",
+    "season": "2012-13",
+    "player": "Damian Lillard"
+  },
+  {
+    "award": "ROY",
+    "season": "2011-12",
+    "player": "Kyrie Irving"
+  },
+  {
+    "award": "ROY",
+    "season": "2010-11",
+    "player": "Blake Griffin"
+  },
+  {
+    "award": "ROY",
+    "season": "2009-10",
+    "player": "Tyreke Evans"
+  },
+  {
+    "award": "ROY",
+    "season": "2008-09",
+    "player": "Derrick Rose"
+  },
+  {
+    "award": "ROY",
+    "season": "2007-08",
+    "player": "Kevin Durant"
+  },
+  {
+    "award": "ROY",
+    "season": "2006-07",
+    "player": "Brandon Roy"
+  },
+  {
+    "award": "ROY",
+    "season": "2005-06",
+    "player": "Chris Paul"
+  },
+  {
+    "award": "ROY",
+    "season": "2004-05",
+    "player": "Emeka Okafor"
+  },
+  {
+    "award": "ROY",
+    "season": "2003-04",
+    "player": "LeBron James"
+  },
+  {
+    "award": "ROY",
+    "season": "2002-03",
+    "player": "Amar'e Stoudemire"
+  },
+  {
+    "award": "ROY",
+    "season": "2001-02",
+    "player": "Pau Gasol"
+  },
+  {
+    "award": "ROY",
+    "season": "2000-01",
+    "player": "Mike Miller"
+  },
+  {
+    "award": "ROY",
+    "season": "1999-00",
+    "player": "Steve Francis\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1999-00",
+    "player": "Elton Brand\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1998-99",
+    "player": "Vince Carter"
+  },
+  {
+    "award": "ROY",
+    "season": "1997-98",
+    "player": "Tim Duncan"
+  },
+  {
+    "award": "ROY",
+    "season": "1996-97",
+    "player": "Allen Iverson"
+  },
+  {
+    "award": "ROY",
+    "season": "1995-96",
+    "player": "Damon Stoudamire"
+  },
+  {
+    "award": "ROY",
+    "season": "1994-95",
+    "player": "Jason Kidd\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1994-95",
+    "player": "Grant Hill\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1993-94",
+    "player": "Chris Webber"
+  },
+  {
+    "award": "ROY",
+    "season": "1992-93",
+    "player": "Shaquille O'Neal"
+  },
+  {
+    "award": "ROY",
+    "season": "1991-92",
+    "player": "Larry Johnson"
+  },
+  {
+    "award": "ROY",
+    "season": "1990-91",
+    "player": "Derrick Coleman"
+  },
+  {
+    "award": "ROY",
+    "season": "1989-90",
+    "player": "David Robinson"
+  },
+  {
+    "award": "ROY",
+    "season": "1988-89",
+    "player": "Mitch Richmond"
+  },
+  {
+    "award": "ROY",
+    "season": "1987-88",
+    "player": "Mark Jackson"
+  },
+  {
+    "award": "ROY",
+    "season": "1986-87",
+    "player": "Chuck Person"
+  },
+  {
+    "award": "ROY",
+    "season": "1985-86",
+    "player": "Patrick Ewing"
+  },
+  {
+    "award": "ROY",
+    "season": "1984-85",
+    "player": "Michael Jordan"
+  },
+  {
+    "award": "ROY",
+    "season": "1983-84",
+    "player": "Ralph Sampson"
+  },
+  {
+    "award": "ROY",
+    "season": "1982-83",
+    "player": "Terry Cummings"
+  },
+  {
+    "award": "ROY",
+    "season": "1981-82",
+    "player": "Buck Williams"
+  },
+  {
+    "award": "ROY",
+    "season": "1980-81",
+    "player": "Darrell Griffith"
+  },
+  {
+    "award": "ROY",
+    "season": "1979-80",
+    "player": "Larry Bird"
+  },
+  {
+    "award": "ROY",
+    "season": "1978-79",
+    "player": "Phil Ford"
+  },
+  {
+    "award": "ROY",
+    "season": "1977-78",
+    "player": "Walter Davis"
+  },
+  {
+    "award": "ROY",
+    "season": "1976-77",
+    "player": "Adrian Dantley"
+  },
+  {
+    "award": "ROY",
+    "season": "1975-76",
+    "player": "Alvan Adams"
+  },
+  {
+    "award": "ROY",
+    "season": "1974-75",
+    "player": "Jamaal Wilkes"
+  },
+  {
+    "award": "ROY",
+    "season": "1973-74",
+    "player": "Ernie DiGregorio"
+  },
+  {
+    "award": "ROY",
+    "season": "1972-73",
+    "player": "Bob McAdoo"
+  },
+  {
+    "award": "ROY",
+    "season": "1971-72",
+    "player": "Sidney Wicks"
+  },
+  {
+    "award": "ROY",
+    "season": "1970-71",
+    "player": "Geoff Petrie\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1970-71",
+    "player": "Dave Cowens\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1969-70",
+    "player": "Kareem Abdul-Jabbar"
+  },
+  {
+    "award": "ROY",
+    "season": "1968-69",
+    "player": "Wes Unseld"
+  },
+  {
+    "award": "ROY",
+    "season": "1967-68",
+    "player": "Earl Monroe"
+  },
+  {
+    "award": "ROY",
+    "season": "1966-67",
+    "player": "Dave Bing"
+  },
+  {
+    "award": "ROY",
+    "season": "1965-66",
+    "player": "Rick Barry"
+  },
+  {
+    "award": "ROY",
+    "season": "1964-65",
+    "player": "Willis Reed"
+  },
+  {
+    "award": "ROY",
+    "season": "1963-64",
+    "player": "Jerry Lucas"
+  },
+  {
+    "award": "ROY",
+    "season": "1962-63",
+    "player": "Terry Dischinger"
+  },
+  {
+    "award": "ROY",
+    "season": "1961-62",
+    "player": "Walt Bellamy"
+  },
+  {
+    "award": "ROY",
+    "season": "1960-61",
+    "player": "Oscar Robertson"
+  },
+  {
+    "award": "ROY",
+    "season": "1959-60",
+    "player": "Wilt Chamberlain"
+  },
+  {
+    "award": "ROY",
+    "season": "1958-59",
+    "player": "Elgin Baylor"
+  },
+  {
+    "award": "ROY",
+    "season": "1957-58",
+    "player": "Woody Sauldsberry"
+  },
+  {
+    "award": "ROY",
+    "season": "1956-57",
+    "player": "Tom Heinsohn"
+  },
+  {
+    "award": "ROY",
+    "season": "1955-56",
+    "player": "Maurice Stokes"
+  },
+  {
+    "award": "ROY",
+    "season": "1954-55",
+    "player": "Bob Pettit"
+  },
+  {
+    "award": "ROY",
+    "season": "1953-54",
+    "player": "Ray Felix"
+  },
+  {
+    "award": "ROY",
+    "season": "1952-53",
+    "player": "Monk Meineke"
+  },
+  {
+    "award": "ROY",
+    "season": "1951-52",
+    "player": "Mel Hutchins\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1951-52",
+    "player": "Bill Tosheff\u00a0(Tie)"
+  },
+  {
+    "award": "ROY",
+    "season": "1950-51",
+    "player": "Paul Arizin"
+  },
+  {
+    "award": "ROY",
+    "season": "1949-50",
+    "player": "Alex Groza"
+  },
+  {
+    "award": "DPOY",
+    "season": "2025-26",
+    "player": "Victor Wembanyama"
+  },
+  {
+    "award": "DPOY",
+    "season": "2024-25",
+    "player": "Evan Mobley"
+  },
+  {
+    "award": "DPOY",
+    "season": "2023-24",
+    "player": "Rudy Gobert"
+  },
+  {
+    "award": "DPOY",
+    "season": "2022-23",
+    "player": "Jaren Jackson Jr."
+  },
+  {
+    "award": "DPOY",
+    "season": "2021-22",
+    "player": "Marcus Smart"
+  },
+  {
+    "award": "DPOY",
+    "season": "2020-21",
+    "player": "Rudy Gobert"
+  },
+  {
+    "award": "DPOY",
+    "season": "2019-20",
+    "player": "Giannis Antetokounmpo"
+  },
+  {
+    "award": "DPOY",
+    "season": "2018-19",
+    "player": "Rudy Gobert"
+  },
+  {
+    "award": "DPOY",
+    "season": "2017-18",
+    "player": "Rudy Gobert"
+  },
+  {
+    "award": "DPOY",
+    "season": "2016-17",
+    "player": "Draymond Green"
+  },
+  {
+    "award": "DPOY",
+    "season": "2015-16",
+    "player": "Kawhi Leonard"
+  },
+  {
+    "award": "DPOY",
+    "season": "2014-15",
+    "player": "Kawhi Leonard"
+  },
+  {
+    "award": "DPOY",
+    "season": "2013-14",
+    "player": "Joakim Noah"
+  },
+  {
+    "award": "DPOY",
+    "season": "2012-13",
+    "player": "Marc Gasol"
+  },
+  {
+    "award": "DPOY",
+    "season": "2011-12",
+    "player": "Tyson Chandler"
+  },
+  {
+    "award": "DPOY",
+    "season": "2010-11",
+    "player": "Dwight Howard"
+  },
+  {
+    "award": "DPOY",
+    "season": "2009-10",
+    "player": "Dwight Howard"
+  },
+  {
+    "award": "DPOY",
+    "season": "2008-09",
+    "player": "Dwight Howard"
+  },
+  {
+    "award": "DPOY",
+    "season": "2007-08",
+    "player": "Kevin Garnett"
+  },
+  {
+    "award": "DPOY",
+    "season": "2006-07",
+    "player": "Marcus Camby"
+  },
+  {
+    "award": "DPOY",
+    "season": "2005-06",
+    "player": "Ben Wallace"
+  },
+  {
+    "award": "DPOY",
+    "season": "2004-05",
+    "player": "Ben Wallace"
+  },
+  {
+    "award": "DPOY",
+    "season": "2003-04",
+    "player": "Metta World Peace"
+  },
+  {
+    "award": "DPOY",
+    "season": "2002-03",
+    "player": "Ben Wallace"
+  },
+  {
+    "award": "DPOY",
+    "season": "2001-02",
+    "player": "Ben Wallace"
+  },
+  {
+    "award": "DPOY",
+    "season": "2000-01",
+    "player": "Dikembe Mutombo"
+  },
+  {
+    "award": "DPOY",
+    "season": "1999-00",
+    "player": "Alonzo Mourning"
+  },
+  {
+    "award": "DPOY",
+    "season": "1998-99",
+    "player": "Alonzo Mourning"
+  },
+  {
+    "award": "DPOY",
+    "season": "1997-98",
+    "player": "Dikembe Mutombo"
+  },
+  {
+    "award": "DPOY",
+    "season": "1996-97",
+    "player": "Dikembe Mutombo"
+  },
+  {
+    "award": "DPOY",
+    "season": "1995-96",
+    "player": "Gary Payton"
+  },
+  {
+    "award": "DPOY",
+    "season": "1994-95",
+    "player": "Dikembe Mutombo"
+  },
+  {
+    "award": "DPOY",
+    "season": "1993-94",
+    "player": "Hakeem Olajuwon"
+  },
+  {
+    "award": "DPOY",
+    "season": "1992-93",
+    "player": "Hakeem Olajuwon"
+  },
+  {
+    "award": "DPOY",
+    "season": "1991-92",
+    "player": "David Robinson"
+  },
+  {
+    "award": "DPOY",
+    "season": "1990-91",
+    "player": "Dennis Rodman"
+  },
+  {
+    "award": "DPOY",
+    "season": "1989-90",
+    "player": "Dennis Rodman"
+  },
+  {
+    "award": "DPOY",
+    "season": "1988-89",
+    "player": "Mark Eaton"
+  },
+  {
+    "award": "DPOY",
+    "season": "1987-88",
+    "player": "Michael Jordan"
+  },
+  {
+    "award": "DPOY",
+    "season": "1986-87",
+    "player": "Michael Cooper"
+  },
+  {
+    "award": "DPOY",
+    "season": "1985-86",
+    "player": "Alvin Robertson"
+  },
+  {
+    "award": "DPOY",
+    "season": "1984-85",
+    "player": "Mark Eaton"
+  },
+  {
+    "award": "DPOY",
+    "season": "1983-84",
+    "player": "Sidney Moncrief"
+  },
+  {
+    "award": "DPOY",
+    "season": "1982-83",
+    "player": "Sidney Moncrief"
+  },
+  {
+    "award": "SMOY",
+    "season": "2025-26",
+    "player": "Keldon Johnson"
+  },
+  {
+    "award": "SMOY",
+    "season": "2024-25",
+    "player": "Payton Pritchard"
+  },
+  {
+    "award": "SMOY",
+    "season": "2023-24",
+    "player": "Naz Reid"
+  },
+  {
+    "award": "SMOY",
+    "season": "2022-23",
+    "player": "Malcolm Brogdon"
+  },
+  {
+    "award": "SMOY",
+    "season": "2021-22",
+    "player": "Tyler Herro"
+  },
+  {
+    "award": "SMOY",
+    "season": "2020-21",
+    "player": "Jordan Clarkson"
+  },
+  {
+    "award": "SMOY",
+    "season": "2019-20",
+    "player": "Montrezl Harrell"
+  },
+  {
+    "award": "SMOY",
+    "season": "2018-19",
+    "player": "Lou Williams"
+  },
+  {
+    "award": "SMOY",
+    "season": "2017-18",
+    "player": "Lou Williams"
+  },
+  {
+    "award": "SMOY",
+    "season": "2016-17",
+    "player": "Eric Gordon"
+  },
+  {
+    "award": "SMOY",
+    "season": "2015-16",
+    "player": "Jamal Crawford"
+  },
+  {
+    "award": "SMOY",
+    "season": "2014-15",
+    "player": "Lou Williams"
+  },
+  {
+    "award": "SMOY",
+    "season": "2013-14",
+    "player": "Jamal Crawford"
+  },
+  {
+    "award": "SMOY",
+    "season": "2012-13",
+    "player": "J.R. Smith"
+  },
+  {
+    "award": "SMOY",
+    "season": "2011-12",
+    "player": "James Harden"
+  },
+  {
+    "award": "SMOY",
+    "season": "2010-11",
+    "player": "Lamar Odom"
+  },
+  {
+    "award": "SMOY",
+    "season": "2009-10",
+    "player": "Jamal Crawford"
+  },
+  {
+    "award": "SMOY",
+    "season": "2008-09",
+    "player": "Jason Terry"
+  },
+  {
+    "award": "SMOY",
+    "season": "2007-08",
+    "player": "Manu Gin\u00f3bili"
+  },
+  {
+    "award": "SMOY",
+    "season": "2006-07",
+    "player": "Leandro Barbosa"
+  },
+  {
+    "award": "SMOY",
+    "season": "2005-06",
+    "player": "Mike Miller"
+  },
+  {
+    "award": "SMOY",
+    "season": "2004-05",
+    "player": "Ben Gordon"
+  },
+  {
+    "award": "SMOY",
+    "season": "2003-04",
+    "player": "Antawn Jamison"
+  },
+  {
+    "award": "SMOY",
+    "season": "2002-03",
+    "player": "Bobby Jackson"
+  },
+  {
+    "award": "SMOY",
+    "season": "2001-02",
+    "player": "Corliss Williamson"
+  },
+  {
+    "award": "SMOY",
+    "season": "2000-01",
+    "player": "Aaron McKie"
+  },
+  {
+    "award": "SMOY",
+    "season": "1999-00",
+    "player": "Rodney Rogers"
+  },
+  {
+    "award": "SMOY",
+    "season": "1998-99",
+    "player": "Darrell Armstrong"
+  },
+  {
+    "award": "SMOY",
+    "season": "1997-98",
+    "player": "Danny Manning"
+  },
+  {
+    "award": "SMOY",
+    "season": "1996-97",
+    "player": "John Starks"
+  },
+  {
+    "award": "SMOY",
+    "season": "1995-96",
+    "player": "Toni Kuko\u010d"
+  },
+  {
+    "award": "SMOY",
+    "season": "1994-95",
+    "player": "Anthony Mason"
+  },
+  {
+    "award": "SMOY",
+    "season": "1993-94",
+    "player": "Dell Curry"
+  },
+  {
+    "award": "SMOY",
+    "season": "1992-93",
+    "player": "Clifford Robinson"
+  },
+  {
+    "award": "SMOY",
+    "season": "1991-92",
+    "player": "Detlef Schrempf"
+  },
+  {
+    "award": "SMOY",
+    "season": "1990-91",
+    "player": "Detlef Schrempf"
+  },
+  {
+    "award": "SMOY",
+    "season": "1989-90",
+    "player": "Ricky Pierce"
+  },
+  {
+    "award": "SMOY",
+    "season": "1988-89",
+    "player": "Eddie Johnson"
+  },
+  {
+    "award": "SMOY",
+    "season": "1987-88",
+    "player": "Roy Tarpley"
+  },
+  {
+    "award": "SMOY",
+    "season": "1986-87",
+    "player": "Ricky Pierce"
+  },
+  {
+    "award": "SMOY",
+    "season": "1985-86",
+    "player": "Bill Walton"
+  },
+  {
+    "award": "SMOY",
+    "season": "1984-85",
+    "player": "Kevin McHale"
+  },
+  {
+    "award": "SMOY",
+    "season": "1983-84",
+    "player": "Kevin McHale"
+  },
+  {
+    "award": "SMOY",
+    "season": "1982-83",
+    "player": "Bobby Jones"
+  },
+  {
+    "award": "MIP",
+    "season": "2025-26",
+    "player": "Nickeil Alexander-Walker"
+  },
+  {
+    "award": "MIP",
+    "season": "2024-25",
+    "player": "Dyson Daniels"
+  },
+  {
+    "award": "MIP",
+    "season": "2023-24",
+    "player": "Tyrese Maxey"
+  },
+  {
+    "award": "MIP",
+    "season": "2022-23",
+    "player": "Lauri Markkanen"
+  },
+  {
+    "award": "MIP",
+    "season": "2021-22",
+    "player": "Ja Morant"
+  },
+  {
+    "award": "MIP",
+    "season": "2020-21",
+    "player": "Julius Randle"
+  },
+  {
+    "award": "MIP",
+    "season": "2019-20",
+    "player": "Brandon Ingram"
+  },
+  {
+    "award": "MIP",
+    "season": "2018-19",
+    "player": "Pascal Siakam"
+  },
+  {
+    "award": "MIP",
+    "season": "2017-18",
+    "player": "Victor Oladipo"
+  },
+  {
+    "award": "MIP",
+    "season": "2016-17",
+    "player": "Giannis Antetokounmpo"
+  },
+  {
+    "award": "MIP",
+    "season": "2015-16",
+    "player": "CJ McCollum"
+  },
+  {
+    "award": "MIP",
+    "season": "2014-15",
+    "player": "Jimmy Butler"
+  },
+  {
+    "award": "MIP",
+    "season": "2013-14",
+    "player": "Goran Dragi\u0107"
+  },
+  {
+    "award": "MIP",
+    "season": "2012-13",
+    "player": "Paul George"
+  },
+  {
+    "award": "MIP",
+    "season": "2011-12",
+    "player": "Ryan Anderson"
+  },
+  {
+    "award": "MIP",
+    "season": "2010-11",
+    "player": "Kevin Love"
+  },
+  {
+    "award": "MIP",
+    "season": "2009-10",
+    "player": "Aaron Brooks"
+  },
+  {
+    "award": "MIP",
+    "season": "2008-09",
+    "player": "Danny Granger"
+  },
+  {
+    "award": "MIP",
+    "season": "2007-08",
+    "player": "Hedo T\u00fcrko\u011flu"
+  },
+  {
+    "award": "MIP",
+    "season": "2006-07",
+    "player": "Monta Ellis"
+  },
+  {
+    "award": "MIP",
+    "season": "2005-06",
+    "player": "Boris Diaw"
+  },
+  {
+    "award": "MIP",
+    "season": "2004-05",
+    "player": "Bobby Simmons"
+  },
+  {
+    "award": "MIP",
+    "season": "2003-04",
+    "player": "Zach Randolph"
+  },
+  {
+    "award": "MIP",
+    "season": "2002-03",
+    "player": "Gilbert Arenas"
+  },
+  {
+    "award": "MIP",
+    "season": "2001-02",
+    "player": "Jermaine O'Neal"
+  },
+  {
+    "award": "MIP",
+    "season": "2000-01",
+    "player": "Tracy McGrady"
+  },
+  {
+    "award": "MIP",
+    "season": "1999-00",
+    "player": "Jalen Rose"
+  },
+  {
+    "award": "MIP",
+    "season": "1998-99",
+    "player": "Darrell Armstrong"
+  },
+  {
+    "award": "MIP",
+    "season": "1997-98",
+    "player": "Alan Henderson"
+  },
+  {
+    "award": "MIP",
+    "season": "1996-97",
+    "player": "Isaac Austin"
+  },
+  {
+    "award": "MIP",
+    "season": "1995-96",
+    "player": "Gheorghe Mure\u0219an"
+  },
+  {
+    "award": "MIP",
+    "season": "1994-95",
+    "player": "Dana Barros"
+  },
+  {
+    "award": "MIP",
+    "season": "1993-94",
+    "player": "Don MacLean"
+  },
+  {
+    "award": "MIP",
+    "season": "1992-93",
+    "player": "Mahmoud Abdul-Rauf"
+  },
+  {
+    "award": "MIP",
+    "season": "1991-92",
+    "player": "Pervis Ellison"
+  },
+  {
+    "award": "MIP",
+    "season": "1990-91",
+    "player": "Scott Skiles"
+  },
+  {
+    "award": "MIP",
+    "season": "1989-90",
+    "player": "Rony Seikaly"
+  },
+  {
+    "award": "MIP",
+    "season": "1988-89",
+    "player": "Kevin Johnson"
+  },
+  {
+    "award": "MIP",
+    "season": "1987-88",
+    "player": "Kevin Duckworth"
+  },
+  {
+    "award": "MIP",
+    "season": "1986-87",
+    "player": "Dale Ellis"
+  },
+  {
+    "award": "MIP",
+    "season": "1985-86",
+    "player": "Alvin Robertson"
+  }
+]

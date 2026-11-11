@@ -1,0 +1,13 @@
+variant,feature,coefficient
+no_BPM_PER_STL_BLK_small_positive,PTS,1.1848291054682598
+no_BPM_PER_STL_BLK_small_positive,AST,0.6843521528485603
+no_BPM_PER_STL_BLK_small_positive,TRB,0.19393412619738332
+no_BPM_PER_STL_BLK_small_positive,WS/48,0.815560647055939
+no_BPM_PER_STL_BLK_small_positive,TS%,-0.03954890465529979
+no_BPM_PER_STL_BLK_small_positive,G,1.1237157196391663
+no_BPM_PER_STL_BLK_small_positive,team_wins,1.3975839903621634
+no_BPM_PER_STL_BLK_small_positive,league_standing,1.1105091434912102
+no_BPM_PER_STL_BLK_small_positive,conference_standing,0.47510431963882627
+no_BPM_PER_STL_BLK_small_positive,PER,0.6670425389569588
+no_BPM_PER_STL_BLK_small_positive,STL,0.05
+no_BPM_PER_STL_BLK_small_positive,BLK,0.10147294950103398
