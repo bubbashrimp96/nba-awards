@@ -12,7 +12,7 @@ namespace = {'__file__': str(ROOT / 'model.py')}
 exec((ROOT / 'model.py').read_text().split('summary=[]; backtests=[];')[0], namespace)
 models = json.loads((ROOT / 'models.json').read_text())
 models.update(json.loads((ROOT / 'revised_awards/models.json').read_text()))
-from revised_award_core import load_namespace, availability_curve, rank_curve, team_context
+from revised_award_core import load_namespace, availability_curve, rank_curve, team_context, prior_all_star, player_quality, band, ALLSTAR_CENTRE, ALLSTAR_SPREAD, ORIGIN_CENTRE, ORIGIN_SPREAD
 from exponential_availability_core import FEATURE
 award_namespaces = {award:load_namespace(award) for award in ('MVP','ROY','DPOY','MIP','SMOY')}
 stats = namespace['d'].copy()
@@ -37,6 +37,12 @@ for stat in ('ppg','ws48'):
 context = team_context()
 stats = stats.merge(context[['Season','Tm','team_defensive_rating','team_defensive_rank','conference_seed','seed_fallback']],on=['Season','Tm'],how='left',validate='many_to_one')
 stats.loc[stats.year<2003,'wins_above_expectation'] = 0.0
+stats = stats.merge(prior_all_star(), on=['PlayerID','year'], how='left', validate='many_to_one')
+stats['prior_all_star'] = stats.prior_all_star.fillna(0)
+stats = stats.merge(player_quality(), on=['PlayerID','year'], how='left', validate='many_to_one')
+stats['second_year'] = stats.experience.eq(1).astype(float)
+stats['allstar_jump_fit'] = band(stats.quality, ALLSTAR_CENTRE, ALLSTAR_SPREAD)
+stats['origin_fit'] = band(stats.quality_prior, ORIGIN_CENTRE, ORIGIN_SPREAD)
 mvp_groups = mvp_namespace['make_groups'](mvp_model['features'])
 comparisons = {}
 metrics = {}
@@ -129,6 +135,15 @@ for award in ('MVP', 'DPOY', 'ROY', 'SMOY', 'MIP'):
     metrics[award] = dict(seasons=len(seasons), correct=sum(r['top1'] for r in award_tests),
                           top3=sum(r['top3'] for r in award_tests),
                           mean_log_loss=sum(r['log_loss'] for r in award_tests) / len(award_tests))
+# Clutch Player of the Year and Coach of the Year are built by their own scripts (build_clutch.py, build_coy.py).
+for award, folder in (('CPOY', 'clutch_model'), ('COY', 'coy_model')):
+    extra = json.loads((ROOT / folder / 'comparisons.json').read_text())
+    models[award] = json.loads((ROOT / folder / 'model.json').read_text())
+    comparisons[award] = extra
+    tests = namespace['pd'].read_csv(ROOT / folder / 'historical_backtests.csv').to_dict('records')
+    backtests.extend(tests)
+    metrics[award] = dict(seasons=len(tests), correct=sum(r['top1'] for r in tests), top3=sum(r['top3'] for r in tests),
+                          mean_log_loss=sum(r['log_loss'] for r in tests) / len(tests))
 namespace['pd'].DataFrame(backtests).to_csv(ROOT / 'dashboard_backtests.csv', index=False)
 (ROOT / 'dashboard_summary.json').write_text(json.dumps(metrics, indent=2) + '\n')
 page = ROOT / 'output/artifacts/nba-award-models-browser.html'
@@ -139,7 +154,7 @@ active_models.pop('_metadata', None)
 active_models['MVP'] = mvp_model
 html = re.sub(r'const awardModels=.*?;\n', 'const awardModels=' + json.dumps(active_models, ensure_ascii=False) + ';\n', html)
 # Render every overview total from the same expanded predictions as the result pages.
-labels = {'MVP': 'MVP · revised penalties', 'ROY': 'ROY', 'DPOY': 'DPOY', 'MIP': 'MIP', 'SMOY': '6MOY'}
+labels = {'MVP': 'MVP · revised penalties', 'ROY': 'ROY', 'DPOY': 'DPOY', 'MIP': 'MIP', 'SMOY': '6MOY', 'CPOY': 'Clutch POY', 'COY': 'Coach of the Year'}
 rows = ''.join(f"<tr><td>{labels[award]}</td><td>{metrics[award]['correct']}/{metrics[award]['seasons']}</td><td>{metrics[award]['top3']}/{metrics[award]['seasons']}</td><td>{metrics[award]['mean_log_loss']:.3f}</td></tr>" for award in labels)
 html = re.sub(r'(<table class="table"><thead>.*?</thead><tbody>).*?(</tbody>)', lambda match: match[1] + rows + match[2], html, count=1)
 total_correct = sum(m['correct'] for m in metrics.values())

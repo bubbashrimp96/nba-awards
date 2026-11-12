@@ -1,0 +1,1034 @@
+{
+ "season": "2026-27",
+ "generated_at": "2026-11-12T05:04:32+00:00",
+ "team_games": {
+  "min": 10,
+  "max": 13
+ },
+ "sources": {
+  "per_game": {
+   "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html",
+   "fetched_at": "2026-11-12T04:52:43+00:00"
+  },
+  "totals": {
+   "url": "https://www.basketball-reference.com/leagues/NBA_2027_totals.html",
+   "fetched_at": "2026-11-12T04:52:47+00:00"
+  },
+  "advanced": {
+   "url": "https://www.basketball-reference.com/leagues/NBA_2027_advanced.html",
+   "fetched_at": "2026-11-12T04:52:51+00:00"
+  },
+  "per_poss": {
+   "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_poss.html",
+   "fetched_at": "2026-11-12T04:52:55+00:00"
+  },
+  "preseason_odds": {
+   "url": "https://www.basketball-reference.com/leagues/NBA_2027_preseason_odds.html",
+   "fetched_at": "2026-11-12T04:52:59+00:00"
+  },
+  "coaches": {
+   "url": "https://www.basketball-reference.com/leagues/NBA_2027_coaches.html",
+   "fetched_at": "2026-11-12T04:53:03+00:00"
+  },
+  "espn_standings": {
+   "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027&type=0&level=2",
+   "fetched_at": "2026-11-12T04:53:03+00:00"
+  },
+  "team_advanced": {
+   "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2027.parquet",
+   "fetched_at": "2026-11-12T04:53:04+00:00"
+  }
+ },
+ "expectations_proxy": true,
+ "expectations_source": "Proxy: last season wins regressed 40% to 41 (no published totals entered)",
+ "method": "Season-to-date stats projected to an 82-game pace (records, games, minutes and counting totals scaled by 82 / team games). Scored with each award’s final model fitted on all completed seasons. Shares are model shares within the candidate pool, not calibrated odds.",
+ "awards": {
+  "MVP": {
+   "top": [
+    {
+     "rank": 1,
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "share": 0.5137530735747613,
+     "inputs": {
+      "games_to_date": 10.0,
+      "G": 63.07692307692307,
+      "team_wins": 69.38461538461539,
+      "expected_team_wins": 48.2,
+      "wins_above_expectation": 21.184615384615384,
+      "league_rank": 1.0,
+      "conference_rank": 1.0,
+      "PTS": 39.3,
+      "AST": 7.9,
+      "TRB": 7.8,
+      "PER": 34.4,
+      "WS/48": 0.314,
+      "TS%": 0.675,
+      "games_below_threshold": 6.923076923076927,
+      "ppg_rank": 1.0,
+      "ws48_rank": 3.0
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 2,
+     "player": "Victor Wembanyama",
+     "team": "SAS",
+     "share": 0.37700822645111737,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 75.16666666666666,
+      "team_wins": 68.33333333333333,
+      "expected_team_wins": 53.599999999999994,
+      "wins_above_expectation": 14.733333333333334,
+      "league_rank": 2.5,
+      "conference_rank": 2.0,
+      "PTS": 30.1,
+      "AST": 3.0,
+      "TRB": 11.9,
+      "PER": 38.2,
+      "WS/48": 0.35,
+      "TS%": 0.622,
+      "games_below_threshold": 0.0,
+      "ppg_rank": 3.0,
+      "ws48_rank": 2.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 3,
+     "player": "Jayson Tatum",
+     "team": "BOS",
+     "share": 0.04765151982388149,
+     "inputs": {
+      "games_to_date": 10.0,
+      "G": 68.33333333333333,
+      "team_wins": 68.33333333333333,
+      "expected_team_wins": 50.0,
+      "wins_above_expectation": 18.33333333333333,
+      "league_rank": 2.5,
+      "conference_rank": 1.0,
+      "PTS": 26.5,
+      "AST": 7.4,
+      "TRB": 6.0,
+      "PER": 24.2,
+      "WS/48": 0.239,
+      "TS%": 0.574,
+      "games_below_threshold": 1.6666666666666714,
+      "ppg_rank": 8.0,
+      "ws48_rank": 4.0
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 4,
+     "player": "Stephen Curry",
+     "team": "GSW",
+     "share": 0.03864863681778584,
+     "inputs": {
+      "games_to_date": 9.0,
+      "G": 67.0909090909091,
+      "team_wins": 59.63636363636363,
+      "expected_team_wins": 38.6,
+      "wins_above_expectation": 21.03636363636363,
+      "league_rank": 6.5,
+      "conference_rank": 4.5,
+      "PTS": 30.6,
+      "AST": 4.3,
+      "TRB": 4.1,
+      "PER": 34.4,
+      "WS/48": 0.389,
+      "TS%": 0.722,
+      "games_below_threshold": 2.9090909090909065,
+      "ppg_rank": 2.0,
+      "ws48_rank": 1.0
+     },
+     "games_to_date": 9.0
+    },
+    {
+     "rank": 5,
+     "player": "Tyrese Maxey",
+     "team": "PHI",
+     "share": 0.0061321259600174895,
+     "inputs": {
+      "games_to_date": 12.0,
+      "G": 82.0,
+      "team_wins": 61.5,
+      "expected_team_wins": 43.4,
+      "wins_above_expectation": 18.1,
+      "league_rank": 4.0,
+      "conference_rank": 2.0,
+      "PTS": 26.7,
+      "AST": 5.3,
+      "TRB": 3.5,
+      "PER": 22.2,
+      "WS/48": 0.191,
+      "TS%": 0.62,
+      "games_below_threshold": 0.0,
+      "ppg_rank": 6.0,
+      "ws48_rank": 17.0
+     },
+     "games_to_date": 12.0
+    }
+   ],
+   "pool_size": 182,
+   "features": [
+    "PTS",
+    "AST",
+    "TRB",
+    "PER",
+    "WS/48",
+    "TS%",
+    "G",
+    "team_wins",
+    "league_standing",
+    "conference_standing",
+    "availability_exponential",
+    "wins_above_expectation",
+    "ppg_rank_exponential",
+    "ws48_rank_exponential"
+   ],
+   "columns": [
+    "games_to_date",
+    "G",
+    "team_wins",
+    "expected_team_wins",
+    "wins_above_expectation",
+    "league_rank",
+    "conference_rank",
+    "PTS",
+    "AST",
+    "TRB",
+    "PER",
+    "WS/48",
+    "TS%",
+    "games_below_threshold",
+    "ppg_rank",
+    "ws48_rank"
+   ]
+  },
+  "ROY": {
+   "top": [
+    {
+     "rank": 1,
+     "player": "Yaxel Lendeborg",
+     "team": "GSW",
+     "share": 0.613365535967491,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 82.0,
+      "PTS": 21.4,
+      "AST": 4.0,
+      "TRB": 7.2,
+      "STL": 1.0,
+      "BLK": 0.7,
+      "BPM": 3.0,
+      "WS": 9.690909090909091,
+      "TS%": 0.653,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 2,
+     "player": "Darius Acuff Jr.",
+     "team": "SAC",
+     "share": 0.28957475257134363,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 82.0,
+      "PTS": 26.2,
+      "AST": 7.3,
+      "TRB": 3.8,
+      "STL": 1.0,
+      "BLK": 0.1,
+      "BPM": -1.5,
+      "WS": 0.0,
+      "TS%": 0.526,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 3,
+     "player": "Cameron Boozer",
+     "team": "MEM",
+     "share": 0.09383146011133983,
+     "inputs": {
+      "games_to_date": 10.0,
+      "G": 74.54545454545455,
+      "PTS": 16.2,
+      "AST": 5.5,
+      "TRB": 9.7,
+      "STL": 0.4,
+      "BLK": 0.6,
+      "BPM": -0.2,
+      "WS": 4.472727272727273,
+      "TS%": 0.507,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 4,
+     "player": "Darryn Peterson",
+     "team": "UTA",
+     "share": 0.0016705802567243328,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 75.16666666666666,
+      "PTS": 15.7,
+      "AST": 3.8,
+      "TRB": 4.0,
+      "STL": 1.2,
+      "BLK": 0.7,
+      "BPM": 0.2,
+      "WS": 2.7333333333333334,
+      "TS%": 0.527,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 5,
+     "player": "Caleb Wilson",
+     "team": "CHI",
+     "share": 0.0008023923566696083,
+     "inputs": {
+      "games_to_date": 9.0,
+      "G": 73.8,
+      "PTS": 19.3,
+      "AST": 2.1,
+      "TRB": 6.3,
+      "STL": 1.9,
+      "BLK": 1.0,
+      "BPM": -3.6,
+      "WS": -1.64,
+      "TS%": 0.507,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 9.0
+    }
+   ],
+   "pool_size": 45,
+   "features": [
+    "PTS",
+    "AST",
+    "TRB",
+    "STL",
+    "BLK",
+    "BPM",
+    "WS",
+    "TS%",
+    "G",
+    "availability_exponential"
+   ],
+   "columns": [
+    "games_to_date",
+    "G",
+    "PTS",
+    "AST",
+    "TRB",
+    "STL",
+    "BLK",
+    "BPM",
+    "WS",
+    "TS%",
+    "games_below_threshold"
+   ]
+  },
+  "DPOY": {
+   "top": [
+    {
+     "rank": 1,
+     "player": "Victor Wembanyama",
+     "team": "SAS",
+     "share": 0.9885412293207886,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 75.16666666666666,
+      "team_wins": 68.33333333333333,
+      "team_defensive_rank": 4.0,
+      "STL": 1.1,
+      "BLK": 4.4,
+      "DWS": 6.833333333333333,
+      "DBPM": 5.1,
+      "DRtg": 95.0,
+      "MPG": 29.818181818181817,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 2,
+     "player": "Cade Cunningham",
+     "team": "DET",
+     "share": 0.0013709417402019497,
+     "inputs": {
+      "games_to_date": 10.0,
+      "G": 82.0,
+      "team_wins": 57.39999999999999,
+      "team_defensive_rank": 2.0,
+      "STL": 1.6,
+      "BLK": 0.9,
+      "DWS": 5.739999999999999,
+      "DBPM": 0.9,
+      "DRtg": 105.0,
+      "MPG": 33.199999999999996,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 3,
+     "player": "Ausar Thompson",
+     "team": "DET",
+     "share": 0.0007930120376555025,
+     "inputs": {
+      "games_to_date": 9.0,
+      "G": 73.8,
+      "team_wins": 57.39999999999999,
+      "team_defensive_rank": 2.0,
+      "STL": 1.1,
+      "BLK": 0.6,
+      "DWS": 4.919999999999999,
+      "DBPM": 1.8,
+      "DRtg": 102.0,
+      "MPG": 27.22222222222222,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 9.0
+    },
+    {
+     "rank": 4,
+     "player": "Paul George",
+     "team": "BOS",
+     "share": 0.000663802259969104,
+     "inputs": {
+      "games_to_date": 10.0,
+      "G": 68.33333333333333,
+      "team_wins": 68.33333333333333,
+      "team_defensive_rank": 3.0,
+      "STL": 2.1,
+      "BLK": 0.4,
+      "DWS": 4.1,
+      "DBPM": 1.4,
+      "DRtg": 104.0,
+      "MPG": 30.099999999999998,
+      "games_below_threshold": 1.6666666666666714
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 5,
+     "player": "Jonathan Kuminga",
+     "team": "MIN",
+     "share": 0.0004476839467703947,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 82.0,
+      "team_wins": 59.63636363636363,
+      "team_defensive_rank": 1.0,
+      "STL": 1.1,
+      "BLK": 0.8,
+      "DWS": 4.472727272727273,
+      "DBPM": 1.9,
+      "DRtg": 106.0,
+      "MPG": 30.727272727272727,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    }
+   ],
+   "pool_size": 420,
+   "features": [
+    "STL",
+    "BLK",
+    "DWS",
+    "DBPM",
+    "DRtg",
+    "G",
+    "MPG",
+    "availability_exponential",
+    "team_defensive_rank",
+    "team_wins"
+   ],
+   "columns": [
+    "games_to_date",
+    "G",
+    "team_wins",
+    "team_defensive_rank",
+    "STL",
+    "BLK",
+    "DWS",
+    "DBPM",
+    "DRtg",
+    "MPG",
+    "games_below_threshold"
+   ]
+  },
+  "MIP": {
+   "top": [
+    {
+     "rank": 1,
+     "player": "Cooper Flagg",
+     "team": "DAL",
+     "share": 0.1430944671876943,
+     "inputs": {
+      "games_to_date": 10.0,
+      "team_wins": 52.18181818181818,
+      "expected_team_wins": 32.0,
+      "wins_above_expectation": 20.18181818181818,
+      "PTS": 25.9,
+      "BPM": 8.4,
+      "WS": 12.672727272727272,
+      "Age": 20.0,
+      "experience": 1.0,
+      "delta_PTS": 4.899999999999999,
+      "delta_AST": 2.4000000000000004,
+      "delta_TRB": 0.20000000000000018,
+      "delta_BPM": 7.0,
+      "delta_PER": 8.5,
+      "delta_MPG": 0.6142857142857139,
+      "delta_TS%": 0.06399999999999995,
+      "delta_USG%": 3.1000000000000014,
+      "prior_all_star": 0.0,
+      "second_year": 1.0,
+      "quality": 0.9793333333333334,
+      "allstar_jump_fit": 0.38117138605299217,
+      "quality_prior": 0.8488888888888889,
+      "origin_fit": 0.4542049894886845,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 2,
+     "player": "Dylan Harper",
+     "team": "SAS",
+     "share": 0.09248928006940622,
+     "inputs": {
+      "games_to_date": 11.0,
+      "team_wins": 68.33333333333333,
+      "expected_team_wins": 53.599999999999994,
+      "wins_above_expectation": 14.733333333333334,
+      "PTS": 18.0,
+      "BPM": 2.7,
+      "WS": 8.883333333333333,
+      "Age": 20.0,
+      "experience": 1.0,
+      "delta_PTS": 6.199999999999999,
+      "delta_AST": 0.5000000000000004,
+      "delta_TRB": 2.0000000000000004,
+      "delta_BPM": 1.3000000000000003,
+      "delta_PER": 2.1999999999999993,
+      "delta_MPG": 8.783926218708832,
+      "delta_TS%": 0.020000000000000018,
+      "delta_USG%": 0.3000000000000007,
+      "prior_all_star": 0.0,
+      "second_year": 1.0,
+      "quality": 0.8493333333333333,
+      "allstar_jump_fit": 0.738991296280308,
+      "quality_prior": 0.7027777777777777,
+      "origin_fit": 0.9776336135771716,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 3,
+     "player": "Duncan Robinson",
+     "team": "DET",
+     "share": 0.08276267789681865,
+     "inputs": {
+      "games_to_date": 10.0,
+      "team_wins": 57.39999999999999,
+      "expected_team_wins": 52.400000000000006,
+      "wins_above_expectation": 4.999999999999986,
+      "PTS": 18.6,
+      "BPM": 3.6,
+      "WS": 11.479999999999999,
+      "Age": 32.0,
+      "experience": 8.0,
+      "delta_PTS": 6.400000000000002,
+      "delta_AST": 0.19999999999999973,
+      "delta_TRB": -0.9000000000000001,
+      "delta_BPM": 2.8,
+      "delta_PER": 6.1,
+      "delta_MPG": 3.3584415584415552,
+      "delta_TS%": 0.05500000000000005,
+      "delta_USG%": 4.599999999999998,
+      "prior_all_star": 0.0,
+      "second_year": 0.0,
+      "quality": 0.88,
+      "allstar_jump_fit": 0.9650691177896803,
+      "quality_prior": 0.6872222222222222,
+      "origin_fit": 0.9948532999577283,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 4,
+     "player": "Ajay Mitchell",
+     "team": "OKC",
+     "share": 0.07910455095149466,
+     "inputs": {
+      "games_to_date": 11.0,
+      "team_wins": 59.63636363636363,
+      "expected_team_wins": 54.79999999999999,
+      "wins_above_expectation": 4.836363636363643,
+      "PTS": 18.5,
+      "BPM": 3.1,
+      "WS": 8.200000000000001,
+      "Age": 24.0,
+      "experience": 2.0,
+      "delta_PTS": 4.9,
+      "delta_AST": -0.30000000000000027,
+      "delta_TRB": 0.30000000000000027,
+      "delta_BPM": 1.2000000000000002,
+      "delta_PER": 4.199999999999999,
+      "delta_MPG": 1.430622009569376,
+      "delta_TS%": 0.006000000000000005,
+      "delta_USG%": 4.899999999999999,
+      "prior_all_star": 0.0,
+      "second_year": 0.0,
+      "quality": 0.8646666666666667,
+      "allstar_jump_fit": 0.8725301892091603,
+      "quality_prior": 0.7683333333333333,
+      "origin_fit": 0.7930666027312193,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 5,
+     "player": "Ayo Dosunmu",
+     "team": "MIN",
+     "share": 0.0718639355081006,
+     "inputs": {
+      "games_to_date": 11.0,
+      "team_wins": 59.63636363636363,
+      "expected_team_wins": 45.8,
+      "wins_above_expectation": 13.836363636363636,
+      "PTS": 18.1,
+      "BPM": 3.8,
+      "WS": 10.436363636363636,
+      "Age": 27.0,
+      "experience": 5.0,
+      "delta_PTS": 3.3000000000000007,
+      "delta_AST": 0.3999999999999999,
+      "delta_TRB": 1.5000000000000004,
+      "delta_BPM": 2.8,
+      "delta_PER": 2.1999999999999993,
+      "delta_MPG": 4.102766798418969,
+      "delta_TS%": -0.0030000000000000027,
+      "delta_USG%": 1.6000000000000014,
+      "prior_all_star": 0.0,
+      "second_year": 0.0,
+      "quality": 0.8826666666666667,
+      "allstar_jump_fit": 0.975610980064846,
+      "quality_prior": 0.7527777777777778,
+      "origin_fit": 0.8501354949252173,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    }
+   ],
+   "pool_size": 375,
+   "features": [
+    "PTS",
+    "BPM",
+    "WS",
+    "Age",
+    "experience",
+    "delta_PTS",
+    "delta_AST",
+    "delta_TRB",
+    "delta_BPM",
+    "delta_PER",
+    "delta_MPG",
+    "delta_TS%",
+    "delta_USG%",
+    "team_wins",
+    "expected_team_wins",
+    "wins_above_expectation",
+    "prior_all_star",
+    "second_year",
+    "allstar_jump_fit",
+    "origin_fit",
+    "availability_exponential"
+   ],
+   "columns": [
+    "games_to_date",
+    "team_wins",
+    "expected_team_wins",
+    "wins_above_expectation",
+    "PTS",
+    "BPM",
+    "WS",
+    "Age",
+    "experience",
+    "delta_PTS",
+    "delta_AST",
+    "delta_TRB",
+    "delta_BPM",
+    "delta_PER",
+    "delta_MPG",
+    "delta_TS%",
+    "delta_USG%",
+    "prior_all_star",
+    "second_year",
+    "quality",
+    "allstar_jump_fit",
+    "quality_prior",
+    "origin_fit",
+    "games_below_threshold"
+   ]
+  },
+  "SMOY": {
+   "top": [
+    {
+     "rank": 1,
+     "player": "Payton Pritchard",
+     "team": "BOS",
+     "share": 0.5634744948568101,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 75.16666666666666,
+      "conference_seed": 1.0,
+      "PTS": 13.3,
+      "AST": 3.9,
+      "TRB": 3.5,
+      "BPM": 0.1,
+      "WS": 7.516666666666667,
+      "TS%": 0.567,
+      "MPG": 27.000000000000004,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 2,
+     "player": "Daniss Jenkins",
+     "team": "DET",
+     "share": 0.18051534731696126,
+     "inputs": {
+      "games_to_date": 10.0,
+      "G": 82.0,
+      "conference_seed": 3.0,
+      "PTS": 12.7,
+      "AST": 4.7,
+      "TRB": 3.6,
+      "BPM": 1.6,
+      "WS": 8.2,
+      "TS%": 0.613,
+      "MPG": 26.0,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 10.0
+    },
+    {
+     "rank": 3,
+     "player": "Aaron Wiggins",
+     "team": "ATL",
+     "share": 0.11540804588266063,
+     "inputs": {
+      "games_to_date": 12.0,
+      "G": 82.0,
+      "conference_seed": 4.0,
+      "PTS": 14.9,
+      "AST": 2.4,
+      "TRB": 3.7,
+      "BPM": 0.5,
+      "WS": 4.1,
+      "TS%": 0.589,
+      "MPG": 25.83333333333333,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 12.0
+    },
+    {
+     "rank": 4,
+     "player": "Grayson Allen",
+     "team": "CHO",
+     "share": 0.03833949334533089,
+     "inputs": {
+      "games_to_date": 11.0,
+      "G": 82.0,
+      "conference_seed": 9.0,
+      "PTS": 15.3,
+      "AST": 3.0,
+      "TRB": 2.8,
+      "BPM": 2.3,
+      "WS": 6.709090909090909,
+      "TS%": 0.698,
+      "MPG": 26.636363636363633,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 11.0
+    },
+    {
+     "rank": 5,
+     "player": "Jrue Holiday",
+     "team": "POR",
+     "share": 0.03336083853288159,
+     "inputs": {
+      "games_to_date": 10.0,
+      "G": 82.0,
+      "conference_seed": 7.0,
+      "PTS": 12.8,
+      "AST": 3.8,
+      "TRB": 3.3,
+      "BPM": 5.2,
+      "WS": 8.2,
+      "TS%": 0.683,
+      "MPG": 25.799999999999997,
+      "games_below_threshold": 0.0
+     },
+     "games_to_date": 10.0
+    }
+   ],
+   "pool_size": 254,
+   "features": [
+    "PTS",
+    "AST",
+    "TRB",
+    "BPM",
+    "WS",
+    "TS%",
+    "G",
+    "MPG",
+    "availability_exponential",
+    "conference_seed"
+   ],
+   "columns": [
+    "games_to_date",
+    "G",
+    "conference_seed",
+    "PTS",
+    "AST",
+    "TRB",
+    "BPM",
+    "WS",
+    "TS%",
+    "MPG",
+    "games_below_threshold"
+   ]
+  },
+  "CPOY": {
+   "top": [
+    {
+     "rank": 1,
+     "player": "Ty Jerome",
+     "team": "MEM",
+     "share": 0.23141811314848307,
+     "inputs": {
+      "clutch_record": "3-3",
+      "gp": 6.0,
+      "clutch_pts": 31.0,
+      "clutch_fg_pct": 0.631578947368421,
+      "clutch_plus_minus": 6.0,
+      "clutch_win_pct": 0.5,
+      "team_wins": 52.18181818181818
+     },
+     "clutch_record": "3-3",
+     "games_to_date": 6
+    },
+    {
+     "rank": 2,
+     "player": "Tyrese Maxey",
+     "team": "PHI",
+     "share": 0.18751812828289344,
+     "inputs": {
+      "clutch_record": "8-0",
+      "gp": 8.0,
+      "clutch_pts": 28.0,
+      "clutch_fg_pct": 0.5,
+      "clutch_plus_minus": 35.0,
+      "clutch_win_pct": 1.0,
+      "team_wins": 61.5
+     },
+     "clutch_record": "8-0",
+     "games_to_date": 8
+    },
+    {
+     "rank": 3,
+     "player": "Cooper Flagg",
+     "team": "DAL",
+     "share": 0.1677901662518273,
+     "inputs": {
+      "clutch_record": "3-1",
+      "gp": 4.0,
+      "clutch_pts": 27.0,
+      "clutch_fg_pct": 0.8461538461538461,
+      "clutch_plus_minus": 6.0,
+      "clutch_win_pct": 0.75,
+      "team_wins": 52.18181818181818
+     },
+     "clutch_record": "3-1",
+     "games_to_date": 4
+    },
+    {
+     "rank": 4,
+     "player": "Jayson Tatum",
+     "team": "BOS",
+     "share": 0.1138287491101081,
+     "inputs": {
+      "clutch_record": "4-1",
+      "gp": 5.0,
+      "clutch_pts": 26.0,
+      "clutch_fg_pct": 0.5625,
+      "clutch_plus_minus": 15.0,
+      "clutch_win_pct": 0.8,
+      "team_wins": 68.33333333333333
+     },
+     "clutch_record": "4-1",
+     "games_to_date": 5
+    },
+    {
+     "rank": 5,
+     "player": "Luka Dončić",
+     "team": "LAL",
+     "share": 0.08123578841441692,
+     "inputs": {
+      "clutch_record": "4-1",
+      "gp": 5.0,
+      "clutch_pts": 22.0,
+      "clutch_fg_pct": 0.875,
+      "clutch_plus_minus": 23.0,
+      "clutch_win_pct": 0.8,
+      "team_wins": 69.38461538461539
+     },
+     "clutch_record": "4-1",
+     "games_to_date": 5
+    }
+   ],
+   "pool_size": 15,
+   "features": [
+    "clutch_pts",
+    "clutch_fg_pct",
+    "clutch_plus_minus",
+    "clutch_win_pct",
+    "team_wins"
+   ],
+   "columns": [
+    "clutch_record",
+    "gp",
+    "clutch_pts",
+    "clutch_fg_pct",
+    "clutch_plus_minus",
+    "clutch_win_pct",
+    "team_wins"
+   ],
+   "data_as_of": "captured 2026-11-12 from nba.com"
+  },
+  "COY": {
+   "top": [
+    {
+     "rank": 1,
+     "player": "JJ Redick",
+     "team": "LAL",
+     "share": 0.17917720806381876,
+     "inputs": {
+      "record_to_date": "10-2",
+      "team_wins": 69.38461538461539,
+      "team_net_rating": 7.6,
+      "expected_team_wins": 48.2,
+      "wins_above_expectation": 21.184615384615384,
+      "conference_seed": 1.0,
+      "top4_seed": 1.0,
+      "prior_coy_same_team": 0.0
+     },
+     "record_to_date": "10-2"
+    },
+    {
+     "rank": 2,
+     "player": "Joe Mazzulla",
+     "team": "BOS",
+     "share": 0.14277272520812515,
+     "inputs": {
+      "record_to_date": "9-2",
+      "team_wins": 68.33333333333333,
+      "team_net_rating": 12.4,
+      "expected_team_wins": 50.0,
+      "wins_above_expectation": 18.33333333333333,
+      "conference_seed": 1.0,
+      "top4_seed": 1.0,
+      "prior_coy_same_team": 1.0
+     },
+     "record_to_date": "9-2"
+    },
+    {
+     "rank": 3,
+     "player": "Mitch Johnson",
+     "team": "SAS",
+     "share": 0.12858010061579037,
+     "inputs": {
+      "record_to_date": "9-2",
+      "team_wins": 68.33333333333333,
+      "team_net_rating": 11.6,
+      "expected_team_wins": 53.599999999999994,
+      "wins_above_expectation": 14.733333333333334,
+      "conference_seed": 2.0,
+      "top4_seed": 1.0,
+      "prior_coy_same_team": 0.0
+     },
+     "record_to_date": "9-2"
+    },
+    {
+     "rank": 4,
+     "player": "Chris Finch",
+     "team": "MIN",
+     "share": 0.08944149160363199,
+     "inputs": {
+      "record_to_date": "8-3",
+      "team_wins": 59.63636363636363,
+      "team_net_rating": 11.1,
+      "expected_team_wins": 45.8,
+      "wins_above_expectation": 13.836363636363636,
+      "conference_seed": 3.0,
+      "top4_seed": 1.0,
+      "prior_coy_same_team": 0.0
+     },
+     "record_to_date": "8-3"
+    },
+    {
+     "rank": 5,
+     "player": "Nick Nurse",
+     "team": "PHI",
+     "share": 0.07489122196459669,
+     "inputs": {
+      "record_to_date": "9-3",
+      "team_wins": 61.5,
+      "team_net_rating": 0.8,
+      "expected_team_wins": 43.4,
+      "wins_above_expectation": 18.1,
+      "conference_seed": 2.0,
+      "top4_seed": 1.0,
+      "prior_coy_same_team": 0.0
+     },
+     "record_to_date": "9-3"
+    }
+   ],
+   "pool_size": 30,
+   "features": [
+    "team_wins",
+    "team_net_rating",
+    "wins_above_expectation",
+    "top4_seed",
+    "prior_coy_same_team"
+   ],
+   "columns": [
+    "record_to_date",
+    "team_wins",
+    "team_net_rating",
+    "expected_team_wins",
+    "wins_above_expectation",
+    "conference_seed",
+    "top4_seed",
+    "prior_coy_same_team"
+   ]
+  }
+ }
+}

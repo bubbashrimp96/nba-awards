@@ -3,10 +3,10 @@
     "seasons": 26,
     "correct": 17,
     "top3": 23,
-    "mean_log_loss": 1.7613366580810397,
+    "mean_log_loss": 1.7614142931536896,
     "baseline_correct": 17,
     "baseline_top3": 22,
-    "baseline_log_loss": 1.417120090760925
+    "baseline_log_loss": 1.4171289216016119
   },
   "ROY": {
     "seasons": 26,
@@ -28,9 +28,9 @@
   },
   "MIP": {
     "seasons": 26,
-    "correct": 8,
-    "top3": 11,
-    "mean_log_loss": 2.8211212157092294,
+    "correct": 7,
+    "top3": 12,
+    "mean_log_loss": 2.390697216130809,
     "baseline_correct": 8,
     "baseline_top3": 13,
     "baseline_log_loss": 2.829792063363284

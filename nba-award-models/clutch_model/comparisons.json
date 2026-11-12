@@ -1,0 +1,566 @@
+[
+ {
+  "season": "2022-23",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "De'Aaron Fox",
+    "share": 0.394439517951938,
+    "score": 3.1926158496098487
+   },
+   {
+    "rank": 2,
+    "player": "Demar Derozan",
+    "share": 0.09575770727234288,
+    "score": 1.7769711527811574
+   },
+   {
+    "rank": 3,
+    "player": "Jimmy Butler Iii",
+    "share": 0.06928616089880585,
+    "score": 1.4533952220774566
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "De'Aaron Fox",
+    "id": "foxde01",
+    "team": "SAC",
+    "points": 460.0,
+    "vote_share": 0.92
+   },
+   {
+    "rank": 2,
+    "player": "Jimmy Butler",
+    "id": "butleji01",
+    "team": "MIA",
+    "points": 104.0,
+    "vote_share": 0.208
+   },
+   {
+    "rank": 3,
+    "player": "DeMar DeRozan",
+    "id": "derozde01",
+    "team": "CHI",
+    "points": 80.0,
+    "vote_share": 0.16
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2023.html",
+  "features": [
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "display_features": [
+   "clutch_record",
+   "gp",
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "coefficients": [
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "training_seasons": 0,
+  "fallback": true,
+  "players": [
+   {
+    "player": "De'Aaron Fox",
+    "team": "SAC",
+    "stats": {
+     "clutch_pts": 194.0,
+     "clutch_fg_pct": 0.5294117647058824,
+     "clutch_plus_minus": 24.0,
+     "clutch_win_pct": 0.5641025641025641,
+     "team_wins": 48.0,
+     "gp": 39.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "clutch_record": "22-17",
+    "clutch_games": 39
+   },
+   {
+    "player": "Demar Derozan",
+    "team": "CHI",
+    "stats": {
+     "clutch_pts": 159.0,
+     "clutch_fg_pct": 0.47115384615384615,
+     "clutch_plus_minus": 8.0,
+     "clutch_win_pct": 0.4117647058823529,
+     "team_wins": 40.0,
+     "gp": 34.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 3,
+    "clutch_record": "14-20",
+    "clutch_games": 34
+   },
+   {
+    "player": "Jimmy Butler Iii",
+    "team": "MIA",
+    "stats": {
+     "clutch_pts": 151.0,
+     "clutch_fg_pct": 0.5052631578947369,
+     "clutch_plus_minus": 38.0,
+     "clutch_win_pct": 0.5813953488372093,
+     "team_wins": 44.0,
+     "gp": 43.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 2,
+    "clutch_record": "25-18",
+    "clutch_games": 43
+   }
+  ]
+ },
+ {
+  "season": "2023-24",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Stephen Curry",
+    "share": 0.3865067527063105,
+    "score": 3.58271986339324
+   },
+   {
+    "rank": 2,
+    "player": "Demar Derozan",
+    "share": 0.25799749052728366,
+    "score": 3.178520382327847
+   },
+   {
+    "rank": 3,
+    "player": "Nikola Jokić",
+    "share": 0.06652844916332336,
+    "score": 1.823200187237736
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Stephen Curry",
+    "id": "curryst01",
+    "team": "GSW",
+    "points": 298.0,
+    "vote_share": 0.602
+   },
+   {
+    "rank": 2,
+    "player": "DeMar DeRozan",
+    "id": "derozde01",
+    "team": "CHI",
+    "points": 272.0,
+    "vote_share": 0.549
+   },
+   {
+    "rank": 3,
+    "player": "Shai Gilgeous-Alexander",
+    "id": "gilgesh01",
+    "team": "OKC",
+    "points": 160.0,
+    "vote_share": 0.323
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2024.html",
+  "features": [
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "display_features": [
+   "clutch_record",
+   "gp",
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "coefficients": [
+   1.0625796403315166,
+   0.37781511024876313,
+   0.0,
+   0.1312303446586026,
+   0.21808652113910595
+  ],
+  "training_seasons": 1,
+  "fallback": false,
+  "players": [
+   {
+    "player": "Stephen Curry",
+    "team": "GSW",
+    "stats": {
+     "clutch_pts": 189.0,
+     "clutch_fg_pct": 0.4957983193277311,
+     "clutch_plus_minus": 21.0,
+     "clutch_win_pct": 0.5348837209302325,
+     "team_wins": 46.0,
+     "gp": 43.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "clutch_record": "23-20",
+    "clutch_games": 43
+   },
+   {
+    "player": "Demar Derozan",
+    "team": "CHI",
+    "stats": {
+     "clutch_pts": 182.0,
+     "clutch_fg_pct": 0.48672566371681414,
+     "clutch_plus_minus": 94.0,
+     "clutch_win_pct": 0.6,
+     "team_wins": 39.0,
+     "gp": 40.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 2,
+    "clutch_record": "24-16",
+    "clutch_games": 40
+   },
+   {
+    "player": "Nikola Jokić",
+    "team": "DEN",
+    "stats": {
+     "clutch_pts": 129.0,
+     "clutch_fg_pct": 0.5526315789473685,
+     "clutch_plus_minus": 85.0,
+     "clutch_win_pct": 0.6388888888888888,
+     "team_wins": 57.0,
+     "gp": 36.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 4,
+    "clutch_record": "23-13",
+    "clutch_games": 36
+   },
+   {
+    "player": "Shai Gilgeous-Alexander",
+    "team": "OKC",
+    "stats": {
+     "clutch_pts": 112.0,
+     "clutch_fg_pct": 0.5806451612903226,
+     "clutch_plus_minus": 68.0,
+     "clutch_win_pct": 0.6764705882352942,
+     "team_wins": 57.0,
+     "gp": 34.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 5,
+    "actual_rank": 3,
+    "clutch_record": "23-11",
+    "clutch_games": 34
+   }
+  ]
+ },
+ {
+  "season": "2024-25",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Jalen Brunson",
+    "share": 0.2380008403915137,
+    "score": 2.7473610023761226
+   },
+   {
+    "rank": 2,
+    "player": "Anthony Edwards",
+    "share": 0.16966384099073722,
+    "score": 2.408905871119268
+   },
+   {
+    "rank": 3,
+    "player": "Nikola Jokić",
+    "share": 0.1428551245697821,
+    "score": 2.236917799469599
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Jalen Brunson",
+    "id": "brunsja01",
+    "team": "NYK",
+    "points": 426.0,
+    "vote_share": 0.852
+   },
+   {
+    "rank": 2,
+    "player": "Nikola Jokić",
+    "id": "jokicni01",
+    "team": "DEN",
+    "points": 312.0,
+    "vote_share": 0.624
+   },
+   {
+    "rank": 3,
+    "player": "Anthony Edwards",
+    "id": "edwaran01",
+    "team": "MIN",
+    "points": 47.0,
+    "vote_share": 0.094
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2025.html",
+  "features": [
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "display_features": [
+   "clutch_record",
+   "gp",
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "coefficients": [
+   1.0858155615731424,
+   0.25583254627000324,
+   0.0,
+   0.0,
+   0.18645674187277264
+  ],
+  "training_seasons": 2,
+  "fallback": false,
+  "players": [
+   {
+    "player": "Anthony Edwards",
+    "team": "MIN",
+    "stats": {
+     "clutch_pts": 157.0,
+     "clutch_fg_pct": 0.4260869565217391,
+     "clutch_plus_minus": -51.0,
+     "clutch_win_pct": 0.4523809523809524,
+     "team_wins": 49.0,
+     "gp": 42.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 3,
+    "clutch_record": "19-23",
+    "clutch_games": 42
+   },
+   {
+    "player": "Jalen Brunson",
+    "team": "NYK",
+    "stats": {
+     "clutch_pts": 156.0,
+     "clutch_fg_pct": 0.5148514851485149,
+     "clutch_plus_minus": 22.0,
+     "clutch_win_pct": 0.6071428571428571,
+     "team_wins": 51.0,
+     "gp": 28.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "clutch_record": "17-11",
+    "clutch_games": 28
+   },
+   {
+    "player": "Nikola Jokić",
+    "team": "DEN",
+    "stats": {
+     "clutch_pts": 140.0,
+     "clutch_fg_pct": 0.5617977528089888,
+     "clutch_plus_minus": 61.0,
+     "clutch_win_pct": 0.5757575757575758,
+     "team_wins": 50.0,
+     "gp": 33.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 2,
+    "clutch_record": "19-14",
+    "clutch_games": 33
+   }
+  ]
+ },
+ {
+  "season": "2025-26",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Shai Gilgeous-Alexander",
+    "share": 0.32789507348657776,
+    "score": 3.3019976714887993
+   },
+   {
+    "rank": 2,
+    "player": "Jamal Murray",
+    "share": 0.16540188404814463,
+    "score": 2.6176821855737957
+   },
+   {
+    "rank": 3,
+    "player": "Nikola Jokić",
+    "share": 0.08835050126572758,
+    "score": 1.990615884575144
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Shai Gilgeous-Alexander",
+    "id": "gilgesh01",
+    "team": "OKC",
+    "points": 484.0,
+    "vote_share": 0.968
+   },
+   {
+    "rank": 2,
+    "player": "Jamal Murray",
+    "id": "murraja01",
+    "team": "DEN",
+    "points": 117.0,
+    "vote_share": 0.234
+   },
+   {
+    "rank": 3,
+    "player": "Anthony Edwards",
+    "id": "edwaran01",
+    "team": "MIN",
+    "points": 116.0,
+    "vote_share": 0.232
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2026.html",
+  "features": [
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "display_features": [
+   "clutch_record",
+   "gp",
+   "clutch_pts",
+   "clutch_fg_pct",
+   "clutch_plus_minus",
+   "clutch_win_pct",
+   "team_wins"
+  ],
+  "coefficients": [
+   1.0543218297338164,
+   0.3197698399715675,
+   0.0,
+   0.10590764227208418,
+   0.18719250750137523
+  ],
+  "training_seasons": 3,
+  "fallback": false,
+  "players": [
+   {
+    "player": "Shai Gilgeous-Alexander",
+    "team": "OKC",
+    "stats": {
+     "clutch_pts": 175.0,
+     "clutch_fg_pct": 0.5148514851485149,
+     "clutch_plus_minus": 93.0,
+     "clutch_win_pct": 0.7407407407407407,
+     "team_wins": 64.0,
+     "gp": 27.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "clutch_record": "20-7",
+    "clutch_games": 27
+   },
+   {
+    "player": "Jamal Murray",
+    "team": "DEN",
+    "stats": {
+     "clutch_pts": 166.0,
+     "clutch_fg_pct": 0.5217391304347826,
+     "clutch_plus_minus": 17.0,
+     "clutch_win_pct": 0.5263157894736842,
+     "team_wins": 54.0,
+     "gp": 38.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 2,
+    "clutch_record": "20-18",
+    "clutch_games": 38
+   },
+   {
+    "player": "Nikola Jokić",
+    "team": "DEN",
+    "stats": {
+     "clutch_pts": 155.0,
+     "clutch_fg_pct": 0.4838709677419355,
+     "clutch_plus_minus": -9.0,
+     "clutch_win_pct": 0.46875,
+     "team_wins": 54.0,
+     "gp": 32.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 6,
+    "clutch_record": "15-17",
+    "clutch_games": 32
+   },
+   {
+    "player": "Anthony Edwards",
+    "team": "MIN",
+    "stats": {
+     "clutch_pts": 135.0,
+     "clutch_fg_pct": 0.5647058823529412,
+     "clutch_plus_minus": 23.0,
+     "clutch_win_pct": 0.625,
+     "team_wins": 49.0,
+     "gp": 24.0
+    },
+    "imputed": [],
+    "eligible": true,
+    "model_rank": 5,
+    "actual_rank": 3,
+    "clutch_record": "15-9",
+    "clutch_games": 24
+   }
+  ]
+ }
+]

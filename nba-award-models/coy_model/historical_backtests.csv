@@ -1,0 +1,26 @@
+award,season,predicted,actual,winner_rank,top1,top3,log_loss
+COY,2001-02,Rick Adelman,Rick Carlisle,6,0,0,2.8971579718456577
+COY,2002-03,Don Nelson,Gregg Popovich,2,0,1,2.08033322211125
+COY,2003-04,Rick Carlisle,Hubie Brown,7,0,0,3.1833749609373148
+COY,2004-05,Mike D'Antoni,Mike D'Antoni,1,1,1,1.1443794897536137
+COY,2005-06,Flip Saunders,Avery Johnson,2,0,1,1.9131702243390802
+COY,2006-07,Avery Johnson,Sam Mitchell,4,0,0,2.299170884081588
+COY,2007-08,Doc Rivers,Byron Scott,2,0,1,1.6033488404784777
+COY,2008-09,Mike Brown,Mike Brown,1,1,1,1.0105183087592922
+COY,2009-10,Alvin Gentry,Scott Brooks,3,0,1,1.9915197722488038
+COY,2010-11,Tom Thibodeau,Tom Thibodeau,1,1,1,0.6711071143449951
+COY,2011-12,Gregg Popovich,Gregg Popovich,1,1,1,1.0483277976686942
+COY,2012-13,Erik Spoelstra,George Karl,3,0,1,2.1068771056360798
+COY,2013-14,Jeff Hornacek,Gregg Popovich,4,0,0,2.583419009378195
+COY,2014-15,Steve Kerr,Mike Budenholzer,2,0,1,1.246608502277388
+COY,2015-16,Steve Kerr,Steve Kerr,1,1,1,0.821697432682779
+COY,2016-17,Mike D'Antoni,Mike D'Antoni,1,1,1,0.8599241990230849
+COY,2017-18,Mike D'Antoni,Dwane Casey,2,0,1,1.4517715950708887
+COY,2018-19,Mike Budenholzer,Mike Budenholzer,1,1,1,0.9612734826803112
+COY,2019-20,Nick Nurse,Nick Nurse,1,1,1,1.2455068018930548
+COY,2020-21,Quin Snyder,Tom Thibodeau,2,0,1,1.4049453313284843
+COY,2021-22,Monty Williams,Monty Williams,1,1,1,1.1287739652075492
+COY,2022-23,Mike Brown,Mike Brown,1,1,1,1.459779571759949
+COY,2023-24,Joe Mazzulla,Mark Daigneault,2,0,1,1.462646000834836
+COY,2024-25,Kenny Atkinson,Kenny Atkinson,1,1,1,1.1100617277488354
+COY,2025-26,Mitch Johnson,Joe Mazzulla,3,0,1,1.7397140637738857

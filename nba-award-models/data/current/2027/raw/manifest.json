@@ -1,0 +1,42 @@
+{
+  "per_game": {
+    "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html",
+    "fetched_at": "2026-11-12T04:52:43+00:00",
+    "bytes": 1187092
+  },
+  "totals": {
+    "url": "https://www.basketball-reference.com/leagues/NBA_2027_totals.html",
+    "fetched_at": "2026-11-12T04:52:47+00:00",
+    "bytes": 961637
+  },
+  "advanced": {
+    "url": "https://www.basketball-reference.com/leagues/NBA_2027_advanced.html",
+    "fetched_at": "2026-11-12T04:52:51+00:00",
+    "bytes": 1125738
+  },
+  "per_poss": {
+    "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_poss.html",
+    "fetched_at": "2026-11-12T04:52:55+00:00",
+    "bytes": 1279351
+  },
+  "preseason_odds": {
+    "url": "https://www.basketball-reference.com/leagues/NBA_2027_preseason_odds.html",
+    "fetched_at": "2026-11-12T04:52:59+00:00",
+    "bytes": 137915
+  },
+  "coaches": {
+    "url": "https://www.basketball-reference.com/leagues/NBA_2027_coaches.html",
+    "fetched_at": "2026-11-12T04:53:03+00:00",
+    "bytes": 182213
+  },
+  "espn_standings": {
+    "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027&type=0&level=2",
+    "fetched_at": "2026-11-12T04:53:03+00:00",
+    "bytes": 164809
+  },
+  "team_advanced": {
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2027.parquet",
+    "fetched_at": "2026-11-12T04:53:04+00:00",
+    "bytes": 94795
+  }
+}

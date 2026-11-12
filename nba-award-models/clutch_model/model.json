@@ -1,0 +1,24 @@
+{
+  "features": [
+    "clutch_pts",
+    "clutch_fg_pct",
+    "clutch_plus_minus",
+    "clutch_win_pct",
+    "team_wins"
+  ],
+  "coefficients": [
+    1.0394707613981957,
+    0.25291618749484185,
+    0.062445911487625134,
+    0.2668208461638701,
+    0.244052377552539
+  ],
+  "regularization": 1.0,
+  "half_life": null,
+  "trained_through": 2026,
+  "candidate_pool": "Top 30 NBA.com clutch scorers (totals) each season",
+  "clutch_definition": "NBA.com: last 5 minutes of the 4th quarter or overtime, score within 5 points",
+  "standardization": "Within-season candidate-pool z scores",
+  "constraints": "All coefficients nonnegative",
+  "retrospective_warning": "Award began 2022-23; at most three prior seasons to fit on, so treat as a ranked shortlist, not a calibrated probability."
+}

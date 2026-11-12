@@ -1,0 +1,4039 @@
+[
+ {
+  "season": "2001-02",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Rick Adelman",
+    "share": 0.2054834442446736,
+    "score": 3.0719151181583984
+   },
+   {
+    "rank": 2,
+    "player": "Phil Jackson",
+    "share": 0.1529503918942493,
+    "score": 2.7766632835850493
+   },
+   {
+    "rank": 3,
+    "player": "Gregg Popovich",
+    "share": 0.1468102632552728,
+    "score": 2.7356906776734244
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Rick Carlisle",
+    "id": "carliri01c",
+    "team": "DET",
+    "points": 73.0,
+    "vote_share": 0.579
+   },
+   {
+    "rank": 2,
+    "player": "Rick Adelman",
+    "id": "adelmri01c",
+    "team": "SAC",
+    "points": 21.0,
+    "vote_share": 0.167
+   },
+   {
+    "rank": 3,
+    "player": "Byron Scott",
+    "id": "scottby01c",
+    "team": "NJN",
+    "points": 15.0,
+    "vote_share": 0.119
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2002.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.9853733339175523,
+   0.2578663138929967,
+   0.0,
+   0.8237582768542188,
+   -0.2681962306499155
+  ],
+  "players": [
+   {
+    "player": "Rick Adelman",
+    "team": "SAC",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 61.0,
+     "team_net_rating": 8.1,
+     "wins_above_expectation": 0.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": 1.0,
+    "coach_record": "61-21"
+   },
+   {
+    "player": "Phil Jackson",
+    "team": "LAL",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": 58.0,
+     "team_net_rating": 7.6,
+     "wins_above_expectation": 0.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": 3.0,
+    "coach_record": "58-24"
+   },
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": 58.0,
+     "team_net_rating": 6.9,
+     "wins_above_expectation": 0.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": 2.0,
+    "coach_record": "58-24"
+   },
+   {
+    "player": "Rick Carlisle",
+    "team": "DET",
+    "eligible": true,
+    "model_rank": 6,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 50.0,
+     "team_net_rating": 2.3,
+     "wins_above_expectation": 0.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": 2.0,
+    "coach_record": "50-32"
+   },
+   {
+    "player": "Byron Scott",
+    "team": "NJN",
+    "eligible": true,
+    "model_rank": 5,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 52.0,
+     "team_net_rating": 4.3,
+     "wins_above_expectation": 0.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": 1.0,
+    "coach_record": "52-30"
+   }
+  ]
+ },
+ {
+  "season": "2002-03",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Don Nelson",
+    "share": 0.12488858962468084,
+    "score": 2.0069264193384493
+   },
+   {
+    "rank": 2,
+    "player": "Gregg Popovich",
+    "share": 0.12488858962468084,
+    "score": 2.0069264193384493
+   },
+   {
+    "rank": 3,
+    "player": "Rick Adelman",
+    "share": 0.1184069458215267,
+    "score": 1.953631747229965
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Gregg Popovich",
+    "id": "popovgr99c",
+    "team": "SAS",
+    "points": 281.0,
+    "vote_share": 0.48
+   },
+   {
+    "rank": 2,
+    "player": "Eric Musselman",
+    "id": "musseer99c",
+    "team": "GSW",
+    "points": 231.0,
+    "vote_share": 0.395
+   },
+   {
+    "rank": 3,
+    "player": "Jerry Sloan",
+    "id": "sloanje01c",
+    "team": "UTA",
+    "points": 143.0,
+    "vote_share": 0.244
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2003.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6186742965096532,
+   0.0,
+   0.0,
+   0.9943276492772399,
+   -0.22062209315489434
+  ],
+  "players": [
+   {
+    "player": "Don Nelson",
+    "team": "DAL",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 8,
+    "stats": {
+     "team_wins": 60.0,
+     "team_net_rating": 8.3,
+     "wins_above_expectation": 2.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 57.5,
+    "conference_seed": 3.0,
+    "coach_record": "60-22"
+   },
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 60.0,
+     "team_net_rating": 5.8,
+     "wins_above_expectation": 4.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 55.5,
+    "conference_seed": 1.0,
+    "coach_record": "60-22"
+   },
+   {
+    "player": "Rick Adelman",
+    "team": "SAC",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 59.0,
+     "team_net_rating": 6.6,
+     "wins_above_expectation": 1.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 57.5,
+    "conference_seed": 2.0,
+    "coach_record": "59-23"
+   },
+   {
+    "player": "Eric Musselman",
+    "team": "GSW",
+    "eligible": true,
+    "model_rank": 18,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 38.0,
+     "team_net_rating": -1.3,
+     "wins_above_expectation": 13.0,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 11.0
+    },
+    "imputed": [],
+    "expected_team_wins": 25.0,
+    "conference_seed": 11.0,
+    "coach_record": "38-44"
+   },
+   {
+    "player": "Jerry Sloan",
+    "team": "UTA",
+    "eligible": true,
+    "model_rank": 12,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 47.0,
+     "team_net_rating": 2.6,
+     "wins_above_expectation": 8.0,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 7.0
+    },
+    "imputed": [],
+    "expected_team_wins": 39.0,
+    "conference_seed": 7.0,
+    "coach_record": "47-35"
+   }
+  ]
+ },
+ {
+  "season": "2003-04",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Rick Carlisle",
+    "share": 0.21420051969333337,
+    "score": 2.9202078943090917
+   },
+   {
+    "rank": 2,
+    "player": "Flip Saunders",
+    "share": 0.12680421339169679,
+    "score": 2.3959395801845567
+   },
+   {
+    "rank": 3,
+    "player": "Larry Brown",
+    "share": 0.09482689852809587,
+    "score": 2.105348418854662
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Hubie Brown",
+    "id": "brownhu99c",
+    "team": "MEM",
+    "points": 466.0,
+    "vote_share": 0.764
+   },
+   {
+    "rank": 2,
+    "player": "Jerry Sloan",
+    "id": "sloanje01c",
+    "team": "UTA",
+    "points": 424.0,
+    "vote_share": 0.695
+   },
+   {
+    "rank": 3,
+    "player": "Terry Porter",
+    "id": "portete01c",
+    "team": "MIL",
+    "points": 54.0,
+    "vote_share": 0.089
+   },
+   {
+    "rank": 3,
+    "player": "Stan Van Gundy",
+    "id": "vangust99c",
+    "team": "MIA",
+    "points": 54.0,
+    "vote_share": 0.089
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2004.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.8940051688269037,
+   0.04325512753519955,
+   0.26495793484781505,
+   0.8426090308419724,
+   -0.2650018686894191
+  ],
+  "players": [
+   {
+    "player": "Rick Carlisle",
+    "team": "IND",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 61.0,
+     "team_net_rating": 6.3,
+     "wins_above_expectation": 13.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 47.5,
+    "conference_seed": 1.0,
+    "coach_record": "61-21"
+   },
+   {
+    "player": "Flip Saunders",
+    "team": "MIN",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 7,
+    "stats": {
+     "team_wins": 58.0,
+     "team_net_rating": 5.7,
+     "wins_above_expectation": 3.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 54.5,
+    "conference_seed": 1.0,
+    "coach_record": "58-24"
+   },
+   {
+    "player": "Larry Brown",
+    "team": "DET",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": 54.0,
+     "team_net_rating": 6.5,
+     "wins_above_expectation": 4.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 49.5,
+    "conference_seed": 3.0,
+    "coach_record": "54-28"
+   },
+   {
+    "player": "Hubie Brown",
+    "team": "MEM",
+    "eligible": true,
+    "model_rank": 7,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 50.0,
+     "team_net_rating": 2.6,
+     "wins_above_expectation": 18.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 6.0
+    },
+    "imputed": [],
+    "expected_team_wins": 31.5,
+    "conference_seed": 6.0,
+    "coach_record": "50-32"
+   },
+   {
+    "player": "Jerry Sloan",
+    "team": "UTA",
+    "eligible": true,
+    "model_rank": 12,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 42.0,
+     "team_net_rating": -1.3,
+     "wins_above_expectation": 16.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 9.0
+    },
+    "imputed": [],
+    "expected_team_wins": 25.5,
+    "conference_seed": 9.0,
+    "coach_record": "42-40"
+   },
+   {
+    "player": "Terry Porter",
+    "team": "MIL",
+    "eligible": true,
+    "model_rank": 14,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 41.0,
+     "team_net_rating": 1.1,
+     "wins_above_expectation": 9.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 6.0
+    },
+    "imputed": [],
+    "expected_team_wins": 31.5,
+    "conference_seed": 6.0,
+    "coach_record": "41-41"
+   },
+   {
+    "player": "Stan Van Gundy",
+    "team": "MIA",
+    "eligible": true,
+    "model_rank": 9,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 42.0,
+     "team_net_rating": 0.3,
+     "wins_above_expectation": 7.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 4.0
+    },
+    "imputed": [],
+    "expected_team_wins": 35.0,
+    "conference_seed": 4.0,
+    "coach_record": "42-40"
+   }
+  ]
+ },
+ {
+  "season": "2004-05",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mike D'Antoni",
+    "share": 0.3184214402680762,
+    "score": 3.6515868614475804
+   },
+   {
+    "rank": 2,
+    "player": "Nate McMillan",
+    "share": 0.15172090009031614,
+    "score": 2.9102537215974023
+   },
+   {
+    "rank": 3,
+    "player": "Don Nelson",
+    "share": 0.0892228413863091,
+    "score": 2.3793481483781007
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Mike D'Antoni",
+    "id": "dantomi01c",
+    "team": "PHO",
+    "points": 326.0,
+    "vote_share": 0.517
+   },
+   {
+    "rank": 2,
+    "player": "Rick Carlisle",
+    "id": "carliri01c",
+    "team": "IND",
+    "points": 241.0,
+    "vote_share": 0.383
+   },
+   {
+    "rank": 3,
+    "player": "Nate McMillan",
+    "id": "mcmilna01c",
+    "team": "SEA",
+    "points": 234.0,
+    "vote_share": 0.371
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2005.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.8035058267109347,
+   0.08858763614146353,
+   0.9146117750382512,
+   0.348941777474158,
+   -0.2586998519276032
+  ],
+  "players": [
+   {
+    "player": "Mike D'Antoni",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 62.0,
+     "team_net_rating": 7.0,
+     "wins_above_expectation": 17.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 44.5,
+    "conference_seed": 1.0,
+    "coach_record": "62-20"
+   },
+   {
+    "player": "Nate McMillan",
+    "team": "SEA",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 52.0,
+     "team_net_rating": 2.3,
+     "wins_above_expectation": 17.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 34.5,
+    "conference_seed": 3.0,
+    "coach_record": "52-30"
+   },
+   {
+    "player": "Don Nelson",
+    "team": "DAL",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": 58.0,
+     "team_net_rating": 5.9,
+     "wins_above_expectation": 7.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 4.0
+    },
+    "imputed": [],
+    "expected_team_wins": 50.5,
+    "conference_seed": 4.0,
+    "coach_record": "42-22"
+   },
+   {
+    "player": "Rick Carlisle",
+    "team": "IND",
+    "eligible": true,
+    "model_rank": 19,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 44.0,
+     "team_net_rating": 1.0,
+     "wins_above_expectation": -7.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 6.0
+    },
+    "imputed": [],
+    "expected_team_wins": 51.5,
+    "conference_seed": 6.0,
+    "coach_record": "44-38"
+   }
+  ]
+ },
+ {
+  "season": "2005-06",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Flip Saunders",
+    "share": 0.3903669450217166,
+    "score": 4.102810430473728
+   },
+   {
+    "rank": 2,
+    "player": "Avery Johnson",
+    "share": 0.1476116818918195,
+    "score": 3.1303083036765584
+   },
+   {
+    "rank": 3,
+    "player": "Gregg Popovich",
+    "share": 0.10501318481993205,
+    "score": 2.789809161021447
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Avery Johnson",
+    "id": "johnsav01c",
+    "team": "DAL",
+    "points": 419.0,
+    "vote_share": 0.665
+   },
+   {
+    "rank": 2,
+    "player": "Mike D'Antoni",
+    "id": "dantomi01c",
+    "team": "PHO",
+    "points": 247.0,
+    "vote_share": 0.392
+   },
+   {
+    "rank": 3,
+    "player": "Flip Saunders",
+    "id": "saundfl99c",
+    "team": "DET",
+    "points": 223.0,
+    "vote_share": 0.354
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2006.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.8099724394823546,
+   0.25462999553721677,
+   1.0598645652876306,
+   0.30147567426653815,
+   -0.23809634283265946
+  ],
+  "players": [
+   {
+    "player": "Flip Saunders",
+    "team": "DET",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 64.0,
+     "team_net_rating": 7.6,
+     "wins_above_expectation": 12.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 51.5,
+    "conference_seed": 1.0,
+    "coach_record": "64-18"
+   },
+   {
+    "player": "Avery Johnson",
+    "team": "DAL",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 60.0,
+     "team_net_rating": 6.7,
+     "wins_above_expectation": 7.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 4.0
+    },
+    "imputed": [],
+    "expected_team_wins": 52.5,
+    "conference_seed": 4.0,
+    "coach_record": "60-22"
+   },
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 6,
+    "stats": {
+     "team_wins": 63.0,
+     "team_net_rating": 7.5,
+     "wins_above_expectation": 4.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 58.5,
+    "conference_seed": 1.0,
+    "coach_record": "63-19"
+   },
+   {
+    "player": "Mike D'Antoni",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 54.0,
+     "team_net_rating": 5.4,
+     "wins_above_expectation": 10.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 43.5,
+    "conference_seed": 2.0,
+    "coach_record": "54-28"
+   }
+  ]
+ },
+ {
+  "season": "2006-07",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Avery Johnson",
+    "share": 0.34404770098225756,
+    "score": 3.878664507665077
+   },
+   {
+    "rank": 2,
+    "player": "Mike D'Antoni",
+    "share": 0.11971394401864409,
+    "score": 2.8229892914219334
+   },
+   {
+    "rank": 3,
+    "player": "Jerry Sloan",
+    "share": 0.11482826160290122,
+    "score": 2.7813218290565587
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Sam Mitchell",
+    "id": "mitchsa01c",
+    "team": "TOR",
+    "points": 394.0,
+    "vote_share": 0.616
+   },
+   {
+    "rank": 2,
+    "player": "Jerry Sloan",
+    "id": "sloanje01c",
+    "team": "UTA",
+    "points": 301.0,
+    "vote_share": 0.47
+   },
+   {
+    "rank": 3,
+    "player": "Avery Johnson",
+    "id": "johnsav01c",
+    "team": "DAL",
+    "points": 268.0,
+    "vote_share": 0.419
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2007.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.7758489506317908,
+   0.32292484346021955,
+   0.9178779857559078,
+   0.32948393513852003,
+   -0.3175432312731766
+  ],
+  "players": [
+   {
+    "player": "Avery Johnson",
+    "team": "DAL",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 67.0,
+     "team_net_rating": 7.6,
+     "wins_above_expectation": 11.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 56.0,
+    "conference_seed": 1.0,
+    "coach_record": "67-15"
+   },
+   {
+    "player": "Mike D'Antoni",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 61.0,
+     "team_net_rating": 7.4,
+     "wins_above_expectation": 6.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 55.0,
+    "conference_seed": 2.0,
+    "coach_record": "61-21"
+   },
+   {
+    "player": "Jerry Sloan",
+    "team": "UTA",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 51.0,
+     "team_net_rating": 3.0,
+     "wins_above_expectation": 12.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 4.0
+    },
+    "imputed": [],
+    "expected_team_wins": 39.0,
+    "conference_seed": 4.0,
+    "coach_record": "51-31"
+   },
+   {
+    "player": "Sam Mitchell",
+    "team": "TOR",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 47.0,
+     "team_net_rating": 1.2,
+     "wins_above_expectation": 14.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 32.5,
+    "conference_seed": 3.0,
+    "coach_record": "47-35"
+   }
+  ]
+ },
+ {
+  "season": "2007-08",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Doc Rivers",
+    "share": 0.30115892188490856,
+    "score": 3.7329673042690716
+   },
+   {
+    "rank": 2,
+    "player": "Byron Scott",
+    "share": 0.2012215296077652,
+    "score": 3.329735637672006
+   },
+   {
+    "rank": 3,
+    "player": "Phil Jackson",
+    "share": 0.13163058442888997,
+    "score": 2.905328595532675
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Byron Scott",
+    "id": "scottby01c",
+    "team": "NOH",
+    "points": 458.0,
+    "vote_share": 0.733
+   },
+   {
+    "rank": 2,
+    "player": "Doc Rivers",
+    "id": "riverdo01c",
+    "team": "BOS",
+    "points": 242.0,
+    "vote_share": 0.387
+   },
+   {
+    "rank": 3,
+    "player": "Rick Adelman",
+    "id": "adelmri01c",
+    "team": "HOU",
+    "points": 193.0,
+    "vote_share": 0.309
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2008.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5935672791479738,
+   0.19241637210358714,
+   1.0808777253769157,
+   0.49338176969104647,
+   -0.4516364051076089
+  ],
+  "players": [
+   {
+    "player": "Doc Rivers",
+    "team": "BOS",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 66.0,
+     "team_net_rating": 10.8,
+     "wins_above_expectation": 16.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 49.5,
+    "conference_seed": 1.0,
+    "coach_record": "66-16"
+   },
+   {
+    "player": "Byron Scott",
+    "team": "NOH",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 56.0,
+     "team_net_rating": 5.6,
+     "wins_above_expectation": 18.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 37.5,
+    "conference_seed": 2.0,
+    "coach_record": "56-26"
+   },
+   {
+    "player": "Phil Jackson",
+    "team": "LAL",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 57.0,
+     "team_net_rating": 7.3,
+     "wins_above_expectation": 13.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 43.5,
+    "conference_seed": 1.0,
+    "coach_record": "57-25"
+   },
+   {
+    "player": "Rick Adelman",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 9,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 55.0,
+     "team_net_rating": 4.8,
+     "wins_above_expectation": 1.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 53.5,
+    "conference_seed": 5.0,
+    "coach_record": "55-27"
+   }
+  ]
+ },
+ {
+  "season": "2008-09",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mike Brown",
+    "share": 0.364030250598276,
+    "score": 4.163297608527721
+   },
+   {
+    "rank": 2,
+    "player": "Phil Jackson",
+    "share": 0.11993220420090642,
+    "score": 3.052987256441619
+   },
+   {
+    "rank": 3,
+    "player": "Stan Van Gundy",
+    "share": 0.10441911209922747,
+    "score": 2.9144733630834176
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Mike Brown",
+    "id": "brownmi99c",
+    "team": "CLE",
+    "points": 355.0,
+    "vote_share": 0.582
+   },
+   {
+    "rank": 2,
+    "player": "Rick Adelman",
+    "id": "adelmri01c",
+    "team": "HOU",
+    "points": 151.0,
+    "vote_share": 0.248
+   },
+   {
+    "rank": 3,
+    "player": "Stan Van Gundy",
+    "id": "vangust99c",
+    "team": "ORL",
+    "points": 150.0,
+    "vote_share": 0.246
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2009.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5568970573246086,
+   0.15450278161109188,
+   1.1523565967247638,
+   0.5230583747841717,
+   -0.41046085726611814
+  ],
+  "players": [
+   {
+    "player": "Mike Brown",
+    "team": "CLE",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 66.0,
+     "team_net_rating": 9.6,
+     "wins_above_expectation": 18.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 47.5,
+    "conference_seed": 1.0,
+    "coach_record": "66-16"
+   },
+   {
+    "player": "Phil Jackson",
+    "team": "LAL",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 8,
+    "stats": {
+     "team_wins": 65.0,
+     "team_net_rating": 7.9,
+     "wins_above_expectation": 10.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 54.5,
+    "conference_seed": 1.0,
+    "coach_record": "65-17"
+   },
+   {
+    "player": "Stan Van Gundy",
+    "team": "ORL",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 59.0,
+     "team_net_rating": 7.1,
+     "wins_above_expectation": 11.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 47.5,
+    "conference_seed": 3.0,
+    "coach_record": "59-23"
+   },
+   {
+    "player": "Rick Adelman",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 11,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 53.0,
+     "team_net_rating": 4.2,
+     "wins_above_expectation": -0.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 53.5,
+    "conference_seed": 5.0,
+    "coach_record": "53-29"
+   }
+  ]
+ },
+ {
+  "season": "2009-10",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Alvin Gentry",
+    "share": 0.18487385173238635,
+    "score": 3.076789959692705
+   },
+   {
+    "rank": 2,
+    "player": "Scott Skiles",
+    "share": 0.159025915177702,
+    "score": 2.926183427207699
+   },
+   {
+    "rank": 3,
+    "player": "Scott Brooks",
+    "share": 0.1364878373146892,
+    "score": 2.7733517564629833
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Scott Brooks",
+    "id": "brooksc01c",
+    "team": "OKC",
+    "points": 480.0,
+    "vote_share": 0.78
+   },
+   {
+    "rank": 2,
+    "player": "Scott Skiles",
+    "id": "skilesc01c",
+    "team": "MIL",
+    "points": 313.0,
+    "vote_share": 0.509
+   },
+   {
+    "rank": 3,
+    "player": "Nate McMillan",
+    "id": "mcmilna01c",
+    "team": "POR",
+    "points": 107.0,
+    "vote_share": 0.174
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2010.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.557047332866093,
+   0.24189627705934372,
+   1.2093389245403567,
+   0.46125199747972484,
+   -0.3843375509538863
+  ],
+  "players": [
+   {
+    "player": "Alvin Gentry",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 54.0,
+     "team_net_rating": 4.8,
+     "wins_above_expectation": 13.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 40.5,
+    "conference_seed": 3.0,
+    "coach_record": "54-28"
+   },
+   {
+    "player": "Scott Skiles",
+    "team": "MIL",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 46.0,
+     "team_net_rating": 2.1,
+     "wins_above_expectation": 19.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 6.0
+    },
+    "imputed": [],
+    "expected_team_wins": 26.5,
+    "conference_seed": 6.0,
+    "coach_record": "46-36"
+   },
+   {
+    "player": "Scott Brooks",
+    "team": "OKC",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 50.0,
+     "team_net_rating": 3.5,
+     "wins_above_expectation": 16.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 8.0
+    },
+    "imputed": [],
+    "expected_team_wins": 33.5,
+    "conference_seed": 8.0,
+    "coach_record": "50-32"
+   },
+   {
+    "player": "Nate McMillan",
+    "team": "POR",
+    "eligible": true,
+    "model_rank": 15,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 50.0,
+     "team_net_rating": 3.5,
+     "wins_above_expectation": -2.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 6.0
+    },
+    "imputed": [],
+    "expected_team_wins": 52.5,
+    "conference_seed": 6.0,
+    "coach_record": "50-32"
+   }
+  ]
+ },
+ {
+  "season": "2010-11",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Tom Thibodeau",
+    "share": 0.511142371365077,
+    "score": 4.586183622567832
+   },
+   {
+    "rank": 2,
+    "player": "Gregg Popovich",
+    "share": 0.14689138295668458,
+    "score": 3.33922888014347
+   },
+   {
+    "rank": 3,
+    "player": "Rick Carlisle",
+    "share": 0.07552207036000227,
+    "score": 2.673960394116765
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Tom Thibodeau",
+    "id": "thiboto99c",
+    "team": "CHI",
+    "points": 475.0,
+    "vote_share": 0.798
+   },
+   {
+    "rank": 2,
+    "player": "Doug Collins",
+    "id": "collido01c",
+    "team": "PHI",
+    "points": 210.0,
+    "vote_share": 0.353
+   },
+   {
+    "rank": 3,
+    "player": "Gregg Popovich",
+    "id": "popovgr99c",
+    "team": "SAS",
+    "points": 177.0,
+    "vote_share": 0.297
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2011.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5414532399814825,
+   0.2762609365342764,
+   1.273342273445792,
+   0.29763013458990667,
+   -0.35354149635268634
+  ],
+  "players": [
+   {
+    "player": "Tom Thibodeau",
+    "team": "CHI",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 62.0,
+     "team_net_rating": 7.8,
+     "wins_above_expectation": 15.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 46.5,
+    "conference_seed": 1.0,
+    "coach_record": "62-20"
+   },
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 61.0,
+     "team_net_rating": 6.1,
+     "wins_above_expectation": 11.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 49.5,
+    "conference_seed": 1.0,
+    "coach_record": "61-21"
+   },
+   {
+    "player": "Rick Carlisle",
+    "team": "DAL",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 10,
+    "stats": {
+     "team_wins": 57.0,
+     "team_net_rating": 4.4,
+     "wins_above_expectation": 7.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 49.5,
+    "conference_seed": 3.0,
+    "coach_record": "57-25"
+   },
+   {
+    "player": "Doug Collins",
+    "team": "PHI",
+    "eligible": true,
+    "model_rank": 10,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 41.0,
+     "team_net_rating": 1.5,
+     "wins_above_expectation": 6.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 7.0
+    },
+    "imputed": [],
+    "expected_team_wins": 34.5,
+    "conference_seed": 7.0,
+    "coach_record": "41-41"
+   }
+  ]
+ },
+ {
+  "season": "2011-12",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Gregg Popovich",
+    "share": 0.3505234053624347,
+    "score": 3.6986802178452307
+   },
+   {
+    "rank": 2,
+    "player": "Tyrone Corbin",
+    "share": 0.14677496075565583,
+    "score": 2.8281532711044224
+   },
+   {
+    "rank": 3,
+    "player": "Frank Vogel",
+    "share": 0.09310215593085645,
+    "score": 2.372950077698743
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Gregg Popovich",
+    "id": "popovgr99c",
+    "team": "SAS",
+    "points": 467.0,
+    "vote_share": 0.785
+   },
+   {
+    "rank": 2,
+    "player": "Tom Thibodeau",
+    "id": "thiboto99c",
+    "team": "CHI",
+    "points": 315.0,
+    "vote_share": 0.529
+   },
+   {
+    "rank": 3,
+    "player": "Frank Vogel",
+    "id": "vogelfr99c",
+    "team": "IND",
+    "points": 161.0,
+    "vote_share": 0.271
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2012.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5376805788660877,
+   0.3147339166691054,
+   1.310567891473298,
+   0.29906890375610823,
+   -0.37217090198944847
+  ],
+  "players": [
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 50.0,
+     "team_net_rating": 7.7,
+     "wins_above_expectation": 9.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 40.5,
+    "conference_seed": 1.0,
+    "coach_record": "50-16"
+   },
+   {
+    "player": "Tyrone Corbin",
+    "team": "UTA",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 6,
+    "stats": {
+     "team_wins": 36.0,
+     "team_net_rating": 0.5,
+     "wins_above_expectation": 10.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 8.0
+    },
+    "imputed": [],
+    "expected_team_wins": 25.5,
+    "conference_seed": 8.0,
+    "coach_record": "36-30"
+   },
+   {
+    "player": "Frank Vogel",
+    "team": "IND",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 42.0,
+     "team_net_rating": 3.3,
+     "wins_above_expectation": 5.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 36.5,
+    "conference_seed": 3.0,
+    "coach_record": "42-24"
+   },
+   {
+    "player": "Tom Thibodeau",
+    "team": "CHI",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 50.0,
+     "team_net_rating": 8.8,
+     "wins_above_expectation": 2.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 47.5,
+    "conference_seed": 1.0,
+    "coach_record": "50-16"
+   }
+  ]
+ },
+ {
+  "season": "2012-13",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Erik Spoelstra",
+    "share": 0.15370183964008854,
+    "score": 3.19537543370009
+   },
+   {
+    "rank": 2,
+    "player": "Kevin McHale",
+    "share": 0.15344523317011044,
+    "score": 3.1937045303941765
+   },
+   {
+    "rank": 3,
+    "player": "George Karl",
+    "share": 0.12161717159610015,
+    "score": 2.96123898754207
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "George Karl",
+    "id": "karlge01c",
+    "team": "DEN",
+    "points": 404.0,
+    "vote_share": 0.668
+   },
+   {
+    "rank": 2,
+    "player": "Erik Spoelstra",
+    "id": "spoeler99c",
+    "team": "MIA",
+    "points": 190.0,
+    "vote_share": 0.314
+   },
+   {
+    "rank": 3,
+    "player": "Mike Woodson",
+    "id": "woodsmi01c",
+    "team": "NYK",
+    "points": 127.0,
+    "vote_share": 0.21
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2013.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5659869923045352,
+   0.35563513099874144,
+   1.3359069757377438,
+   0.3165368553630684,
+   -0.21852294483701926
+  ],
+  "players": [
+   {
+    "player": "Erik Spoelstra",
+    "team": "MIA",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 66.0,
+     "team_net_rating": 8.2,
+     "wins_above_expectation": 5.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 60.5,
+    "conference_seed": 1.0,
+    "coach_record": "66-16"
+   },
+   {
+    "player": "Kevin McHale",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 9,
+    "stats": {
+     "team_wins": 45.0,
+     "team_net_rating": 3.5,
+     "wins_above_expectation": 13.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 8.0
+    },
+    "imputed": [],
+    "expected_team_wins": 31.5,
+    "conference_seed": 8.0,
+    "coach_record": "45-37"
+   },
+   {
+    "player": "George Karl",
+    "team": "DEN",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 57.0,
+     "team_net_rating": 5.1,
+     "wins_above_expectation": 7.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 49.5,
+    "conference_seed": 3.0,
+    "coach_record": "57-25"
+   },
+   {
+    "player": "Mike Woodson",
+    "team": "NYK",
+    "eligible": true,
+    "model_rank": 5,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 54.0,
+     "team_net_rating": 4.5,
+     "wins_above_expectation": 7.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 46.5,
+    "conference_seed": 2.0,
+    "coach_record": "54-28"
+   }
+  ]
+ },
+ {
+  "season": "2013-14",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Jeff Hornacek",
+    "share": 0.42501558315180094,
+    "score": 4.333794778686788
+   },
+   {
+    "rank": 2,
+    "player": "Terry Stotts",
+    "share": 0.11909965316459561,
+    "score": 3.061629508415987
+   },
+   {
+    "rank": 3,
+    "player": "Dwane Casey",
+    "share": 0.0819673613638468,
+    "score": 2.6879900800752514
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Gregg Popovich",
+    "id": "popovgr99c",
+    "team": "SAS",
+    "points": 380.0,
+    "vote_share": 0.613
+   },
+   {
+    "rank": 2,
+    "player": "Jeff Hornacek",
+    "id": "hornaje01c",
+    "team": "PHO",
+    "points": 339.0,
+    "vote_share": 0.547
+   },
+   {
+    "rank": 3,
+    "player": "Tom Thibodeau",
+    "id": "thiboto99c",
+    "team": "CHI",
+    "points": 159.0,
+    "vote_share": 0.256
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2014.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5802700206037836,
+   0.33189813305011245,
+   1.284922437130885,
+   0.3780512622508321,
+   -0.22825268541428576
+  ],
+  "players": [
+   {
+    "player": "Jeff Hornacek",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 48.0,
+     "team_net_rating": 2.6,
+     "wins_above_expectation": 27.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 9.0
+    },
+    "imputed": [],
+    "expected_team_wins": 20.5,
+    "conference_seed": 9.0,
+    "coach_record": "48-34"
+   },
+   {
+    "player": "Terry Stotts",
+    "team": "POR",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 6,
+    "stats": {
+     "team_wins": 54.0,
+     "team_net_rating": 4.2,
+     "wins_above_expectation": 15.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 38.5,
+    "conference_seed": 5.0,
+    "coach_record": "54-28"
+   },
+   {
+    "player": "Dwane Casey",
+    "team": "TOR",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 48.0,
+     "team_net_rating": 3.3,
+     "wins_above_expectation": 12.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 35.5,
+    "conference_seed": 3.0,
+    "coach_record": "48-34"
+   },
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 62.0,
+     "team_net_rating": 8.1,
+     "wins_above_expectation": 6.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 55.5,
+    "conference_seed": 1.0,
+    "coach_record": "62-20"
+   },
+   {
+    "player": "Tom Thibodeau",
+    "team": "CHI",
+    "eligible": true,
+    "model_rank": 17,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 48.0,
+     "team_net_rating": 1.9,
+     "wins_above_expectation": -8.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 4.0
+    },
+    "imputed": [],
+    "expected_team_wins": 56.5,
+    "conference_seed": 4.0,
+    "coach_record": "48-34"
+   }
+  ]
+ },
+ {
+  "season": "2014-15",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Steve Kerr",
+    "share": 0.3825285752120181,
+    "score": 4.299194470815727
+   },
+   {
+    "rank": 2,
+    "player": "Mike Budenholzer",
+    "share": 0.28747812681646645,
+    "score": 4.013537890607624
+   },
+   {
+    "rank": 3,
+    "player": "Kevin McHale",
+    "share": 0.053529952434506804,
+    "score": 2.3326324697313976
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Mike Budenholzer",
+    "id": "budenmi99c",
+    "team": "ATL",
+    "points": 513.0,
+    "vote_share": 0.789
+   },
+   {
+    "rank": 2,
+    "player": "Steve Kerr",
+    "id": "kerrst01c",
+    "team": "GSW",
+    "points": 471.0,
+    "vote_share": 0.725
+   },
+   {
+    "rank": 3,
+    "player": "Jason Kidd",
+    "id": "kiddja01c",
+    "team": "MIL",
+    "points": 57.0,
+    "vote_share": 0.088
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2015.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6217244566961723,
+   0.40038207369472584,
+   1.1176581858884846,
+   0.42381135522859864,
+   -0.06537914804011591
+  ],
+  "players": [
+   {
+    "player": "Steve Kerr",
+    "team": "GSW",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 67.0,
+     "team_net_rating": 9.9,
+     "wins_above_expectation": 14.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 52.5,
+    "conference_seed": 1.0,
+    "coach_record": "67-15"
+   },
+   {
+    "player": "Mike Budenholzer",
+    "team": "ATL",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 60.0,
+     "team_net_rating": 5.9,
+     "wins_above_expectation": 17.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 42.5,
+    "conference_seed": 1.0,
+    "coach_record": "60-22"
+   },
+   {
+    "player": "Kevin McHale",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 6,
+    "stats": {
+     "team_wins": 56.0,
+     "team_net_rating": 3.4,
+     "wins_above_expectation": 7.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 49.0,
+    "conference_seed": 2.0,
+    "coach_record": "56-26"
+   },
+   {
+    "player": "Jason Kidd",
+    "team": "MIL",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 41.0,
+     "team_net_rating": 0.6,
+     "wins_above_expectation": 16.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 6.0
+    },
+    "imputed": [],
+    "expected_team_wins": 24.5,
+    "conference_seed": 6.0,
+    "coach_record": "41-41"
+   }
+  ]
+ },
+ {
+  "season": "2015-16",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Steve Kerr",
+    "share": 0.439684685565209,
+    "score": 4.57788732206016
+   },
+   {
+    "rank": 2,
+    "player": "Gregg Popovich",
+    "share": 0.2183847657936185,
+    "score": 3.8780879635064274
+   },
+   {
+    "rank": 3,
+    "player": "Dwane Casey",
+    "share": 0.07605447895966522,
+    "score": 2.8232793876650044
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Steve Kerr",
+    "id": "kerrst01c",
+    "team": "GSW",
+    "points": 381.0,
+    "vote_share": 0.586
+   },
+   {
+    "rank": 2,
+    "player": "Terry Stotts",
+    "id": "stottte99c",
+    "team": "POR",
+    "points": 335.0,
+    "vote_share": 0.515
+   },
+   {
+    "rank": 3,
+    "player": "Gregg Popovich",
+    "id": "popovgr99c",
+    "team": "SAS",
+    "points": 166.0,
+    "vote_share": 0.255
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2016.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6172826364586341,
+   0.36988567887288026,
+   1.1455234414069655,
+   0.4480153523172085,
+   -0.06065398157116332
+  ],
+  "players": [
+   {
+    "player": "Steve Kerr",
+    "team": "GSW",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 73.0,
+     "team_net_rating": 10.6,
+     "wins_above_expectation": 13.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 59.5,
+    "conference_seed": 1.0,
+    "coach_record": "73-9"
+   },
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 67.0,
+     "team_net_rating": 11.1,
+     "wins_above_expectation": 10.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 56.5,
+    "conference_seed": 2.0,
+    "coach_record": "67-15"
+   },
+   {
+    "player": "Dwane Casey",
+    "team": "TOR",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 56.0,
+     "team_net_rating": 4.4,
+     "wins_above_expectation": 9.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 46.5,
+    "conference_seed": 2.0,
+    "coach_record": "56-26"
+   },
+   {
+    "player": "Terry Stotts",
+    "team": "POR",
+    "eligible": true,
+    "model_rank": 5,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 44.0,
+     "team_net_rating": 0.8,
+     "wins_above_expectation": 15.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 28.5,
+    "conference_seed": 5.0,
+    "coach_record": "44-38"
+   }
+  ]
+ },
+ {
+  "season": "2016-17",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mike D'Antoni",
+    "share": 0.42319415963271245,
+    "score": 4.383227934000168
+   },
+   {
+    "rank": 2,
+    "player": "Steve Kerr",
+    "share": 0.13325893858989707,
+    "score": 3.227690996187288
+   },
+   {
+    "rank": 3,
+    "player": "Gregg Popovich",
+    "share": 0.12291491909011838,
+    "score": 3.1468892553540466
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Mike D'Antoni",
+    "id": "dantomi01c",
+    "team": "HOU",
+    "points": 400.0,
+    "vote_share": 0.8
+   },
+   {
+    "rank": 2,
+    "player": "Erik Spoelstra",
+    "id": "spoeler99c",
+    "team": "MIA",
+    "points": 153.0,
+    "vote_share": 0.306
+   },
+   {
+    "rank": 3,
+    "player": "Gregg Popovich",
+    "id": "popovgr99c",
+    "team": "SAS",
+    "points": 115.0,
+    "vote_share": 0.23
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2017.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.671934376816614,
+   0.39330892833021613,
+   1.1344783130418907,
+   0.4285895894936006,
+   -0.11141916408560405
+  ],
+  "players": [
+   {
+    "player": "Mike D'Antoni",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 55.0,
+     "team_net_rating": 5.7,
+     "wins_above_expectation": 11.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 44.0,
+    "conference_seed": 3.0,
+    "coach_record": "55-27"
+   },
+   {
+    "player": "Steve Kerr",
+    "team": "GSW",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 7,
+    "stats": {
+     "team_wins": 67.0,
+     "team_net_rating": 11.4,
+     "wins_above_expectation": 0.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 66.5,
+    "conference_seed": 1.0,
+    "coach_record": "67-15"
+   },
+   {
+    "player": "Gregg Popovich",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 61.0,
+     "team_net_rating": 7.4,
+     "wins_above_expectation": 3.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 57.5,
+    "conference_seed": 2.0,
+    "coach_record": "61-21"
+   },
+   {
+    "player": "Erik Spoelstra",
+    "team": "MIA",
+    "eligible": true,
+    "model_rank": 8,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 41.0,
+     "team_net_rating": 1.0,
+     "wins_above_expectation": 6.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 9.0
+    },
+    "imputed": [],
+    "expected_team_wins": 34.5,
+    "conference_seed": 9.0,
+    "coach_record": "41-41"
+   }
+  ]
+ },
+ {
+  "season": "2017-18",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mike D'Antoni",
+    "share": 0.2531358523542826,
+    "score": 3.9477686776964447
+   },
+   {
+    "rank": 2,
+    "player": "Dwane Casey",
+    "share": 0.23415509241553492,
+    "score": 3.8698260511675313
+   },
+   {
+    "rank": 3,
+    "player": "Brett Brown",
+    "share": 0.16793869466719305,
+    "score": 3.537441367367423
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Dwane Casey",
+    "id": "caseydw99c",
+    "team": "TOR",
+    "points": 292.0,
+    "vote_share": 0.584
+   },
+   {
+    "rank": 2,
+    "player": "Quin Snyder",
+    "id": "snydequ01c",
+    "team": "UTA",
+    "points": 217.0,
+    "vote_share": 0.434
+   },
+   {
+    "rank": 3,
+    "player": "Brad Stevens",
+    "id": "stevebr99c",
+    "team": "BOS",
+    "points": 203.0,
+    "vote_share": 0.406
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2018.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.642715754150116,
+   0.40034553778431226,
+   1.192365921789325,
+   0.4464986735543517,
+   -0.14446481809720157
+  ],
+  "players": [
+   {
+    "player": "Mike D'Antoni",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 65.0,
+     "team_net_rating": 8.4,
+     "wins_above_expectation": 9.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 55.5,
+    "conference_seed": 1.0,
+    "coach_record": "65-17"
+   },
+   {
+    "player": "Dwane Casey",
+    "team": "TOR",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 59.0,
+     "team_net_rating": 7.7,
+     "wins_above_expectation": 10.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 48.5,
+    "conference_seed": 1.0,
+    "coach_record": "59-23"
+   },
+   {
+    "player": "Brett Brown",
+    "team": "PHI",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 4,
+    "stats": {
+     "team_wins": 52.0,
+     "team_net_rating": 4.6,
+     "wins_above_expectation": 12.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 39.5,
+    "conference_seed": 3.0,
+    "coach_record": "52-30"
+   },
+   {
+    "player": "Quin Snyder",
+    "team": "UTA",
+    "eligible": true,
+    "model_rank": 6,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 48.0,
+     "team_net_rating": 4.4,
+     "wins_above_expectation": 7.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 40.5,
+    "conference_seed": 5.0,
+    "coach_record": "48-34"
+   },
+   {
+    "player": "Brad Stevens",
+    "team": "BOS",
+    "eligible": true,
+    "model_rank": 8,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 55.0,
+     "team_net_rating": 3.6,
+     "wins_above_expectation": 1.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 53.5,
+    "conference_seed": 2.0,
+    "coach_record": "55-27"
+   }
+  ]
+ },
+ {
+  "season": "2018-19",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mike Budenholzer",
+    "share": 0.3824055888644801,
+    "score": 4.102047949402474
+   },
+   {
+    "rank": 2,
+    "player": "Terry Stotts",
+    "share": 0.1492706185524163,
+    "score": 3.16132704358672
+   },
+   {
+    "rank": 3,
+    "player": "Michael Malone",
+    "share": 0.08109991373577123,
+    "score": 2.5512480505441526
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Mike Budenholzer",
+    "id": "budenmi99c",
+    "team": "MIL",
+    "points": 432.0,
+    "vote_share": 0.864
+   },
+   {
+    "rank": 2,
+    "player": "Doc Rivers",
+    "id": "riverdo01c",
+    "team": "LAC",
+    "points": 200.0,
+    "vote_share": 0.4
+   },
+   {
+    "rank": 3,
+    "player": "Michael Malone",
+    "id": "malonmi99c",
+    "team": "DEN",
+    "points": 154.0,
+    "vote_share": 0.308
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2019.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6287521197207515,
+   0.4559197754614628,
+   1.1639231995805683,
+   0.45195818716498465,
+   -0.19408225353258643
+  ],
+  "players": [
+   {
+    "player": "Mike Budenholzer",
+    "team": "MIL",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 60.0,
+     "team_net_rating": 8.6,
+     "wins_above_expectation": 12.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 48.0,
+    "conference_seed": 1.0,
+    "coach_record": "60-22"
+   },
+   {
+    "player": "Terry Stotts",
+    "team": "POR",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": 53.0,
+     "team_net_rating": 4.2,
+     "wins_above_expectation": 11.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 42.0,
+    "conference_seed": 3.0,
+    "coach_record": "53-29"
+   },
+   {
+    "player": "Michael Malone",
+    "team": "DEN",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 54.0,
+     "team_net_rating": 4.0,
+     "wins_above_expectation": 6.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 47.5,
+    "conference_seed": 2.0,
+    "coach_record": "54-28"
+   },
+   {
+    "player": "Doc Rivers",
+    "team": "LAC",
+    "eligible": true,
+    "model_rank": 5,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 48.0,
+     "team_net_rating": 1.0,
+     "wins_above_expectation": 11.0,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 8.0
+    },
+    "imputed": [],
+    "expected_team_wins": 37.0,
+    "conference_seed": 8.0,
+    "coach_record": "48-34"
+   }
+  ]
+ },
+ {
+  "season": "2019-20",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Nick Nurse",
+    "share": 0.2877950161057416,
+    "score": 4.01081321625388
+   },
+   {
+    "rank": 2,
+    "player": "Frank Vogel",
+    "share": 0.14185451985308323,
+    "score": 3.3033667635220576
+   },
+   {
+    "rank": 3,
+    "player": "Mike Budenholzer",
+    "share": 0.1285851987943721,
+    "score": 3.2051564494328195
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Nick Nurse",
+    "id": "nurseni01c",
+    "team": "TOR",
+    "points": 470.0,
+    "vote_share": 0.94
+   },
+   {
+    "rank": 2,
+    "player": "Mike Budenholzer",
+    "id": "budenmi99c",
+    "team": "MIL",
+    "points": 147.0,
+    "vote_share": 0.294
+   },
+   {
+    "rank": 3,
+    "player": "Billy Donovan",
+    "id": "donovbi99c",
+    "team": "OKC",
+    "points": 134.0,
+    "vote_share": 0.268
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2020.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6326995970113164,
+   0.5152900536318668,
+   1.166370910310463,
+   0.44778459378116753,
+   -0.2038617219332357
+  ],
+  "players": [
+   {
+    "player": "Nick Nurse",
+    "team": "TOR",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 53.0,
+     "team_net_rating": 6.1,
+     "wins_above_expectation": 12.170731707317074,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 40.829268292682926,
+    "conference_seed": 2.0,
+    "coach_record": "53-19"
+   },
+   {
+    "player": "Frank Vogel",
+    "team": "LAL",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 52.0,
+     "team_net_rating": 5.6,
+     "wins_above_expectation": 8.274390243902438,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 43.72560975609756,
+    "conference_seed": 1.0,
+    "coach_record": "52-19"
+   },
+   {
+    "player": "Mike Budenholzer",
+    "team": "MIL",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 56.0,
+     "team_net_rating": 9.4,
+     "wins_above_expectation": 4.810975609756099,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 51.1890243902439,
+    "conference_seed": 1.0,
+    "coach_record": "56-17"
+   },
+   {
+    "player": "Billy Donovan",
+    "team": "OKC",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 44.0,
+     "team_net_rating": 2.1,
+     "wins_above_expectation": 15.463414634146343,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 28.536585365853657,
+    "conference_seed": 5.0,
+    "coach_record": "44-28"
+   }
+  ]
+ },
+ {
+  "season": "2020-21",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Quin Snyder",
+    "share": 0.2539198931376693,
+    "score": 4.097700660431212
+   },
+   {
+    "rank": 2,
+    "player": "Tom Thibodeau",
+    "share": 0.24538047071060284,
+    "score": 4.063491772157243
+   },
+   {
+    "rank": 3,
+    "player": "Monty Williams",
+    "share": 0.2326602887601877,
+    "score": 4.010261226016635
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Tom Thibodeau",
+    "id": "thiboto99c",
+    "team": "NYK",
+    "points": 351.0,
+    "vote_share": 0.702
+   },
+   {
+    "rank": 2,
+    "player": "Monty Williams",
+    "id": "willimo01c",
+    "team": "PHO",
+    "points": 340.0,
+    "vote_share": 0.68
+   },
+   {
+    "rank": 3,
+    "player": "Quin Snyder",
+    "id": "snydequ01c",
+    "team": "UTA",
+    "points": 161.0,
+    "vote_share": 0.322
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2021.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6455813011720677,
+   0.5104367094758653,
+   1.1787589621004897,
+   0.4636923691299793,
+   -0.2173854944632848
+  ],
+  "players": [
+   {
+    "player": "Quin Snyder",
+    "team": "UTA",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 52.0,
+     "team_net_rating": 9.0,
+     "wins_above_expectation": 10.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 41.5,
+    "conference_seed": 1.0,
+    "coach_record": "52-20"
+   },
+   {
+    "player": "Tom Thibodeau",
+    "team": "NYK",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 41.0,
+     "team_net_rating": 2.4,
+     "wins_above_expectation": 19.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 4.0
+    },
+    "imputed": [],
+    "expected_team_wins": 21.5,
+    "conference_seed": 4.0,
+    "coach_record": "41-31"
+   },
+   {
+    "player": "Monty Williams",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 51.0,
+     "team_net_rating": 5.9,
+     "wins_above_expectation": 12.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 38.5,
+    "conference_seed": 2.0,
+    "coach_record": "51-21"
+   }
+  ]
+ },
+ {
+  "season": "2021-22",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Monty Williams",
+    "share": 0.32342954931854373,
+    "score": 4.1466111138727815
+   },
+   {
+    "rank": 2,
+    "player": "Taylor Jenkins",
+    "share": 0.23018584752120172,
+    "score": 3.806516815439596
+   },
+   {
+    "rank": 3,
+    "player": "J.B. Bickerstaff",
+    "share": 0.08471586917868426,
+    "score": 2.8069327416884957
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Monty Williams",
+    "id": "willimo01c",
+    "team": "PHO",
+    "points": 458.0,
+    "vote_share": 0.916
+   },
+   {
+    "rank": 2,
+    "player": "Taylor Jenkins",
+    "id": "jenkita01c",
+    "team": "MEM",
+    "points": 270.0,
+    "vote_share": 0.54
+   },
+   {
+    "rank": 3,
+    "player": "Erik Spoelstra",
+    "id": "spoeler99c",
+    "team": "MIA",
+    "points": 72.0,
+    "vote_share": 0.144
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2022.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5757971548869955,
+   0.46333399250924207,
+   1.2511096422937387,
+   0.4991356455968827,
+   -0.1858714695225328
+  ],
+  "players": [
+   {
+    "player": "Monty Williams",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 64.0,
+     "team_net_rating": 7.5,
+     "wins_above_expectation": 12.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 51.5,
+    "conference_seed": 1.0,
+    "coach_record": "64-18"
+   },
+   {
+    "player": "Taylor Jenkins",
+    "team": "MEM",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 56.0,
+     "team_net_rating": 5.3,
+     "wins_above_expectation": 14.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 41.5,
+    "conference_seed": 2.0,
+    "coach_record": "56-26"
+   },
+   {
+    "player": "J.B. Bickerstaff",
+    "team": "CLE",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 44.0,
+     "team_net_rating": 2.1,
+     "wins_above_expectation": 17.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 9.0
+    },
+    "imputed": [],
+    "expected_team_wins": 26.5,
+    "conference_seed": 9.0,
+    "coach_record": "44-38"
+   },
+   {
+    "player": "Erik Spoelstra",
+    "team": "MIA",
+    "eligible": true,
+    "model_rank": 5,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 53.0,
+     "team_net_rating": 4.5,
+     "wins_above_expectation": 4.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 48.5,
+    "conference_seed": 1.0,
+    "coach_record": "53-29"
+   }
+  ]
+ },
+ {
+  "season": "2022-23",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mike Brown",
+    "share": 0.23228747180550685,
+    "score": 3.5202393656628193
+   },
+   {
+    "rank": 2,
+    "player": "Mark Daigneault",
+    "share": 0.1151142841655728,
+    "score": 2.818189068688866
+   },
+   {
+    "rank": 3,
+    "player": "Joe Mazzulla",
+    "share": 0.11170840330847015,
+    "score": 2.78815559273773
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Mike Brown",
+    "id": "brownmi99c",
+    "team": "SAC",
+    "points": 500.0,
+    "vote_share": 1.0
+   },
+   {
+    "rank": 2,
+    "player": "Mark Daigneault",
+    "id": "daignma99c",
+    "team": "OKC",
+    "points": 164.0,
+    "vote_share": 0.328
+   },
+   {
+    "rank": 3,
+    "player": "Joe Mazzulla",
+    "id": "mazzujo99c",
+    "team": "BOS",
+    "points": 77.0,
+    "vote_share": 0.154
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2023.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6363116869837245,
+   0.4690241081293897,
+   1.2309716260997172,
+   0.4864025419286447,
+   -0.20385111506367903
+  ],
+  "players": [
+   {
+    "player": "Mike Brown",
+    "team": "SAC",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 48.0,
+     "team_net_rating": 2.6,
+     "wins_above_expectation": 13.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 34.5,
+    "conference_seed": 3.0,
+    "coach_record": "48-34"
+   },
+   {
+    "player": "Mark Daigneault",
+    "team": "OKC",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 40.0,
+     "team_net_rating": 1.0,
+     "wins_above_expectation": 16.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 9.0
+    },
+    "imputed": [],
+    "expected_team_wins": 23.5,
+    "conference_seed": 9.0,
+    "coach_record": "40-42"
+   },
+   {
+    "player": "Joe Mazzulla",
+    "team": "BOS",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 57.0,
+     "team_net_rating": 6.7,
+     "wins_above_expectation": 2.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 54.5,
+    "conference_seed": 2.0,
+    "coach_record": "57-25"
+   }
+  ]
+ },
+ {
+  "season": "2023-24",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Joe Mazzulla",
+    "share": 0.2835881368900245,
+    "score": 4.203048286787988
+   },
+   {
+    "rank": 2,
+    "player": "Mark Daigneault",
+    "share": 0.23162258961665594,
+    "score": 4.00063460158233
+   },
+   {
+    "rank": 3,
+    "player": "Chris Finch",
+    "share": 0.17335379399412867,
+    "score": 3.710859881649771
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Mark Daigneault",
+    "id": "daignma99c",
+    "team": "OKC",
+    "points": 473.0,
+    "vote_share": 0.956
+   },
+   {
+    "rank": 2,
+    "player": "Jamahl Mosley",
+    "id": "mosleja01c",
+    "team": "ORL",
+    "points": 158.0,
+    "vote_share": 0.319
+   },
+   {
+    "rank": 3,
+    "player": "Chris Finch",
+    "id": "finchch01c",
+    "team": "MIN",
+    "points": 105.0,
+    "vote_share": 0.212
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2024.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6106672953935027,
+   0.4504080064189471,
+   1.2652781205369912,
+   0.523448506168437,
+   -0.20935483355084245
+  ],
+  "players": [
+   {
+    "player": "Joe Mazzulla",
+    "team": "BOS",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 4,
+    "stats": {
+     "team_wins": 64.0,
+     "team_net_rating": 11.7,
+     "wins_above_expectation": 9.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 54.5,
+    "conference_seed": 1.0,
+    "coach_record": "64-18"
+   },
+   {
+    "player": "Mark Daigneault",
+    "team": "OKC",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 57.0,
+     "team_net_rating": 7.3,
+     "wins_above_expectation": 12.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 44.5,
+    "conference_seed": 1.0,
+    "coach_record": "57-25"
+   },
+   {
+    "player": "Chris Finch",
+    "team": "MIN",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 56.0,
+     "team_net_rating": 6.3,
+     "wins_above_expectation": 11.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 3.0
+    },
+    "imputed": [],
+    "expected_team_wins": 44.5,
+    "conference_seed": 3.0,
+    "coach_record": "56-26"
+   },
+   {
+    "player": "Jamahl Mosley",
+    "team": "ORL",
+    "eligible": true,
+    "model_rank": 6,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 47.0,
+     "team_net_rating": 2.2,
+     "wins_above_expectation": 9.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 37.5,
+    "conference_seed": 5.0,
+    "coach_record": "47-35"
+   }
+  ]
+ },
+ {
+  "season": "2024-25",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Kenny Atkinson",
+    "share": 0.3295386187702622,
+    "score": 4.150513669207409
+   },
+   {
+    "rank": 2,
+    "player": "Mark Daigneault",
+    "share": 0.2332787024092089,
+    "score": 3.80505400440414
+   },
+   {
+    "rank": 3,
+    "player": "Tyronn Lue",
+    "share": 0.0654978823800007,
+    "score": 2.53483793001636
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Kenny Atkinson",
+    "id": "atkinke01c",
+    "team": "CLE",
+    "points": 401.0,
+    "vote_share": 0.802
+   },
+   {
+    "rank": 2,
+    "player": "J.B. Bickerstaff",
+    "id": "bickejb01c",
+    "team": "DET",
+    "points": 305.0,
+    "vote_share": 0.61
+   },
+   {
+    "rank": 3,
+    "player": "Ime Udoka",
+    "id": "udokaim01c",
+    "team": "HOU",
+    "points": 113.0,
+    "vote_share": 0.226
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2025.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5983993603362892,
+   0.4457122850836278,
+   1.2714449819352744,
+   0.5321182240605984,
+   -0.20386315378309863
+  ],
+  "players": [
+   {
+    "player": "Kenny Atkinson",
+    "team": "CLE",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 64.0,
+     "team_net_rating": 9.2,
+     "wins_above_expectation": 15.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 48.5,
+    "conference_seed": 1.0,
+    "coach_record": "64-18"
+   },
+   {
+    "player": "Mark Daigneault",
+    "team": "OKC",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 4,
+    "stats": {
+     "team_wins": 68.0,
+     "team_net_rating": 12.7,
+     "wins_above_expectation": 10.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 57.5,
+    "conference_seed": 1.0,
+    "coach_record": "68-14"
+   },
+   {
+    "player": "Tyronn Lue",
+    "team": "LAC",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 50.0,
+     "team_net_rating": 4.9,
+     "wins_above_expectation": 14.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 5.0
+    },
+    "imputed": [],
+    "expected_team_wins": 35.5,
+    "conference_seed": 5.0,
+    "coach_record": "50-32"
+   },
+   {
+    "player": "J.B. Bickerstaff",
+    "team": "DET",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 44.0,
+     "team_net_rating": 2.1,
+     "wins_above_expectation": 18.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 6.0
+    },
+    "imputed": [],
+    "expected_team_wins": 25.5,
+    "conference_seed": 6.0,
+    "coach_record": "44-38"
+   },
+   {
+    "player": "Ime Udoka",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 6,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 52.0,
+     "team_net_rating": 4.6,
+     "wins_above_expectation": 8.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 43.5,
+    "conference_seed": 2.0,
+    "coach_record": "52-30"
+   }
+  ]
+ },
+ {
+  "season": "2025-26",
+  "in_progress": false,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mitch Johnson",
+    "share": 0.3467088373833784,
+    "score": 4.463653824120403
+   },
+   {
+    "rank": 2,
+    "player": "J.B. Bickerstaff",
+    "share": 0.18576312608505477,
+    "score": 3.839640828184429
+   },
+   {
+    "rank": 3,
+    "player": "Joe Mazzulla",
+    "share": 0.17557059543387163,
+    "score": 3.7832096969614497
+   }
+  ],
+  "actual": [
+   {
+    "rank": 1,
+    "player": "Joe Mazzulla",
+    "id": "mazzujo99c",
+    "team": "BOS",
+    "points": 392.0,
+    "vote_share": 0.784
+   },
+   {
+    "rank": 2,
+    "player": "J.B. Bickerstaff",
+    "id": "bickejb01c",
+    "team": "DET",
+    "points": 312.0,
+    "vote_share": 0.624
+   },
+   {
+    "rank": 3,
+    "player": "Mitch Johnson",
+    "id": "johnsmi99c",
+    "team": "SAS",
+    "points": 133.0,
+    "vote_share": 0.266
+   }
+  ],
+  "source": "https://www.basketball-reference.com/awards/awards_2026.html",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.6202321423289515,
+   0.4496805888773514,
+   1.2709026371872694,
+   0.5327307156901583,
+   -0.2359573488727774
+  ],
+  "players": [
+   {
+    "player": "Mitch Johnson",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": 3,
+    "stats": {
+     "team_wins": 62.0,
+     "team_net_rating": 8.4,
+     "wins_above_expectation": 17.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 44.5,
+    "conference_seed": 2.0,
+    "coach_record": "62-20"
+   },
+   {
+    "player": "J.B. Bickerstaff",
+    "team": "DET",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 60.0,
+     "team_net_rating": 8.4,
+     "wins_above_expectation": 13.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 46.5,
+    "conference_seed": 1.0,
+    "coach_record": "60-22"
+   },
+   {
+    "player": "Joe Mazzulla",
+    "team": "BOS",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 56.0,
+     "team_net_rating": 8.3,
+     "wins_above_expectation": 14.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": 2.0
+    },
+    "imputed": [],
+    "expected_team_wins": 41.5,
+    "conference_seed": 2.0,
+    "coach_record": "56-26"
+   }
+  ]
+ },
+ {
+  "season": "2026-27",
+  "in_progress": true,
+  "predicted": [
+   {
+    "rank": 1,
+    "player": "Mitch Johnson",
+    "share": 0.060332225986077244,
+    "score": 0.6581024794819018
+   },
+   {
+    "rank": 2,
+    "player": "Chris Finch",
+    "share": 0.058653892191782304,
+    "score": 0.6298900268033406
+   },
+   {
+    "rank": 3,
+    "player": "Ime Udoka",
+    "share": 0.05328908877612846,
+    "score": 0.533967687696233
+   }
+  ],
+  "actual": [],
+  "source": "",
+  "features": [
+   "team_wins",
+   "team_net_rating",
+   "wins_above_expectation",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "display_features": [
+   "coach_record",
+   "team_wins",
+   "team_net_rating",
+   "expected_team_wins",
+   "wins_above_expectation",
+   "conference_seed",
+   "top4_seed",
+   "prior_coy_same_team"
+  ],
+  "coefficients": [
+   0.5869035687557295,
+   0.4701484452444347,
+   1.2539600763488108,
+   0.5394618225461839,
+   -0.2339032965244392
+  ],
+  "players": [
+   {
+    "player": "Mitch Johnson",
+    "team": "SAS",
+    "eligible": true,
+    "model_rank": 1,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": null,
+     "team_net_rating": 11.6,
+     "wins_above_expectation": null,
+     "top4_seed": null,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": null
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": null,
+    "coach_record": "9-2"
+   },
+   {
+    "player": "Chris Finch",
+    "team": "MIN",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": null,
+     "team_net_rating": 11.1,
+     "wins_above_expectation": null,
+     "top4_seed": null,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": null
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": null,
+    "coach_record": "8-3"
+   },
+   {
+    "player": "Ime Udoka",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": null,
+    "stats": {
+     "team_wins": null,
+     "team_net_rating": 9.4,
+     "wins_above_expectation": null,
+     "top4_seed": null,
+     "prior_coy_same_team": 0.0,
+     "conference_seed": null
+    },
+    "imputed": [],
+    "expected_team_wins": null,
+    "conference_seed": null,
+    "coach_record": "8-3"
+   }
+  ]
+ }
+]

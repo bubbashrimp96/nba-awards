@@ -91,3 +91,43 @@ Sixth Man adds `conference_seed` with a negative fitted coefficient. This uses t
 Current 26-season first-pick counts: MVP 17/26, ROY 24/26, DPOY 15/26, MIP 8/26, Sixth Man 17/26 (81/130 combined). Against the preceding rules on the same 26 seasons, Sixth Man rises from 14/26 to 17/26; the other first-pick counts are unchanged. Log loss improves for DPOY and Sixth Man, and worsens for MVP over the full expanded window; top-three coverage also changes. See `revised_awards/summary.json` and `before_after.csv`. These rule changes were requested after reviewing known historical cases, so results remain retrospective rather than fresh validation. Preseason win expectations begin in 2002–03; 2000–01 and 2001–02 correctly show unavailable expected wins and contribute no expectation signal.
 
 Run `python3 -m unittest test_revised_awards test_mvp_exponential_ranks test_exponential_availability test_award_availability test_mvp_rank_penalties test_mvp_expectations` for the current 29-test regression suite.
+
+## MIP team context, Clutch Player of the Year, Coach of the Year (2026-11-12)
+
+**MIP** adds team wins, expected team wins (preseason market total scaled to games played), wins above expectation and a prior All-Star flag (`revised_award_core.py`). Prior All-Star = any earlier All-Star Game *appearance* (`AS_G`); injured selections who never played are not captured. Expectations start in 2002–03 and are neutral before that. Team wins and wins above expectation are constrained nonnegative. Result over 26 seasons: first picks 8 (unchanged), top three 11 → 12, log loss 2.821 → 2.595. Fitted weights: prior All-Star −0.66, wins above expectation +0.20, team wins +0.17.
+
+**Clutch Player of the Year** (`build_clutch.py` → `clutch_model/`). Candidates are each season's top 30 NBA.com clutch scorers (totals), captured from nba.com/stats into `data/clutch/raw_chunks.json`, including the current season to date. Inputs: clutch points, clutch FG%, clutch +/-, clutch-game win %, team wins, all nonnegative with L2 1.0. 2022–23 has no earlier season to fit on, so it ranks on clutch points only. Picks: 4/4 (Fox, Curry, Brunson, SGA). With at most three training seasons, treat it as a shortlist.
+
+**Coach of the Year** (`build_coy.py` → `coy_model/`). Candidates are one coach per team: whoever coached the most regular-season games. Inputs: team wins, wins above expectation, top-four conference seed and prior COY with the same franchise (relocations mapped). Prior-season fitting, 20-season half-life, L2 0.3. 2001–02 to 2025–26: 13/25 first picks, 22/25 in the top three, log loss 1.590. Dropping wins above expectation falls to 7/25; dropping top-four seed or prior COY worsens log loss.
+
+Refresh: `python3 fetch_coy_clutch.py` (Basketball Reference award pages, season coaches pages and the COY winners list, 4 s between requests), then `python3 build_clutch.py`, `python3 build_coy.py` and `python3 build_dashboard_data.py`.
+
+## Live 2026–27 projections (in-app refresh)
+
+```sh
+cd nba-award-models
+python3 serve.py          # opens http://127.0.0.1:8000/ on the Projections page (localhost only)
+```
+
+The **2026–27 Projections** page shows a projected top five for all seven awards. Its buttons do three things:
+
+- **Refresh data** runs `fetch_current.py` then `project_current.py`, which takes about 40 seconds. Sources: Basketball Reference per-game, totals, advanced, per-100 and coaches pages (4 s apart); ESPN standings; NBA.com team defensive ratings via the sportsdataverse nightly archive.
+- **Update clutch stats** takes the NBA.com clutch-traditional table, copied with rows per page set to All. NBA.com blocks scripted downloads (403), so clutch data is pasted in rather than fetched.
+- **Enter preseason win totals** takes 30 `TEAM total` lines. Basketball Reference has not published 2026–27 totals, so until they are entered, expected wins use a labelled proxy: last season's wins regressed 40% toward 41.
+
+Method (`current_season.py`): season-to-date stats are scaled to an 82-game pace. Team records, player games, minutes and counting totals (including WS, DWS and VORP) are multiplied by 82 / team games played; per-game and rate stats are unchanged. The scaled rows are added to the historical inputs **in memory only**, by patching file reads in the projection process, and each award's final saved coefficients score them. Nothing is refitted and no historical file is modified. Leaderboard qualification and the availability penalty apply to the projected full season. Shares are within-pool model shares, not calibrated odds, and early-season paces are noisy.
+
+Opened directly as a file, the page shows the last saved projections; refreshing needs `serve.py`.
+
+### MIP archetype and COY net rating (2026-11-12, later)
+
+**MIP** adds three fitted inputs; none of them excludes anyone:
+- `second_year`: weight constrained negative, fitted at −0.37.
+- `allstar_jump_fit`: a Gaussian band on this season's quality, centred at borderline All-Star level (0.896, spread 0.06).
+- `origin_fit`: a band on last season's quality, centred at the median non-All-Star starter (0.673, spread 0.14).
+
+Quality is the mean of a player's league percentiles for PPG and BPM among players with 250+ minutes. The band centres come from All-Stars and starters, not from MIP winners. Winners do sit there: a median of 0.88 in their award season, up from 0.62. The band weights are constrained positive (+0.25 and +0.39). This is how the model rewards good-to-borderline-All-Star jumps over fringe-to-rotation or star-to-MVP jumps.
+
+Result over 26 seasons: log loss 2.595 → 2.391, top three 12/26 (unchanged), first picks 8 → 7. Dropping `second_year` alone worsens log loss to 2.481. `allstar_jump_fit` adds almost nothing measurable but is kept as requested.
+
+**COY** adds `team_net_rating` (NBA.com team advanced stats, constrained positive, +0.47). Log loss 1.590 → 1.577, but first picks fall 13 → 11 and top three 22 → 21: it moves 2020-21 to Snyder over Thibodeau and 2023-24 to Mazzulla over Daigneault.

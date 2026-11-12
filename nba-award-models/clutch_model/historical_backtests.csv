@@ -1,0 +1,5 @@
+award,season,predicted,actual,winner_rank,top1,top3,log_loss,training_seasons,fallback
+CPOY,2022-23,De'Aaron Fox,De'Aaron Fox,1,1,1,0.930289463626204,0,clutch points only (no prior seasons)
+CPOY,2023-24,Stephen Curry,Stephen Curry,1,1,1,0.950605939680866,1,
+CPOY,2024-25,Jalen Brunson,Jalen Brunson,1,1,1,1.4354810742601163,2,
+CPOY,2025-26,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,1,1,1.1150616196830188,3,
