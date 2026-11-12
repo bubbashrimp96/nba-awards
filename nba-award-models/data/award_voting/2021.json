@@ -1,0 +1,553 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2021.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Nikola Jokić",
+        "points": 971.0,
+        "vote_share": 0.961
+      },
+      {
+        "rank": 2,
+        "player": "Joel Embiid",
+        "points": 586.0,
+        "vote_share": 0.58
+      },
+      {
+        "rank": 3,
+        "player": "Stephen Curry",
+        "points": 453.0,
+        "vote_share": 0.449
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Nikola Jokić",
+        "points": 971.0,
+        "vote_share": 0.961
+      },
+      {
+        "rank": 2,
+        "player": "Joel Embiid",
+        "points": 586.0,
+        "vote_share": 0.58
+      },
+      {
+        "rank": 3,
+        "player": "Stephen Curry",
+        "points": 453.0,
+        "vote_share": 0.449
+      },
+      {
+        "rank": 4,
+        "player": "Giannis Antetokounmpo",
+        "points": 348.0,
+        "vote_share": 0.345
+      },
+      {
+        "rank": 5,
+        "player": "Chris Paul",
+        "points": 139.0,
+        "vote_share": 0.138
+      },
+      {
+        "rank": 6,
+        "player": "Luka Dončić",
+        "points": 42.0,
+        "vote_share": 0.042
+      },
+      {
+        "rank": 7,
+        "player": "Damian Lillard",
+        "points": 38.0,
+        "vote_share": 0.038
+      },
+      {
+        "rank": 8,
+        "player": "Julius Randle",
+        "points": 20.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 9,
+        "player": "Derrick Rose",
+        "points": 10.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 10,
+        "player": "Rudy Gobert",
+        "points": 8.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 11,
+        "player": "Russell Westbrook",
+        "points": 5.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 12,
+        "player": "Ben Simmons",
+        "points": 3.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 13,
+        "player": "James Harden",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 13,
+        "player": "LeBron James",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 13,
+        "player": "Kawhi Leonard",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2021.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "LaMelo Ball",
+        "points": 465.0,
+        "vote_share": 0.939
+      },
+      {
+        "rank": 2,
+        "player": "Anthony Edwards",
+        "points": 309.0,
+        "vote_share": 0.624
+      },
+      {
+        "rank": 3,
+        "player": "Tyrese Haliburton",
+        "points": 114.0,
+        "vote_share": 0.23
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "LaMelo Ball",
+        "points": 465.0,
+        "vote_share": 0.939
+      },
+      {
+        "rank": 2,
+        "player": "Anthony Edwards",
+        "points": 309.0,
+        "vote_share": 0.624
+      },
+      {
+        "rank": 3,
+        "player": "Tyrese Haliburton",
+        "points": 114.0,
+        "vote_share": 0.23
+      },
+      {
+        "rank": 4,
+        "player": "Saddiq Bey",
+        "points": 3.0,
+        "vote_share": 0.006
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2021.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Rudy Gobert",
+        "points": 464.0,
+        "vote_share": 0.928
+      },
+      {
+        "rank": 2,
+        "player": "Ben Simmons",
+        "points": 287.0,
+        "vote_share": 0.574
+      },
+      {
+        "rank": 3,
+        "player": "Draymond Green",
+        "points": 76.0,
+        "vote_share": 0.152
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Rudy Gobert",
+        "points": 464.0,
+        "vote_share": 0.928
+      },
+      {
+        "rank": 2,
+        "player": "Ben Simmons",
+        "points": 287.0,
+        "vote_share": 0.574
+      },
+      {
+        "rank": 3,
+        "player": "Draymond Green",
+        "points": 76.0,
+        "vote_share": 0.152
+      },
+      {
+        "rank": 4,
+        "player": "Bam Adebayo",
+        "points": 31.0,
+        "vote_share": 0.062
+      },
+      {
+        "rank": 5,
+        "player": "Giannis Antetokounmpo",
+        "points": 12.0,
+        "vote_share": 0.024
+      },
+      {
+        "rank": 6,
+        "player": "Clint Capela",
+        "points": 10.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 7,
+        "player": "Joel Embiid",
+        "points": 7.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 8,
+        "player": "Jrue Holiday",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 9,
+        "player": "Myles Turner",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Jimmy Butler",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 11,
+        "player": "Kentavious Caldwell-Pope",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Matisse Thybulle",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2021.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Julius Randle",
+        "points": 493.0,
+        "vote_share": 0.986
+      },
+      {
+        "rank": 2,
+        "player": "Jerami Grant",
+        "points": 140.0,
+        "vote_share": 0.28
+      },
+      {
+        "rank": 3,
+        "player": "Michael Porter Jr.",
+        "points": 138.0,
+        "vote_share": 0.276
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Julius Randle",
+        "points": 493.0,
+        "vote_share": 0.986
+      },
+      {
+        "rank": 2,
+        "player": "Jerami Grant",
+        "points": 140.0,
+        "vote_share": 0.28
+      },
+      {
+        "rank": 3,
+        "player": "Michael Porter Jr.",
+        "points": 138.0,
+        "vote_share": 0.276
+      },
+      {
+        "rank": 4,
+        "player": "Christian Wood",
+        "points": 44.0,
+        "vote_share": 0.088
+      },
+      {
+        "rank": 5,
+        "player": "Zach LaVine",
+        "points": 20.0,
+        "vote_share": 0.04
+      },
+      {
+        "rank": 6,
+        "player": "Chris Boucher",
+        "points": 10.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 6,
+        "player": "Jaylen Brown",
+        "points": 10.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 8,
+        "player": "Mikal Bridges",
+        "points": 8.0,
+        "vote_share": 0.016
+      },
+      {
+        "rank": 9,
+        "player": "Zion Williamson",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 10,
+        "player": "Clint Capela",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Jordan Clarkson",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Luguentz Dort",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Darius Garland",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Jordan Poole",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Nikola Vučević",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 16,
+        "player": "Kyle Anderson",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 16,
+        "player": "RJ Barrett",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 16,
+        "player": "Miles Bridges",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 19,
+        "player": "Lonzo Ball",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 19,
+        "player": "Bojan Bogdanović",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 19,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 19,
+        "player": "Richaun Holmes",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 19,
+        "player": "T.J. McConnell",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 19,
+        "player": "Terry Rozier",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 19,
+        "player": "Andrew Wiggins",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2021.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Jordan Clarkson",
+        "points": 407.0,
+        "vote_share": 0.814
+      },
+      {
+        "rank": 2,
+        "player": "Joe Ingles",
+        "points": 272.0,
+        "vote_share": 0.544
+      },
+      {
+        "rank": 3,
+        "player": "Derrick Rose",
+        "points": 77.0,
+        "vote_share": 0.154
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Jordan Clarkson",
+        "points": 407.0,
+        "vote_share": 0.814
+      },
+      {
+        "rank": 2,
+        "player": "Joe Ingles",
+        "points": 272.0,
+        "vote_share": 0.544
+      },
+      {
+        "rank": 3,
+        "player": "Derrick Rose",
+        "points": 77.0,
+        "vote_share": 0.154
+      },
+      {
+        "rank": 4,
+        "player": "Jalen Brunson",
+        "points": 67.0,
+        "vote_share": 0.134
+      },
+      {
+        "rank": 5,
+        "player": "Tim Hardaway Jr.",
+        "points": 24.0,
+        "vote_share": 0.048
+      },
+      {
+        "rank": 6,
+        "player": "Montrezl Harrell",
+        "points": 14.0,
+        "vote_share": 0.028
+      },
+      {
+        "rank": 7,
+        "player": "Carmelo Anthony",
+        "points": 8.0,
+        "vote_share": 0.016
+      },
+      {
+        "rank": 8,
+        "player": "Chris Boucher",
+        "points": 7.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 9,
+        "player": "Bobby Portis",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 10,
+        "player": "Enes Freedom",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 11,
+        "player": "T.J. McConnell",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 12,
+        "player": "Miles Bridges",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 12,
+        "player": "Shake Milton",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 14,
+        "player": "Thaddeus Young",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 15,
+        "player": "Facundo Campazzo",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

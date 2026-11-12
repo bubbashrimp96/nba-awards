@@ -1,0 +1,47 @@
+{
+  "MVP": {
+    "seasons": 16,
+    "correct": 13,
+    "top3": 15,
+    "mean_log_loss": 0.8687444494225482,
+    "baseline_correct": 13,
+    "baseline_top3": 15,
+    "baseline_log_loss": 0.843653779477635
+  },
+  "ROY": {
+    "seasons": 16,
+    "correct": 16,
+    "top3": 16,
+    "mean_log_loss": 0.24584480028618758,
+    "baseline_correct": 15,
+    "baseline_top3": 16,
+    "baseline_log_loss": 0.3456095579245668
+  },
+  "DPOY": {
+    "seasons": 16,
+    "correct": 8,
+    "top3": 11,
+    "mean_log_loss": 2.2247672160944036,
+    "baseline_correct": 8,
+    "baseline_top3": 11,
+    "baseline_log_loss": 2.150379892669253
+  },
+  "MIP": {
+    "seasons": 16,
+    "correct": 4,
+    "top3": 7,
+    "mean_log_loss": 2.97594157574048,
+    "baseline_correct": 4,
+    "baseline_top3": 7,
+    "baseline_log_loss": 2.9683509389768696
+  },
+  "SMOY": {
+    "seasons": 16,
+    "correct": 10,
+    "top3": 13,
+    "mean_log_loss": 1.3004562238753024,
+    "baseline_correct": 10,
+    "baseline_top3": 13,
+    "baseline_log_loss": 1.2929938217210855
+  }
+}

@@ -1,0 +1,17 @@
+season,year,predicted,actual,winner_rank,top1,top3,log_loss,variant,latest_training_year,penalty_per_game
+2010-11,2011,Derrick Rose,Derrick Rose,1,1,1,0.09350600680195598,PER_availability_expectations,2010,-0.5917098015090078
+2011-12,2012,LeBron James,LeBron James,1,1,1,0.6413157485398955,PER_availability_expectations,2011,-0.5784662699676164
+2012-13,2013,LeBron James,LeBron James,1,1,1,0.08365786914102813,PER_availability_expectations,2012,-0.5774464642753661
+2013-14,2014,Kevin Durant,Kevin Durant,1,1,1,0.029922072188664828,PER_availability_expectations,2013,-0.575159915772522
+2014-15,2015,Stephen Curry,Stephen Curry,1,1,1,0.1819628955204884,PER_availability_expectations,2014,-0.5662593103932727
+2015-16,2016,Stephen Curry,Stephen Curry,1,1,1,0.014165822653954052,PER_availability_expectations,2015,-0.5649095085666139
+2016-17,2017,James Harden,Russell Westbrook,2,0,1,4.106543322833662,PER_availability_expectations,2016,-0.5563575714965981
+2017-18,2018,James Harden,James Harden,1,1,1,0.029883685539779492,PER_availability_expectations,2017,-0.5582453632870173
+2018-19,2019,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1,1,0.29288456324079704,PER_availability_expectations,2018,-0.5526818570996714
+2019-20,2020,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1,1,0.26757142900350317,PER_availability_expectations,2019,-0.5505072274052629
+2020-21,2021,Nikola Jokić,Nikola Jokić,1,1,1,0.18605517911341174,PER_availability_expectations,2020,-0.5583803003926032
+2021-22,2022,Nikola Jokić,Nikola Jokić,1,1,1,0.38995495429191784,PER_availability_expectations,2021,-0.5736447210320339
+2022-23,2023,Nikola Jokić,Joel Embiid,4,0,0,4.522783795161207,PER_availability_expectations,2022,-0.8332880482410372
+2023-24,2024,Nikola Jokić,Nikola Jokić,1,1,1,0.4656241259958023,PER_availability_expectations,2023,-0.2729604808291887
+2024-25,2025,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,1,1,0.40583157728202224,PER_availability_expectations,2024,-0.23648299860977412
+2025-26,2026,Nikola Jokić,Shai Gilgeous-Alexander,2,0,1,0.9393255189327707,PER_availability_expectations,2025,-0.2547067839683849

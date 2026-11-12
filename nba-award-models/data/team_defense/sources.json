@@ -1,0 +1,157 @@
+[
+  {
+    "years": "1986-1996",
+    "url": "https://raw.githubusercontent.com/ramvibhakar/basketball-analytics/master/data/team_stats.csv",
+    "sha256": "b12e717be1a224d12fc7723114db074f2baad8208221cf15ae8e664c3c26eeb4"
+  },
+  {
+    "year": 1997,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_1997.parquet",
+    "sha256": "1e40331d37eb85c36c23c34b0f1b5196f53a6407d8369fd9e5f5c8b01d7b6489"
+  },
+  {
+    "year": 1998,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_1998.parquet",
+    "sha256": "0cb2ca15903877d34153539b9eb8a51bad0abebe276f819924f952ed13b0af51"
+  },
+  {
+    "year": 1999,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_1999.parquet",
+    "sha256": "f2a6207587e3ea6a4a289df4ac1861b9b3f4d0a47959ebdea7d915a767e9e20d"
+  },
+  {
+    "year": 2000,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2000.parquet",
+    "sha256": "edd3186e8c037f56013d1321bd0ffb88b8839b3242e857d0656f548096ee28ab"
+  },
+  {
+    "year": 2001,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2001.parquet",
+    "sha256": "381103d7714fa5ec5258826d2153a20cd10228b2b14a84f4531bc1ffc724efd7"
+  },
+  {
+    "year": 2002,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2002.parquet",
+    "sha256": "de0044def55b1e2138b7ffeae2b2a9eb613cfe97adafc566b7c5b0adf48b3602"
+  },
+  {
+    "year": 2003,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2003.parquet",
+    "sha256": "ae63b6020a97e944f7ad7e08f9a36852e5e4ed0e8b2634423d5e2b0181ae17ad"
+  },
+  {
+    "year": 2004,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2004.parquet",
+    "sha256": "2672f92b8f331ba4ea2e20bb15ca354ea3eb52857f3d570f7e2b09611ac9cc20"
+  },
+  {
+    "year": 2005,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2005.parquet",
+    "sha256": "198db6a9e53c8c9a4a8a272b1368ffffe4d6c8747db94395b6e382048fa19344"
+  },
+  {
+    "year": 2006,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2006.parquet",
+    "sha256": "9b570e3c3fd27e283c6292aa16189a6cdadf0c0f5ba2a058c604172b749740a4"
+  },
+  {
+    "year": 2007,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2007.parquet",
+    "sha256": "346b541516d706dce292b28ae9d73543de570d83afcf695a181495dd4e9e338d"
+  },
+  {
+    "year": 2008,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2008.parquet",
+    "sha256": "4de971313a2ee36162ea8876eeec06841d1e3395ee95db7ae351354ee7aca374"
+  },
+  {
+    "year": 2009,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2009.parquet",
+    "sha256": "dbd75d24a41282158ab8f438dc95d13efd53ca9319f0f059c1be63157820b6d1"
+  },
+  {
+    "year": 2010,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2010.parquet",
+    "sha256": "4c3af815113f77cddb556d35c87eaa5b11d90d020ec81d6c658f75ccf88a8c8b"
+  },
+  {
+    "year": 2011,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2011.parquet",
+    "sha256": "ea7b1d3848445ae848852e1dfbb701c23463dfcef3fcb758eebe47fdc6ce31f3"
+  },
+  {
+    "year": 2012,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2012.parquet",
+    "sha256": "1392f8571e4b8179ef864dccb0ba5d63a02f13079a8263a9f5a01c3613416894"
+  },
+  {
+    "year": 2013,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2013.parquet",
+    "sha256": "28be9a1ccc0ed8255ff0d0be87c55f85c26a3b2e903aefb4ef1e110b617ea571"
+  },
+  {
+    "year": 2014,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2014.parquet",
+    "sha256": "84a6eb54253e9f5f3ef601e55790ca1020866944a60bc3975d612c0b19f749ec"
+  },
+  {
+    "year": 2015,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2015.parquet",
+    "sha256": "a74d816d3b1ede6d68a0920a207a5906234138cdb8a0ced672613a9330dd5ad6"
+  },
+  {
+    "year": 2016,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2016.parquet",
+    "sha256": "b17e1738ddd8fd47b88cb6df606415f04e5795d8bd18937785a6254f7e5351b0"
+  },
+  {
+    "year": 2017,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2017.parquet",
+    "sha256": "e9b9b310b56b1ed20edf3bde4e61dd39b176fc15e85fa6ce8b8f30aef6afcf9e"
+  },
+  {
+    "year": 2018,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2018.parquet",
+    "sha256": "3268e5241fb070daacad74cd470b1ce0605d7a7d1f615518a3daccbac8fdbb21"
+  },
+  {
+    "year": 2019,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2019.parquet",
+    "sha256": "d5845d4b8f716aa9ccfb35dacdd9843b93a47d1c105008b3f0b2df7336127381"
+  },
+  {
+    "year": 2020,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2020.parquet",
+    "sha256": "7258dca7fa8bd8aa79a67c8caa5ef90834046706287918c73853a54cff967070"
+  },
+  {
+    "year": 2021,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2021.parquet",
+    "sha256": "07a7cc721fd92e282990ab85277aa7c0bebbe6234165730cd35c4c036bea9063"
+  },
+  {
+    "year": 2022,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2022.parquet",
+    "sha256": "ed44b9b0105bd020a98906ddd40ea94783882d7f059e5039f63d09584b6ed18f"
+  },
+  {
+    "year": 2023,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2023.parquet",
+    "sha256": "b9475799e0c362985c180ae29e6b74be1a9238a097bb74f2274ee1e50d1352b0"
+  },
+  {
+    "year": 2024,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2024.parquet",
+    "sha256": "4984621d9fe231313117caf01ce146ea3bc5142689829838328b89e10e2c913d"
+  },
+  {
+    "year": 2025,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2025.parquet",
+    "sha256": "d69a0f8de01ca5b90aa6da6b3a425be9295c72ae42b4479f174c63d11f7f3dd7"
+  },
+  {
+    "year": 2026,
+    "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2026.parquet",
+    "sha256": "0c3e1db00680d5473fbec526c753a5a34a3a7e49b7788d53a61adcb8200c7db4"
+  }
+]

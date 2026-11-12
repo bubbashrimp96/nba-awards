@@ -1,0 +1,3 @@
+# Preserve downloaded source bytes and checksums, including original whitespace.
+nba-award-models/data/preseason_wins/*.html -text -whitespace
+nba-award-models/data/team_defense/historical_team_stats.csv -text -whitespace

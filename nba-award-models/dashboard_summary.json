@@ -1,0 +1,32 @@
+{
+  "MVP": {
+    "seasons": 26,
+    "correct": 17,
+    "top3": 23,
+    "mean_log_loss": 1.7613366580810397
+  },
+  "DPOY": {
+    "seasons": 26,
+    "correct": 15,
+    "top3": 19,
+    "mean_log_loss": 1.8852491967695537
+  },
+  "ROY": {
+    "seasons": 26,
+    "correct": 24,
+    "top3": 26,
+    "mean_log_loss": 0.4126535632901207
+  },
+  "SMOY": {
+    "seasons": 26,
+    "correct": 17,
+    "top3": 25,
+    "mean_log_loss": 0.8715395647247328
+  },
+  "MIP": {
+    "seasons": 26,
+    "correct": 8,
+    "top3": 11,
+    "mean_log_loss": 2.8211212157092294
+  }
+}

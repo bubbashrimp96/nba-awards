@@ -1,0 +1,619 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2015.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Stephen Curry",
+        "points": 1198.0,
+        "vote_share": 0.922
+      },
+      {
+        "rank": 2,
+        "player": "James Harden",
+        "points": 936.0,
+        "vote_share": 0.72
+      },
+      {
+        "rank": 3,
+        "player": "LeBron James",
+        "points": 552.0,
+        "vote_share": 0.425
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Stephen Curry",
+        "points": 1198.0,
+        "vote_share": 0.922
+      },
+      {
+        "rank": 2,
+        "player": "James Harden",
+        "points": 936.0,
+        "vote_share": 0.72
+      },
+      {
+        "rank": 3,
+        "player": "LeBron James",
+        "points": 552.0,
+        "vote_share": 0.425
+      },
+      {
+        "rank": 4,
+        "player": "Russell Westbrook",
+        "points": 352.0,
+        "vote_share": 0.271
+      },
+      {
+        "rank": 5,
+        "player": "Anthony Davis",
+        "points": 203.0,
+        "vote_share": 0.156
+      },
+      {
+        "rank": 6,
+        "player": "Chris Paul",
+        "points": 124.0,
+        "vote_share": 0.095
+      },
+      {
+        "rank": 7,
+        "player": "LaMarcus Aldridge",
+        "points": 6.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 8,
+        "player": "Marc Gasol",
+        "points": 3.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 8,
+        "player": "Blake Griffin",
+        "points": 3.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Tim Duncan",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 10,
+        "player": "Kawhi Leonard",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 10,
+        "player": "Klay Thompson",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2015.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Andrew Wiggins",
+        "points": 604.0,
+        "vote_share": 0.929
+      },
+      {
+        "rank": 2,
+        "player": "Nikola Mirotić",
+        "points": 335.0,
+        "vote_share": 0.515
+      },
+      {
+        "rank": 3,
+        "player": "Nerlens Noel",
+        "points": 141.0,
+        "vote_share": 0.217
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Andrew Wiggins",
+        "points": 604.0,
+        "vote_share": 0.929
+      },
+      {
+        "rank": 2,
+        "player": "Nikola Mirotić",
+        "points": 335.0,
+        "vote_share": 0.515
+      },
+      {
+        "rank": 3,
+        "player": "Nerlens Noel",
+        "points": 141.0,
+        "vote_share": 0.217
+      },
+      {
+        "rank": 4,
+        "player": "Elfrid Payton",
+        "points": 79.0,
+        "vote_share": 0.122
+      },
+      {
+        "rank": 5,
+        "player": "Marcus Smart",
+        "points": 6.0,
+        "vote_share": 0.009
+      },
+      {
+        "rank": 6,
+        "player": "Jusuf Nurkić",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 7,
+        "player": "Jordan Clarkson",
+        "points": 2.0,
+        "vote_share": 0.003
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2015.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Kawhi Leonard",
+        "points": 333.0,
+        "vote_share": 0.516
+      },
+      {
+        "rank": 2,
+        "player": "Draymond Green",
+        "points": 317.0,
+        "vote_share": 0.491
+      },
+      {
+        "rank": 3,
+        "player": "DeAndre Jordan",
+        "points": 261.0,
+        "vote_share": 0.405
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Kawhi Leonard",
+        "points": 333.0,
+        "vote_share": 0.516
+      },
+      {
+        "rank": 2,
+        "player": "Draymond Green",
+        "points": 317.0,
+        "vote_share": 0.491
+      },
+      {
+        "rank": 3,
+        "player": "DeAndre Jordan",
+        "points": 261.0,
+        "vote_share": 0.405
+      },
+      {
+        "rank": 4,
+        "player": "Anthony Davis",
+        "points": 107.0,
+        "vote_share": 0.166
+      },
+      {
+        "rank": 5,
+        "player": "Rudy Gobert",
+        "points": 33.0,
+        "vote_share": 0.051
+      },
+      {
+        "rank": 6,
+        "player": "Andrew Bogut",
+        "points": 31.0,
+        "vote_share": 0.048
+      },
+      {
+        "rank": 7,
+        "player": "Tony Allen",
+        "points": 29.0,
+        "vote_share": 0.045
+      },
+      {
+        "rank": 8,
+        "player": "Tim Duncan",
+        "points": 12.0,
+        "vote_share": 0.019
+      },
+      {
+        "rank": 9,
+        "player": "Michael Kidd-Gilchrist",
+        "points": 9.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 10,
+        "player": "Jimmy Butler",
+        "points": 7.0,
+        "vote_share": 0.011
+      },
+      {
+        "rank": 10,
+        "player": "Marc Gasol",
+        "points": 7.0,
+        "vote_share": 0.011
+      },
+      {
+        "rank": 12,
+        "player": "Joakim Noah",
+        "points": 4.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 13,
+        "player": "Trevor Ariza",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 13,
+        "player": "LeBron James",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 15,
+        "player": "Patrick Beverley",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 15,
+        "player": "DeMarre Carroll",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 15,
+        "player": "Nerlens Noel",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 15,
+        "player": "Chris Paul",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 15,
+        "player": "Hassan Whiteside",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2015.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Jimmy Butler",
+        "points": 535.0,
+        "vote_share": 0.829
+      },
+      {
+        "rank": 2,
+        "player": "Draymond Green",
+        "points": 200.0,
+        "vote_share": 0.31
+      },
+      {
+        "rank": 3,
+        "player": "Rudy Gobert",
+        "points": 189.0,
+        "vote_share": 0.293
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Jimmy Butler",
+        "points": 535.0,
+        "vote_share": 0.829
+      },
+      {
+        "rank": 2,
+        "player": "Draymond Green",
+        "points": 200.0,
+        "vote_share": 0.31
+      },
+      {
+        "rank": 3,
+        "player": "Rudy Gobert",
+        "points": 189.0,
+        "vote_share": 0.293
+      },
+      {
+        "rank": 4,
+        "player": "Hassan Whiteside",
+        "points": 88.0,
+        "vote_share": 0.136
+      },
+      {
+        "rank": 5,
+        "player": "Klay Thompson",
+        "points": 42.0,
+        "vote_share": 0.065
+      },
+      {
+        "rank": 6,
+        "player": "Anthony Davis",
+        "points": 27.0,
+        "vote_share": 0.042
+      },
+      {
+        "rank": 7,
+        "player": "Giannis Antetokounmpo",
+        "points": 22.0,
+        "vote_share": 0.034
+      },
+      {
+        "rank": 8,
+        "player": "Donatas Motiejūnas",
+        "points": 7.0,
+        "vote_share": 0.011
+      },
+      {
+        "rank": 9,
+        "player": "Dennis Schröder",
+        "points": 6.0,
+        "vote_share": 0.009
+      },
+      {
+        "rank": 10,
+        "player": "DeMarre Carroll",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 10,
+        "player": "Tyler Zeller",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 12,
+        "player": "DeMarcus Cousins",
+        "points": 4.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 12,
+        "player": "Khris Middleton",
+        "points": 4.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 14,
+        "player": "Jae Crowder",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 14,
+        "player": "Kyrie Irving",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 14,
+        "player": "DeAndre Jordan",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 14,
+        "player": "Victor Oladipo",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 18,
+        "player": "Kentavious Caldwell-Pope",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 18,
+        "player": "Nikola Vučević",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 20,
+        "player": "Robert Covington",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Tyreke Evans",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Derrick Favors",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Enes Freedom",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Marc Gasol",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Tobias Harris",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Gordon Hayward",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "George Hill",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Brandon Knight",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Kawhi Leonard",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 20,
+        "player": "Meyers Leonard",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2015.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Lou Williams",
+        "points": 502.0,
+        "vote_share": 0.772
+      },
+      {
+        "rank": 2,
+        "player": "Isaiah Thomas",
+        "points": 324.0,
+        "vote_share": 0.498
+      },
+      {
+        "rank": 3,
+        "player": "Jamal Crawford",
+        "points": 131.0,
+        "vote_share": 0.202
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Lou Williams",
+        "points": 502.0,
+        "vote_share": 0.772
+      },
+      {
+        "rank": 2,
+        "player": "Isaiah Thomas",
+        "points": 324.0,
+        "vote_share": 0.498
+      },
+      {
+        "rank": 3,
+        "player": "Jamal Crawford",
+        "points": 131.0,
+        "vote_share": 0.202
+      },
+      {
+        "rank": 4,
+        "player": "Andre Iguodala",
+        "points": 100.0,
+        "vote_share": 0.154
+      },
+      {
+        "rank": 5,
+        "player": "Tristan Thompson",
+        "points": 33.0,
+        "vote_share": 0.051
+      },
+      {
+        "rank": 6,
+        "player": "Nikola Mirotić",
+        "points": 24.0,
+        "vote_share": 0.037
+      },
+      {
+        "rank": 7,
+        "player": "Marreese Speights",
+        "points": 20.0,
+        "vote_share": 0.031
+      },
+      {
+        "rank": 8,
+        "player": "Corey Brewer",
+        "points": 12.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 8,
+        "player": "Manu Ginóbili",
+        "points": 12.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 10,
+        "player": "Taj Gibson",
+        "points": 8.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 11,
+        "player": "Aaron Brooks",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Chris Kaman",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Anthony Morrow",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Dennis Schröder",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2026.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 939.0,
+        "vote_share": 0.939
+      },
+      {
+        "rank": 2,
+        "player": "Nikola Jokić",
+        "points": 634.0,
+        "vote_share": 0.634
+      },
+      {
+        "rank": 3,
+        "player": "Victor Wembanyama",
+        "points": 569.0,
+        "vote_share": 0.569
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 939.0,
+        "vote_share": 0.939
+      },
+      {
+        "rank": 2,
+        "player": "Nikola Jokić",
+        "points": 634.0,
+        "vote_share": 0.634
+      },
+      {
+        "rank": 3,
+        "player": "Victor Wembanyama",
+        "points": 569.0,
+        "vote_share": 0.569
+      },
+      {
+        "rank": 4,
+        "player": "Luka Dončić",
+        "points": 250.0,
+        "vote_share": 0.25
+      },
+      {
+        "rank": 5,
+        "player": "Cade Cunningham",
+        "points": 117.0,
+        "vote_share": 0.117
+      },
+      {
+        "rank": 6,
+        "player": "Jaylen Brown",
+        "points": 89.0,
+        "vote_share": 0.089
+      },
+      {
+        "rank": 7,
+        "player": "Kawhi Leonard",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 7,
+        "player": "Donovan Mitchell",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2026.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Cooper Flagg",
+        "points": 412.0,
+        "vote_share": 0.824
+      },
+      {
+        "rank": 2,
+        "player": "Kon Knueppel",
+        "points": 386.0,
+        "vote_share": 0.772
+      },
+      {
+        "rank": 3,
+        "player": "VJ Edgecombe",
+        "points": 96.0,
+        "vote_share": 0.192
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Cooper Flagg",
+        "points": 412.0,
+        "vote_share": 0.824
+      },
+      {
+        "rank": 2,
+        "player": "Kon Knueppel",
+        "points": 386.0,
+        "vote_share": 0.772
+      },
+      {
+        "rank": 3,
+        "player": "VJ Edgecombe",
+        "points": 96.0,
+        "vote_share": 0.192
+      },
+      {
+        "rank": 4,
+        "player": "Dylan Harper",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 5,
+        "player": "Cedric Coward",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2026.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Victor Wembanyama",
+        "points": 500.0,
+        "vote_share": 1.0
+      },
+      {
+        "rank": 2,
+        "player": "Chet Holmgren",
+        "points": 239.0,
+        "vote_share": 0.478
+      },
+      {
+        "rank": 3,
+        "player": "Ausar Thompson",
+        "points": 60.0,
+        "vote_share": 0.12
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Victor Wembanyama",
+        "points": 500.0,
+        "vote_share": 1.0
+      },
+      {
+        "rank": 2,
+        "player": "Chet Holmgren",
+        "points": 239.0,
+        "vote_share": 0.478
+      },
+      {
+        "rank": 3,
+        "player": "Ausar Thompson",
+        "points": 60.0,
+        "vote_share": 0.12
+      },
+      {
+        "rank": 4,
+        "player": "Rudy Gobert",
+        "points": 41.0,
+        "vote_share": 0.082
+      },
+      {
+        "rank": 5,
+        "player": "Scottie Barnes",
+        "points": 21.0,
+        "vote_share": 0.042
+      },
+      {
+        "rank": 6,
+        "player": "Derrick White",
+        "points": 13.0,
+        "vote_share": 0.026
+      },
+      {
+        "rank": 7,
+        "player": "Cason Wallace",
+        "points": 8.0,
+        "vote_share": 0.016
+      },
+      {
+        "rank": 8,
+        "player": "Amen Thompson",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 9,
+        "player": "Dyson Daniels",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 10,
+        "player": "OG Anunoby",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 11,
+        "player": "Bam Adebayo",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Jalen Duren",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Draymond Green",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2026.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Nickeil Alexander-Walker",
+        "points": 396.0,
+        "vote_share": 0.792
+      },
+      {
+        "rank": 2,
+        "player": "Jalen Duren",
+        "points": 254.0,
+        "vote_share": 0.508
+      },
+      {
+        "rank": 3,
+        "player": "Deni Avdija",
+        "points": 135.0,
+        "vote_share": 0.27
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Nickeil Alexander-Walker",
+        "points": 396.0,
+        "vote_share": 0.792
+      },
+      {
+        "rank": 2,
+        "player": "Jalen Duren",
+        "points": 254.0,
+        "vote_share": 0.508
+      },
+      {
+        "rank": 3,
+        "player": "Deni Avdija",
+        "points": 135.0,
+        "vote_share": 0.27
+      },
+      {
+        "rank": 4,
+        "player": "Neemias Queta",
+        "points": 41.0,
+        "vote_share": 0.082
+      },
+      {
+        "rank": 5,
+        "player": "Ryan Rollins",
+        "points": 33.0,
+        "vote_share": 0.066
+      },
+      {
+        "rank": 6,
+        "player": "Jalen Johnson",
+        "points": 21.0,
+        "vote_share": 0.042
+      },
+      {
+        "rank": 7,
+        "player": "Reed Sheppard",
+        "points": 9.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 8,
+        "player": "Collin Gillespie",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 8,
+        "player": "Jamal Murray",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Stephon Castle",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Naji Marshall",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Jaden McDaniels",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Amen Thompson",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Victor Wembanyama",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2026.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Keldon Johnson",
+        "points": 404.0,
+        "vote_share": 0.808
+      },
+      {
+        "rank": 2,
+        "player": "Jaime Jaquez Jr.",
+        "points": 331.0,
+        "vote_share": 0.662
+      },
+      {
+        "rank": 3,
+        "player": "Tim Hardaway Jr.",
+        "points": 45.0,
+        "vote_share": 0.09
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Keldon Johnson",
+        "points": 404.0,
+        "vote_share": 0.808
+      },
+      {
+        "rank": 2,
+        "player": "Jaime Jaquez Jr.",
+        "points": 331.0,
+        "vote_share": 0.662
+      },
+      {
+        "rank": 3,
+        "player": "Tim Hardaway Jr.",
+        "points": 45.0,
+        "vote_share": 0.09
+      },
+      {
+        "rank": 4,
+        "player": "Naz Reid",
+        "points": 42.0,
+        "vote_share": 0.084
+      },
+      {
+        "rank": 5,
+        "player": "Ajay Mitchell",
+        "points": 29.0,
+        "vote_share": 0.058
+      },
+      {
+        "rank": 6,
+        "player": "Reed Sheppard",
+        "points": 28.0,
+        "vote_share": 0.056
+      },
+      {
+        "rank": 7,
+        "player": "Isaiah Stewart",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 8,
+        "player": "Mitchell Robinson",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 9,
+        "player": "Ayo Dosunmu",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 10,
+        "player": "Sandro Mamukelashvili",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 11,
+        "player": "Dylan Harper",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 12,
+        "player": "Jamal Shead",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

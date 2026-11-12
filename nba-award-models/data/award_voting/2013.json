@@ -1,0 +1,709 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2013.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "LeBron James",
+        "points": 1207.0,
+        "vote_share": 0.998
+      },
+      {
+        "rank": 2,
+        "player": "Kevin Durant",
+        "points": 765.0,
+        "vote_share": 0.632
+      },
+      {
+        "rank": 3,
+        "player": "Carmelo Anthony",
+        "points": 475.0,
+        "vote_share": 0.393
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "LeBron James",
+        "points": 1207.0,
+        "vote_share": 0.998
+      },
+      {
+        "rank": 2,
+        "player": "Kevin Durant",
+        "points": 765.0,
+        "vote_share": 0.632
+      },
+      {
+        "rank": 3,
+        "player": "Carmelo Anthony",
+        "points": 475.0,
+        "vote_share": 0.393
+      },
+      {
+        "rank": 4,
+        "player": "Chris Paul",
+        "points": 289.0,
+        "vote_share": 0.239
+      },
+      {
+        "rank": 5,
+        "player": "Kobe Bryant",
+        "points": 184.0,
+        "vote_share": 0.152
+      },
+      {
+        "rank": 6,
+        "player": "Tony Parker",
+        "points": 86.0,
+        "vote_share": 0.071
+      },
+      {
+        "rank": 7,
+        "player": "Tim Duncan",
+        "points": 65.0,
+        "vote_share": 0.054
+      },
+      {
+        "rank": 8,
+        "player": "James Harden",
+        "points": 33.0,
+        "vote_share": 0.027
+      },
+      {
+        "rank": 9,
+        "player": "Russell Westbrook",
+        "points": 9.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 10,
+        "player": "Dwyane Wade",
+        "points": 5.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 11,
+        "player": "Stephen Curry",
+        "points": 3.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 12,
+        "player": "Kevin Garnett",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 12,
+        "player": "Marc Gasol",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 12,
+        "player": "Ty Lawson",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 12,
+        "player": "David Lee",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 12,
+        "player": "Joakim Noah",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2013.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Damian Lillard",
+        "points": 605.0,
+        "vote_share": 1.0
+      },
+      {
+        "rank": 2,
+        "player": "Anthony Davis",
+        "points": 306.0,
+        "vote_share": 0.506
+      },
+      {
+        "rank": 3,
+        "player": "Bradley Beal",
+        "points": 94.0,
+        "vote_share": 0.155
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Damian Lillard",
+        "points": 605.0,
+        "vote_share": 1.0
+      },
+      {
+        "rank": 2,
+        "player": "Anthony Davis",
+        "points": 306.0,
+        "vote_share": 0.506
+      },
+      {
+        "rank": 3,
+        "player": "Bradley Beal",
+        "points": 94.0,
+        "vote_share": 0.155
+      },
+      {
+        "rank": 4,
+        "player": "Andre Drummond",
+        "points": 36.0,
+        "vote_share": 0.06
+      },
+      {
+        "rank": 5,
+        "player": "Dion Waiters",
+        "points": 21.0,
+        "vote_share": 0.035
+      },
+      {
+        "rank": 6,
+        "player": "Harrison Barnes",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 6,
+        "player": "Chris Copeland",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 8,
+        "player": "Michael Kidd-Gilchrist",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 9,
+        "player": "Jonas Valančiūnas",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 10,
+        "player": "John Jenkins",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2013.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Marc Gasol",
+        "points": 212.0,
+        "vote_share": 0.35
+      },
+      {
+        "rank": 2,
+        "player": "LeBron James",
+        "points": 149.0,
+        "vote_share": 0.246
+      },
+      {
+        "rank": 3,
+        "player": "Serge Ibaka",
+        "points": 122.0,
+        "vote_share": 0.202
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Marc Gasol",
+        "points": 212.0,
+        "vote_share": 0.35
+      },
+      {
+        "rank": 2,
+        "player": "LeBron James",
+        "points": 149.0,
+        "vote_share": 0.246
+      },
+      {
+        "rank": 3,
+        "player": "Serge Ibaka",
+        "points": 122.0,
+        "vote_share": 0.202
+      },
+      {
+        "rank": 4,
+        "player": "Joakim Noah",
+        "points": 107.0,
+        "vote_share": 0.177
+      },
+      {
+        "rank": 5,
+        "player": "Tony Allen",
+        "points": 102.0,
+        "vote_share": 0.169
+      },
+      {
+        "rank": 6,
+        "player": "Tim Duncan",
+        "points": 94.0,
+        "vote_share": 0.155
+      },
+      {
+        "rank": 7,
+        "player": "Larry Sanders",
+        "points": 90.0,
+        "vote_share": 0.149
+      },
+      {
+        "rank": 8,
+        "player": "Paul George",
+        "points": 57.0,
+        "vote_share": 0.094
+      },
+      {
+        "rank": 9,
+        "player": "Andre Iguodala",
+        "points": 43.0,
+        "vote_share": 0.071
+      },
+      {
+        "rank": 10,
+        "player": "Roy Hibbert",
+        "points": 36.0,
+        "vote_share": 0.06
+      },
+      {
+        "rank": 11,
+        "player": "Chris Paul",
+        "points": 19.0,
+        "vote_share": 0.031
+      },
+      {
+        "rank": 12,
+        "player": "Avery Bradley",
+        "points": 15.0,
+        "vote_share": 0.025
+      },
+      {
+        "rank": 13,
+        "player": "Tyson Chandler",
+        "points": 11.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 14,
+        "player": "Dwight Howard",
+        "points": 9.0,
+        "vote_share": 0.015
+      },
+      {
+        "rank": 15,
+        "player": "Luol Deng",
+        "points": 6.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 16,
+        "player": "Dwyane Wade",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 17,
+        "player": "Trevor Ariza",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 17,
+        "player": "Jimmy Butler",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 17,
+        "player": "Kenneth Faried",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 17,
+        "player": "Russell Westbrook",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 21,
+        "player": "Mike Conley",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2013.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Paul George",
+        "points": 311.0,
+        "vote_share": 0.518
+      },
+      {
+        "rank": 2,
+        "player": "Greivis Vásquez",
+        "points": 146.0,
+        "vote_share": 0.243
+      },
+      {
+        "rank": 3,
+        "player": "Larry Sanders",
+        "points": 141.0,
+        "vote_share": 0.235
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Paul George",
+        "points": 311.0,
+        "vote_share": 0.518
+      },
+      {
+        "rank": 2,
+        "player": "Greivis Vásquez",
+        "points": 146.0,
+        "vote_share": 0.243
+      },
+      {
+        "rank": 3,
+        "player": "Larry Sanders",
+        "points": 141.0,
+        "vote_share": 0.235
+      },
+      {
+        "rank": 4,
+        "player": "Nikola Vučević",
+        "points": 109.0,
+        "vote_share": 0.182
+      },
+      {
+        "rank": 5,
+        "player": "Jrue Holiday",
+        "points": 102.0,
+        "vote_share": 0.17
+      },
+      {
+        "rank": 6,
+        "player": "Ömer Aşık",
+        "points": 86.0,
+        "vote_share": 0.143
+      },
+      {
+        "rank": 7,
+        "player": "James Harden",
+        "points": 53.0,
+        "vote_share": 0.088
+      },
+      {
+        "rank": 8,
+        "player": "Stephen Curry",
+        "points": 18.0,
+        "vote_share": 0.03
+      },
+      {
+        "rank": 9,
+        "player": "Serge Ibaka",
+        "points": 15.0,
+        "vote_share": 0.025
+      },
+      {
+        "rank": 10,
+        "player": "Chandler Parsons",
+        "points": 14.0,
+        "vote_share": 0.023
+      },
+      {
+        "rank": 11,
+        "player": "Kemba Walker",
+        "points": 9.0,
+        "vote_share": 0.015
+      },
+      {
+        "rank": 12,
+        "player": "J.R. Smith",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 12,
+        "player": "Klay Thompson",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 14,
+        "player": "Jimmy Butler",
+        "points": 7.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 15,
+        "player": "Ryan Anderson",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 15,
+        "player": "Carmelo Anthony",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 15,
+        "player": "Andray Blatche",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 15,
+        "player": "Mike Conley",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 15,
+        "player": "Kawhi Leonard",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 20,
+        "player": "Kevin Durant",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 21,
+        "player": "Arron Afflalo",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 21,
+        "player": "Earl Clark",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 21,
+        "player": "Kenneth Faried",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 21,
+        "player": "Greg Monroe",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 21,
+        "player": "Joakim Noah",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 26,
+        "player": "Tristan Thompson",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 27,
+        "player": "Tobias Harris",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 27,
+        "player": "Jarrett Jack",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 27,
+        "player": "Ty Lawson",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 27,
+        "player": "Brook Lopez",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 27,
+        "player": "Robin Lopez",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 27,
+        "player": "Lance Stephenson",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 27,
+        "player": "Jeff Teague",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2013.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "J.R. Smith",
+        "points": 484.0,
+        "vote_share": 0.8
+      },
+      {
+        "rank": 2,
+        "player": "Jamal Crawford",
+        "points": 352.0,
+        "vote_share": 0.582
+      },
+      {
+        "rank": 3,
+        "player": "Jarrett Jack",
+        "points": 170.0,
+        "vote_share": 0.281
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "J.R. Smith",
+        "points": 484.0,
+        "vote_share": 0.8
+      },
+      {
+        "rank": 2,
+        "player": "Jamal Crawford",
+        "points": 352.0,
+        "vote_share": 0.582
+      },
+      {
+        "rank": 3,
+        "player": "Jarrett Jack",
+        "points": 170.0,
+        "vote_share": 0.281
+      },
+      {
+        "rank": 4,
+        "player": "Kevin Martin",
+        "points": 31.0,
+        "vote_share": 0.051
+      },
+      {
+        "rank": 5,
+        "player": "Ryan Anderson",
+        "points": 11.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 6,
+        "player": "Andre Miller",
+        "points": 7.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 7,
+        "player": "Jordan Crawford",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 8,
+        "player": "Corey Brewer",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 8,
+        "player": "Manu Ginóbili",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 8,
+        "player": "Carl Landry",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 8,
+        "player": "Nate Robinson",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 12,
+        "player": "Shane Battier",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 12,
+        "player": "Ramon Sessions",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 14,
+        "player": "Luke Babbitt",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 14,
+        "player": "Vince Carter",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 14,
+        "player": "Gordon Hayward",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 14,
+        "player": "JJ Redick",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

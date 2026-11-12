@@ -1,0 +1,672 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2010.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "LeBron James",
+        "points": 1205.0,
+        "vote_share": 0.98
+      },
+      {
+        "rank": 2,
+        "player": "Kevin Durant",
+        "points": 609.0,
+        "vote_share": 0.495
+      },
+      {
+        "rank": 3,
+        "player": "Kobe Bryant",
+        "points": 599.0,
+        "vote_share": 0.487
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "LeBron James",
+        "points": 1205.0,
+        "vote_share": 0.98
+      },
+      {
+        "rank": 2,
+        "player": "Kevin Durant",
+        "points": 609.0,
+        "vote_share": 0.495
+      },
+      {
+        "rank": 3,
+        "player": "Kobe Bryant",
+        "points": 599.0,
+        "vote_share": 0.487
+      },
+      {
+        "rank": 4,
+        "player": "Dwight Howard",
+        "points": 478.0,
+        "vote_share": 0.389
+      },
+      {
+        "rank": 5,
+        "player": "Dwyane Wade",
+        "points": 119.0,
+        "vote_share": 0.097
+      },
+      {
+        "rank": 6,
+        "player": "Carmelo Anthony",
+        "points": 65.0,
+        "vote_share": 0.053
+      },
+      {
+        "rank": 7,
+        "player": "Dirk Nowitzki",
+        "points": 55.0,
+        "vote_share": 0.045
+      },
+      {
+        "rank": 8,
+        "player": "Steve Nash",
+        "points": 49.0,
+        "vote_share": 0.04
+      },
+      {
+        "rank": 9,
+        "player": "Deron Williams",
+        "points": 7.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Amar'e Stoudemire",
+        "points": 5.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 11,
+        "player": "Manu Ginóbili",
+        "points": 3.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 12,
+        "player": "Chauncey Billups",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 12,
+        "player": "Chris Bosh",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 12,
+        "player": "Joe Johnson",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 12,
+        "player": "Stephen Jackson",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2010.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Tyreke Evans",
+        "points": 491.0,
+        "vote_share": 0.798
+      },
+      {
+        "rank": 2,
+        "player": "Stephen Curry",
+        "points": 391.0,
+        "vote_share": 0.636
+      },
+      {
+        "rank": 3,
+        "player": "Brandon Jennings",
+        "points": 204.0,
+        "vote_share": 0.332
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Tyreke Evans",
+        "points": 491.0,
+        "vote_share": 0.798
+      },
+      {
+        "rank": 2,
+        "player": "Stephen Curry",
+        "points": 391.0,
+        "vote_share": 0.636
+      },
+      {
+        "rank": 3,
+        "player": "Brandon Jennings",
+        "points": 204.0,
+        "vote_share": 0.332
+      },
+      {
+        "rank": 4,
+        "player": "Darren Collison",
+        "points": 17.0,
+        "vote_share": 0.028
+      },
+      {
+        "rank": 5,
+        "player": "Jonny Flynn",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 5,
+        "player": "Taj Gibson",
+        "points": 2.0,
+        "vote_share": 0.003
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2010.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Dwight Howard",
+        "points": 576.0,
+        "vote_share": 0.944
+      },
+      {
+        "rank": 2,
+        "player": "Josh Smith",
+        "points": 136.0,
+        "vote_share": 0.223
+      },
+      {
+        "rank": 3,
+        "player": "Gerald Wallace",
+        "points": 113.0,
+        "vote_share": 0.185
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Dwight Howard",
+        "points": 576.0,
+        "vote_share": 0.944
+      },
+      {
+        "rank": 2,
+        "player": "Josh Smith",
+        "points": 136.0,
+        "vote_share": 0.223
+      },
+      {
+        "rank": 3,
+        "player": "Gerald Wallace",
+        "points": 113.0,
+        "vote_share": 0.185
+      },
+      {
+        "rank": 4,
+        "player": "LeBron James",
+        "points": 61.0,
+        "vote_share": 0.1
+      },
+      {
+        "rank": 5,
+        "player": "Rajon Rondo",
+        "points": 55.0,
+        "vote_share": 0.09
+      },
+      {
+        "rank": 6,
+        "player": "Metta World Peace",
+        "points": 29.0,
+        "vote_share": 0.048
+      },
+      {
+        "rank": 7,
+        "player": "Andrew Bogut",
+        "points": 23.0,
+        "vote_share": 0.038
+      },
+      {
+        "rank": 8,
+        "player": "Thabo Sefolosha",
+        "points": 20.0,
+        "vote_share": 0.033
+      },
+      {
+        "rank": 9,
+        "player": "Anderson Varejão",
+        "points": 18.0,
+        "vote_share": 0.03
+      },
+      {
+        "rank": 10,
+        "player": "Dwyane Wade",
+        "points": 13.0,
+        "vote_share": 0.021
+      },
+      {
+        "rank": 10,
+        "player": "Marcus Camby",
+        "points": 13.0,
+        "vote_share": 0.021
+      },
+      {
+        "rank": 12,
+        "player": "Kobe Bryant",
+        "points": 9.0,
+        "vote_share": 0.015
+      },
+      {
+        "rank": 13,
+        "player": "Shawn Marion",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 14,
+        "player": "Tim Duncan",
+        "points": 7.0,
+        "vote_share": 0.011
+      },
+      {
+        "rank": 15,
+        "player": "Shane Battier",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 16,
+        "player": "Andrei Kirilenko",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 17,
+        "player": "Arron Afflalo",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 17,
+        "player": "Ben Wallace",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 17,
+        "player": "Brendan Haywood",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 17,
+        "player": "David Lee",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 17,
+        "player": "Kendrick Perkins",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 17,
+        "player": "Kenyon Martin",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 17,
+        "player": "Luc Mbah a Moute",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 17,
+        "player": "Matt Barnes",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2010.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Aaron Brooks",
+        "points": 403.0,
+        "vote_share": 0.655
+      },
+      {
+        "rank": 2,
+        "player": "George Hill",
+        "points": 101.0,
+        "vote_share": 0.164
+      },
+      {
+        "rank": 2,
+        "player": "Kevin Durant",
+        "points": 101.0,
+        "vote_share": 0.164
+      },
+      {
+        "rank": 2,
+        "player": "Marc Gasol",
+        "points": 101.0,
+        "vote_share": 0.164
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Aaron Brooks",
+        "points": 403.0,
+        "vote_share": 0.655
+      },
+      {
+        "rank": 2,
+        "player": "George Hill",
+        "points": 101.0,
+        "vote_share": 0.164
+      },
+      {
+        "rank": 2,
+        "player": "Kevin Durant",
+        "points": 101.0,
+        "vote_share": 0.164
+      },
+      {
+        "rank": 2,
+        "player": "Marc Gasol",
+        "points": 101.0,
+        "vote_share": 0.164
+      },
+      {
+        "rank": 5,
+        "player": "Andrew Bogut",
+        "points": 93.0,
+        "vote_share": 0.151
+      },
+      {
+        "rank": 6,
+        "player": "Russell Westbrook",
+        "points": 67.0,
+        "vote_share": 0.109
+      },
+      {
+        "rank": 7,
+        "player": "Joakim Noah",
+        "points": 64.0,
+        "vote_share": 0.104
+      },
+      {
+        "rank": 8,
+        "player": "Gerald Wallace",
+        "points": 29.0,
+        "vote_share": 0.047
+      },
+      {
+        "rank": 9,
+        "player": "Brook Lopez",
+        "points": 19.0,
+        "vote_share": 0.031
+      },
+      {
+        "rank": 9,
+        "player": "Corey Brewer",
+        "points": 19.0,
+        "vote_share": 0.031
+      },
+      {
+        "rank": 11,
+        "player": "Carl Landry",
+        "points": 18.0,
+        "vote_share": 0.029
+      },
+      {
+        "rank": 12,
+        "player": "Andray Blatche",
+        "points": 12.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 12,
+        "player": "Rajon Rondo",
+        "points": 12.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 14,
+        "player": "Channing Frye",
+        "points": 10.0,
+        "vote_share": 0.016
+      },
+      {
+        "rank": 14,
+        "player": "Danilo Gallinari",
+        "points": 10.0,
+        "vote_share": 0.016
+      },
+      {
+        "rank": 16,
+        "player": "Josh Smith",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 17,
+        "player": "David Lee",
+        "points": 7.0,
+        "vote_share": 0.011
+      },
+      {
+        "rank": 18,
+        "player": "Dwight Howard",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 19,
+        "player": "Chris Kaman",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 19,
+        "player": "Ersan İlyasova",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 19,
+        "player": "JJ Redick",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 22,
+        "player": "Chris Douglas-Roberts",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 22,
+        "player": "Nenê",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 22,
+        "player": "Paul Millsap",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 25,
+        "player": "Robin Lopez",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 26,
+        "player": "Ben Wallace",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 26,
+        "player": "J.J. Hickson",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 26,
+        "player": "John Salmons",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 26,
+        "player": "Monta Ellis",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 26,
+        "player": "Zach Randolph",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2010.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Jamal Crawford",
+        "points": 580.0,
+        "vote_share": 0.951
+      },
+      {
+        "rank": 2,
+        "player": "Jason Terry",
+        "points": 220.0,
+        "vote_share": 0.361
+      },
+      {
+        "rank": 3,
+        "player": "Anderson Varejão",
+        "points": 126.0,
+        "vote_share": 0.207
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Jamal Crawford",
+        "points": 580.0,
+        "vote_share": 0.951
+      },
+      {
+        "rank": 2,
+        "player": "Jason Terry",
+        "points": 220.0,
+        "vote_share": 0.361
+      },
+      {
+        "rank": 3,
+        "player": "Anderson Varejão",
+        "points": 126.0,
+        "vote_share": 0.207
+      },
+      {
+        "rank": 4,
+        "player": "Manu Ginóbili",
+        "points": 75.0,
+        "vote_share": 0.123
+      },
+      {
+        "rank": 5,
+        "player": "J.R. Smith",
+        "points": 33.0,
+        "vote_share": 0.054
+      },
+      {
+        "rank": 6,
+        "player": "Lamar Odom",
+        "points": 25.0,
+        "vote_share": 0.041
+      },
+      {
+        "rank": 7,
+        "player": "Paul Millsap",
+        "points": 15.0,
+        "vote_share": 0.025
+      },
+      {
+        "rank": 8,
+        "player": "Carl Landry",
+        "points": 12.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 9,
+        "player": "Udonis Haslem",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 10,
+        "player": "Marcus Thornton",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 11,
+        "player": "Al Harrington",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Jared Dudley",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Kevin Love",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Kyle Lowry",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

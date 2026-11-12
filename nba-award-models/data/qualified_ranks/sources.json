@@ -1,0 +1,548 @@
+[
+  {
+    "year": 1986,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1986_per_game.html",
+    "sha256": "00059e5fabd881dafc80e97ceffef5f28346b422736b6bd95d52126f92800a7c"
+  },
+  {
+    "year": 1986,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1986_advanced.html",
+    "sha256": "7573abdbce0de4f15c1a685c9b7a5ebdc1a029622c254f3470474acf7ae5db6b"
+  },
+  {
+    "year": 1987,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1987_per_game.html",
+    "sha256": "4df3441d0752fffb0bbd61a403057a48b23901e29d3e287da6285794baf860e6"
+  },
+  {
+    "year": 1987,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1987_advanced.html",
+    "sha256": "82c2e6fac27f8ece66baa1bda2d8fdc750dab75d0487e00ab4b44231ccda9290"
+  },
+  {
+    "year": 1988,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1988_per_game.html",
+    "sha256": "38d6f4fa277c822940b1bd5bb82908955748a68b7bc60b1b25f633300d06093d"
+  },
+  {
+    "year": 1988,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1988_advanced.html",
+    "sha256": "8a07405e50c8dcf1f7cec0a87d571c3133bc1e72e4ec4cf0780e2c73c7c07d3f"
+  },
+  {
+    "year": 1989,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1989_per_game.html",
+    "sha256": "fcb6e41560eb77f3fac4436d71d78d488e813c07b7e978a7720bf5e86a0d21e4"
+  },
+  {
+    "year": 1989,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1989_advanced.html",
+    "sha256": "64350568f2c3555d39e1c20b90f8950811aa8af6b90558ae882bf3db8f04f547"
+  },
+  {
+    "year": 1990,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1990_per_game.html",
+    "sha256": "0409434c83979bd28aa45e32ae4a4b10f39c4a84a6298c1316f687217a5c0f88"
+  },
+  {
+    "year": 1990,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1990_advanced.html",
+    "sha256": "1a0bd0a79264c6fa09e4b0da8f9e0fb6b78ee220e6dc452a1512d64664dac4d4"
+  },
+  {
+    "year": 1991,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1991_per_game.html",
+    "sha256": "a43e4194275260f7f2da8b0556973b6a48cbd885d500df5340382bc95f1d8222"
+  },
+  {
+    "year": 1991,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1991_advanced.html",
+    "sha256": "274213da277e0568f5b468fccca5238b980f65fc3958b142fea9cfc166031079"
+  },
+  {
+    "year": 1992,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1992_per_game.html",
+    "sha256": "93c4a7ea84ab33275625bc7446728d07983e6f41454e9a3a38460bda4ca40878"
+  },
+  {
+    "year": 1992,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1992_advanced.html",
+    "sha256": "f6b8bde1823f1fd782fa3595f4c9215a96ee400c6419979952b3cbfd993499c6"
+  },
+  {
+    "year": 1993,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1993_per_game.html",
+    "sha256": "675fea09d3b7b89dd7ebcd67c204e457729be88ffe5ece04faf2fd5bdee14df1"
+  },
+  {
+    "year": 1993,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1993_advanced.html",
+    "sha256": "0e1afce0c7e1479227c1837a827e85d7aa426e46f0645a9ca591b2c18f6c2203"
+  },
+  {
+    "year": 1994,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1994_per_game.html",
+    "sha256": "0cf796d44d393095cf7e7c0d15ce589f56edd733af95dc70313e77641eef3669"
+  },
+  {
+    "year": 1994,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1994_advanced.html",
+    "sha256": "3e59afa0fd526d93402bbcaca6a17fccece8bf323002a75ac31c66e67754b405"
+  },
+  {
+    "year": 1995,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1995_per_game.html",
+    "sha256": "8ca76a93658daf2909f52362bf25f74ab290d1c902d491a62c9395a38e4010e5"
+  },
+  {
+    "year": 1995,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1995_advanced.html",
+    "sha256": "94e1237d748be1f977d3f77f3538d06d8f92f84f71979df67d602a1084914508"
+  },
+  {
+    "year": 1996,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1996_per_game.html",
+    "sha256": "4bbdb360d91e01916c6b74e45bf4a86c430ce89f72bf692af33048b96896c89b"
+  },
+  {
+    "year": 1996,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1996_advanced.html",
+    "sha256": "2d3096bfc7eb7f8dfae84d9da1b96649fb7e2e69a756837dad7ac15c9c49365f"
+  },
+  {
+    "year": 1997,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1997_per_game.html",
+    "sha256": "2812bfb01b3c6b0ffa34124cddbd094480ec370d93df86b1cffe4258453aae58"
+  },
+  {
+    "year": 1997,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1997_advanced.html",
+    "sha256": "fff52ecf2850f13bb2195ccaad15c637ecbea617f52ffb16221898dc355856c3"
+  },
+  {
+    "year": 1998,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1998_per_game.html",
+    "sha256": "67f414848fd3d95f12849830b9d978d377c090678016b77e817a1191d6cac8d6"
+  },
+  {
+    "year": 1998,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1998_advanced.html",
+    "sha256": "ad19c657c478d509045f967cdfb8b5d876d65c0495892c550cd4ed3f8bc6c04e"
+  },
+  {
+    "year": 1999,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1999_per_game.html",
+    "sha256": "4845dcca91312dbcb89eedc7f9e1d552d85c646c9b032f22fc1ffa4a5354c833"
+  },
+  {
+    "year": 1999,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/leagues/NBA_1999_advanced.html",
+    "sha256": "9555b136e4070c36391116300514594076e32da3c5e4041cb844097aa095fb4a"
+  },
+  {
+    "year": 2000,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2000,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2001,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2001,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2002,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2002,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2003,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2003,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2004,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2004,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2005,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2005,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2006,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2006,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2007,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2007,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2008,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2008,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2009,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2009,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2010,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2010,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2011,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2011,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2012,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2012,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2013,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2013,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2014,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2014,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2015,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2015,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2016,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2016,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2017,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2017,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2018,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2018,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2019,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2019,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2020,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2020,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2021,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2021,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2022,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2022,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2023,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2023,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2024,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2024,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2025,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2025,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2026,
+    "kind": "per_game",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  },
+  {
+    "year": 2026,
+    "kind": "advanced",
+    "url": "https://www.basketball-reference.com/about/rate_stat_req.html",
+    "method": "Local reconstruction under source rate limit",
+    "sha256": "a2c34a0c1e60a137b59f70d5701740d362d974f3a9f0bba23becec65007826b6"
+  }
+]

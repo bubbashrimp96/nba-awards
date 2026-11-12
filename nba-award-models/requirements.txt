@@ -2,3 +2,6 @@ numpy
 pandas
 scipy
 reportlab
+requests
+beautifulsoup4
+pyarrow

@@ -1,0 +1,9 @@
+{
+  "seasons": 16,
+  "correct": 13,
+  "top3": 15,
+  "mean_log_loss": 0.8025729585774332,
+  "baseline_correct": 11,
+  "baseline_top3": 15,
+  "baseline_mean_log_loss": 0.7824981626525368
+}

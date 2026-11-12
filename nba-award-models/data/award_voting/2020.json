@@ -1,0 +1,463 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2020.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Giannis Antetokounmpo",
+        "points": 962.0,
+        "vote_share": 0.952
+      },
+      {
+        "rank": 2,
+        "player": "LeBron James",
+        "points": 753.0,
+        "vote_share": 0.746
+      },
+      {
+        "rank": 3,
+        "player": "James Harden",
+        "points": 367.0,
+        "vote_share": 0.363
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Giannis Antetokounmpo",
+        "points": 962.0,
+        "vote_share": 0.952
+      },
+      {
+        "rank": 2,
+        "player": "LeBron James",
+        "points": 753.0,
+        "vote_share": 0.746
+      },
+      {
+        "rank": 3,
+        "player": "James Harden",
+        "points": 367.0,
+        "vote_share": 0.363
+      },
+      {
+        "rank": 4,
+        "player": "Luka Dončić",
+        "points": 200.0,
+        "vote_share": 0.198
+      },
+      {
+        "rank": 5,
+        "player": "Kawhi Leonard",
+        "points": 168.0,
+        "vote_share": 0.166
+      },
+      {
+        "rank": 6,
+        "player": "Anthony Davis",
+        "points": 82.0,
+        "vote_share": 0.081
+      },
+      {
+        "rank": 7,
+        "player": "Chris Paul",
+        "points": 26.0,
+        "vote_share": 0.026
+      },
+      {
+        "rank": 8,
+        "player": "Damian Lillard",
+        "points": 23.0,
+        "vote_share": 0.023
+      },
+      {
+        "rank": 9,
+        "player": "Nikola Jokić",
+        "points": 18.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 10,
+        "player": "Pascal Siakam",
+        "points": 17.0,
+        "vote_share": 0.017
+      },
+      {
+        "rank": 11,
+        "player": "Jimmy Butler",
+        "points": 9.0,
+        "vote_share": 0.009
+      },
+      {
+        "rank": 12,
+        "player": "Jayson Tatum",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2020.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Ja Morant",
+        "points": 498.0,
+        "vote_share": 0.996
+      },
+      {
+        "rank": 2,
+        "player": "Kendrick Nunn",
+        "points": 204.0,
+        "vote_share": 0.408
+      },
+      {
+        "rank": 3,
+        "player": "Zion Williamson",
+        "points": 140.0,
+        "vote_share": 0.28
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Ja Morant",
+        "points": 498.0,
+        "vote_share": 0.996
+      },
+      {
+        "rank": 2,
+        "player": "Kendrick Nunn",
+        "points": 204.0,
+        "vote_share": 0.408
+      },
+      {
+        "rank": 3,
+        "player": "Zion Williamson",
+        "points": 140.0,
+        "vote_share": 0.28
+      },
+      {
+        "rank": 4,
+        "player": "Brandon Clarke",
+        "points": 50.0,
+        "vote_share": 0.1
+      },
+      {
+        "rank": 5,
+        "player": "Coby White",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 6,
+        "player": "Terence Davis",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 6,
+        "player": "Eric Paschall",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 8,
+        "player": "RJ Barrett",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2020.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Giannis Antetokounmpo",
+        "points": 432.0,
+        "vote_share": 0.864
+      },
+      {
+        "rank": 2,
+        "player": "Anthony Davis",
+        "points": 200.0,
+        "vote_share": 0.4
+      },
+      {
+        "rank": 3,
+        "player": "Rudy Gobert",
+        "points": 187.0,
+        "vote_share": 0.374
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Giannis Antetokounmpo",
+        "points": 432.0,
+        "vote_share": 0.864
+      },
+      {
+        "rank": 2,
+        "player": "Anthony Davis",
+        "points": 200.0,
+        "vote_share": 0.4
+      },
+      {
+        "rank": 3,
+        "player": "Rudy Gobert",
+        "points": 187.0,
+        "vote_share": 0.374
+      },
+      {
+        "rank": 4,
+        "player": "Ben Simmons",
+        "points": 32.0,
+        "vote_share": 0.064
+      },
+      {
+        "rank": 5,
+        "player": "Bam Adebayo",
+        "points": 17.0,
+        "vote_share": 0.034
+      },
+      {
+        "rank": 6,
+        "player": "Patrick Beverley",
+        "points": 7.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 6,
+        "player": "Marcus Smart",
+        "points": 7.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 8,
+        "player": "Andre Drummond",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 8,
+        "player": "Kawhi Leonard",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 10,
+        "player": "Brook Lopez",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 11,
+        "player": "Hassan Whiteside",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 12,
+        "player": "Jarrett Allen",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2020.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Brandon Ingram",
+        "points": 326.0,
+        "vote_share": 0.652
+      },
+      {
+        "rank": 2,
+        "player": "Bam Adebayo",
+        "points": 295.0,
+        "vote_share": 0.59
+      },
+      {
+        "rank": 3,
+        "player": "Luka Dončić",
+        "points": 101.0,
+        "vote_share": 0.202
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Brandon Ingram",
+        "points": 326.0,
+        "vote_share": 0.652
+      },
+      {
+        "rank": 2,
+        "player": "Bam Adebayo",
+        "points": 295.0,
+        "vote_share": 0.59
+      },
+      {
+        "rank": 3,
+        "player": "Luka Dončić",
+        "points": 101.0,
+        "vote_share": 0.202
+      },
+      {
+        "rank": 4,
+        "player": "Jayson Tatum",
+        "points": 57.0,
+        "vote_share": 0.114
+      },
+      {
+        "rank": 5,
+        "player": "Devonte' Graham",
+        "points": 50.0,
+        "vote_share": 0.1
+      },
+      {
+        "rank": 6,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 21.0,
+        "vote_share": 0.042
+      },
+      {
+        "rank": 7,
+        "player": "Pascal Siakam",
+        "points": 13.0,
+        "vote_share": 0.026
+      },
+      {
+        "rank": 8,
+        "player": "Christian Wood",
+        "points": 11.0,
+        "vote_share": 0.022
+      },
+      {
+        "rank": 9,
+        "player": "Trae Young",
+        "points": 10.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 10,
+        "player": "Fred VanVleet",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 11,
+        "player": "Dāvis Bertāns",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 11,
+        "player": "Jaylen Brown",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 13,
+        "player": "Markelle Fultz",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 14,
+        "player": "Spencer Dinwiddie",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 14,
+        "player": "Duncan Robinson",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2020.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Montrezl Harrell",
+        "points": 397.0,
+        "vote_share": 0.794
+      },
+      {
+        "rank": 2,
+        "player": "Dennis Schröder",
+        "points": 328.0,
+        "vote_share": 0.656
+      },
+      {
+        "rank": 3,
+        "player": "Lou Williams",
+        "points": 127.0,
+        "vote_share": 0.254
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Montrezl Harrell",
+        "points": 397.0,
+        "vote_share": 0.794
+      },
+      {
+        "rank": 2,
+        "player": "Dennis Schröder",
+        "points": 328.0,
+        "vote_share": 0.656
+      },
+      {
+        "rank": 3,
+        "player": "Lou Williams",
+        "points": 127.0,
+        "vote_share": 0.254
+      },
+      {
+        "rank": 4,
+        "player": "George Hill",
+        "points": 17.0,
+        "vote_share": 0.034
+      },
+      {
+        "rank": 4,
+        "player": "Christian Wood",
+        "points": 17.0,
+        "vote_share": 0.034
+      },
+      {
+        "rank": 6,
+        "player": "Goran Dragić",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 7,
+        "player": "Derrick Rose",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 8,
+        "player": "Dāvis Bertāns",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 9,
+        "player": "Dwight Howard",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

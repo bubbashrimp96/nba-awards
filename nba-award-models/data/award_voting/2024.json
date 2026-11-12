@@ -1,0 +1,451 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2024.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Nikola Jokić",
+        "points": 926.0,
+        "vote_share": 0.935
+      },
+      {
+        "rank": 2,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 640.0,
+        "vote_share": 0.646
+      },
+      {
+        "rank": 3,
+        "player": "Luka Dončić",
+        "points": 566.0,
+        "vote_share": 0.572
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Nikola Jokić",
+        "points": 926.0,
+        "vote_share": 0.935
+      },
+      {
+        "rank": 2,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 640.0,
+        "vote_share": 0.646
+      },
+      {
+        "rank": 3,
+        "player": "Luka Dončić",
+        "points": 566.0,
+        "vote_share": 0.572
+      },
+      {
+        "rank": 4,
+        "player": "Giannis Antetokounmpo",
+        "points": 192.0,
+        "vote_share": 0.194
+      },
+      {
+        "rank": 5,
+        "player": "Jalen Brunson",
+        "points": 142.0,
+        "vote_share": 0.143
+      },
+      {
+        "rank": 6,
+        "player": "Jayson Tatum",
+        "points": 86.0,
+        "vote_share": 0.087
+      },
+      {
+        "rank": 7,
+        "player": "Anthony Edwards",
+        "points": 18.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 8,
+        "player": "Domantas Sabonis",
+        "points": 3.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 9,
+        "player": "Kevin Durant",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2024.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Victor Wembanyama",
+        "points": 495.0,
+        "vote_share": 1.0
+      },
+      {
+        "rank": 2,
+        "player": "Chet Holmgren",
+        "points": 295.0,
+        "vote_share": 0.596
+      },
+      {
+        "rank": 3,
+        "player": "Brandon Miller",
+        "points": 86.0,
+        "vote_share": 0.174
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Victor Wembanyama",
+        "points": 495.0,
+        "vote_share": 1.0
+      },
+      {
+        "rank": 2,
+        "player": "Chet Holmgren",
+        "points": 295.0,
+        "vote_share": 0.596
+      },
+      {
+        "rank": 3,
+        "player": "Brandon Miller",
+        "points": 86.0,
+        "vote_share": 0.174
+      },
+      {
+        "rank": 4,
+        "player": "Jaime Jaquez Jr.",
+        "points": 10.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 5,
+        "player": "Brandin Podziemski",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 6,
+        "player": "Dereck Lively II",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2024.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Rudy Gobert",
+        "points": 433.0,
+        "vote_share": 0.875
+      },
+      {
+        "rank": 2,
+        "player": "Victor Wembanyama",
+        "points": 245.0,
+        "vote_share": 0.495
+      },
+      {
+        "rank": 3,
+        "player": "Bam Adebayo",
+        "points": 91.0,
+        "vote_share": 0.184
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Rudy Gobert",
+        "points": 433.0,
+        "vote_share": 0.875
+      },
+      {
+        "rank": 2,
+        "player": "Victor Wembanyama",
+        "points": 245.0,
+        "vote_share": 0.495
+      },
+      {
+        "rank": 3,
+        "player": "Bam Adebayo",
+        "points": 91.0,
+        "vote_share": 0.184
+      },
+      {
+        "rank": 4,
+        "player": "Anthony Davis",
+        "points": 83.0,
+        "vote_share": 0.168
+      },
+      {
+        "rank": 5,
+        "player": "Herbert Jones",
+        "points": 14.0,
+        "vote_share": 0.028
+      },
+      {
+        "rank": 6,
+        "player": "Jrue Holiday",
+        "points": 7.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 7,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 8,
+        "player": "Derrick White",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 9,
+        "player": "Giannis Antetokounmpo",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Jarrett Allen",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Alex Caruso",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Domantas Sabonis",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Jalen Suggs",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2024.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Tyrese Maxey",
+        "points": 319.0,
+        "vote_share": 0.644
+      },
+      {
+        "rank": 2,
+        "player": "Coby White",
+        "points": 305.0,
+        "vote_share": 0.616
+      },
+      {
+        "rank": 3,
+        "player": "Alperen Şengün",
+        "points": 92.0,
+        "vote_share": 0.186
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Tyrese Maxey",
+        "points": 319.0,
+        "vote_share": 0.644
+      },
+      {
+        "rank": 2,
+        "player": "Coby White",
+        "points": 305.0,
+        "vote_share": 0.616
+      },
+      {
+        "rank": 3,
+        "player": "Alperen Şengün",
+        "points": 92.0,
+        "vote_share": 0.186
+      },
+      {
+        "rank": 4,
+        "player": "Jalen Williams",
+        "points": 79.0,
+        "vote_share": 0.16
+      },
+      {
+        "rank": 5,
+        "player": "Jalen Brunson",
+        "points": 25.0,
+        "vote_share": 0.051
+      },
+      {
+        "rank": 6,
+        "player": "Deni Avdija",
+        "points": 24.0,
+        "vote_share": 0.048
+      },
+      {
+        "rank": 7,
+        "player": "Cam Thomas",
+        "points": 16.0,
+        "vote_share": 0.032
+      },
+      {
+        "rank": 8,
+        "player": "Jalen Suggs",
+        "points": 11.0,
+        "vote_share": 0.022
+      },
+      {
+        "rank": 9,
+        "player": "Tyrese Haliburton",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 10,
+        "player": "Grayson Allen",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 10,
+        "player": "Duncan Robinson",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 12,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 12,
+        "player": "Devin Vassell",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 14,
+        "player": "Aaron Nesmith",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2024.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Naz Reid",
+        "points": 352.0,
+        "vote_share": 0.711
+      },
+      {
+        "rank": 2,
+        "player": "Malik Monk",
+        "points": 342.0,
+        "vote_share": 0.691
+      },
+      {
+        "rank": 3,
+        "player": "Bobby Portis",
+        "points": 81.0,
+        "vote_share": 0.164
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Naz Reid",
+        "points": 352.0,
+        "vote_share": 0.711
+      },
+      {
+        "rank": 2,
+        "player": "Malik Monk",
+        "points": 342.0,
+        "vote_share": 0.691
+      },
+      {
+        "rank": 3,
+        "player": "Bobby Portis",
+        "points": 81.0,
+        "vote_share": 0.164
+      },
+      {
+        "rank": 4,
+        "player": "Norman Powell",
+        "points": 65.0,
+        "vote_share": 0.131
+      },
+      {
+        "rank": 5,
+        "player": "Bogdan Bogdanović",
+        "points": 40.0,
+        "vote_share": 0.081
+      },
+      {
+        "rank": 6,
+        "player": "Jose Alvarado",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 7,
+        "player": "T.J. McConnell",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 7,
+        "player": "Russell Westbrook",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 9,
+        "player": "Bojan Bogdanović",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 9,
+        "player": "Tim Hardaway Jr.",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 9,
+        "player": "Jonathan Isaac",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 9,
+        "player": "Jaime Jaquez Jr.",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

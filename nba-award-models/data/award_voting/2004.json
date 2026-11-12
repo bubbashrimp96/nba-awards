@@ -1,0 +1,624 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2004.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Kevin Garnett",
+        "points": 1219.0,
+        "vote_share": 0.991
+      },
+      {
+        "rank": 2,
+        "player": "Tim Duncan",
+        "points": 716.0,
+        "vote_share": 0.582
+      },
+      {
+        "rank": 3,
+        "player": "Jermaine O'Neal",
+        "points": 523.0,
+        "vote_share": 0.425
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Kevin Garnett",
+        "points": 1219.0,
+        "vote_share": 0.991
+      },
+      {
+        "rank": 2,
+        "player": "Tim Duncan",
+        "points": 716.0,
+        "vote_share": 0.582
+      },
+      {
+        "rank": 3,
+        "player": "Jermaine O'Neal",
+        "points": 523.0,
+        "vote_share": 0.425
+      },
+      {
+        "rank": 4,
+        "player": "Peja Stojaković",
+        "points": 281.0,
+        "vote_share": 0.228
+      },
+      {
+        "rank": 5,
+        "player": "Kobe Bryant",
+        "points": 212.0,
+        "vote_share": 0.172
+      },
+      {
+        "rank": 6,
+        "player": "Shaquille O'Neal",
+        "points": 178.0,
+        "vote_share": 0.145
+      },
+      {
+        "rank": 7,
+        "player": "Ben Wallace",
+        "points": 24.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 8,
+        "player": "Jason Kidd",
+        "points": 17.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 9,
+        "player": "LeBron James",
+        "points": 11.0,
+        "vote_share": 0.009
+      },
+      {
+        "rank": 10,
+        "player": "Baron Davis",
+        "points": 4.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 10,
+        "player": "Dirk Nowitzki",
+        "points": 4.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 10,
+        "player": "Sam Cassell",
+        "points": 4.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 13,
+        "player": "Andrei Kirilenko",
+        "points": 2.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 14,
+        "player": "Carmelo Anthony",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 14,
+        "player": "Michael Redd",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 14,
+        "player": "Yao Ming",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2004.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "LeBron James",
+        "points": 508.0,
+        "vote_share": 0.861
+      },
+      {
+        "rank": 2,
+        "player": "Carmelo Anthony",
+        "points": 430.0,
+        "vote_share": 0.729
+      },
+      {
+        "rank": 3,
+        "player": "Dwyane Wade",
+        "points": 117.0,
+        "vote_share": 0.198
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "LeBron James",
+        "points": 508.0,
+        "vote_share": 0.861
+      },
+      {
+        "rank": 2,
+        "player": "Carmelo Anthony",
+        "points": 430.0,
+        "vote_share": 0.729
+      },
+      {
+        "rank": 3,
+        "player": "Dwyane Wade",
+        "points": 117.0,
+        "vote_share": 0.198
+      },
+      {
+        "rank": 4,
+        "player": "Kirk Hinrich",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 5,
+        "player": "Chris Bosh",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 6,
+        "player": "Marquis Daniels",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2004.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Metta World Peace",
+        "points": 476.0,
+        "vote_share": 0.787
+      },
+      {
+        "rank": 2,
+        "player": "Ben Wallace",
+        "points": 325.0,
+        "vote_share": 0.537
+      },
+      {
+        "rank": 3,
+        "player": "Theo Ratliff",
+        "points": 90.0,
+        "vote_share": 0.149
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Metta World Peace",
+        "points": 476.0,
+        "vote_share": 0.787
+      },
+      {
+        "rank": 2,
+        "player": "Ben Wallace",
+        "points": 325.0,
+        "vote_share": 0.537
+      },
+      {
+        "rank": 3,
+        "player": "Theo Ratliff",
+        "points": 90.0,
+        "vote_share": 0.149
+      },
+      {
+        "rank": 4,
+        "player": "Bruce Bowen",
+        "points": 76.0,
+        "vote_share": 0.126
+      },
+      {
+        "rank": 5,
+        "player": "Andrei Kirilenko",
+        "points": 67.0,
+        "vote_share": 0.111
+      },
+      {
+        "rank": 6,
+        "player": "Kevin Garnett",
+        "points": 36.0,
+        "vote_share": 0.06
+      },
+      {
+        "rank": 7,
+        "player": "Tim Duncan",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 8,
+        "player": "Clifford Robinson",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 9,
+        "player": "Kenyon Martin",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 10,
+        "player": "Earl Watson",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "James Posey",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Kobe Bryant",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 10,
+        "player": "Shaquille O'Neal",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2004.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Zach Randolph",
+        "points": 379.0,
+        "vote_share": 0.626
+      },
+      {
+        "rank": 2,
+        "player": "Carlos Boozer",
+        "points": 166.0,
+        "vote_share": 0.274
+      },
+      {
+        "rank": 3,
+        "player": "James Posey",
+        "points": 137.0,
+        "vote_share": 0.226
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Zach Randolph",
+        "points": 379.0,
+        "vote_share": 0.626
+      },
+      {
+        "rank": 2,
+        "player": "Carlos Boozer",
+        "points": 166.0,
+        "vote_share": 0.274
+      },
+      {
+        "rank": 3,
+        "player": "James Posey",
+        "points": 137.0,
+        "vote_share": 0.226
+      },
+      {
+        "rank": 4,
+        "player": "Andrei Kirilenko",
+        "points": 101.0,
+        "vote_share": 0.167
+      },
+      {
+        "rank": 5,
+        "player": "Michael Redd",
+        "points": 95.0,
+        "vote_share": 0.157
+      },
+      {
+        "rank": 6,
+        "player": "Lamar Odom",
+        "points": 31.0,
+        "vote_share": 0.051
+      },
+      {
+        "rank": 7,
+        "player": "Jamaal Magloire",
+        "points": 26.0,
+        "vote_share": 0.043
+      },
+      {
+        "rank": 8,
+        "player": "Samuel Dalembert",
+        "points": 25.0,
+        "vote_share": 0.041
+      },
+      {
+        "rank": 9,
+        "player": "Joe Johnson",
+        "points": 20.0,
+        "vote_share": 0.033
+      },
+      {
+        "rank": 10,
+        "player": "Brian Cardinal",
+        "points": 18.0,
+        "vote_share": 0.03
+      },
+      {
+        "rank": 11,
+        "player": "Rafer Alston",
+        "points": 16.0,
+        "vote_share": 0.026
+      },
+      {
+        "rank": 12,
+        "player": "Mark Blount",
+        "points": 10.0,
+        "vote_share": 0.017
+      },
+      {
+        "rank": 13,
+        "player": "Carlos Arroyo",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 13,
+        "player": "Quentin Richardson",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 15,
+        "player": "Metta World Peace",
+        "points": 7.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 15,
+        "player": "Ronald Murray",
+        "points": 7.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 15,
+        "player": "Yao Ming",
+        "points": 7.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 18,
+        "player": "Erick Dampier",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 19,
+        "player": "Richard Jefferson",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 20,
+        "player": "Corey Maggette",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 20,
+        "player": "Manu Ginóbili",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 20,
+        "player": "Mike Dunleavy",
+        "points": 3.0,
+        "vote_share": 0.005
+      },
+      {
+        "rank": 23,
+        "player": "Tayshaun Prince",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 24,
+        "player": "Desmond Mason",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 24,
+        "player": "Jason Williams",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 24,
+        "player": "Kenny Thomas",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 24,
+        "player": "Marcus Camby",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 24,
+        "player": "Nenê",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 24,
+        "player": "Pau Gasol",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 24,
+        "player": "Raja Bell",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 24,
+        "player": "Stephen Jackson",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2004.html",
+    "archive": "https://github.com/sumitrodatta/bball-reference-datasets/blob/master/Data/Player%20Award%20Shares.csv",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Antawn Jamison",
+        "points": 338.0,
+        "vote_share": 0.563
+      },
+      {
+        "rank": 2,
+        "player": "Al Harrington",
+        "points": 275.0,
+        "vote_share": 0.458
+      },
+      {
+        "rank": 3,
+        "player": "Manu Ginóbili",
+        "points": 244.0,
+        "vote_share": 0.407
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Antawn Jamison",
+        "points": 338.0,
+        "vote_share": 0.563
+      },
+      {
+        "rank": 2,
+        "player": "Al Harrington",
+        "points": 275.0,
+        "vote_share": 0.458
+      },
+      {
+        "rank": 3,
+        "player": "Manu Ginóbili",
+        "points": 244.0,
+        "vote_share": 0.407
+      },
+      {
+        "rank": 4,
+        "player": "Bobby Jackson",
+        "points": 70.0,
+        "vote_share": 0.117
+      },
+      {
+        "rank": 5,
+        "player": "Earl Boykins",
+        "points": 46.0,
+        "vote_share": 0.077
+      },
+      {
+        "rank": 6,
+        "player": "Desmond Mason",
+        "points": 45.0,
+        "vote_share": 0.075
+      },
+      {
+        "rank": 7,
+        "player": "Rafer Alston",
+        "points": 14.0,
+        "vote_share": 0.023
+      },
+      {
+        "rank": 8,
+        "player": "Shane Battier",
+        "points": 10.0,
+        "vote_share": 0.017
+      },
+      {
+        "rank": 9,
+        "player": "Raja Bell",
+        "points": 9.0,
+        "vote_share": 0.015
+      },
+      {
+        "rank": 10,
+        "player": "Corliss Williamson",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 10,
+        "player": "Maurice Taylor",
+        "points": 8.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 12,
+        "player": "Bonzi Wells",
+        "points": 5.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 13,
+        "player": "Darrell Armstrong",
+        "points": 4.0,
+        "vote_share": 0.007
+      },
+      {
+        "rank": 14,
+        "player": "Ricky Davis",
+        "points": 2.0,
+        "vote_share": 0.003
+      },
+      {
+        "rank": 15,
+        "player": "Fred Hoiberg",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 15,
+        "player": "Vladimir Radmanović",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}

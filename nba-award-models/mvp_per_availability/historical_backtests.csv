@@ -1,0 +1,17 @@
+season,year,predicted,actual,winner_rank,top1,top3,log_loss,variant,latest_training_year,penalty_per_game
+2010-11,2011,LeBron James,Derrick Rose,2,0,1,0.9385597959158574,PER_85pct_availability,2010,-0.5956256213587755
+2011-12,2012,LeBron James,LeBron James,1,1,1,0.3511332813115722,PER_85pct_availability,2011,-0.5669852712638525
+2012-13,2013,LeBron James,LeBron James,1,1,1,0.1559251710868459,PER_85pct_availability,2012,-0.5673500405958211
+2013-14,2014,Kevin Durant,Kevin Durant,1,1,1,0.0837327214659318,PER_85pct_availability,2013,-0.5693367718378234
+2014-15,2015,Stephen Curry,Stephen Curry,1,1,1,0.2988709889030048,PER_85pct_availability,2014,-0.5609844013472193
+2015-16,2016,Stephen Curry,Stephen Curry,1,1,1,0.03890086599159304,PER_85pct_availability,2015,-0.568571862183704
+2016-17,2017,James Harden,Russell Westbrook,3,0,1,3.2073821236149342,PER_85pct_availability,2016,-0.5613399634236658
+2017-18,2018,James Harden,James Harden,1,1,1,0.04303068993250747,PER_85pct_availability,2017,-0.5628488368748885
+2018-19,2019,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1,1,0.6134268480144733,PER_85pct_availability,2018,-0.5603935401023803
+2019-20,2020,Giannis Antetokounmpo,Giannis Antetokounmpo,1,1,1,0.2038180492649353,PER_85pct_availability,2019,-0.5677789003360026
+2020-21,2021,Nikola Jokić,Nikola Jokić,1,1,1,0.15858123786571277,PER_85pct_availability,2020,-0.5708060889233461
+2021-22,2022,Nikola Jokić,Nikola Jokić,1,1,1,0.4361302904704836,PER_85pct_availability,2021,-0.5951473235066159
+2022-23,2023,Nikola Jokić,Joel Embiid,4,0,0,4.962265447305976,PER_85pct_availability,2022,-0.8878438499597596
+2023-24,2024,Nikola Jokić,Nikola Jokić,1,1,1,0.3130086979485007,PER_85pct_availability,2023,-0.27949941256982913
+2024-25,2025,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,1,1,0.3997502476259669,PER_85pct_availability,2024,-0.2534962319603211
+2025-26,2026,Shai Gilgeous-Alexander,Shai Gilgeous-Alexander,1,1,1,0.6366508805206355,PER_85pct_availability,2025,-0.2713029594623494

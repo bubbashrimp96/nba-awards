@@ -1,0 +1,529 @@
+{
+  "MVP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2019.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Giannis Antetokounmpo",
+        "points": 941.0,
+        "vote_share": 0.932
+      },
+      {
+        "rank": 2,
+        "player": "James Harden",
+        "points": 776.0,
+        "vote_share": 0.768
+      },
+      {
+        "rank": 3,
+        "player": "Paul George",
+        "points": 356.0,
+        "vote_share": 0.352
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Giannis Antetokounmpo",
+        "points": 941.0,
+        "vote_share": 0.932
+      },
+      {
+        "rank": 2,
+        "player": "James Harden",
+        "points": 776.0,
+        "vote_share": 0.768
+      },
+      {
+        "rank": 3,
+        "player": "Paul George",
+        "points": 356.0,
+        "vote_share": 0.352
+      },
+      {
+        "rank": 4,
+        "player": "Nikola Jokić",
+        "points": 212.0,
+        "vote_share": 0.21
+      },
+      {
+        "rank": 5,
+        "player": "Stephen Curry",
+        "points": 175.0,
+        "vote_share": 0.173
+      },
+      {
+        "rank": 6,
+        "player": "Damian Lillard",
+        "points": 69.0,
+        "vote_share": 0.068
+      },
+      {
+        "rank": 7,
+        "player": "Joel Embiid",
+        "points": 49.0,
+        "vote_share": 0.049
+      },
+      {
+        "rank": 8,
+        "player": "Kevin Durant",
+        "points": 25.0,
+        "vote_share": 0.025
+      },
+      {
+        "rank": 9,
+        "player": "Kawhi Leonard",
+        "points": 13.0,
+        "vote_share": 0.013
+      },
+      {
+        "rank": 10,
+        "player": "Russell Westbrook",
+        "points": 8.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 11,
+        "player": "Rudy Gobert",
+        "points": 1.0,
+        "vote_share": 0.001
+      },
+      {
+        "rank": 11,
+        "player": "LeBron James",
+        "points": 1.0,
+        "vote_share": 0.001
+      }
+    ]
+  },
+  "ROY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2019.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Luka Dončić",
+        "points": 496.0,
+        "vote_share": 0.992
+      },
+      {
+        "rank": 2,
+        "player": "Trae Young",
+        "points": 301.0,
+        "vote_share": 0.602
+      },
+      {
+        "rank": 3,
+        "player": "Deandre Ayton",
+        "points": 66.0,
+        "vote_share": 0.132
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Luka Dončić",
+        "points": 496.0,
+        "vote_share": 0.992
+      },
+      {
+        "rank": 2,
+        "player": "Trae Young",
+        "points": 301.0,
+        "vote_share": 0.602
+      },
+      {
+        "rank": 3,
+        "player": "Deandre Ayton",
+        "points": 66.0,
+        "vote_share": 0.132
+      },
+      {
+        "rank": 4,
+        "player": "Jaren Jackson Jr.",
+        "points": 12.0,
+        "vote_share": 0.024
+      },
+      {
+        "rank": 5,
+        "player": "Collin Sexton",
+        "points": 10.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 6,
+        "player": "Shai Gilgeous-Alexander",
+        "points": 7.0,
+        "vote_share": 0.014
+      },
+      {
+        "rank": 7,
+        "player": "Marvin Bagley III",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 8,
+        "player": "Josh Okogie",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 8,
+        "player": "Mitchell Robinson",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "DPOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2019.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Rudy Gobert",
+        "points": 411.0,
+        "vote_share": 0.822
+      },
+      {
+        "rank": 2,
+        "player": "Giannis Antetokounmpo",
+        "points": 280.0,
+        "vote_share": 0.56
+      },
+      {
+        "rank": 3,
+        "player": "Paul George",
+        "points": 150.0,
+        "vote_share": 0.3
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Rudy Gobert",
+        "points": 411.0,
+        "vote_share": 0.822
+      },
+      {
+        "rank": 2,
+        "player": "Giannis Antetokounmpo",
+        "points": 280.0,
+        "vote_share": 0.56
+      },
+      {
+        "rank": 3,
+        "player": "Paul George",
+        "points": 150.0,
+        "vote_share": 0.3
+      },
+      {
+        "rank": 4,
+        "player": "Joel Embiid",
+        "points": 26.0,
+        "vote_share": 0.052
+      },
+      {
+        "rank": 5,
+        "player": "Myles Turner",
+        "points": 15.0,
+        "vote_share": 0.03
+      },
+      {
+        "rank": 6,
+        "player": "Draymond Green",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 6,
+        "player": "Kawhi Leonard",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 8,
+        "player": "Marcus Smart",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 9,
+        "player": "Jarrett Allen",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 9,
+        "player": "Patrick Beverley",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "MIP": {
+    "source": "https://www.basketball-reference.com/awards/awards_2019.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Pascal Siakam",
+        "points": 469.0,
+        "vote_share": 0.938
+      },
+      {
+        "rank": 2,
+        "player": "D'Angelo Russell",
+        "points": 255.0,
+        "vote_share": 0.51
+      },
+      {
+        "rank": 3,
+        "player": "De'Aaron Fox",
+        "points": 77.0,
+        "vote_share": 0.154
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Pascal Siakam",
+        "points": 469.0,
+        "vote_share": 0.938
+      },
+      {
+        "rank": 2,
+        "player": "D'Angelo Russell",
+        "points": 255.0,
+        "vote_share": 0.51
+      },
+      {
+        "rank": 3,
+        "player": "De'Aaron Fox",
+        "points": 77.0,
+        "vote_share": 0.154
+      },
+      {
+        "rank": 4,
+        "player": "Buddy Hield",
+        "points": 22.0,
+        "vote_share": 0.044
+      },
+      {
+        "rank": 5,
+        "player": "Nikola Vučević",
+        "points": 20.0,
+        "vote_share": 0.04
+      },
+      {
+        "rank": 6,
+        "player": "Domantas Sabonis",
+        "points": 10.0,
+        "vote_share": 0.02
+      },
+      {
+        "rank": 7,
+        "player": "Montrezl Harrell",
+        "points": 9.0,
+        "vote_share": 0.018
+      },
+      {
+        "rank": 8,
+        "player": "Derrick Rose",
+        "points": 8.0,
+        "vote_share": 0.016
+      },
+      {
+        "rank": 9,
+        "player": "John Collins",
+        "points": 6.0,
+        "vote_share": 0.012
+      },
+      {
+        "rank": 10,
+        "player": "Giannis Antetokounmpo",
+        "points": 4.0,
+        "vote_share": 0.008
+      },
+      {
+        "rank": 11,
+        "player": "Malik Beasley",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 11,
+        "player": "Danilo Gallinari",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 11,
+        "player": "Paul George",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 14,
+        "player": "Bojan Bogdanović",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 14,
+        "player": "Thomas Bryant",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 16,
+        "player": "Willie Cauley-Stein",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 16,
+        "player": "Spencer Dinwiddie",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 16,
+        "player": "Bryn Forbes",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 16,
+        "player": "Jerami Grant",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 16,
+        "player": "Zach LaVine",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 16,
+        "player": "Josh Richardson",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 16,
+        "player": "Derrick White",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  },
+  "SMOY": {
+    "source": "https://www.basketball-reference.com/awards/awards_2019.html",
+    "results": [
+      {
+        "rank": 1,
+        "player": "Lou Williams",
+        "points": 489.0,
+        "vote_share": 0.978
+      },
+      {
+        "rank": 2,
+        "player": "Domantas Sabonis",
+        "points": 190.0,
+        "vote_share": 0.38
+      },
+      {
+        "rank": 3,
+        "player": "Montrezl Harrell",
+        "points": 142.0,
+        "vote_share": 0.284
+      }
+    ],
+    "voting": [
+      {
+        "rank": 1,
+        "player": "Lou Williams",
+        "points": 489.0,
+        "vote_share": 0.978
+      },
+      {
+        "rank": 2,
+        "player": "Domantas Sabonis",
+        "points": 190.0,
+        "vote_share": 0.38
+      },
+      {
+        "rank": 3,
+        "player": "Montrezl Harrell",
+        "points": 142.0,
+        "vote_share": 0.284
+      },
+      {
+        "rank": 4,
+        "player": "Spencer Dinwiddie",
+        "points": 34.0,
+        "vote_share": 0.068
+      },
+      {
+        "rank": 5,
+        "player": "Terrence Ross",
+        "points": 12.0,
+        "vote_share": 0.024
+      },
+      {
+        "rank": 6,
+        "player": "Derrick Rose",
+        "points": 11.0,
+        "vote_share": 0.022
+      },
+      {
+        "rank": 7,
+        "player": "Dwyane Wade",
+        "points": 8.0,
+        "vote_share": 0.016
+      },
+      {
+        "rank": 8,
+        "player": "Dennis Schröder",
+        "points": 5.0,
+        "vote_share": 0.01
+      },
+      {
+        "rank": 9,
+        "player": "Monte Morris",
+        "points": 3.0,
+        "vote_share": 0.006
+      },
+      {
+        "rank": 10,
+        "player": "Andre Iguodala",
+        "points": 2.0,
+        "vote_share": 0.004
+      },
+      {
+        "rank": 11,
+        "player": "Malik Beasley",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Dāvis Bertāns",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Jae Crowder",
+        "points": 1.0,
+        "vote_share": 0.002
+      },
+      {
+        "rank": 11,
+        "player": "Ed Davis",
+        "points": 1.0,
+        "vote_share": 0.002
+      }
+    ]
+  }
+}
