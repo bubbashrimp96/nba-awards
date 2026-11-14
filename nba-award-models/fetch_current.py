@@ -1,7 +1,8 @@
 """Download season-to-date inputs for the in-progress season (default 2026-27).
 
 Sources (plain requests, no browser impersonation):
-  Basketball Reference  per-game, totals, advanced, per-100-possession, preseason odds, coaches
+  Basketball Reference  per-game, totals, advanced, per-100-possession, preseason odds, coaches,
+                        playoff probabilities (projected final wins)
   ESPN standings API    wins, losses, conference playoff seed
   sportsdataverse       NBA.com team advanced stats (team defensive rating), refreshed nightly
 Basketball Reference asks for no more than ~20 requests/minute, so pages are spaced 4 seconds apart.
@@ -20,6 +21,8 @@ CURRENT_YEAR = 2027
 def sources(year):
     bbref = 'https://www.basketball-reference.com/leagues/NBA_{year}_{page}.html'
     pages = {page: bbref.format(year=year, page=page) for page in ('per_game', 'totals', 'advanced', 'per_poss', 'preseason_odds', 'coaches')}
+    # projected final records (Basketball Reference's season simulation); only published for the season in progress
+    pages['playoff_prob'] = 'https://www.basketball-reference.com/friv/playoff_prob.html'
     pages['espn_standings'] = f'https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season={year}&type=0&level=2'
     pages['team_advanced'] = f'https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_{year}.parquet'
     return pages

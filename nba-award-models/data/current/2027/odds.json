@@ -1,0 +1,5174 @@
+{
+ "fetched_at": "2026-11-14T07:08:25+00:00",
+ "method": "python3 fetch_odds.py [--year 2027]",
+ "errors": [],
+ "awards": {
+  "MVP": {
+   "players": [
+    {
+     "name": "Victor Wembanyama",
+     "sources": {
+      "polymarket": {
+       "prob": 0.40592168099331427,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.34693877551020413,
+       "wide": false
+      }
+     },
+     "market": 0.36009091773585755,
+     "wide": false
+    },
+    {
+     "name": "Luka Doncic",
+     "sources": {
+      "polymarket": {
+       "prob": 0.3361986628462273,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.27755102040816326,
+       "wide": false
+      }
+     },
+     "market": 0.293554648532842,
+     "wide": false
+    },
+    {
+     "name": "Shai Gilgeous-Alexander",
+     "sources": {
+      "polymarket": {
+       "prob": 0.07163323782234958,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.05306122448979592,
+       "wide": false
+      }
+     },
+     "market": 0.05964099054835925,
+     "wide": false
+    },
+    {
+     "name": "Nikola Jokic",
+     "sources": {
+      "polymarket": {
+       "prob": 0.042979942693409746,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.036734693877551024,
+       "wide": false
+      }
+     },
+     "market": 0.03812727364262021,
+     "wide": false
+    },
+    {
+     "name": "Jayson Tatum",
+     "sources": {
+      "polymarket": {
+       "prob": 0.028175740210124166,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.036734693877551024,
+       "wide": false
+      }
+     },
+     "market": 0.031046467614751945,
+     "wide": false
+    },
+    {
+     "name": "Tyrese Maxey",
+     "sources": {
+      "polymarket": {
+       "prob": 0.016714422158548237,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.020408163265306124,
+       "wide": false
+      }
+     },
+     "market": 0.017755622225247014,
+     "wide": false
+    },
+    {
+     "name": "Cooper Flagg",
+     "sources": {
+      "polymarket": {
+       "prob": 0.013849092645654251,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.020408163265306124,
+       "wide": false
+      }
+     },
+     "market": 0.016385143639207993,
+     "wide": false
+    },
+    {
+     "name": "Cade Cunningham",
+     "sources": {
+      "polymarket": {
+       "prob": 0.020057306590257878,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.012244897959183675,
+       "wide": false
+      }
+     },
+     "market": 0.015450048386284769,
+     "wide": false
+    },
+    {
+     "name": "Giannis Antetokounmpo",
+     "sources": {
+      "polymarket": {
+       "prob": 0.013849092645654251,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.012244897959183675,
+       "wide": false
+      }
+     },
+     "market": 0.012480678116533566,
+     "wide": false
+    },
+    {
+     "name": "Stephen Curry",
+     "sources": {
+      "polymarket": {
+       "prob": 0.014326647564469915,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.008804625691532307,
+     "wide": false
+    },
+    {
+     "name": "Anthony Edwards",
+     "sources": {
+      "polymarket": {
+       "prob": 0.010028653295128939,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0067489078124737785,
+     "wide": false
+    },
+    {
+     "name": "Deni Avdija",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0052531041069723014,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.004464776835742081,
+     "wide": false
+    },
+    {
+     "name": "Jaylen Brown",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004297994269340975,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.004007950640395743,
+     "wide": false
+    },
+    {
+     "name": "Pascal Siakam",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Jalen Williams",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Jarrett Allen",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Ivica Zubac",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Jalen Green",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Chet Holmgren",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Tyler Herro",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Tie/Co-Winners",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Kon Knueppel",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Jimmy Butler",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "OG Anunoby",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Mikal Bridges",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Amen Thompson",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "James Harden",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Dylan Harper",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Jaren Jackson Jr.",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "VJ Edgecombe",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Derrick White",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Paul George",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Julius Randle",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Stephon Castle",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Trae Young",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0039044655226744287,
+     "wide": false
+    },
+    {
+     "name": "Alperen Sengun",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002387774594078319,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.003094298249703063,
+     "wide": false
+    },
+    {
+     "name": "Jalen Brunson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0019102196752626554,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0028658851520298933,
+     "wide": false
+    },
+    {
+     "name": "Anthony Davis",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014326647564469916,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0026374720543567236,
+     "wide": false
+    },
+    {
+     "name": "Donovan Mitchell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014326647564469916,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0026374720543567236,
+     "wide": false
+    },
+    {
+     "name": "Jalen Johnson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014326647564469916,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0026374720543567236,
+     "wide": false
+    },
+    {
+     "name": "Scottie Barnes",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0009551098376313277,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.002409058956683554,
+     "wide": false
+    },
+    {
+     "name": "Kawhi Leonard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Austin Reaves",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Devin Booker",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Evan Mobley",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Jamal Murray",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Joel Embiid",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Karl-Anthony Towns",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Kevin Durant",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "LaMelo Ball",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "LeBron James",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Paolo Banchero",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Tyrese Haliburton",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Zion Williamson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004081632653061225,
+       "wide": false
+      }
+     },
+     "market": 0.0021806458590103842,
+     "wide": false
+    },
+    {
+     "name": "Bam Adebayo",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      }
+     },
+     "market": 0.00045682619534633955,
+     "wide": false
+    },
+    {
+     "name": "Ty Jerome",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00047755491881566384,
+       "wide": false
+      }
+     },
+     "market": 0.00045682619534633955,
+     "wide": false
+    }
+   ],
+   "sources": {
+    "polymarket": {
+     "url": "https://polymarket.com/event/nba-2026-27-mvp",
+     "volume": 402941
+    },
+    "kalshi": {
+     "url": "https://kalshi.com/markets/kxnbamvp",
+     "volume": 7458980
+    }
+   }
+  },
+  "ROY": {
+   "players": [
+    {
+     "name": "Yaxel Lendeborg",
+     "sources": {
+      "polymarket": {
+       "prob": 0.35108958837772397,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.3732718894009217,
+       "wide": false
+      }
+     },
+     "market": 0.35767453699775537,
+     "wide": false
+    },
+    {
+     "name": "Cameron Boozer",
+     "sources": {
+      "polymarket": {
+       "prob": 0.23728813559322035,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.19815668202764977,
+       "wide": false
+      }
+     },
+     "market": 0.21501353717516564,
+     "wide": false
+    },
+    {
+     "name": "Darius Acuff Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.19370460048426152,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.22119815668202764,
+       "wide": false
+      }
+     },
+     "market": 0.20487029766358383,
+     "wide": false
+    },
+    {
+     "name": "Darryn Peterson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.06634382566585957,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.08755760368663595,
+       "wide": false
+      }
+     },
+     "market": 0.07599330469057333,
+     "wide": false
+    },
+    {
+     "name": "AJ Dybantsa",
+     "sources": {
+      "polymarket": {
+       "prob": 0.08716707021791767,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.05069124423963134,
+       "wide": false
+      }
+     },
+     "market": 0.06807155033437978,
+     "wide": false
+    },
+    {
+     "name": "Caleb Wilson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0324455205811138,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.013824884792626727,
+       "wide": false
+      }
+     },
+     "market": 0.022847357743958404,
+     "wide": false
+    },
+    {
+     "name": "Kingston Flemings",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004842615012106538,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.004666661524339917,
+     "wide": false
+    },
+    {
+     "name": "Ryan Conwell",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.004550959172496779,
+     "wide": false
+    },
+    {
+     "name": "Tie/Co-Winners",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.004550959172496779,
+     "wide": false
+    },
+    {
+     "name": "Brayden Burries",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0029055690072639227,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.003710188749103307,
+     "wide": false
+    },
+    {
+     "name": "Aday Mara",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0029055690072639227,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.003710188749103307,
+     "wide": false
+    },
+    {
+     "name": "Mikel Brown Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.002992834167675848,
+     "wide": false
+    },
+    {
+     "name": "Nate Ament",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.002992834167675848,
+     "wide": false
+    },
+    {
+     "name": "Keaton Wagler",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.0025145977800575424,
+     "wide": false
+    },
+    {
+     "name": "Morez Johnson Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.0025145977800575424,
+     "wide": false
+    },
+    {
+     "name": "Hannes Steinbach",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.0025145977800575424,
+     "wide": false
+    },
+    {
+     "name": "Dailyn Swain",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.0025145977800575424,
+     "wide": false
+    },
+    {
+     "name": "Bennett Stirtz",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.004608294930875576,
+       "wide": false
+      }
+     },
+     "market": 0.0025145977800575424,
+     "wide": false
+    },
+    {
+     "name": "Sergio De Larrea",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002421307506053269,
+       "wide": false
+      }
+     },
+     "market": 0.002391181938091528,
+     "wide": false
+    },
+    {
+     "name": "Labaron Philon Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001937046004842615,
+       "wide": false
+      }
+     },
+     "market": 0.0019129455504732224,
+     "wide": false
+    },
+    {
+     "name": "Ebuka Okorie",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      }
+     },
+     "market": 0.001434709162854917,
+     "wide": false
+    },
+    {
+     "name": "Christian Anderson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      }
+     },
+     "market": 0.001434709162854917,
+     "wide": false
+    },
+    {
+     "name": "Allen Graves",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      }
+     },
+     "market": 0.001434709162854917,
+     "wide": false
+    },
+    {
+     "name": "Zuby Ejiofor",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      }
+     },
+     "market": 0.001434709162854917,
+     "wide": false
+    },
+    {
+     "name": "Tarris Reed Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      }
+     },
+     "market": 0.001434709162854917,
+     "wide": false
+    },
+    {
+     "name": "Chris Cenac Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0014527845036319614,
+       "wide": false
+      }
+     },
+     "market": 0.001434709162854917,
+     "wide": false
+    },
+    {
+     "name": "Jayden Quaintance",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      }
+     },
+     "market": 0.0004782363876183056,
+     "wide": false
+    },
+    {
+     "name": "Karim López",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      }
+     },
+     "market": 0.0004782363876183056,
+     "wide": false
+    },
+    {
+     "name": "Cameron Carr",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      }
+     },
+     "market": 0.0004782363876183056,
+     "wide": false
+    },
+    {
+     "name": "Joshua Jefferson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      }
+     },
+     "market": 0.0004782363876183056,
+     "wide": false
+    },
+    {
+     "name": "Alex Karaban",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      }
+     },
+     "market": 0.0004782363876183056,
+     "wide": false
+    },
+    {
+     "name": "Koa Peat",
+     "sources": {
+      "polymarket": {
+       "prob": 0.00048426150121065375,
+       "wide": false
+      }
+     },
+     "market": 0.0004782363876183056,
+     "wide": false
+    }
+   ],
+   "sources": {
+    "polymarket": {
+     "url": "https://polymarket.com/event/nba-2026-27-rookie-of-the-year-20260624161716143",
+     "volume": 8267098
+    },
+    "kalshi": {
+     "url": "https://kalshi.com/markets/kxnbaroy",
+     "volume": 3317550
+    }
+   }
+  },
+  "DPOY": {
+   "players": [
+    {
+     "name": "Victor Wembanyama",
+     "sources": {
+      "polymarket": {
+       "prob": 0.792,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.6607929515418502,
+       "wide": false
+      }
+     },
+     "market": 0.7263964757709251,
+     "wide": false
+    },
+    {
+     "name": "Ausar Thompson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.026431718061674006,
+       "wide": true
+      }
+     },
+     "market": 0.015215859030837003,
+     "wide": true
+    },
+    {
+     "name": "Dyson Daniels",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.026431718061674006,
+       "wide": false
+      }
+     },
+     "market": 0.014215859030837004,
+     "wide": false
+    },
+    {
+     "name": "Scottie Barnes",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.022026431718061675,
+       "wide": false
+      }
+     },
+     "market": 0.012513215859030837,
+     "wide": false
+    },
+    {
+     "name": "Zach Edey",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.022026431718061675,
+       "wide": false
+      }
+     },
+     "market": 0.012013215859030837,
+     "wide": false
+    },
+    {
+     "name": "Walker Kessler",
+     "sources": {
+      "polymarket": {
+       "prob": 0.012,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.010405286343612336,
+     "wide": false
+    },
+    {
+     "name": "Amen Thompson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.012,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.010405286343612336,
+     "wide": false
+    },
+    {
+     "name": "Evan Mobley",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.013215859030837003,
+       "wide": false
+      }
+     },
+     "market": 0.008107929515418501,
+     "wide": false
+    },
+    {
+     "name": "Anthony Davis",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.013215859030837003,
+       "wide": false
+      }
+     },
+     "market": 0.0076079295154185015,
+     "wide": false
+    },
+    {
+     "name": "Bam Adebayo",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.005905286343612336,
+     "wide": false
+    },
+    {
+     "name": "Rudy Gobert",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": true
+      }
+     },
+     "market": 0.005905286343612336,
+     "wide": true
+    },
+    {
+     "name": "Kawhi Leonard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.007,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.005702643171806168,
+     "wide": false
+    },
+    {
+     "name": "Giannis Antetokounmpo",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.005405286343612335,
+     "wide": false
+    },
+    {
+     "name": "Donovan Clingan",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.005405286343612335,
+     "wide": false
+    },
+    {
+     "name": "Cooper Flagg",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.005405286343612335,
+     "wide": false
+    },
+    {
+     "name": "Draymond Green",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.005405286343612335,
+     "wide": false
+    },
+    {
+     "name": "Chet Holmgren",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.005405286343612335,
+     "wide": false
+    },
+    {
+     "name": "Jaren Jackson Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.00881057268722467,
+       "wide": false
+      }
+     },
+     "market": 0.005405286343612335,
+     "wide": false
+    },
+    {
+     "name": "Tie/Co-Winners",
+     "sources": {
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.004405286343612335,
+     "wide": false
+    },
+    {
+     "name": "Paolo Banchero",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Mikal Bridges",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Dillon Brooks",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Jaylen Brown",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Alex Caruso",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Luguentz Dort",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Tari Eason",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Daniel Gafford",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Shai Gilgeous-Alexander",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Isaiah Hartenstein",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Jrue Holiday",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Jimmy Butler III",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "LeBron James",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Herbert Jones",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Wendell Carter Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Ryan Kalkbrenner",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Jaden McDaniels",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Kristaps Porzingis",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Mitchell Robinson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Alex Sarr",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Marcus Smart",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Jalen Suggs",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Jayson Tatum",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Myles Turner",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Derrick White",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Jalen Williams",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "Ivica Zubac",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.004405286343612335,
+       "wide": false
+      }
+     },
+     "market": 0.0032026431718061676,
+     "wide": false
+    },
+    {
+     "name": "OG Anunoby",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      }
+     },
+     "market": 0.003,
+     "wide": true
+    },
+    {
+     "name": "Toumani Camara",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      }
+     },
+     "market": 0.002,
+     "wide": true
+    }
+   ],
+   "sources": {
+    "polymarket": {
+     "url": "https://polymarket.com/event/nba-2026-27-defensive-player-of-the-year",
+     "volume": 3546
+    },
+    "kalshi": {
+     "url": "https://kalshi.com/markets/kxnbadpoy",
+     "volume": 127215
+    }
+   }
+  },
+  "MIP": {
+   "players": [
+    {
+     "name": "Ty Jerome",
+     "sources": {
+      "polymarket": {
+       "prob": 0.356,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.365,
+       "wide": false
+      }
+     },
+     "market": 0.3605,
+     "wide": false
+    },
+    {
+     "name": "Ajay Mitchell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.087,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.06,
+       "wide": true
+      }
+     },
+     "market": 0.0735,
+     "wide": true
+    },
+    {
+     "name": "Jalen Duren",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0555,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.03025,
+     "wide": false
+    },
+    {
+     "name": "Davion Mitchell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.05,
+       "wide": true
+      }
+     },
+     "market": 0.026000000000000002,
+     "wide": true
+    },
+    {
+     "name": "Ayo Dosunmu",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.045,
+       "wide": false
+      }
+     },
+     "market": 0.0235,
+     "wide": false
+    },
+    {
+     "name": "Walker Kessler",
+     "sources": {
+      "polymarket": {
+       "prob": 0.011,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.02,
+       "wide": true
+      }
+     },
+     "market": 0.0155,
+     "wide": true
+    },
+    {
+     "name": "Anthony Black",
+     "sources": {
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.015,
+     "wide": false
+    },
+    {
+     "name": "Amen Thompson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.025,
+       "wide": false
+      }
+     },
+     "market": 0.014,
+     "wide": false
+    },
+    {
+     "name": "Jaden McDaniels",
+     "sources": {
+      "polymarket": {
+       "prob": 0.012,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.011,
+     "wide": false
+    },
+    {
+     "name": "Kyshawn George",
+     "sources": {
+      "kalshi": {
+       "prob": 0.01,
+       "wide": true
+      }
+     },
+     "market": 0.01,
+     "wide": true
+    },
+    {
+     "name": "Ausar Thompson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.0095,
+     "wide": false
+    },
+    {
+     "name": "Zach Edey",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.0085,
+     "wide": false
+    },
+    {
+     "name": "Jalen Johnson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.007,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0085,
+     "wide": false
+    },
+    {
+     "name": "Jabari Smith Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.0085,
+     "wide": false
+    },
+    {
+     "name": "Brandon Miller",
+     "sources": {
+      "polymarket": {
+       "prob": 0.012,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0085,
+     "wide": false
+    },
+    {
+     "name": "Naz Reid",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.0085,
+     "wide": false
+    },
+    {
+     "name": "Aaron Wiggins",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.0085,
+     "wide": false
+    },
+    {
+     "name": "Khaman Maluach",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0115,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.00825,
+     "wide": false
+    },
+    {
+     "name": "Alex Sarr",
+     "sources": {
+      "polymarket": {
+       "prob": 0.006,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.008,
+     "wide": false
+    },
+    {
+     "name": "Pelle Larsson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0055,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.00775,
+     "wide": false
+    },
+    {
+     "name": "Collin Murray-Boyles",
+     "sources": {
+      "polymarket": {
+       "prob": 0.01,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0075,
+     "wide": false
+    },
+    {
+     "name": "Donovan Clingan",
+     "sources": {
+      "polymarket": {
+       "prob": 0.009000000000000001,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.007000000000000001,
+     "wide": false
+    },
+    {
+     "name": "Dylan Harper",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": true
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": true
+    },
+    {
+     "name": "Kon Knueppel",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": false
+    },
+    {
+     "name": "Peyton Watson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": false
+    },
+    {
+     "name": "Coby White",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0025,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.00625,
+     "wide": false
+    },
+    {
+     "name": "Joan Beringer",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Stephon Castle",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "VJ Edgecombe",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Terrence Shannon Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Jonathan Kuminga",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Payton Pritchard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Cason Wallace",
+     "sources": {
+      "polymarket": {
+       "prob": 0.007,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Kel'el Ware",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Keon Ellis",
+     "sources": {
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.005,
+     "wide": false
+    },
+    {
+     "name": "Leonard Miller",
+     "sources": {
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.005,
+     "wide": false
+    },
+    {
+     "name": "Matas Buzelis",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0045000000000000005,
+     "wide": false
+    },
+    {
+     "name": "Deni Avdija",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.004,
+     "wide": false
+    },
+    {
+     "name": "Scoot Henderson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.004,
+     "wide": false
+    },
+    {
+     "name": "Toumani Camara",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Cedric Coward",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Ousmane Dieng",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Sandro Mamukelashvili",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Derik Queen",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Paul Reed",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Ryan Rollins",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Reed Sheppard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.0035,
+     "wide": false
+    },
+    {
+     "name": "Keegan Murray",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.003,
+     "wide": false
+    },
+    {
+     "name": "Egor Demin",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      }
+     },
+     "market": 0.002,
+     "wide": true
+    }
+   ],
+   "sources": {
+    "polymarket": {
+     "url": "https://polymarket.com/event/nba-2026-27-most-improved-player",
+     "volume": 19096
+    },
+    "kalshi": {
+     "url": "https://kalshi.com/markets/kxnbamimp",
+     "volume": 93363
+    }
+   }
+  },
+  "SMOY": {
+   "players": [
+    {
+     "name": "Payton Pritchard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.3605,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.22340425531914895,
+       "wide": false
+      }
+     },
+     "market": 0.29195212765957446,
+     "wide": false
+    },
+    {
+     "name": "Jrue Holiday",
+     "sources": {
+      "polymarket": {
+       "prob": 0.121,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.17375886524822695,
+       "wide": false
+      }
+     },
+     "market": 0.14737943262411346,
+     "wide": false
+    },
+    {
+     "name": "Ayo Dosunmu",
+     "sources": {
+      "polymarket": {
+       "prob": 0.006,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.09574468085106384,
+       "wide": false
+      }
+     },
+     "market": 0.050872340425531924,
+     "wide": false
+    },
+    {
+     "name": "Kevin Porter Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.059000000000000004,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.03127304964539007,
+     "wide": false
+    },
+    {
+     "name": "Sandro Mamukelashvili",
+     "sources": {
+      "kalshi": {
+       "prob": 0.028368794326241138,
+       "wide": true
+      }
+     },
+     "market": 0.028368794326241138,
+     "wide": true
+    },
+    {
+     "name": "Jared McCain",
+     "sources": {
+      "polymarket": {
+       "prob": 0.012,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.024822695035460998,
+       "wide": false
+      }
+     },
+     "market": 0.0184113475177305,
+     "wide": false
+    },
+    {
+     "name": "Anfernee Simons",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.031914893617021274,
+       "wide": false
+      }
+     },
+     "market": 0.01745744680851064,
+     "wide": false
+    },
+    {
+     "name": "Anthony Black",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.024822695035460998,
+       "wide": false
+      }
+     },
+     "market": 0.013411347517730498,
+     "wide": false
+    },
+    {
+     "name": "Kawhi Leonard",
+     "sources": {
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.010638297872340425,
+     "wide": false
+    },
+    {
+     "name": "Julian Champagnie",
+     "sources": {
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.010638297872340425,
+     "wide": false
+    },
+    {
+     "name": "Leonard Miller",
+     "sources": {
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.010638297872340425,
+     "wide": false
+    },
+    {
+     "name": "Ja'Kobe Walter",
+     "sources": {
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.010638297872340425,
+     "wide": false
+    },
+    {
+     "name": "Pelle Larsson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01773049645390071,
+       "wide": false
+      }
+     },
+     "market": 0.009865248226950354,
+     "wide": false
+    },
+    {
+     "name": "Aaron Wiggins",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01773049645390071,
+       "wide": false
+      }
+     },
+     "market": 0.009865248226950354,
+     "wide": false
+    },
+    {
+     "name": "Terrence Shannon Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.007,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.008819148936170213,
+     "wide": false
+    },
+    {
+     "name": "Grayson Allen",
+     "sources": {
+      "polymarket": {
+       "prob": 0.006,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.008319148936170213,
+     "wide": false
+    },
+    {
+     "name": "Andre Drummond",
+     "sources": {
+      "kalshi": {
+       "prob": 0.007092198581560284,
+       "wide": false
+      }
+     },
+     "market": 0.007092198581560284,
+     "wide": false
+    },
+    {
+     "name": "Tari Eason",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.006319148936170213,
+     "wide": false
+    },
+    {
+     "name": "Keldon Johnson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.006319148936170213,
+     "wide": false
+    },
+    {
+     "name": "Obi Toppin",
+     "sources": {
+      "polymarket": {
+       "prob": 0.005,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.007092198581560284,
+       "wide": false
+      }
+     },
+     "market": 0.006046099290780142,
+     "wide": false
+    },
+    {
+     "name": "Collin Sexton",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.010638297872340425,
+       "wide": false
+      }
+     },
+     "market": 0.005819148936170212,
+     "wide": false
+    },
+    {
+     "name": "Jonathan Kuminga",
+     "sources": {
+      "polymarket": {
+       "prob": 0.008,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.005773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Dylan Harper",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.007092198581560284,
+       "wide": false
+      }
+     },
+     "market": 0.005046099290780142,
+     "wide": false
+    },
+    {
+     "name": "Ajay Mitchell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.007092198581560284,
+       "wide": false
+      }
+     },
+     "market": 0.005046099290780142,
+     "wide": false
+    },
+    {
+     "name": "Ace Bailey",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.007092198581560284,
+       "wide": false
+      }
+     },
+     "market": 0.004546099290780143,
+     "wide": false
+    },
+    {
+     "name": "Daniss Jenkins",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.007092198581560284,
+       "wide": false
+      }
+     },
+     "market": 0.004546099290780143,
+     "wide": false
+    },
+    {
+     "name": "Reed Sheppard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.007092198581560284,
+       "wide": false
+      }
+     },
+     "market": 0.004546099290780143,
+     "wide": false
+    },
+    {
+     "name": "Miles McBride",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.003773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Justin Champagnie",
+     "sources": {
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.003546099290780142,
+     "wide": false
+    },
+    {
+     "name": "Tie/Co-Winners",
+     "sources": {
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.003546099290780142,
+     "wide": false
+    },
+    {
+     "name": "Tre Johnson",
+     "sources": {
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.003546099290780142,
+     "wide": false
+    },
+    {
+     "name": "Zaccharie Risacher",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0035,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.003523049645390071,
+     "wide": false
+    },
+    {
+     "name": "Cole Anthony",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.0032730496453900713,
+     "wide": false
+    },
+    {
+     "name": "Tim Hardaway Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.0032730496453900713,
+     "wide": false
+    },
+    {
+     "name": "Santi Aldama",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Nickeil Alexander-Walker",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Lonzo Ball",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Bradley Beal",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Bogdan Bogdanovic",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Bruce Brown",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Max Christie",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Jordan Clarkson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Isaiah Collier",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Gradey Dick",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Keon Ellis",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Jeremiah Fears",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Daniel Gafford",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Keyonte George",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Collin Gillespie",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Hugo Gonzalez",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Jerami Grant",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Quentin Grimes",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Sam Hauser",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Scoot Henderson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "De'Andre Hunter",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Ron Holland II",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Ty Jerome",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Isaiah Joe",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Jaime Jaquez Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Kelly Oubre Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Luke Kennard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Caris LeVert",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Damian Lillard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Brook Lopez",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Bennedict Mathurin",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "T.J. McConnell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Sam Merrill",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Davion Mitchell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Onyeka Okongwu",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Bobby Portis",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Derik Queen",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Naz Reid",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Duncan Robinson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Mitchell Robinson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Dennis Schroder",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Shaedon Sharpe",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Jamal Shead",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Jabari Smith",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Julian Strawther",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Jaylon Tyson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Cason Wallace",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Kel'el Ware",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "P.J. Washington",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002773049645390071,
+     "wide": false
+    },
+    {
+     "name": "Donte DiVincenzo",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0015,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.002523049645390071,
+     "wide": false
+    },
+    {
+     "name": "Nikola Jovic",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.0022730496453900713,
+     "wide": false
+    },
+    {
+     "name": "Guerschon Yabusele",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.003546099290780142,
+       "wide": false
+      }
+     },
+     "market": 0.0022730496453900713,
+     "wide": false
+    }
+   ],
+   "sources": {
+    "polymarket": {
+     "url": "https://polymarket.com/event/nba-2026-27-sixth-man-of-the-year",
+     "volume": 19089
+    },
+    "kalshi": {
+     "url": "https://kalshi.com/markets/kxnbasixth",
+     "volume": 645837
+    }
+   }
+  },
+  "CPOY": {
+   "players": [
+    {
+     "name": "Tyrese Maxey",
+     "sources": {
+      "polymarket": {
+       "prob": 0.11599999999999999,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.125,
+       "wide": false
+      }
+     },
+     "market": 0.1205,
+     "wide": false
+    },
+    {
+     "name": "Cooper Flagg",
+     "sources": {
+      "polymarket": {
+       "prob": 0.116,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.02,
+       "wide": true
+      }
+     },
+     "market": 0.068,
+     "wide": false
+    },
+    {
+     "name": "LeBron James",
+     "sources": {
+      "polymarket": {
+       "prob": 0.087,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.051,
+     "wide": false
+    },
+    {
+     "name": "Jayson Tatum",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.04,
+       "wide": true
+      }
+     },
+     "market": 0.021,
+     "wide": true
+    },
+    {
+     "name": "Nikola Jokic",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.02,
+       "wide": false
+      }
+     },
+     "market": 0.011,
+     "wide": false
+    },
+    {
+     "name": "Jamal Murray",
+     "sources": {
+      "polymarket": {
+       "prob": 0.011,
+       "wide": true
+      }
+     },
+     "market": 0.011,
+     "wide": true
+    },
+    {
+     "name": "Giannis Antetokounmpo",
+     "sources": {
+      "polymarket": {
+       "prob": 0.01,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.01,
+     "wide": false
+    },
+    {
+     "name": "LaMelo Ball",
+     "sources": {
+      "polymarket": {
+       "prob": 0.01,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.01,
+     "wide": false
+    },
+    {
+     "name": "Paolo Banchero",
+     "sources": {
+      "polymarket": {
+       "prob": 0.01,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.01,
+     "wide": false
+    },
+    {
+     "name": "Jimmy Butler III",
+     "sources": {
+      "polymarket": {
+       "prob": 0.008,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.009000000000000001,
+     "wide": false
+    },
+    {
+     "name": "Desmond Bane",
+     "sources": {
+      "polymarket": {
+       "prob": 0.006,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.008,
+     "wide": false
+    },
+    {
+     "name": "Jaylen Brown",
+     "sources": {
+      "polymarket": {
+       "prob": 0.005,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0075,
+     "wide": false
+    },
+    {
+     "name": "Devin Booker",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": false
+    },
+    {
+     "name": "Luka Doncic",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": true
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": true
+    },
+    {
+     "name": "Kawhi Leonard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": false
+    },
+    {
+     "name": "Lauri Markkanen",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": false
+    },
+    {
+     "name": "Cameron Boozer",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Jalen Brunson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "AJ Dybantsa",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Joel Embiid",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "De'Aaron Fox",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Darius Garland",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Jalen Green",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "James Harden",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Tyler Herro",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Brandon Ingram",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Michael Porter Jr.",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Zach LaVine",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Brandon Miller",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Donovan Mitchell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Darryn Peterson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Norman Powell",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Austin Reaves",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Shaedon Sharpe",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Pascal Siakam",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Karl-Anthony Towns",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Franz Wagner",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Jalen Williams",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Zion Williamson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Caleb Wilson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Trae Young",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "DeMar DeRozan",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Tyrese Haliburton",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Jalen Johnson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Ja Morant",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Alperen Sengun",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Victor Wembanyama",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Coby White",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Stephen Curry",
+     "sources": {
+      "polymarket": {
+       "prob": 0.005,
+       "wide": true
+      }
+     },
+     "market": 0.005,
+     "wide": true
+    },
+    {
+     "name": "Shai Gilgeous-Alexander",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      }
+     },
+     "market": 0.003,
+     "wide": true
+    },
+    {
+     "name": "Kevin Durant",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      }
+     },
+     "market": 0.002,
+     "wide": true
+    },
+    {
+     "name": "Anthony Edwards",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      }
+     },
+     "market": 0.002,
+     "wide": true
+    },
+    {
+     "name": "Cade Cunningham",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      }
+     },
+     "market": 0.001,
+     "wide": true
+    },
+    {
+     "name": "Damian Lillard",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      }
+     },
+     "market": 0.001,
+     "wide": true
+    }
+   ],
+   "sources": {
+    "polymarket": {
+     "url": "https://polymarket.com/event/nba-2026-27-clutch-player-of-the-year",
+     "volume": 7419
+    },
+    "kalshi": {
+     "url": "https://kalshi.com/markets/kxnbaclutch",
+     "volume": 933
+    }
+   }
+  },
+  "COY": {
+   "players": [
+    {
+     "name": "Micah Nori",
+     "sources": {
+      "polymarket": {
+       "prob": 0.049,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.215,
+       "wide": false
+      }
+     },
+     "market": 0.132,
+     "wide": false
+    },
+    {
+     "name": "JJ Redick",
+     "sources": {
+      "polymarket": {
+       "prob": 0.085,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.135,
+       "wide": false
+      }
+     },
+     "market": 0.11000000000000001,
+     "wide": false
+    },
+    {
+     "name": "Ime Udoka",
+     "sources": {
+      "polymarket": {
+       "prob": 0.056,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.10500000000000001,
+       "wide": false
+      }
+     },
+     "market": 0.0805,
+     "wide": false
+    },
+    {
+     "name": "Tuomas Iisalo",
+     "sources": {
+      "polymarket": {
+       "prob": 0.1,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.05,
+       "wide": true
+      }
+     },
+     "market": 0.07500000000000001,
+     "wide": true
+    },
+    {
+     "name": "Mitch Johnson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.011,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.08,
+       "wide": true
+      }
+     },
+     "market": 0.0455,
+     "wide": true
+    },
+    {
+     "name": "Chris Finch",
+     "sources": {
+      "polymarket": {
+       "prob": 0.007,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.07,
+       "wide": true
+      }
+     },
+     "market": 0.038500000000000006,
+     "wide": true
+    },
+    {
+     "name": "Nick Nurse",
+     "sources": {
+      "polymarket": {
+       "prob": 0.037,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.03,
+       "wide": true
+      }
+     },
+     "market": 0.0335,
+     "wide": true
+    },
+    {
+     "name": "Tiago Splitter",
+     "sources": {
+      "polymarket": {
+       "prob": 0.044,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.027,
+     "wide": false
+    },
+    {
+     "name": "Charles Lee",
+     "sources": {
+      "polymarket": {
+       "prob": 0.0435,
+       "wide": false
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.02675,
+     "wide": false
+    },
+    {
+     "name": "Brian Keefe",
+     "sources": {
+      "polymarket": {
+       "prob": 0.036,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.023,
+     "wide": false
+    },
+    {
+     "name": "Mark Daigneault",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.03,
+       "wide": true
+      }
+     },
+     "market": 0.0155,
+     "wide": true
+    },
+    {
+     "name": "Dusty May",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.025,
+       "wide": false
+      }
+     },
+     "market": 0.014,
+     "wide": false
+    },
+    {
+     "name": "Darko Rajakovic",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.02,
+       "wide": false
+      }
+     },
+     "market": 0.012,
+     "wide": false
+    },
+    {
+     "name": "Joe Mazzulla",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.02,
+       "wide": true
+      }
+     },
+     "market": 0.0105,
+     "wide": true
+    },
+    {
+     "name": "J.B. Bickerstaff",
+     "sources": {
+      "polymarket": {
+       "prob": 0.004,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.0095,
+     "wide": false
+    },
+    {
+     "name": "Steve Kerr",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.015,
+       "wide": false
+      }
+     },
+     "market": 0.009,
+     "wide": false
+    },
+    {
+     "name": "Erik Spoelstra",
+     "sources": {
+      "polymarket": {
+       "prob": 0.005,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0075,
+     "wide": false
+    },
+    {
+     "name": "Quin Snyder",
+     "sources": {
+      "polymarket": {
+       "prob": 0.003,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006500000000000001,
+     "wide": false
+    },
+    {
+     "name": "Mike Brown",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Rick Carlisle",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Jordi Fernandez",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Tyronn Lue",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Jamahl Mosley",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Jordan Ott",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "Sean Sweeney",
+     "sources": {
+      "polymarket": {
+       "prob": 0.002,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.006,
+     "wide": false
+    },
+    {
+     "name": "David Adelman",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Kenny Atkinson",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Taylor Jenkins",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.01,
+       "wide": false
+      }
+     },
+     "market": 0.0055,
+     "wide": false
+    },
+    {
+     "name": "Will Hardy",
+     "sources": {
+      "polymarket": {
+       "prob": 0.005,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.005,
+     "wide": false
+    },
+    {
+     "name": "Doug Christie",
+     "sources": {
+      "polymarket": {
+       "prob": 0.001,
+       "wide": true
+      },
+      "kalshi": {
+       "prob": 0.005,
+       "wide": false
+      }
+     },
+     "market": 0.003,
+     "wide": false
+    }
+   ],
+   "sources": {
+    "polymarket": {
+     "url": "https://polymarket.com/event/nba-2026-27-coach-of-the-year",
+     "volume": 11703
+    },
+    "kalshi": {
+     "url": "https://kalshi.com/markets/kxnbacoy",
+     "volume": 208414
+    }
+   }
+  }
+ }
+}

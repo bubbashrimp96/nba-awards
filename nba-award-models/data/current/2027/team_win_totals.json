@@ -1,0 +1,1399 @@
+{
+ "fetched_at": "2026-11-14T08:29:14+00:00",
+ "method": "python3 fetch_team_wins.py [--year 2027]",
+ "errors": [],
+ "teams": {
+  "ATL": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/atlanta-hawks/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "Caesars",
+     "line": 43.5,
+     "over": 2.0,
+     "under": 1.83,
+     "p_over": 0.4778,
+     "two_sided": true,
+     "expected": 43.2
+    }
+   ],
+   "line": 43.5,
+   "us_books": 1,
+   "quality": "two-sided",
+   "expected_wins": 43.2,
+   "books": 1
+  },
+  "BOS": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/boston-celtics/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 50.5,
+     "over": 1.869,
+     "under": 1.952,
+     "p_over": 0.5109,
+     "two_sided": true,
+     "expected": 50.65
+    }
+   ],
+   "line": 50.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 50.65,
+   "books": 1
+  },
+  "BRK": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/brooklyn-nets/regular-season-wins",
+   "sigma": 5.51,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 23.5,
+     "over": null,
+     "under": 2.0,
+     "p_over": 0.5215,
+     "two_sided": false,
+     "expected": 23.8
+    },
+    {
+     "book": "BetRivers",
+     "line": 23.5,
+     "over": null,
+     "under": 2.0,
+     "p_over": 0.5215,
+     "two_sided": false,
+     "expected": 23.8
+    },
+    {
+     "book": "Borgata",
+     "line": 23.5,
+     "over": null,
+     "under": 2.0,
+     "p_over": 0.5215,
+     "two_sided": false,
+     "expected": 23.8
+    },
+    {
+     "book": "Caesars",
+     "line": 23.5,
+     "over": null,
+     "under": 2.05,
+     "p_over": 0.5332,
+     "two_sided": false,
+     "expected": 23.96
+    },
+    {
+     "book": "QuinnBet",
+     "line": 23.5,
+     "over": null,
+     "under": 2.05,
+     "p_over": 0.5332,
+     "two_sided": false,
+     "expected": 23.96
+    },
+    {
+     "book": "bet365",
+     "line": 23.5,
+     "over": null,
+     "under": 2.0,
+     "p_over": 0.5215,
+     "two_sided": false,
+     "expected": 23.8
+    },
+    {
+     "book": "bet365 US",
+     "line": 23.5,
+     "over": null,
+     "under": 2.0,
+     "p_over": 0.5215,
+     "two_sided": false,
+     "expected": 23.8
+    }
+   ],
+   "line": 23.5,
+   "us_books": 5,
+   "quality": "one-sided (assumed margin)",
+   "expected_wins": 23.8,
+   "books": 7
+  },
+  "CHO": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/charlotte-hornets/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 34.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 34.8
+    },
+    {
+     "book": "BetRivers",
+     "line": 34.5,
+     "over": 1.76,
+     "under": 2.0,
+     "p_over": 0.5319,
+     "two_sided": true,
+     "expected": 34.94
+    },
+    {
+     "book": "Borgata",
+     "line": 34.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 34.8
+    },
+    {
+     "book": "Caesars",
+     "line": 34.5,
+     "over": 1.87,
+     "under": 1.95,
+     "p_over": 0.5105,
+     "two_sided": true,
+     "expected": 34.64
+    },
+    {
+     "book": "QuinnBet",
+     "line": 34.5,
+     "over": 1.8,
+     "under": 2.0,
+     "p_over": 0.5263,
+     "two_sided": true,
+     "expected": 34.86
+    },
+    {
+     "book": "bet365",
+     "line": 34.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 34.92
+    },
+    {
+     "book": "bet365 US",
+     "line": 34.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 34.92
+    }
+   ],
+   "line": 34.5,
+   "us_books": 5,
+   "quality": "two-sided",
+   "expected_wins": 34.86,
+   "books": 7
+  },
+  "CHI": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/chicago-bulls/regular-season-wins",
+   "sigma": 5.51,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 24.5,
+     "over": 2.0,
+     "under": 1.83,
+     "p_over": 0.4778,
+     "two_sided": true,
+     "expected": 24.19
+    },
+    {
+     "book": "Borgata",
+     "line": 24.5,
+     "over": 2.0,
+     "under": 1.83,
+     "p_over": 0.4778,
+     "two_sided": true,
+     "expected": 24.19
+    }
+   ],
+   "line": 24.5,
+   "us_books": 2,
+   "quality": "two-sided",
+   "expected_wins": 24.19,
+   "books": 2
+  },
+  "CLE": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/cleveland-cavaliers/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 46.5,
+     "over": 2.1,
+     "under": 1.77,
+     "p_over": 0.4574,
+     "two_sided": true,
+     "expected": 45.92
+    },
+    {
+     "book": "BetRivers",
+     "line": 46.5,
+     "over": 1.87,
+     "under": 1.87,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 46.5
+    },
+    {
+     "book": "Borgata",
+     "line": 46.5,
+     "over": 2.1,
+     "under": 1.77,
+     "p_over": 0.4574,
+     "two_sided": true,
+     "expected": 45.92
+    },
+    {
+     "book": "Caesars",
+     "line": 45.5,
+     "over": 1.71,
+     "under": 2.1,
+     "p_over": 0.5512,
+     "two_sided": true,
+     "expected": 46.19
+    },
+    {
+     "book": "DraftKings",
+     "line": 50.5,
+     "over": 2.65,
+     "under": 1.5,
+     "p_over": 0.3614,
+     "two_sided": true,
+     "expected": 48.59
+    },
+    {
+     "book": "bet365 US",
+     "line": 46.5,
+     "over": 1.909,
+     "under": 1.909,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 46.5
+    }
+   ],
+   "line": 46.5,
+   "us_books": 6,
+   "quality": "last quote before suspension",
+   "expected_wins": 46.34,
+   "books": 6
+  },
+  "DAL": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/dallas-mavericks/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 40.5,
+     "over": 2.1,
+     "under": 1.77,
+     "p_over": 0.4574,
+     "two_sided": true,
+     "expected": 39.92
+    },
+    {
+     "book": "BetRivers",
+     "line": 40.5,
+     "over": 2.0,
+     "under": 1.76,
+     "p_over": 0.4681,
+     "two_sided": true,
+     "expected": 40.06
+    },
+    {
+     "book": "Borgata",
+     "line": 40.5,
+     "over": 2.1,
+     "under": 1.77,
+     "p_over": 0.4574,
+     "two_sided": true,
+     "expected": 39.92
+    },
+    {
+     "book": "Caesars",
+     "line": 39.5,
+     "over": 1.77,
+     "under": 2.0,
+     "p_over": 0.5305,
+     "two_sided": true,
+     "expected": 39.92
+    },
+    {
+     "book": "QuinnBet",
+     "line": 39.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 39.8
+    },
+    {
+     "book": "bet365",
+     "line": 40.5,
+     "over": 2.0,
+     "under": 1.769,
+     "p_over": 0.4694,
+     "two_sided": true,
+     "expected": 40.08
+    },
+    {
+     "book": "bet365 US",
+     "line": 40.5,
+     "over": 2.0,
+     "under": 1.769,
+     "p_over": 0.4694,
+     "two_sided": true,
+     "expected": 40.08
+    }
+   ],
+   "line": 40.5,
+   "us_books": 5,
+   "quality": "two-sided",
+   "expected_wins": 39.92,
+   "books": 7
+  },
+  "DEN": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/denver-nuggets/regular-season-wins",
+   "sigma": 5.56,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 48.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 48.81
+    },
+    {
+     "book": "BetRivers",
+     "line": 48.5,
+     "over": 1.76,
+     "under": 2.0,
+     "p_over": 0.5319,
+     "two_sided": true,
+     "expected": 48.95
+    },
+    {
+     "book": "Borgata",
+     "line": 48.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 48.81
+    },
+    {
+     "book": "Caesars",
+     "line": 48.5,
+     "over": 1.8,
+     "under": 2.05,
+     "p_over": 0.5325,
+     "two_sided": true,
+     "expected": 48.95
+    },
+    {
+     "book": "QuinnBet",
+     "line": 48.5,
+     "over": 1.8,
+     "under": 2.05,
+     "p_over": 0.5325,
+     "two_sided": true,
+     "expected": 48.95
+    },
+    {
+     "book": "QuinnBet",
+     "line": 49.5,
+     "over": 1.95,
+     "under": 1.83,
+     "p_over": 0.4841,
+     "two_sided": true,
+     "expected": 49.28
+    },
+    {
+     "book": "bet365",
+     "line": 48.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 48.93
+    },
+    {
+     "book": "bet365",
+     "line": 49.5,
+     "over": 1.909,
+     "under": 1.909,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 49.5
+    },
+    {
+     "book": "bet365 US",
+     "line": 48.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 48.93
+    }
+   ],
+   "line": 48.5,
+   "us_books": 5,
+   "quality": "two-sided",
+   "expected_wins": 48.95,
+   "books": 7
+  },
+  "DET": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/detroit-pistons/regular-season-wins",
+   "sigma": 5.51,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 51.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 51.81
+    },
+    {
+     "book": "BetRivers",
+     "line": 51.5,
+     "over": 1.83,
+     "under": 1.91,
+     "p_over": 0.5107,
+     "two_sided": true,
+     "expected": 51.65
+    },
+    {
+     "book": "Borgata",
+     "line": 51.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 51.81
+    },
+    {
+     "book": "Caesars",
+     "line": 51.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 51.81
+    },
+    {
+     "book": "QuinnBet",
+     "line": 51.5,
+     "over": 1.87,
+     "under": 1.95,
+     "p_over": 0.5105,
+     "two_sided": true,
+     "expected": 51.64
+    },
+    {
+     "book": "bet365",
+     "line": 49.5,
+     "over": 2.0,
+     "under": 1.769,
+     "p_over": 0.4694,
+     "two_sided": true,
+     "expected": 49.08
+    },
+    {
+     "book": "bet365",
+     "line": 51.5,
+     "over": 1.869,
+     "under": 1.952,
+     "p_over": 0.5109,
+     "two_sided": true,
+     "expected": 51.65
+    },
+    {
+     "book": "bet365 US",
+     "line": 51.5,
+     "over": 1.869,
+     "under": 1.952,
+     "p_over": 0.5109,
+     "two_sided": true,
+     "expected": 51.65
+    }
+   ],
+   "line": 51.5,
+   "us_books": 5,
+   "quality": "two-sided",
+   "expected_wins": 51.65,
+   "books": 7
+  },
+  "GSW": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/golden-state-warriors/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 42.5,
+     "over": 1.77,
+     "under": 2.05,
+     "p_over": 0.5366,
+     "two_sided": true,
+     "expected": 43.0
+    },
+    {
+     "book": "BetRivers",
+     "line": 44.5,
+     "over": 1.83,
+     "under": 1.91,
+     "p_over": 0.5107,
+     "two_sided": true,
+     "expected": 44.64
+    },
+    {
+     "book": "Borgata",
+     "line": 42.5,
+     "over": 1.77,
+     "under": 2.05,
+     "p_over": 0.5366,
+     "two_sided": true,
+     "expected": 43.0
+    },
+    {
+     "book": "Caesars",
+     "line": 42.5,
+     "over": 1.91,
+     "under": 1.91,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 42.5
+    },
+    {
+     "book": "DraftKings",
+     "line": 36.5,
+     "over": 1.9,
+     "under": 1.9,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 36.5
+    },
+    {
+     "book": "bet365 US",
+     "line": 42.5,
+     "over": 1.952,
+     "under": 1.869,
+     "p_over": 0.4891,
+     "two_sided": true,
+     "expected": 42.35
+    }
+   ],
+   "line": 42.5,
+   "us_books": 6,
+   "quality": "last quote before suspension",
+   "expected_wins": 42.75,
+   "books": 6
+  },
+  "HOU": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/houston-rockets/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 46.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 46.92
+    }
+   ],
+   "line": 46.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 46.92,
+   "books": 1
+  },
+  "IND": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/indiana-pacers/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 43.5,
+     "over": 1.74,
+     "under": 2.05,
+     "p_over": 0.5409,
+     "two_sided": true,
+     "expected": 44.05
+    }
+   ],
+   "line": 43.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 44.05,
+   "books": 1
+  },
+  "LAC": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/los-angeles-clippers/regular-season-wins",
+   "sigma": 5.51,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 30.5,
+     "over": 2.05,
+     "under": 1.74,
+     "p_over": 0.4591,
+     "two_sided": true,
+     "expected": 29.93
+    }
+   ],
+   "line": 30.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 29.93,
+   "books": 1
+  },
+  "LAL": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/los-angeles-lakers/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 51.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 52.08
+    },
+    {
+     "book": "BetRivers",
+     "line": 51.5,
+     "over": 1.76,
+     "under": 2.0,
+     "p_over": 0.5319,
+     "two_sided": true,
+     "expected": 51.93
+    },
+    {
+     "book": "Borgata",
+     "line": 51.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 52.08
+    },
+    {
+     "book": "bet365",
+     "line": 51.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 51.92
+    },
+    {
+     "book": "bet365 US",
+     "line": 51.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 51.92
+    }
+   ],
+   "line": 51.5,
+   "us_books": 4,
+   "quality": "two-sided",
+   "expected_wins": 51.93,
+   "books": 5
+  },
+  "MEM": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/memphis-grizzlies/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "QuinnBet",
+     "line": 28.5,
+     "over": 1.87,
+     "under": 1.95,
+     "p_over": 0.5105,
+     "two_sided": true,
+     "expected": 28.64
+    },
+    {
+     "book": "bet365",
+     "line": 28.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 28.92
+    }
+   ],
+   "line": 28.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 28.78,
+   "books": 2
+  },
+  "MIA": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/miami-heat/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "QuinnBet",
+     "line": 46.5,
+     "over": 2.0,
+     "under": 1.83,
+     "p_over": 0.4778,
+     "two_sided": true,
+     "expected": 46.2
+    }
+   ],
+   "line": 46.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 46.2,
+   "books": 1
+  },
+  "MIL": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/milwaukee-bucks/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 23.5,
+     "over": 2.05,
+     "under": 1.8,
+     "p_over": 0.4675,
+     "two_sided": true,
+     "expected": 23.06
+    },
+    {
+     "book": "BetRivers",
+     "line": 23.5,
+     "over": 1.87,
+     "under": 1.87,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 23.5
+    },
+    {
+     "book": "Borgata",
+     "line": 23.5,
+     "over": 2.05,
+     "under": 1.8,
+     "p_over": 0.4675,
+     "two_sided": true,
+     "expected": 23.06
+    },
+    {
+     "book": "Caesars",
+     "line": 23.5,
+     "over": 2.0,
+     "under": 1.83,
+     "p_over": 0.4778,
+     "two_sided": true,
+     "expected": 23.2
+    },
+    {
+     "book": "DraftKings",
+     "line": 25.5,
+     "over": 1.9,
+     "under": 1.9,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 25.5
+    },
+    {
+     "book": "Fanatics",
+     "line": 24.5,
+     "over": 1.769230769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 24.91
+    },
+    {
+     "book": "bet365 US",
+     "line": 23.5,
+     "over": 2.0,
+     "under": 1.769,
+     "p_over": 0.4694,
+     "two_sided": true,
+     "expected": 23.08
+    }
+   ],
+   "line": 23.5,
+   "us_books": 7,
+   "quality": "last quote before suspension",
+   "expected_wins": 23.2,
+   "books": 7
+  },
+  "MIN": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/minnesota-timberwolves/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 49.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 49.8
+    },
+    {
+     "book": "BetRivers",
+     "line": 49.5,
+     "over": 1.76,
+     "under": 2.0,
+     "p_over": 0.5319,
+     "two_sided": true,
+     "expected": 49.94
+    },
+    {
+     "book": "Borgata",
+     "line": 49.5,
+     "over": 1.83,
+     "under": 2.0,
+     "p_over": 0.5222,
+     "two_sided": true,
+     "expected": 49.8
+    },
+    {
+     "book": "Caesars",
+     "line": 49.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 50.08
+    },
+    {
+     "book": "QuinnBet",
+     "line": 49.5,
+     "over": 1.8,
+     "under": 2.0,
+     "p_over": 0.5263,
+     "two_sided": true,
+     "expected": 49.86
+    },
+    {
+     "book": "bet365",
+     "line": 49.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 49.92
+    },
+    {
+     "book": "bet365 US",
+     "line": 49.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 49.92
+    }
+   ],
+   "line": 49.5,
+   "us_books": 5,
+   "quality": "two-sided",
+   "expected_wins": 49.92,
+   "books": 7
+  },
+  "NOP": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/new-orleans-pelicans/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 28.5,
+     "over": 1.87,
+     "under": 1.95,
+     "p_over": 0.5105,
+     "two_sided": true,
+     "expected": 28.64
+    },
+    {
+     "book": "BetRivers",
+     "line": 28.5,
+     "over": 2.05,
+     "under": 1.72,
+     "p_over": 0.4562,
+     "two_sided": true,
+     "expected": 27.91
+    },
+    {
+     "book": "Borgata",
+     "line": 28.5,
+     "over": 1.87,
+     "under": 1.95,
+     "p_over": 0.5105,
+     "two_sided": true,
+     "expected": 28.64
+    },
+    {
+     "book": "Caesars",
+     "line": 28.5,
+     "over": 2.05,
+     "under": 1.77,
+     "p_over": 0.4634,
+     "two_sided": true,
+     "expected": 28.0
+    },
+    {
+     "book": "DraftKings",
+     "line": 28.5,
+     "over": 2.05,
+     "under": 1.8,
+     "p_over": 0.4675,
+     "two_sided": true,
+     "expected": 28.06
+    },
+    {
+     "book": "bet365 US",
+     "line": 28.5,
+     "over": 2.05,
+     "under": 1.74,
+     "p_over": 0.4591,
+     "two_sided": true,
+     "expected": 27.95
+    }
+   ],
+   "line": 28.5,
+   "us_books": 6,
+   "quality": "last quote before suspension",
+   "expected_wins": 28.03,
+   "books": 6
+  },
+  "NYK": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/new-york-knicks/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 52.5,
+     "over": null,
+     "under": 1.769,
+     "p_over": 0.4591,
+     "two_sided": false,
+     "expected": 51.94
+    }
+   ],
+   "line": 52.5,
+   "us_books": 0,
+   "quality": "one-sided (assumed margin)",
+   "expected_wins": 51.94,
+   "books": 1
+  },
+  "OKC": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/oklahoma-city-thunder/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 61.5,
+     "over": 1.769,
+     "under": null,
+     "p_over": 0.5409,
+     "two_sided": false,
+     "expected": 62.06
+    }
+   ],
+   "line": 61.5,
+   "us_books": 0,
+   "quality": "one-sided (assumed margin)",
+   "expected_wins": 62.06,
+   "books": 1
+  },
+  "ORL": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/orlando-magic/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "QuinnBet",
+     "line": 43.5,
+     "over": 1.87,
+     "under": 1.95,
+     "p_over": 0.5105,
+     "two_sided": true,
+     "expected": 43.64
+    }
+   ],
+   "line": 43.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 43.64,
+   "books": 1
+  },
+  "PHI": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/philadelphia-76ers/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 52.5,
+     "over": 1.8,
+     "under": 2.05,
+     "p_over": 0.5325,
+     "two_sided": true,
+     "expected": 52.94
+    },
+    {
+     "book": "Borgata",
+     "line": 52.5,
+     "over": 1.8,
+     "under": 2.05,
+     "p_over": 0.5325,
+     "two_sided": true,
+     "expected": 52.94
+    },
+    {
+     "book": "Caesars",
+     "line": 52.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 53.08
+    }
+   ],
+   "line": 52.5,
+   "us_books": 3,
+   "quality": "two-sided",
+   "expected_wins": 52.94,
+   "books": 3
+  },
+  "PHO": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/phoenix-suns/regular-season-wins",
+   "sigma": 5.51,
+   "quotes": [
+    {
+     "book": "QuinnBet",
+     "line": 40.5,
+     "over": 2.0,
+     "under": 1.83,
+     "p_over": 0.4778,
+     "two_sided": true,
+     "expected": 40.19
+    },
+    {
+     "book": "bet365",
+     "line": 38.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 38.92
+    }
+   ],
+   "line": 39.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 39.55,
+   "books": 2
+  },
+  "POR": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/portland-trail-blazers/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 42.5,
+     "over": 1.909,
+     "under": 1.909,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 42.5
+    }
+   ],
+   "line": 42.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 42.5,
+   "books": 1
+  },
+  "SAC": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/sacramento-kings/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 17.5,
+     "over": 1.91,
+     "under": 1.91,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 17.5
+    },
+    {
+     "book": "Borgata",
+     "line": 17.5,
+     "over": 1.91,
+     "under": 1.91,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 17.5
+    },
+    {
+     "book": "QuinnBet",
+     "line": 20.5,
+     "over": 1.91,
+     "under": 1.87,
+     "p_over": 0.4947,
+     "two_sided": true,
+     "expected": 20.43
+    },
+    {
+     "book": "bet365",
+     "line": 21.5,
+     "over": 1.952,
+     "under": 1.869,
+     "p_over": 0.4891,
+     "two_sided": true,
+     "expected": 21.35
+    }
+   ],
+   "line": 19.0,
+   "us_books": 2,
+   "quality": "two-sided",
+   "expected_wins": 18.96,
+   "books": 4
+  },
+  "SAS": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/san-antonio-spurs/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 59.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 60.08
+    },
+    {
+     "book": "BetRivers",
+     "line": 59.5,
+     "over": 1.76,
+     "under": 2.0,
+     "p_over": 0.5319,
+     "two_sided": true,
+     "expected": 59.93
+    },
+    {
+     "book": "Borgata",
+     "line": 59.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 60.08
+    },
+    {
+     "book": "Caesars",
+     "line": 59.5,
+     "over": 1.8,
+     "under": 2.05,
+     "p_over": 0.5325,
+     "two_sided": true,
+     "expected": 59.94
+    },
+    {
+     "book": "DraftKings",
+     "line": 59.5,
+     "over": 2.0,
+     "under": 1.83,
+     "p_over": 0.4778,
+     "two_sided": true,
+     "expected": 59.2
+    },
+    {
+     "book": "bet365 US",
+     "line": 59.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 59.92
+    }
+   ],
+   "line": 59.5,
+   "us_books": 6,
+   "quality": "last quote before suspension",
+   "expected_wins": 59.94,
+   "books": 6
+  },
+  "TOR": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/toronto-raptors/regular-season-wins",
+   "sigma": 5.45,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 46.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 47.08
+    },
+    {
+     "book": "BetRivers",
+     "line": 46.5,
+     "over": 1.76,
+     "under": 2.0,
+     "p_over": 0.5319,
+     "two_sided": true,
+     "expected": 46.94
+    },
+    {
+     "book": "Borgata",
+     "line": 46.5,
+     "over": 1.77,
+     "under": 2.1,
+     "p_over": 0.5426,
+     "two_sided": true,
+     "expected": 47.08
+    },
+    {
+     "book": "Caesars",
+     "line": 46.5,
+     "over": 1.87,
+     "under": 1.95,
+     "p_over": 0.5105,
+     "two_sided": true,
+     "expected": 46.64
+    },
+    {
+     "book": "QuinnBet",
+     "line": 46.5,
+     "over": 1.8,
+     "under": 2.0,
+     "p_over": 0.5263,
+     "two_sided": true,
+     "expected": 46.86
+    },
+    {
+     "book": "bet365",
+     "line": 46.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 46.92
+    },
+    {
+     "book": "bet365 US",
+     "line": 46.5,
+     "over": 1.769,
+     "under": 2.0,
+     "p_over": 0.5306,
+     "two_sided": true,
+     "expected": 46.92
+    }
+   ],
+   "line": 46.5,
+   "us_books": 5,
+   "quality": "two-sided",
+   "expected_wins": 46.92,
+   "books": 7
+  },
+  "UTA": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/utah-jazz/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "BetMGM",
+     "line": 28.5,
+     "over": 2.1,
+     "under": 1.77,
+     "p_over": 0.4574,
+     "two_sided": true,
+     "expected": 27.92
+    },
+    {
+     "book": "BetRivers",
+     "line": 28.5,
+     "over": 1.87,
+     "under": 1.87,
+     "p_over": 0.5,
+     "two_sided": true,
+     "expected": 28.5
+    },
+    {
+     "book": "Borgata",
+     "line": 28.5,
+     "over": 2.1,
+     "under": 1.77,
+     "p_over": 0.4574,
+     "two_sided": true,
+     "expected": 27.92
+    },
+    {
+     "book": "Caesars",
+     "line": 28.5,
+     "over": 2.05,
+     "under": 1.8,
+     "p_over": 0.4675,
+     "two_sided": true,
+     "expected": 28.06
+    },
+    {
+     "book": "DraftKings",
+     "line": 36.5,
+     "over": 1.95,
+     "under": 1.86,
+     "p_over": 0.4882,
+     "two_sided": true,
+     "expected": 36.34
+    },
+    {
+     "book": "bet365 US",
+     "line": 28.5,
+     "over": 2.1,
+     "under": 1.714,
+     "p_over": 0.4494,
+     "two_sided": true,
+     "expected": 27.81
+    }
+   ],
+   "line": 28.5,
+   "us_books": 6,
+   "quality": "last quote before suspension",
+   "expected_wins": 27.99,
+   "books": 6
+  },
+  "WAS": {
+   "page": "https://www.oddschecker.com/us/basketball/nba/washington-wizards/regular-season-wins",
+   "sigma": 5.4,
+   "quotes": [
+    {
+     "book": "bet365",
+     "line": 35.5,
+     "over": 2.0,
+     "under": 1.769,
+     "p_over": 0.4694,
+     "two_sided": true,
+     "expected": 35.08
+    }
+   ],
+   "line": 35.5,
+   "us_books": 0,
+   "quality": "two-sided",
+   "expected_wins": 35.08,
+   "books": 1
+  }
+ }
+}

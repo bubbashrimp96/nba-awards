@@ -60,7 +60,37 @@ def bbref_table(year, page):
     return frame.drop_duplicates('PlayerID', keep='first').set_index('PlayerID')
 
 
-def standings(year):
+def projected_wins(year):
+    """Basketball Reference's projected final wins/losses per team (friv/playoff_prob.html), or None if not fetched."""
+    path = raw(year, 'playoff_prob.html.gz')
+    if not path.exists():
+        return None
+    soup = BeautifulSoup(gzip.decompress(path.read_bytes()).decode(), 'html.parser')
+    rows = []
+    for table_id in ('projected_standings_e', 'projected_standings_w'):
+        table = soup.find('table', id=table_id)
+        for tr in (table.tbody.find_all('tr') if table and table.tbody else []):
+            cells = {c.get('data-stat'): c for c in tr.find_all(['th', 'td'])}
+            link = cells.get('team_name') and cells['team_name'].find('a')
+            if not link or f'/{year}.html' not in link['href']:
+                continue
+            rows.append(dict(Tm=link['href'].split('/')[2], projected_wins=float(cells['wins_avg'].get_text(strip=True)),
+                             projected_losses=float(cells['losses_avg'].get_text(strip=True)),
+                             projected_record_basis=cells['win_loss_current'].get_text(strip=True)))
+    frame = pd.DataFrame(rows)
+    return frame if len(frame) == 30 and frame.Tm.is_unique else None
+
+
+def odds_wins(year):
+    """Expected final wins from sportsbook over/under win totals (fetch_team_wins.py), or None if not fetched."""
+    path = ROOT / f'data/current/{year}/team_win_totals.json'
+    if not path.exists():
+        return None
+    teams = json.loads(path.read_text())['teams']
+    return pd.DataFrame([dict(Tm=tm, odds_wins=t['expected_wins'], odds_line=t['line']) for tm, t in teams.items()])
+
+
+def standings(year, use_odds=True):
     data = json.loads(raw(year, 'espn_standings.json').read_text())
     rows = []
     for conference in data['children']:
@@ -76,12 +106,34 @@ def standings(year):
     frame['Season'] = season_label(year); frame['year'] = year
     frame['team_wins'] = frame.wins_to_date * scale
     frame['team_losses'] = frame.losses_to_date * scale
+    frame['team_wins_source'] = 'pace'
+    # Prefer Basketball Reference's simulated final record over a straight-line 82-game pace.
+    projected = projected_wins(year)
+    if projected is not None:
+        frame = frame.merge(projected, on='Tm', how='left')
+        have = frame.projected_wins.notna()
+        frame.loc[have, 'team_wins'] = frame.loc[have, 'projected_wins']
+        frame.loc[have, 'team_losses'] = frame.loc[have, 'projected_losses']
+        frame.loc[have, 'team_wins_source'] = 'bbref_projection'
+    # First choice: the betting market's expected final wins (over/under lines with the price lean priced in).
+    odds = odds_wins(year) if use_odds else None
+    if odds is not None:
+        frame = frame.merge(odds, on='Tm', how='left')
+        have = frame.odds_wins.notna()
+        frame.loc[have, 'team_wins'] = frame.loc[have, 'odds_wins']
+        frame.loc[have, 'team_losses'] = SEASON_GAMES - frame.loc[have, 'odds_wins']
+        frame.loc[have, 'team_wins_source'] = 'sportsbook_win_totals'
     frame['team_games'] = float(SEASON_GAMES)
     frame['win_percentage'] = frame.wins_to_date / frame.games_to_date
-    frame['conference_rank'] = frame.groupby('conference').win_percentage.rank(ascending=False, method='average')
+    # Positions and seeds follow the projected final record (team_wins), like the end-of-season standings
+    # the models were trained on; ties broken by the current record.
+    order = frame.team_wins + frame.win_percentage * 1e-3
+    frame['projected_win_pct'] = order
+    frame['source_playoff_seed_not_used'] = frame.groupby('conference').projected_win_pct.rank(ascending=False, method='first')
+    frame['conference_rank'] = frame.groupby('conference').team_wins.rank(ascending=False, method='average')
     frame['conference_size'] = frame.groupby('conference').Tm.transform('size')
     frame['conference_standing'] = 1 - (frame.conference_rank - 1) / (frame.conference_size - 1)
-    frame['league_rank'] = frame.win_percentage.rank(ascending=False, method='average')
+    frame['league_rank'] = frame.team_wins.rank(ascending=False, method='average')
     frame['league_size'] = len(frame)
     frame['league_standing'] = 1 - (frame.league_rank - 1) / (frame.league_size - 1)
     return frame

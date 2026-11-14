@@ -1,42 +1,47 @@
 {
   "per_game": {
     "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_game.html",
-    "fetched_at": "2026-11-12T04:52:43+00:00",
-    "bytes": 1187092
+    "fetched_at": "2026-11-14T07:08:03+00:00",
+    "bytes": 1194464
   },
   "totals": {
     "url": "https://www.basketball-reference.com/leagues/NBA_2027_totals.html",
-    "fetched_at": "2026-11-12T04:52:47+00:00",
-    "bytes": 961637
+    "fetched_at": "2026-11-14T07:08:07+00:00",
+    "bytes": 967340
   },
   "advanced": {
     "url": "https://www.basketball-reference.com/leagues/NBA_2027_advanced.html",
-    "fetched_at": "2026-11-12T04:52:51+00:00",
-    "bytes": 1125738
+    "fetched_at": "2026-11-14T07:08:11+00:00",
+    "bytes": 1132470
   },
   "per_poss": {
     "url": "https://www.basketball-reference.com/leagues/NBA_2027_per_poss.html",
-    "fetched_at": "2026-11-12T04:52:55+00:00",
-    "bytes": 1279351
+    "fetched_at": "2026-11-14T07:08:15+00:00",
+    "bytes": 1287821
   },
   "preseason_odds": {
     "url": "https://www.basketball-reference.com/leagues/NBA_2027_preseason_odds.html",
-    "fetched_at": "2026-11-12T04:52:59+00:00",
-    "bytes": 137915
+    "fetched_at": "2026-11-14T07:08:19+00:00",
+    "bytes": 137936
   },
   "coaches": {
     "url": "https://www.basketball-reference.com/leagues/NBA_2027_coaches.html",
-    "fetched_at": "2026-11-12T04:53:03+00:00",
-    "bytes": 182213
+    "fetched_at": "2026-11-14T07:08:23+00:00",
+    "bytes": 182240
   },
   "espn_standings": {
     "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2027&type=0&level=2",
-    "fetched_at": "2026-11-12T04:53:03+00:00",
-    "bytes": 164809
+    "fetched_at": "2026-11-14T07:08:24+00:00",
+    "bytes": 164875
   },
   "team_advanced": {
     "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_season_stats/team_season_stats_2027.parquet",
-    "fetched_at": "2026-11-12T04:53:04+00:00",
-    "bytes": 94795
+    "fetched_at": "2026-11-14T07:08:25+00:00",
+    "bytes": 94781
+  },
+  "playoff_prob": {
+    "url": "https://www.basketball-reference.com/friv/playoff_prob.html",
+    "fetched_at": "2026-11-14T07:31:21+00:00",
+    "bytes": 192993
   }
 }

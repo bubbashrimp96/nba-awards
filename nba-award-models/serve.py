@@ -4,7 +4,10 @@
     python3 serve.py --port 8080
 
 Endpoints used by the Projections page:
-  POST /api/refresh     re-download season-to-date sources (fetch_current.py), then re-project
+  POST /api/refresh     re-download season-to-date sources (fetch_current.py), team win totals (fetch_team_wins.py)
+                        and odds (fetch_odds.py), then re-project
+  POST /api/odds        re-download Polymarket/Kalshi award odds only (a few seconds), then re-project
+  POST /api/odds-history  re-download daily odds movement (fetch_odds_history.py, a few minutes), then re-project
   POST /api/clutch      body = clutch table copied from NBA.com; saved, then re-project
   POST /api/preseason   body = "TEAM total" lines; saved as this season's preseason win totals, then re-project
 Each run happens in a fresh subprocess (project_current.py patches file reads at import time).
@@ -140,7 +143,21 @@ class Handler(SimpleHTTPRequestHandler):
         try:
             if self.path == '/api/refresh':
                 run('fetch_current.py', '--year', str(YEAR), '--force')
-                message = 'Fetched fresh season-to-date data and re-projected'
+                message = 'Fetched fresh season-to-date data, team win totals and odds, and re-projected'
+                try:  # projected wins = sportsbook win totals; falls back to Basketball Reference's projection
+                    run('fetch_team_wins.py', '--year', str(YEAR))
+                except RuntimeError as error:
+                    message = f'Fetched fresh data and re-projected (team win totals failed, using Basketball Reference projections: {error})'
+                try:
+                    run('fetch_odds.py', '--year', str(YEAR))
+                except RuntimeError as error:  # stats refresh still counts if the markets are down
+                    message = f'Fetched fresh season-to-date data and re-projected (odds failed: {error})'
+            elif self.path == '/api/odds-history':
+                run('fetch_odds_history.py', '--year', str(YEAR))
+                message = 'Fetched odds movement and re-projected'
+            elif self.path == '/api/odds':
+                run('fetch_odds.py', '--year', str(YEAR))
+                message = 'Fetched current odds and re-projected'
             elif self.path == '/api/clutch':
                 message = f'Saved {save_clutch(text)} clutch rows and re-projected'
             elif self.path == '/api/preseason':
