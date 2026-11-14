@@ -1,3 +1,6 @@
 # Preserve downloaded source bytes and checksums, including original whitespace.
 nba-award-models/data/preseason_wins/*.html -text -whitespace
 nba-award-models/data/team_defense/historical_team_stats.csv -text -whitespace
+
+# Python CSV snapshots use CRLF line endings.
+nba-award-models/data/current/*/*.csv whitespace=cr-at-eol

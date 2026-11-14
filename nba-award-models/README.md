@@ -131,3 +131,74 @@ Quality is the mean of a player's league percentiles for PPG and BPM among playe
 Result over 26 seasons: log loss 2.595 → 2.391, top three 12/26 (unchanged), first picks 8 → 7. Dropping `second_year` alone worsens log loss to 2.481. `allstar_jump_fit` adds almost nothing measurable but is kept as requested.
 
 **COY** adds `team_net_rating` (NBA.com team advanced stats, constrained positive, +0.47). Log loss 1.590 → 1.577, but first picks fall 13 → 11 and top three 22 → 21: it moves 2020-21 to Snyder over Thibodeau and 2023-24 to Mazzulla over Daigneault.
+
+## Refresh dependencies and progress indicator
+
+Use the project's local Python environment so in-app refresh can read the NBA team-stat Parquet files:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python serve.py
+```
+
+`pyarrow` is the declared Parquet reader; installing the requirements resolves Pandas' optional-engine error. The server uses `.venv/bin/python` for refresh subprocesses when that environment exists.
+
+Refresh data now has a donut indicator beside the button with a percentage and current stage. Progress counts completed source downloads, then team win expectations, market odds, and projection scoring. It is progress through those steps, not a prediction of remaining time. A per-request ID prevents a previous refresh or a late poll from overwriting the current indicator; failures remain visibly incomplete and controls are restored for retry. `/api/status` exposes the current refresh snapshot for polling.
+
+Run `.venv/bin/python -m unittest test_refresh_progress` to verify source progress, stage transitions, success/failure recovery, subprocess output streaming, and reading the cached Parquet data.
+
+## League projections and accuracy scores
+
+Projected All-Stars and Projected Standings show West on the left and East on the
+right, stacking West first on smaller screens. Tables use red/blue conference
+colours, contrasting headers and bold coloured projection scores or wins.
+All-Stars includes five starters, seven reserves and five honourable mentions
+per conference, all in tables with team W–L records. Statistical selection scores
+use league percentiles: 30% PPG, 25% BPM, 15% WS/48, 10% assists, 10% rebounds,
+5% availability and 5% current team win percentage. Eligibility requires at least
+five games, 40% team-game availability and 15 minutes per game. This is not a
+fitted voting probability. Standings reuse the award models' projected final wins
+and identify the market/BBRef/record-pace source.
+
+The Summary page puts Award by award first. Accuracy scores combine 50%
+winner-first accuracy, 25% winner-in-top-three accuracy and 25% actual/model
+top-three overlap (order ignored). Each component uses a five-season recency
+half-life over completed seasons. Summary and each Model top five card show the
+score; it measures retrospective agreement, not a forecast probability. Clutch
+currently has only four completed seasons.
+
+## Market quotes and charts
+
+Each award projection shows a chart above Market top ten on the left and Model
+top five above a separate reference-odds card on the right. The model table's
+Market row shows only the combined value. The odds-format control applies across
+the page, including all reference columns: percentage, decimal and American.
+
+`fetch_odds.py` reads the supplied 2026–27 Sportsbet and Neds event links for all
+seven awards alongside Polymarket and Kalshi. The consensus is the equal-weight
+mean of raw implied probabilities from sources listing that player. There is no
+margin adjustment or field normalisation; probabilities can sum above 100%.
+Bookmaker decimal prices are retained exactly; exchange decimal equivalents use
+1 / raw midpoint-or-bid, excluding fees. Per-source retrieval times remain visible.
+Sportsbet is the first reference; Neds stays separate because prices can lag.
+Failed sources are reported rather than relabelled as freshly fetched. TAB is
+not automated because its public page rejects this client.
+
+Decimal bookmaker snapshots append to `bookmaker_odds_history.csv`. Sportsbet and
+Neds chart sources use the last observed quote per UTC day, without inventing
+past observations; single observations have visible points. Combined uses the
+same four sources as Market top ten, excluding Oddschecker, and inserts the
+latest odds snapshot so each current top-ten endpoint exactly matches the table.
+
+Oddschecker reference values come exclusively from each award's latest saved
+Oddschecker chart date. They are chart-equivalent odds converted from the saved
+margin-normalised probabilities, not raw bookmaker quotes. The date is shown;
+players absent on that date and awards without history show a dash. Oddschecker
+remains separately selectable in the chart.
+
+Run the focused checks with:
+
+```sh
+.venv/bin/python -m unittest test_refresh_progress test_projection_pages test_australian_odds test_reference_odds
+```

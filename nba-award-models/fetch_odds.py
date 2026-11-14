@@ -6,10 +6,9 @@ Both are public prediction-market APIs (no key, no browser). For every award mar
   price  = bid/ask midpoint when the spread is within max(2c, half the midpoint); otherwise the bid.
            Thin longshot markets quote e.g. 1c/8c, and ~45 midpoints of 4.5% would add up to a field
            of 200%; the bid is the only firm price there.
-  prob   = price divided by the field total when it exceeds 100% (overround removed); a field under
-           100% is left as is, so the unpriced remainder is not handed to the favourites
-  market = mean of the sources that price the player (Polymarket and Kalshi weighted equally),
-           then renormalised the same way
+  prob   = raw implied probability, with no bookmaker margin adjustment.
+  market = equal-weight mean of raw probabilities from the sources listing each player.
+           Neither source fields nor the combined field are scaled to 100%.
 Writes data/current/{year}/odds.json (latest snapshot, read by project_current.py) and appends
 the snapshot to data/current/{year}/odds_history.csv for later movement charts.
 """
@@ -17,6 +16,8 @@ from pathlib import Path
 from datetime import datetime, timezone
 import argparse, csv, json, re, sys, time, unicodedata
 import requests
+from australian_odds import fetch_book
+from reference_odds import chart_reference
 
 ROOT = Path(__file__).resolve().parent
 AWARDS = {  # app code: (Polymarket event title suffix, Kalshi series)
@@ -55,9 +56,8 @@ def price(bid, ask, last):
 
 
 def normalise(rows):
-    total = max(1.0, sum(r['price'] or 0 for r in rows))
     for r in rows:
-        r['prob'] = (r['price'] or 0) / total
+        r['prob'] = r['price'] or 0
     return rows
 
 
@@ -98,39 +98,40 @@ def combine(sources):
     players = {}
     for source, data in sources.items():
         for r in data['rows']:
-            if not r['prob']:
+            raw = r.get('price', r.get('prob'))
+            if not raw:
                 continue
             p = players.setdefault(name_key(r['name']), dict(name=r['name'], sources={}))
-            p['sources'][source] = dict(prob=r['prob'], wide=r['wide'])
+            p['sources'][source] = dict(prob=raw, price=raw, wide=r['wide'], **({"decimal_odds": r['decimal_odds']} if 'decimal_odds' in r else {}))
     for p in players.values():
         probs = [s['prob'] for s in p['sources'].values()]
-        # A player one market lists and the other does not is near-zero there: average over the sources that exist.
+        # Average only sources that quote this player; missing listings are not zeroes.
         p['market'] = sum(probs) / len(probs)
         p['wide'] = all(s['wide'] for s in p['sources'].values())
-    total = max(1.0, sum(p['market'] for p in players.values()))
-    out = sorted(players.values(), key=lambda p: -p['market'])
-    for p in out:
-        p['market'] /= total
-    return out
+    return sorted(players.values(), key=lambda p: -p['market'])
 
 
 def fetch(year):
     stamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
     awards, errors = {}, []
+    chart_path = ROOT / f'data/current/{year}/odds_movement.json'
+    chart_history = json.loads(chart_path.read_text()) if chart_path.exists() else {}
     for award, (title, series) in AWARDS.items():
         sources = {}
-        for source, call in (('polymarket', lambda: polymarket(year, title)), ('kalshi', lambda: kalshi(year, series))):
+        for source, call in (('sportsbet', lambda: fetch_book(S, 'sportsbet', award, year)), ('neds', lambda: fetch_book(S, 'neds', award, year)), ('polymarket', lambda: polymarket(year, title)), ('kalshi', lambda: kalshi(year, series))):
             try:
                 sources[source] = call()
+                sources[source].setdefault('fetched_at', datetime.now(timezone.utc).isoformat(timespec='seconds'))
             except Exception as error:  # one market down should not block the other
                 errors.append(f'{award} {source}: {error}')
             time.sleep(0.2)
         if sources:
             awards[award] = dict(players=combine(sources),
-                                 sources={k: dict(url=v['url'], volume=round(v['volume'])) for k, v in sources.items()})
+                                 sources={k: {key: value for key, value in v.items() if key != 'rows'} for k, v in sources.items()},
+                                 references={'oddschecker': chart_reference(chart_history, award)})
     if not awards:
         raise RuntimeError('no odds fetched: ' + '; '.join(errors))
-    snapshot = dict(fetched_at=stamp, method=__doc__.split('\n\n')[1].strip(), errors=errors, awards=awards)
+    snapshot = dict(fetched_at=stamp, method='Equal-weight mean of available Sportsbet, Neds, Polymarket and Kalshi implied probabilities; raw implied probabilities are used with no margin adjustment or field normalisation. Decimal bookmaker prices are retained separately. Sportsbet is the primary displayed bookmaker reference; sources are not assumed to move simultaneously.', errors=errors, awards=awards)
     out = ROOT / f'data/current/{year}'
     out.mkdir(parents=True, exist_ok=True)
     (out / 'odds.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=1) + '\n')
@@ -145,6 +146,17 @@ def fetch(year):
                 if p['market'] >= 0.001:
                     writer.writerow([stamp, award, p['name'], round(p['market'], 4),
                                      *[round(p['sources'][s]['prob'], 4) if s in p['sources'] else '' for s in ('polymarket', 'kalshi')]])
+    quotes = out / 'bookmaker_odds_history.csv'
+    new_quotes = not quotes.exists()
+    with quotes.open('a', newline='') as f:
+        writer = csv.writer(f)
+        if new_quotes:
+            writer.writerow(['fetched_at', 'award', 'source', 'name', 'decimal_odds', 'prob'])
+        for award, item in awards.items():
+            for player in item['players']:
+                for source, values in player['sources'].items():
+                    if 'decimal_odds' in values:
+                        writer.writerow([item['sources'][source]['fetched_at'], award, source, player['name'], values['decimal_odds'], values['prob']])
     return snapshot
 
 

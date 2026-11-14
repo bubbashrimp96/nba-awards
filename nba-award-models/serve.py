@@ -16,6 +16,7 @@ from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 from datetime import datetime, timezone
 import argparse, json, re, subprocess, sys, threading, webbrowser
+from collections import deque
 
 ROOT = Path(__file__).resolve().parent
 SITE = ROOT / 'output/artifacts'
@@ -23,6 +24,40 @@ PAGE = 'nba-award-models-browser.html'
 YEAR = 2027
 SEASON = f'{YEAR-1}-{str(YEAR)[-2:]}'
 LOCK = threading.Lock()
+PROGRESS_LOCK = threading.Lock()
+REFRESH_PROGRESS = dict(state='idle', percent=0, stage='', request_id='')
+
+def refresh_progress(**changes):
+    with PROGRESS_LOCK:
+        REFRESH_PROGRESS.update(changes)
+        return dict(REFRESH_PROGRESS)
+
+def source_progress(request_id):
+    from fetch_current import sources
+    names=set(sources(YEAR))
+    completed=set()
+    def update(line):
+        if line.startswith('fetched '):
+            name=line.split()[1]
+            if name in names:completed.add(name)
+        elif line.startswith('preseason odds page not published'):
+            completed.add('preseason_odds')
+        else:return
+        refresh_progress(state='running',request_id=request_id,percent=5+round(60*len(completed)/len(names)),
+                         stage=f'Fetching season statistics ({len(completed)}/{len(names)} sources)')
+    return update
+
+def team_progress(request_id):
+    completed=set()
+    def update(line):
+        match=re.match(r'(?:warning: )?([A-Z]{3})(?=[:\s])',line)
+        if not match or match[1] not in CODES:
+            return
+        completed.add(match[1])
+        refresh_progress(state='running',request_id=request_id,percent=68+round(12*len(completed)/len(CODES)),
+                         stage=f'Updating team win expectations ({len(completed)}/{len(CODES)} teams)')
+    return update
+
 TEAM_NAMES = {'atlanta hawks': 'ATL', 'boston celtics': 'BOS', 'brooklyn nets': 'BRK', 'charlotte hornets': 'CHO', 'chicago bulls': 'CHI',
               'cleveland cavaliers': 'CLE', 'dallas mavericks': 'DAL', 'denver nuggets': 'DEN', 'detroit pistons': 'DET',
               'golden state warriors': 'GSW', 'houston rockets': 'HOU', 'indiana pacers': 'IND', 'la clippers': 'LAC',
@@ -38,10 +73,32 @@ ALIASES = {'BKN': 'BRK', 'PHX': 'PHO', 'CHA': 'CHO', 'GS': 'GSW', 'NY': 'NYK', '
 PYTHON = str(ROOT / '.venv/bin/python') if (ROOT / '.venv/bin/python').exists() else sys.executable
 
 
-def run(*args):
-    result = subprocess.run([PYTHON, *args], cwd=ROOT, capture_output=True, text=True, timeout=900)
-    log = (result.stdout + result.stderr)[-4000:]
-    if result.returncode:
+def run(*args, on_output=None):
+    process = subprocess.Popen([PYTHON, '-u', *args], cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    expired = threading.Event()
+    def timeout():
+        expired.set()
+        process.kill()
+    timer = threading.Timer(900, timeout)
+    timer.daemon = True
+    timer.start()
+    lines = deque(maxlen=80)
+    try:
+        for line in process.stdout:
+            lines.append(line)
+            if on_output:
+                on_output(line.strip())
+        process.wait()
+    finally:
+        timer.cancel()
+        process.stdout.close()
+        if process.poll() is None:
+            process.kill()
+            process.wait()
+    log = ''.join(lines)[-4000:]
+    if expired.is_set():
+        raise RuntimeError(f'{args[0]} timed out after 15 minutes')
+    if process.returncode:
         raise RuntimeError(log.strip().splitlines()[-1] if log.strip() else f'{args[0]} failed')
     return log
 
@@ -121,7 +178,7 @@ class Handler(SimpleHTTPRequestHandler):
         if self.path in ('/', ''):
             self.send_response(302); self.send_header('Location', '/' + PAGE + '#projections'); self.end_headers(); return
         if self.path.startswith('/api/status'):
-            return self.reply(200, dict(ok=True, season=SEASON))
+            return self.reply(200, dict(ok=True, season=SEASON, refresh=refresh_progress()))
         return super().do_GET()
 
     def end_headers(self):
@@ -140,18 +197,25 @@ class Handler(SimpleHTTPRequestHandler):
         text = self.rfile.read(length).decode('utf-8', 'replace')
         if not LOCK.acquire(blocking=False):
             return self.reply(409, dict(ok=False, error='A refresh is already running'))
+        tracking = self.path == '/api/refresh'
+        request_id = self.headers.get('X-Refresh-ID', '')[:100]
         try:
-            if self.path == '/api/refresh':
-                run('fetch_current.py', '--year', str(YEAR), '--force')
+            if tracking:
+                refresh_progress(state='running',percent=5,stage='Fetching season statistics',request_id=request_id)
+                run('fetch_current.py', '--year', str(YEAR), '--force', on_output=source_progress(request_id))
+                refresh_progress(percent=68,stage='Updating team win expectations')
                 message = 'Fetched fresh season-to-date data, team win totals and odds, and re-projected'
                 try:  # projected wins = sportsbook win totals; falls back to Basketball Reference's projection
-                    run('fetch_team_wins.py', '--year', str(YEAR))
+                    run('fetch_team_wins.py', '--year', str(YEAR), on_output=team_progress(request_id))
                 except RuntimeError as error:
-                    message = f'Fetched fresh data and re-projected (team win totals failed, using Basketball Reference projections: {error})'
+                    print(f'Team win totals fetch failed: {error}', flush=True)
+                    message = 'Updated statistics and projections; team win markets unavailable, using saved/fallback team projections'
+                refresh_progress(percent=82,stage='Updating market odds')
                 try:
                     run('fetch_odds.py', '--year', str(YEAR))
                 except RuntimeError as error:  # stats refresh still counts if the markets are down
-                    message = f'Fetched fresh season-to-date data and re-projected (odds failed: {error})'
+                    print(f'Market odds fetch failed: {error}', flush=True)
+                    message += '; market odds unavailable, retaining saved odds'
             elif self.path == '/api/odds-history':
                 run('fetch_odds_history.py', '--year', str(YEAR))
                 message = 'Fetched odds movement and re-projected'
@@ -164,8 +228,15 @@ class Handler(SimpleHTTPRequestHandler):
                 message = f'Saved {save_preseason(text)} preseason win totals and re-projected'
             else:
                 return self.reply(404, dict(ok=False, error='Unknown endpoint'))
-            return self.reply(200, dict(ok=True, message=message, projections=project()))
+            if tracking:
+                refresh_progress(percent=92,stage='Recalculating award projections')
+            projections = project()
+            if tracking:
+                refresh_progress(state='complete',percent=100,stage='Refresh complete')
+            return self.reply(200, dict(ok=True, message=message, projections=projections))
         except Exception as error:
+            if tracking:
+                refresh_progress(state='failed',stage=str(error))
             return self.reply(400 if isinstance(error, ValueError) else 500, dict(ok=False, error=str(error)))
         finally:
             LOCK.release()

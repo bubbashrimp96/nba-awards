@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent
 PAGE = ROOT / 'output/artifacts/nba-award-models-browser.html'
 OUTPUT = ROOT / 'output/artifacts/projections.json'
 TOP = 5
+MARKET_TOP = 10
 
 
 DISPLAY_SWAP = {'availability_exponential': 'games_below_threshold', 'ppg_rank_exponential': 'ppg_rank', 'ws48_rank_exponential': 'ws48_rank',
@@ -85,7 +86,7 @@ def player_awards(year, stats):
         if group is None:
             result[award] = dict(error='No eligible candidates yet (needs a 20-game projected pace)')
             continue
-        scores = group['x'] @ np.array(model['coefficients'])
+        scores = np.einsum('ij,j->i', group['x'], np.array(model['coefficients']))
         frame = group['g']
         games = lambda row: dict(games_to_date=number(played.get(row['PlayerID'])))
         shown = display_columns(columns)
@@ -101,7 +102,7 @@ def clutch(year):
     frame = data[data.year == year].sort_values('clutch_pts', ascending=False).reset_index(drop=True)
     if frame.empty:
         return dict(error='No clutch stats for this season yet — paste them from NBA.com')
-    scores = build_clutch.design(frame) @ np.array(model['coefficients'])
+    scores = np.einsum('ij,j->i', build_clutch.design(frame), np.array(model['coefficients']))
     rows, pool, ranking = top_rows(frame, scores, CLUTCH_COLUMNS, name_column='player',
                           extra=lambda row: dict(clutch_record=f'{int(row.w)}-{int(row.l)}', games_to_date=int(row.gp)))
     meta = json.loads((ROOT / 'data/clutch/current_meta.json').read_text()) if (ROOT / 'data/clutch/current_meta.json').exists() else {}
@@ -113,7 +114,7 @@ def coach(year):
     model = json.loads((ROOT / 'coy_model/model.json').read_text())
     pool, _ = build_coy.build_pool()
     frame = pool[pool.year == year].reset_index(drop=True)
-    scores = build_coy.design(frame) @ np.array(model['coefficients'])
+    scores = np.einsum('ij,j->i', build_coy.design(frame), np.array(model['coefficients']))
     rows, size, ranking = top_rows(frame, scores, COACH_COLUMNS, name_column='coach',
                           extra=lambda row: dict(record_to_date=f'{int(row.wins)}-{int(row.losses)}'))
     return dict(top=rows, pool_size=size, features=model['features'], columns=COACH_COLUMNS, _ranking=ranking)
@@ -126,11 +127,15 @@ def attach_odds(year, awards):
         return None
     from fetch_odds import name_key
     odds = json.loads(path.read_text())
+    from reference_odds import chart_reference
+    chart_path = ROOT / f'data/current/{year}/odds_movement.json'
+    chart_history = json.loads(chart_path.read_text()) if chart_path.exists() else {}
     for award, item in awards.items():
         ranking = item.pop('_ranking', [])
         market = odds['awards'].get(award)
         if not market or item.get('error'):
             continue
+        market.setdefault('references', {})['oddschecker'] = chart_reference(chart_history, award)
         priced = {name_key(p['name']): p for p in market['players']}
         def sources(p):
             return {k: round(v['prob'], 4) for k, v in p['sources'].items()}
@@ -143,8 +148,11 @@ def attach_odds(year, awards):
                                    model_rank=model[name_key(p['name'])]['rank'] if name_key(p['name']) in model else None,
                                    model_share=model[name_key(p['name'])]['share'] if name_key(p['name']) in model else None,
                                    team=model[name_key(p['name'])]['team'] if name_key(p['name']) in model else None)
-                              for i, p in enumerate(market['players'][:TOP], 1)]
+                              for i, p in enumerate(market['players'][:MARKET_TOP], 1)]
         item['market_links'] = market['sources']
+        from reference_odds import reference_rows
+        item['bookmaker_quotes'] = reference_rows(market, name_key)
+        item['reference_links'] = market.get('references', {})
     return dict(fetched_at=odds['fetched_at'], method=odds['method'], errors=odds.get('errors', []))
 
 
@@ -155,14 +163,17 @@ def attach_movement(year, awards):
     """Daily odds movement from fetch_odds_history.py, as aligned arrays per player and source.
 
     combined = mean of the sources pricing the player that day (each source carried forward within its own range),
-    then the field scaled to 100% when it sums above that. Keeps the current top players plus anyone who led.
+    with no additional field scaling or margin adjustment. Keeps the current top players plus anyone who led.
     """
     path = ROOT / f'data/current/{year}/odds_movement.json'
-    if not path.exists():
-        return None
     from fetch_odds import name_key
     from datetime import date, timedelta
-    data = json.loads(path.read_text())
+    from bookmaker_movement import merge_bookmaker_history, merge_latest_market_snapshot, CONSENSUS_SOURCES
+    data = json.loads(path.read_text()) if path.exists() else dict(awards={}, fetched_at=None, method='Saved odds snapshots', errors=[])
+    data = merge_bookmaker_history(data, ROOT / f'data/current/{year}/bookmaker_odds_history.csv', ROOT / f'data/current/{year}/odds.json')
+    odds_path = ROOT / f'data/current/{year}/odds.json'
+    if odds_path.exists():
+        data = merge_latest_market_snapshot(data, json.loads(odds_path.read_text()))
     for award, item in awards.items():
         source = data['awards'].get(award)
         if not source or item.get('error') or not source['players']:
@@ -173,14 +184,16 @@ def attach_movement(year, awards):
         axis, d = [], date.fromisoformat(days[0])
         while d <= date.fromisoformat(days[-1]):
             axis.append(d.isoformat()); d += timedelta(days=1)
-        names = sorted({s for p in source['players'] for s in p['sources']}, key=['sportsbooks', 'polymarket', 'kalshi'].index)
+        names = sorted({s for p in source['players'] for s in p['sources']}, key=lambda s: ['sportsbet', 'neds', 'sportsbooks', 'polymarket', 'kalshi'].index(s) if s in ['sportsbet', 'neds', 'sportsbooks', 'polymarket', 'kalshi'] else 99)
         filled = []
         for p in source['players']:
             series = {}
             for s, points in p['sources'].items():
+                if not points:
+                    continue
                 start, end, last, out = min(points), max(points), None, []
                 for day in axis:
-                    last = points.get(day, last) if start <= day <= end else None
+                    last = points.get(day) if s in ('sportsbet', 'neds') or day == source.get('snapshot_date') else points.get(day, last) if start <= day <= end else None
                     out.append(last)
                 series[s] = out
             # the model's spelling (Dončić, not the exchanges' Doncic) when the player is in its pool
@@ -190,13 +203,14 @@ def attach_movement(year, awards):
         for i in range(len(axis)):
             raw = []
             for _, series in filled:
-                vals = [v[i] for v in series.values() if v[i] is not None]
+                vals = [v[i] for s, v in series.items() if s in CONSENSUS_SOURCES and v[i] is not None]
                 raw.append(sum(vals) / len(vals) if vals else None)
-            total = max(1.0, sum(v for v in raw if v))
-            combined.append([v / total if v is not None else None for v in raw])
+            combined.append(raw)
         rows = []
         for j, (name, series) in enumerate(filled):
             comb = [combined[i][j] for i in range(len(axis))]
+            if source.get('snapshot_date') in axis:
+                comb[axis.index(source['snapshot_date'])] = source.get('snapshot_market', {}).get(name_key(name))
             rows.append(dict(player=name, combined=comb, **{k: series.get(k) for k in names}))
         last = lambda r: next((v for v in reversed(r['combined']) if v is not None), 0)
         leaders = set()
@@ -206,9 +220,12 @@ def attach_movement(year, awards):
                 leaders.add(j)
         keep = sorted(rows, key=lambda r: -last(r))[:MOVEMENT_PLAYERS]
         keep += [rows[j] for j in leaders if rows[j] not in keep]
+        model_top = {name_key(r['player']) for r in item.get('top', [])}
+        required = model_top | set(source.get('snapshot_top', []))
+        keep += [r for r in rows if name_key(r['player']) in required and r not in keep]
         round4 = lambda xs: [round(x, 4) if x is not None else None for x in xs] if xs else None
         item['movement'] = dict(dates=axis, sources=names, links=source['links'], books=source['books'],
-                                players=[{k: (round4(v) if isinstance(v, list) else v) for k, v in r.items()} for r in keep])
+                                snapshot_date=source.get('snapshot_date'), players=keep)
     return dict(fetched_at=data['fetched_at'], method=data['method'], errors=data.get('errors', []))
 
 
@@ -224,6 +241,21 @@ def main(year):
     import current_season
     overlay = current_season.install(year)
     teams, stats = overlay['teams'], overlay['stats']
+    from league_projections import standings as build_standings, allstars as build_allstars
+    espn = json.loads(current_season.raw(year, 'espn_standings.json').read_text())
+    team_names = {current_season.ESPN_ALIASES.get(entry['team']['abbreviation'],entry['team']['abbreviation']):entry['team'].get('displayName',entry['team'].get('name','')) for conference in espn['children'] for entry in conference['standings']['entries']}
+    # Combined traded-player stats remain combined; assign their last listed team stint.
+    from bs4 import BeautifulSoup
+    import gzip
+    page=BeautifulSoup(gzip.decompress(current_season.raw(year,'per_game.html.gz').read_bytes()).decode(),'html.parser')
+    current_teams={}
+    for row in page.select('tbody tr'):
+        player=row.select_one('[data-stat="name_display"] a');team=row.select_one('[data-stat="team_name_abbr"]')
+        if player and team and team.get_text(strip=True) in set(teams.Tm):current_teams[player['href'].split('/')[-1].split('.')[0]]=team.get_text(strip=True)
+    league_standings=build_standings(teams,team_names)
+    team_totals=ROOT/f'data/current/{year}/team_win_totals.json'
+    if team_totals.exists():league_standings['market_fetched_at']=json.loads(team_totals.read_text()).get('fetched_at')
+    all_stars=build_allstars(stats,teams,team_names,current_teams)
     awards = player_awards(year, stats)
     awards['CPOY'] = clutch(year)
     awards['COY'] = coach(year)
@@ -244,7 +276,7 @@ def main(year):
                'Projected team wins = the betting market’s expected final wins from sportsbook over/under win totals (lean priced in); '
                'league and conference positions and seeds rank teams by those wins. '
                'Scored with each award’s final model fitted on all completed seasons. Shares are model shares within the candidate pool, not calibrated odds.',
-        odds=odds, movement=movement, awards=awards)
+        odds=odds, movement=movement, awards=awards, conference_standings=league_standings, all_stars=all_stars)
     OUTPUT.write_text(json.dumps(projections, ensure_ascii=False, indent=1) + '\n')
     embed(projections)
     for award, item in awards.items():
