@@ -202,3 +202,12 @@ Run the focused checks with:
 ```sh
 .venv/bin/python -m unittest test_refresh_progress test_projection_pages test_australian_odds test_reference_odds
 ```
+
+MIP candidates must average at least 13 PPG in the season being scored. The rule
+applies to current projections and historical comparisons. It is an eligibility-only
+change: original within-season standardisation and prior-season fitted weights are
+preserved, then model shares are recalculated over eligible players. The 2000–01
+through 2025–26 comparison is 8/26 winner first, 14/26 winner top three and 2.028
+mean log loss; the recency-weighted Accuracy Score is 45.0. The isolated experiment
+and season comparison are saved in `experiments/mip_13ppg`. Rebuild just these
+historical results with `.venv/bin/python build_dashboard_data.py --award MIP`.

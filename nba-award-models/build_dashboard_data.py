@@ -5,6 +5,10 @@ import json
 import re
 import math
 import ast
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument("--award",choices=["MVP","DPOY","ROY","SMOY","MIP"])
+args=parser.parse_args()
 
 ROOT = Path(__file__).resolve().parent
 # Load the original preprocessing/fitting functions without rerunning model selection.
@@ -47,7 +51,13 @@ mvp_groups = mvp_namespace['make_groups'](mvp_model['features'])
 comparisons = {}
 metrics = {}
 backtests = []
-for award in ('MVP', 'DPOY', 'ROY', 'SMOY', 'MIP'):
+if args.award:
+    existing=(ROOT/'output/artifacts/nba-award-models-browser.html').read_text()
+    comparisons=json.JSONDecoder().raw_decode(existing.split('const awardComparisons=',1)[1])[0]
+    metrics=json.loads((ROOT/'dashboard_summary.json').read_text())
+    backtests=namespace['pd'].read_csv(ROOT/'dashboard_backtests.csv').to_dict('records')
+    backtests=[row for row in backtests if row['award'] not in (args.award,'CPOY','COY')]
+for award in ([args.award] if args.award else ('MVP', 'DPOY', 'ROY', 'SMOY', 'MIP')):
     seasons = []
     award_tests = []
     if award == 'MVP':
@@ -70,6 +80,9 @@ for award in ('MVP', 'DPOY', 'ROY', 'SMOY', 'MIP'):
             group = next(g for g in groups if g['year'] == year)
             coefficients = award_namespace['fit']([g for g in groups if g['year'] < year],
                                             settings['half_life'], settings['regularization'], settings['features'])
+            if award == 'MIP':
+                mask=group['g'].PTS.ge(13).to_numpy()
+                group=dict(group,g=group['g'].loc[mask].copy(),x=group['x'][mask],y=group['y'][mask])
             probabilities, order, _, _ = namespace['evaluate'](group, coefficients)
             predicted = [dict(rank=i+1, player=group['g'].iloc[index]['Player Name'],
                               share=float(probabilities[index]), score=float(namespace['np'].einsum('i,i->',group['x'][index],coefficients)))
@@ -154,7 +167,7 @@ active_models.pop('_metadata', None)
 active_models['MVP'] = mvp_model
 html = re.sub(r'const awardModels=.*?;\n', 'const awardModels=' + json.dumps(active_models, ensure_ascii=False) + ';\n', html)
 # Render every overview total from the same expanded predictions as the result pages.
-labels = {'MVP': 'MVP · revised penalties', 'ROY': 'ROY', 'DPOY': 'DPOY', 'MIP': 'MIP', 'SMOY': '6MOY', 'CPOY': 'Clutch POY', 'COY': 'Coach of the Year'}
+labels = {'MVP': 'MVP', 'ROY': 'ROY', 'DPOY': 'DPOY', 'MIP': 'MIP', 'SMOY': '6MOY', 'CPOY': 'Clutch POY', 'COY': 'Coach of the Year'}
 rows = ''.join(f"<tr><td>{labels[award]}</td><td>{metrics[award]['correct']}/{metrics[award]['seasons']}</td><td>{metrics[award]['top3']}/{metrics[award]['seasons']}</td><td>{metrics[award]['mean_log_loss']:.3f}</td></tr>" for award in labels)
 html = re.sub(r'(<table class="table"><thead>.*?</thead><tbody>).*?(</tbody>)', lambda match: match[1] + rows + match[2], html, count=1)
 total_correct = sum(m['correct'] for m in metrics.values())

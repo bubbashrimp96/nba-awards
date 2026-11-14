@@ -1,0 +1,759 @@
+{
+  "method": "Eligibility-only comparison: preserve original candidate standardisation and season-specific coefficients fitted only on prior years; exclude current-season PPG below 13 and renormalise remaining model shares. No refitting or production historical changes.",
+  "summary": {
+    "original": {
+      "seasons": 26,
+      "winner_first": 7,
+      "winner_top3": 12,
+      "mean_log_loss": 2.390697216130809,
+      "accuracy_score": 41.1255779834863,
+      "weighted_metrics": {
+        "winner_first": 0.23415933066282363,
+        "winner_top3": 0.5262584890732116,
+        "overlap": 0.6504459689405931
+      }
+    },
+    "13ppg": {
+      "seasons": 26,
+      "winner_first": 8,
+      "winner_top3": 14,
+      "mean_log_loss": 2.0276785312123393,
+      "accuracy_score": 45.04805258223584,
+      "weighted_metrics": {
+        "winner_first": 0.24863980263777002,
+        "winner_top3": 0.6217542103719106,
+        "overlap": 0.6828882876419832
+      }
+    }
+  },
+  "seasons": [
+    {
+      "season": "2000-01",
+      "actual_winner": "Tracy McGrady",
+      "original": {
+        "top": [
+          "Tracy McGrady",
+          "Shawn Marion",
+          "Baron Davis"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 1.5454265119746038,
+        "pool_size": 330
+      },
+      "13ppg": {
+        "top": [
+          "Tracy McGrady",
+          "Shawn Marion",
+          "Baron Davis"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 1.352820701313895,
+        "pool_size": 67
+      }
+    },
+    {
+      "season": "2001-02",
+      "actual_winner": "Jermaine O'Neal",
+      "original": {
+        "top": [
+          "Michael Redd",
+          "Brent Barry",
+          "Art Long"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.0,
+        "log_loss": 4.1244363109208155,
+        "pool_size": 329
+      },
+      "13ppg": {
+        "top": [
+          "Brent Barry",
+          "Wesley Person",
+          "Kenny Thomas"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.0,
+        "log_loss": 2.841597659324543,
+        "pool_size": 77
+      }
+    },
+    {
+      "season": "2002-03",
+      "actual_winner": "Gilbert Arenas",
+      "original": {
+        "top": [
+          "Ricky Davis",
+          "Gilbert Arenas",
+          "Stephen Jackson"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 2.041063071201632,
+        "pool_size": 315
+      },
+      "13ppg": {
+        "top": [
+          "Ricky Davis",
+          "Gilbert Arenas",
+          "Richard Jefferson"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 1.7278358434292669,
+        "pool_size": 76
+      }
+    },
+    {
+      "season": "2003-04",
+      "actual_winner": "Zach Randolph",
+      "original": {
+        "top": [
+          "Zach Randolph",
+          "Brian Cardinal",
+          "Carlos Arroyo"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 0.8649839002655324,
+        "pool_size": 326
+      },
+      "13ppg": {
+        "top": [
+          "Zach Randolph",
+          "Andrei Kirilenko",
+          "Carlos Boozer"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.6666666666666666,
+        "log_loss": 0.41925996201896687,
+        "pool_size": 81
+      }
+    },
+    {
+      "season": "2004-05",
+      "actual_winner": "Bobby Simmons",
+      "original": {
+        "top": [
+          "Dwyane Wade",
+          "Primož Brezec",
+          "Gerald Wallace"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 2.938485047135112,
+        "pool_size": 340
+      },
+      "13ppg": {
+        "top": [
+          "Dwyane Wade",
+          "Primož Brezec",
+          "LeBron James"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 2.5628584358840563,
+        "pool_size": 83
+      }
+    },
+    {
+      "season": "2005-06",
+      "actual_winner": "Boris Diaw",
+      "original": {
+        "top": [
+          "Boris Diaw",
+          "David West",
+          "Mike James"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.6666666666666666,
+        "log_loss": 0.8363358550176099,
+        "pool_size": 345
+      },
+      "13ppg": {
+        "top": [
+          "Boris Diaw",
+          "David West",
+          "Mike James"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.6666666666666666,
+        "log_loss": 0.7234746844806094,
+        "pool_size": 86
+      }
+    },
+    {
+      "season": "2006-07",
+      "actual_winner": "Monta Ellis",
+      "original": {
+        "top": [
+          "Nenê",
+          "Amar'e Stoudemire",
+          "Kevin Martin"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.4702992771314407,
+        "pool_size": 339
+      },
+      "13ppg": {
+        "top": [
+          "Amar'e Stoudemire",
+          "Kevin Martin",
+          "Deron Williams"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.6666666666666666,
+        "log_loss": 2.5724291264793804,
+        "pool_size": 93
+      }
+    },
+    {
+      "season": "2007-08",
+      "actual_winner": "Hedo Türkoğlu",
+      "original": {
+        "top": [
+          "LaMarcus Aldridge",
+          "Rashad McCants",
+          "Chris Paul"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 2.9733782714142487,
+        "pool_size": 345
+      },
+      "13ppg": {
+        "top": [
+          "LaMarcus Aldridge",
+          "Rashad McCants",
+          "Chris Paul"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 2.6452214385517556,
+        "pool_size": 87
+      }
+    },
+    {
+      "season": "2008-09",
+      "actual_winner": "Danny Granger",
+      "original": {
+        "top": [
+          "Nenê",
+          "Devin Harris",
+          "David Lee"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.5051276364698962,
+        "pool_size": 339
+      },
+      "13ppg": {
+        "top": [
+          "Nenê",
+          "Devin Harris",
+          "David Lee"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.1923331731069706,
+        "pool_size": 94
+      }
+    },
+    {
+      "season": "2009-10",
+      "actual_winner": "Aaron Brooks",
+      "original": {
+        "top": [
+          "Martell Webster",
+          "Aaron Brooks",
+          "Kevin Durant"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 0.5,
+        "log_loss": 2.8225295655055684,
+        "pool_size": 344
+      },
+      "13ppg": {
+        "top": [
+          "Aaron Brooks",
+          "Kevin Durant",
+          "Danilo Gallinari"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.5,
+        "log_loss": 1.2778040111888687,
+        "pool_size": 89
+      }
+    },
+    {
+      "season": "2010-11",
+      "actual_winner": "Kevin Love",
+      "original": {
+        "top": [
+          "Dorell Wright",
+          "D.J. Augustin",
+          "Derrick Rose"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.3926256778131063,
+        "pool_size": 348
+      },
+      "13ppg": {
+        "top": [
+          "Dorell Wright",
+          "D.J. Augustin",
+          "Derrick Rose"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.2100833285978925,
+        "pool_size": 87
+      }
+    },
+    {
+      "season": "2011-12",
+      "actual_winner": "Ryan Anderson",
+      "original": {
+        "top": [
+          "Greg Monroe",
+          "Andrew Bynum",
+          "Jeff Teague"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.0,
+        "log_loss": 3.2345595641946816,
+        "pool_size": 343
+      },
+      "13ppg": {
+        "top": [
+          "Greg Monroe",
+          "Andrew Bynum",
+          "James Harden"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.0,
+        "log_loss": 2.8395581553841804,
+        "pool_size": 76
+      }
+    },
+    {
+      "season": "2012-13",
+      "actual_winner": "Paul George",
+      "original": {
+        "top": [
+          "James Harden",
+          "Stephen Curry",
+          "Nikola Vučević"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.0,
+        "log_loss": 3.0765938701408495,
+        "pool_size": 348
+      },
+      "13ppg": {
+        "top": [
+          "James Harden",
+          "Stephen Curry",
+          "Nikola Vučević"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.0,
+        "log_loss": 2.9241721183708327,
+        "pool_size": 86
+      }
+    },
+    {
+      "season": "2013-14",
+      "actual_winner": "Goran Dragić",
+      "original": {
+        "top": [
+          "Isaiah Thomas",
+          "DeMar DeRozan",
+          "Lance Stephenson"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 4.37934263782851,
+        "pool_size": 362
+      },
+      "13ppg": {
+        "top": [
+          "Isaiah Thomas",
+          "DeMar DeRozan",
+          "Lance Stephenson"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 4.211290069862389,
+        "pool_size": 98
+      }
+    },
+    {
+      "season": "2014-15",
+      "actual_winner": "Jimmy Butler",
+      "original": {
+        "top": [
+          "Robert Covington",
+          "Draymond Green",
+          "Rudy Gobert"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.6666666666666666,
+        "log_loss": 2.4725743187901577,
+        "pool_size": 370
+      },
+      "13ppg": {
+        "top": [
+          "Robert Covington",
+          "Jimmy Butler",
+          "Nikola Vučević"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 1.831451717308162,
+        "pool_size": 89
+      }
+    },
+    {
+      "season": "2015-16",
+      "actual_winner": "CJ McCollum",
+      "original": {
+        "top": [
+          "CJ McCollum",
+          "Paul George",
+          "Julius Randle"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 0.32128082474153097,
+        "pool_size": 362
+      },
+      "13ppg": {
+        "top": [
+          "CJ McCollum",
+          "Paul George",
+          "Draymond Green"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 0.22282418845871188,
+        "pool_size": 82
+      }
+    },
+    {
+      "season": "2016-17",
+      "actual_winner": "Giannis Antetokounmpo",
+      "original": {
+        "top": [
+          "Nikola Jokić",
+          "Giannis Antetokounmpo",
+          "Rudy Gobert"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 2.0589563148375554,
+        "pool_size": 353
+      },
+      "13ppg": {
+        "top": [
+          "Nikola Jokić",
+          "Giannis Antetokounmpo",
+          "Rudy Gobert"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 1.8750615170773135,
+        "pool_size": 93
+      }
+    },
+    {
+      "season": "2017-18",
+      "actual_winner": "Victor Oladipo",
+      "original": {
+        "top": [
+          "Victor Oladipo",
+          "Darius Miller",
+          "Bobby Portis"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.3333333333333333,
+        "log_loss": 0.785378421823944,
+        "pool_size": 350
+      },
+      "13ppg": {
+        "top": [
+          "Victor Oladipo",
+          "Bobby Portis",
+          "Clint Capela"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.6666666666666666,
+        "log_loss": 0.4918715329783482,
+        "pool_size": 93
+      }
+    },
+    {
+      "season": "2018-19",
+      "actual_winner": "Pascal Siakam",
+      "original": {
+        "top": [
+          "Pascal Siakam",
+          "Buddy Hield",
+          "D'Angelo Russell"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.6666666666666666,
+        "log_loss": 0.9521357913776536,
+        "pool_size": 367
+      },
+      "13ppg": {
+        "top": [
+          "Pascal Siakam",
+          "Buddy Hield",
+          "D'Angelo Russell"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 0.6666666666666666,
+        "log_loss": 0.840789998757663,
+        "pool_size": 101
+      }
+    },
+    {
+      "season": "2019-20",
+      "actual_winner": "Brandon Ingram",
+      "original": {
+        "top": [
+          "Bam Adebayo",
+          "Devonte' Graham",
+          "Jayson Tatum"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.4978140971763514,
+        "pool_size": 352
+      },
+      "13ppg": {
+        "top": [
+          "Bam Adebayo",
+          "Devonte' Graham",
+          "Jayson Tatum"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.466189779458827,
+        "pool_size": 99
+      }
+    },
+    {
+      "season": "2020-21",
+      "actual_winner": "Julius Randle",
+      "original": {
+        "top": [
+          "Isaiah Roby",
+          "Michael Porter Jr.",
+          "Jerami Grant"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.6666666666666666,
+        "log_loss": 2.0694611604088737,
+        "pool_size": 377
+      },
+      "13ppg": {
+        "top": [
+          "Michael Porter Jr.",
+          "Jerami Grant",
+          "Julius Randle"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 1.7229282134139763,
+        "pool_size": 114
+      }
+    },
+    {
+      "season": "2021-22",
+      "actual_winner": "Ja Morant",
+      "original": {
+        "top": [
+          "Miles Bridges",
+          "Darius Garland",
+          "Desmond Bane"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.4649984155898013,
+        "pool_size": 379
+      },
+      "13ppg": {
+        "top": [
+          "Miles Bridges",
+          "Darius Garland",
+          "Desmond Bane"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.3333333333333333,
+        "log_loss": 3.411952459479755,
+        "pool_size": 111
+      }
+    },
+    {
+      "season": "2022-23",
+      "actual_winner": "Lauri Markkanen",
+      "original": {
+        "top": [
+          "Lauri Markkanen",
+          "Jalen Brunson",
+          "Shai Gilgeous-Alexander"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 0.35414739613713586,
+        "pool_size": 392
+      },
+      "13ppg": {
+        "top": [
+          "Lauri Markkanen",
+          "Jalen Brunson",
+          "Shai Gilgeous-Alexander"
+        ],
+        "winner_first": 1,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 0.2936142785365643,
+        "pool_size": 113
+      }
+    },
+    {
+      "season": "2023-24",
+      "actual_winner": "Tyrese Maxey",
+      "original": {
+        "top": [
+          "Alperen Şengün",
+          "Tyrese Maxey",
+          "Coby White"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 1.985232137578487,
+        "pool_size": 393
+      },
+      "13ppg": {
+        "top": [
+          "Alperen Şengün",
+          "Tyrese Maxey",
+          "Coby White"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 1.9126438871440123,
+        "pool_size": 115
+      }
+    },
+    {
+      "season": "2024-25",
+      "actual_winner": "Dyson Daniels",
+      "original": {
+        "top": [
+          "Ty Jerome",
+          "Ivica Zubac",
+          "Cade Cunningham"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.6666666666666666,
+        "log_loss": 3.04857120178798,
+        "pool_size": 399
+      },
+      "13ppg": {
+        "top": [
+          "Ivica Zubac",
+          "Cade Cunningham",
+          "Norman Powell"
+        ],
+        "winner_first": 0,
+        "winner_top3": 0,
+        "overlap": 0.6666666666666666,
+        "log_loss": 2.3824358639696412,
+        "pool_size": 118
+      }
+    },
+    {
+      "season": "2025-26",
+      "actual_winner": "Nickeil Alexander-Walker",
+      "original": {
+        "top": [
+          "Jalen Duren",
+          "Nickeil Alexander-Walker",
+          "Deni Avdija"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 1.942390342137955,
+        "pool_size": 395
+      },
+      "13ppg": {
+        "top": [
+          "Jalen Duren",
+          "Nickeil Alexander-Walker",
+          "Deni Avdija"
+        ],
+        "winner_first": 0,
+        "winner_top3": 1,
+        "overlap": 1.0,
+        "log_loss": 1.7671396669442476,
+        "pool_size": 125
+      }
+    }
+  ]
+}

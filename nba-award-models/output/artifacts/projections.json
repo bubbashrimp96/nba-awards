@@ -1,6 +1,6 @@
 {
  "season": "2026-27",
- "generated_at": "2026-11-14T13:56:25+00:00",
+ "generated_at": "2026-11-14T15:16:37+00:00",
  "team_games": {
   "min": 10,
   "max": 13
@@ -30227,7 +30227,7 @@
      "rank": 1,
      "player": "Franz Wagner",
      "team": "ORL",
-     "share": 0.13198700516106174,
+     "share": 0.1521141744285761,
      "inputs": {
       "games_to_date": 12.0,
       "team_wins": 43.64,
@@ -30262,7 +30262,7 @@
      "rank": 2,
      "player": "Dylan Harper",
      "team": "SAS",
-     "share": 0.08142163906208699,
+     "share": 0.09383791526625798,
      "inputs": {
       "games_to_date": 13.0,
       "team_wins": 59.94,
@@ -30302,7 +30302,7 @@
      "rank": 3,
      "player": "Ajay Mitchell",
      "team": "OKC",
-     "share": 0.07782282589673632,
+     "share": 0.08969030624291523,
      "inputs": {
       "games_to_date": 11.0,
       "team_wins": 62.06,
@@ -30342,7 +30342,7 @@
      "rank": 4,
      "player": "Cooper Flagg",
      "team": "DAL",
-     "share": 0.0721449918962906,
+     "share": 0.08314663908063387,
      "inputs": {
       "games_to_date": 11.0,
       "team_wins": 39.92,
@@ -30380,7 +30380,7 @@
      "rank": 5,
      "player": "Ayo Dosunmu",
      "team": "MIN",
-     "share": 0.06404577201649653,
+     "share": 0.07381234026820918,
      "inputs": {
       "games_to_date": 12.0,
       "team_wins": 49.92,
@@ -30417,7 +30417,7 @@
      }
     }
    ],
-   "pool_size": 375,
+   "pool_size": 98,
    "features": [
     "PTS",
     "BPM",
@@ -30467,6 +30467,7 @@
     "origin_fit",
     "games_below_threshold"
    ],
+   "eligibility_note": "MIP eligibility: at least 13 PPG this season. Historical comparisons apply the same cutoff using the original prior-season fitted weights.",
    "movement": {
     "dates": [
      "2026-09-10",
@@ -35602,7 +35603,7 @@
      },
      "wide": false,
      "model_rank": 12,
-     "model_share": 0.022426676907846707,
+     "model_share": 0.025846600874461962,
      "team": "MEM"
     },
     {
@@ -35617,7 +35618,7 @@
      },
      "wide": false,
      "model_rank": 3,
-     "model_share": 0.07782282589673632,
+     "model_share": 0.08969030624291523,
      "team": "OKC"
     },
     {
@@ -35632,7 +35633,7 @@
      },
      "wide": false,
      "model_rank": 6,
-     "model_share": 0.05439694785948394,
+     "model_share": 0.06269213249427394,
      "team": "MIA"
     },
     {
@@ -35644,7 +35645,7 @@
      },
      "wide": false,
      "model_rank": 7,
-     "model_share": 0.04904693242205145,
+     "model_share": 0.056526274117139785,
      "team": "DET"
     },
     {
@@ -35659,7 +35660,7 @@
      },
      "wide": false,
      "model_rank": 2,
-     "model_share": 0.08142163906208699,
+     "model_share": 0.09383791526625798,
      "team": "SAS"
     },
     {
@@ -35673,8 +35674,8 @@
       "kalshi": 0.005
      },
      "wide": false,
-     "model_rank": 64,
-     "model_share": 0.0013661889343262663,
+     "model_rank": 42,
+     "model_share": 0.001574523958664723,
      "team": "CHO"
     },
     {
@@ -35702,7 +35703,7 @@
      },
      "wide": false,
      "model_rank": 5,
-     "model_share": 0.06404577201649653,
+     "model_share": 0.07381234026820918,
      "team": "MIN"
     },
     {
@@ -35717,7 +35718,7 @@
      },
      "wide": false,
      "model_rank": 10,
-     "model_share": 0.032055912416600434,
+     "model_share": 0.036944232857284806,
      "team": "MIN"
     },
     {
@@ -35729,8 +35730,8 @@
       "neds": 0.0066
      },
      "wide": false,
-     "model_rank": 65,
-     "model_share": 0.0013129412099447829,
+     "model_rank": 43,
+     "model_share": 0.0015131562988363505,
      "team": "TOR"
     }
    ],

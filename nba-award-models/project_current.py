@@ -14,6 +14,7 @@ PAGE = ROOT / 'output/artifacts/nba-award-models-browser.html'
 OUTPUT = ROOT / 'output/artifacts/projections.json'
 TOP = 5
 MARKET_TOP = 10
+MIP_MIN_PPG = 13.0
 
 
 DISPLAY_SWAP = {'availability_exponential': 'games_below_threshold', 'ppg_rank_exponential': 'ppg_rank', 'ws48_rank_exponential': 'ws48_rank',
@@ -88,10 +89,18 @@ def player_awards(year, stats):
             continue
         scores = np.einsum('ij,j->i', group['x'], np.array(model['coefficients']))
         frame = group['g']
+        if award == 'MIP':
+            eligible = frame.PTS.ge(MIP_MIN_PPG).to_numpy()
+            frame, scores = frame.loc[eligible].copy(), scores[eligible]
+            if frame.empty:
+                result[award] = dict(error='No MIP candidates averaging at least 13 PPG yet')
+                continue
         games = lambda row: dict(games_to_date=number(played.get(row['PlayerID'])))
         shown = display_columns(columns)
         rows, pool, ranking = top_rows(frame, scores, shown, extra=games)
         result[award] = dict(top=rows, pool_size=pool, features=columns, columns=shown, _ranking=ranking)
+        if award == 'MIP':
+            result[award]['eligibility_note'] = 'MIP eligibility: at least 13 PPG this season. Historical comparisons apply the same cutoff using the original prior-season fitted weights.'
     return result
 
 

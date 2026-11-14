@@ -1,0 +1,27 @@
+season,actual_winner,original_pick,test_pick,original_top3,test_top3,original_correct,test_correct,original_winner_top3,test_winner_top3,original_log_loss,test_log_loss
+2000-01,Tracy McGrady,Tracy McGrady,Tracy McGrady,Tracy McGrady / Shawn Marion / Baron Davis,Tracy McGrady / Shawn Marion / Baron Davis,1,1,1,1,1.5454265119746038,1.352820701313895
+2001-02,Jermaine O'Neal,Michael Redd,Brent Barry,Michael Redd / Brent Barry / Art Long,Brent Barry / Wesley Person / Kenny Thomas,0,0,0,0,4.1244363109208155,2.841597659324543
+2002-03,Gilbert Arenas,Ricky Davis,Ricky Davis,Ricky Davis / Gilbert Arenas / Stephen Jackson,Ricky Davis / Gilbert Arenas / Richard Jefferson,0,0,1,1,2.041063071201632,1.7278358434292669
+2003-04,Zach Randolph,Zach Randolph,Zach Randolph,Zach Randolph / Brian Cardinal / Carlos Arroyo,Zach Randolph / Andrei Kirilenko / Carlos Boozer,1,1,1,1,0.8649839002655324,0.41925996201896687
+2004-05,Bobby Simmons,Dwyane Wade,Dwyane Wade,Dwyane Wade / Primož Brezec / Gerald Wallace,Dwyane Wade / Primož Brezec / LeBron James,0,0,0,0,2.938485047135112,2.5628584358840563
+2005-06,Boris Diaw,Boris Diaw,Boris Diaw,Boris Diaw / David West / Mike James,Boris Diaw / David West / Mike James,1,1,1,1,0.8363358550176099,0.7234746844806094
+2006-07,Monta Ellis,Nenê,Amar'e Stoudemire,Nenê / Amar'e Stoudemire / Kevin Martin,Amar'e Stoudemire / Kevin Martin / Deron Williams,0,0,0,0,3.4702992771314407,2.5724291264793804
+2007-08,Hedo Türkoğlu,LaMarcus Aldridge,LaMarcus Aldridge,LaMarcus Aldridge / Rashad McCants / Chris Paul,LaMarcus Aldridge / Rashad McCants / Chris Paul,0,0,0,0,2.9733782714142487,2.6452214385517556
+2008-09,Danny Granger,Nenê,Nenê,Nenê / Devin Harris / David Lee,Nenê / Devin Harris / David Lee,0,0,0,0,3.5051276364698962,3.1923331731069706
+2009-10,Aaron Brooks,Martell Webster,Aaron Brooks,Martell Webster / Aaron Brooks / Kevin Durant,Aaron Brooks / Kevin Durant / Danilo Gallinari,0,1,1,1,2.8225295655055684,1.2778040111888687
+2010-11,Kevin Love,Dorell Wright,Dorell Wright,Dorell Wright / D.J. Augustin / Derrick Rose,Dorell Wright / D.J. Augustin / Derrick Rose,0,0,0,0,3.3926256778131063,3.2100833285978925
+2011-12,Ryan Anderson,Greg Monroe,Greg Monroe,Greg Monroe / Andrew Bynum / Jeff Teague,Greg Monroe / Andrew Bynum / James Harden,0,0,0,0,3.2345595641946816,2.8395581553841804
+2012-13,Paul George,James Harden,James Harden,James Harden / Stephen Curry / Nikola Vučević,James Harden / Stephen Curry / Nikola Vučević,0,0,0,0,3.0765938701408495,2.9241721183708327
+2013-14,Goran Dragić,Isaiah Thomas,Isaiah Thomas,Isaiah Thomas / DeMar DeRozan / Lance Stephenson,Isaiah Thomas / DeMar DeRozan / Lance Stephenson,0,0,0,0,4.37934263782851,4.211290069862389
+2014-15,Jimmy Butler,Robert Covington,Robert Covington,Robert Covington / Draymond Green / Rudy Gobert,Robert Covington / Jimmy Butler / Nikola Vučević,0,0,0,1,2.4725743187901577,1.831451717308162
+2015-16,CJ McCollum,CJ McCollum,CJ McCollum,CJ McCollum / Paul George / Julius Randle,CJ McCollum / Paul George / Draymond Green,1,1,1,1,0.32128082474153097,0.22282418845871188
+2016-17,Giannis Antetokounmpo,Nikola Jokić,Nikola Jokić,Nikola Jokić / Giannis Antetokounmpo / Rudy Gobert,Nikola Jokić / Giannis Antetokounmpo / Rudy Gobert,0,0,1,1,2.0589563148375554,1.8750615170773135
+2017-18,Victor Oladipo,Victor Oladipo,Victor Oladipo,Victor Oladipo / Darius Miller / Bobby Portis,Victor Oladipo / Bobby Portis / Clint Capela,1,1,1,1,0.785378421823944,0.4918715329783482
+2018-19,Pascal Siakam,Pascal Siakam,Pascal Siakam,Pascal Siakam / Buddy Hield / D'Angelo Russell,Pascal Siakam / Buddy Hield / D'Angelo Russell,1,1,1,1,0.9521357913776536,0.840789998757663
+2019-20,Brandon Ingram,Bam Adebayo,Bam Adebayo,Bam Adebayo / Devonte' Graham / Jayson Tatum,Bam Adebayo / Devonte' Graham / Jayson Tatum,0,0,0,0,3.4978140971763514,3.466189779458827
+2020-21,Julius Randle,Isaiah Roby,Michael Porter Jr.,Isaiah Roby / Michael Porter Jr. / Jerami Grant,Michael Porter Jr. / Jerami Grant / Julius Randle,0,0,0,1,2.0694611604088737,1.7229282134139763
+2021-22,Ja Morant,Miles Bridges,Miles Bridges,Miles Bridges / Darius Garland / Desmond Bane,Miles Bridges / Darius Garland / Desmond Bane,0,0,0,0,3.4649984155898013,3.411952459479755
+2022-23,Lauri Markkanen,Lauri Markkanen,Lauri Markkanen,Lauri Markkanen / Jalen Brunson / Shai Gilgeous-Alexander,Lauri Markkanen / Jalen Brunson / Shai Gilgeous-Alexander,1,1,1,1,0.35414739613713586,0.2936142785365643
+2023-24,Tyrese Maxey,Alperen Şengün,Alperen Şengün,Alperen Şengün / Tyrese Maxey / Coby White,Alperen Şengün / Tyrese Maxey / Coby White,0,0,1,1,1.985232137578487,1.9126438871440123
+2024-25,Dyson Daniels,Ty Jerome,Ivica Zubac,Ty Jerome / Ivica Zubac / Cade Cunningham,Ivica Zubac / Cade Cunningham / Norman Powell,0,0,0,0,3.04857120178798,2.3824358639696412
+2025-26,Nickeil Alexander-Walker,Jalen Duren,Jalen Duren,Jalen Duren / Nickeil Alexander-Walker / Deni Avdija,Jalen Duren / Nickeil Alexander-Walker / Deni Avdija,0,0,1,1,1.942390342137955,1.7671396669442476
