@@ -16,7 +16,7 @@ namespace = {'__file__': str(ROOT / 'model.py')}
 exec((ROOT / 'model.py').read_text().split('summary=[]; backtests=[];')[0], namespace)
 models = json.loads((ROOT / 'models.json').read_text())
 models.update(json.loads((ROOT / 'revised_awards/models.json').read_text()))
-from revised_award_core import load_namespace, availability_curve, rank_curve, team_context, prior_all_star, player_quality, band, ALLSTAR_CENTRE, ALLSTAR_SPREAD, ORIGIN_CENTRE, ORIGIN_SPREAD
+from revised_award_core import load_namespace, availability_curve, rank_curve, team_context, defensive_reputation, prior_all_star, player_quality, band, ALLSTAR_CENTRE, ALLSTAR_SPREAD, ORIGIN_CENTRE, ORIGIN_SPREAD
 from exponential_availability_core import FEATURE
 award_namespaces = {award:load_namespace(award) for award in ('MVP','ROY','DPOY','MIP','SMOY')}
 stats = namespace['d'].copy()
@@ -38,6 +38,7 @@ rank_columns = ['Season','PlayerID','ppg_qualified','ws48_qualified','ppg_rank',
 stats = stats.merge(mvp_namespace['rank_audit'][rank_columns],on=['Season','PlayerID'],how='left',validate='one_to_one')
 for stat in ('ppg','ws48'):
     stats[stat+'_rank_exponential'] = rank_curve(stats[stat+'_rank'],stats[stat+'_qualified_count'],stat)
+stats = stats.merge(defensive_reputation(), on=['PlayerID','year'], how='left', validate='one_to_one')
 context = team_context()
 stats = stats.merge(context[['Season','Tm','team_defensive_rating','team_defensive_rank','conference_seed','seed_fallback']],on=['Season','Tm'],how='left',validate='many_to_one')
 stats.loc[stats.year<2003,'wins_above_expectation'] = 0.0
@@ -80,18 +81,19 @@ for award in ([args.award] if args.award else ('MVP', 'DPOY', 'ROY', 'SMOY', 'MI
             group = next(g for g in groups if g['year'] == year)
             coefficients = award_namespace['fit']([g for g in groups if g['year'] < year],
                                             settings['half_life'], settings['regularization'], settings['features'])
-            if award == 'MIP':
-                mask=group['g'].PTS.ge(13).to_numpy()
+            if award in ('MIP','SMOY'):
+                mask=group['g'].PTS.ge(13 if award=='MIP' else 11.5).to_numpy()
                 group=dict(group,g=group['g'].loc[mask].copy(),x=group['x'][mask],y=group['y'][mask])
-            probabilities, order, _, _ = namespace['evaluate'](group, coefficients)
+            probabilities = namespace['softmax'](namespace['np'].einsum('ij,j->i',group['x'],coefficients))
+            order = namespace['np'].argsort(-probabilities)
             predicted = [dict(rank=i+1, player=group['g'].iloc[index]['Player Name'],
                               share=float(probabilities[index]), score=float(namespace['np'].einsum('i,i->',group['x'][index],coefficients)))
                          for i, index in enumerate(order[:3])]
         winner_share = float(probabilities[group['y'] > 0].sum())
-        winner_rank = min(rank for rank, index in enumerate(order, 1) if group['y'][index] > 0)
+        winner_rank = min((rank for rank, index in enumerate(order, 1) if group['y'][index] > 0), default=None)
         test = dict(award=award, season=season, latest_training_year=max(g['year'] for g in (mvp_groups if award == 'MVP' else groups) if g['year'] < year),
                     predicted=group['g'].iloc[order[0]]['Player Name'], winner_rank=winner_rank,
-                    top1=int(winner_rank == 1), top3=int(winner_rank <= 3), log_loss=float(-math.log(winner_share)))
+                    top1=int(winner_rank == 1), top3=int(winner_rank is not None and winner_rank <= 3), log_loss=float(-math.log(max(winner_share,1e-15))), winner_excluded=winner_rank is None)
         award_tests.append(test)
         backtests.append(test)
         model_ranks = {namespace['key'](group['g'].iloc[index]['Player Name']): rank
@@ -101,7 +103,7 @@ for award in ([args.award] if args.award else ('MVP', 'DPOY', 'ROY', 'SMOY', 'MI
                 assert model_ranks[namespace['key'](player['player'])] == player['rank']
         actual = json.loads((ROOT / f'data/award_voting/{year}.json').read_text())[award]
         actual_ranks = {namespace['key'](p['player']): p['rank'] for p in actual['voting']}
-        assert len(predicted) == 3
+        assert len(predicted) == min(3,len(group['g']))
         columns = (mvp_model if award == 'MVP' else models[award])['features']
         pool = group['g']
         season_stats = stats[stats.year == year]
@@ -143,7 +145,8 @@ for award in ([args.award] if args.award else ('MVP', 'DPOY', 'ROY', 'SMOY', 'MI
                                      availability_shortfall=float(row.games_below_threshold),
                                      availability_penalty=float(coefficients[columns.index(FEATURE)] * row[FEATURE]))
         seasons.append(dict(season=season, predicted=predicted, actual=actual['results'], source=actual['source'],
-                            features=columns, players=list(players.values())))
+                            features=columns, players=list(players.values()),
+                            eligibility_note=(f'At least {13 if award=="MIP" else 11.5:g} PPG required. Original prior-season fitted weights retained.' + (' The actual winner is excluded by this cutoff; log loss uses a probability floor of 1e-15.' if winner_rank is None else '')) if award in ('MIP','SMOY') else None))
     comparisons[award] = seasons
     metrics[award] = dict(seasons=len(seasons), correct=sum(r['top1'] for r in award_tests),
                           top3=sum(r['top3'] for r in award_tests),

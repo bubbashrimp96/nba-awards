@@ -8,7 +8,8 @@ remain exponential. Each award fits a strictly negative strength on prior season
 MVP PPG rank growth doubles over 5% of the qualified field, previously 10%.
 WS48 rank growth remains 10%. Qualifications, zero penalty through fifth and
 other MVP inputs remain. DPOY removes player DRB, adds team defensive-rating
-rank (negative coefficient) and team wins (nonnegative coefficient). Sixth Man
+rank (negative coefficient), team wins (nonnegative coefficient), and binary
+prior DPOY-vote / prior All-Defensive-selection flags (strictly earlier seasons). Sixth Man
 adds conference seed (negative coefficient), with documented historical fallback
 to record-based rank when reported seeds are missing/zero or from the incomplete
 1999–00 feed. These are fitted inputs, not hard top-five/top-four eligibility cuts.

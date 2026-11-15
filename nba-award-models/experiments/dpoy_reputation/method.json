@@ -1,0 +1,77 @@
+{
+  "voting_start": 1983,
+  "selection_start": 1969,
+  "last_history": 2025,
+  "selection_source": "https://raw.githubusercontent.com/sumitrodatta/bball-reference-datasets/master/Data/End%20of%20Season%20Teams.csv",
+  "voting_source": "https://raw.githubusercontent.com/sumitrodatta/bball-reference-datasets/master/Data/Player%20Award%20Shares.csv",
+  "settings": {
+    "features": [
+      "STL",
+      "BLK",
+      "DWS",
+      "DBPM",
+      "DRtg",
+      "G",
+      "MPG",
+      "availability_exponential",
+      "team_defensive_rank",
+      "team_wins",
+      "prior_dpoy_votes",
+      "prior_all_defense"
+    ],
+    "coefficients": [
+      0.30943716180879227,
+      0.36906635171298213,
+      0.663830589489782,
+      0.2878078909300691,
+      -0.8474555923986871,
+      -0.06011443288878796,
+      0.05642512796331992,
+      -0.09111131899879003,
+      -0.8286059917815966,
+      0.4030610607061069,
+      0.6505576872628976,
+      0.6015043313763929
+    ],
+    "half_life": 5,
+    "regularization": 0.1,
+    "trained_through": 2026,
+    "variant": "revised_2000_01_balanced_penalties_and_team_context",
+    "availability": "d=max(0,ceil(0.85*S)-G), r=ln(2)/(0.10*S); negative fitted weight * (expm1(r*d)-r*d)/r. No linear component; gentler for small deficits and exponential for large deficits.",
+    "standardization": "Within-season candidate-pool z scores except uncentered availability and MVP rank curve terms.",
+    "availability_growth_fraction": 0.1,
+    "availability_curve": "exponential_minus_linear",
+    "retrospective_warning": "Rules revised after examining 2016\u201317 ROY and 2022\u201323 MVP. Historical fits use prior seasons, but these are retrospective comparisons; display now covers 2000\u201301 to 2025\u201326.",
+    "reputation": "Binary prior_dpoy_votes and prior_all_defense flags; any positive DPOY votes or first/second All-Defensive selection in a strictly earlier season. Learned weights, not eligibility cutoffs.",
+    "team_context": "Player DRB removed. Add team defensive rating rank (negative fitted coefficient) and team wins (nonnegative fitted coefficient). NBA regular-season advanced ratings from 1996\u201397 onward; historical Basketball Reference team-rating archive for earlier training.",
+    "sources": {
+      "team_defense": "60e23c070a430ebf523a473604299377a3a694c10553e9aeeb7103025e7bb6dd",
+      "all_defensive_selections": "d0059533cf61f2bfc17408edcffa440335f45cb694070ff1931503652f697734",
+      "prior_dpoy_votes_archive": "2d7b59bfce52548467d4071c7bb242e6bf098e73e5b2f5d74b904b8d4001e643"
+    }
+  },
+  "variants": {
+    "baseline": [],
+    "prior_dpoy_votes": [
+      "prior_dpoy_votes"
+    ],
+    "prior_all_defense": [
+      "prior_all_defense"
+    ],
+    "both_prior": [
+      "prior_dpoy_votes",
+      "prior_all_defense"
+    ],
+    "recent_dpoy_share": [
+      "recent_dpoy_share"
+    ],
+    "recent_all_defense": [
+      "recent_all_defense"
+    ],
+    "both_recent": [
+      "recent_dpoy_share",
+      "recent_all_defense"
+    ]
+  },
+  "active_reputation_variant_reproduced": true
+}

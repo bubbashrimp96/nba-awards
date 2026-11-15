@@ -91,9 +91,33 @@ def add_mip_context(data):
     data['origin_fit']=band(data.quality_prior,ORIGIN_CENTRE,ORIGIN_SPREAD)
     return data
 
+
+def defensive_reputation():
+    """Binary reputation flags from strictly earlier seasons, matched by player ID."""
+    stats=pd.read_csv(ROOT/'data/basketball_stats.csv',usecols=['PlayerID','Player Name','Season'],low_memory=False)
+    stats['year']=stats.Season.str[:4].astype(int)+1
+    votes=pd.read_csv(ROOT/'data/award_voting/historical_award_shares.csv')
+    votes=votes[(votes.award=='nba dpoy') & (votes.pts_won>0)]
+    first_vote=votes.groupby('player_id').season.min().to_dict()
+    # The archive ends in 2025; use cached full voting for subsequent years.
+    for path in sorted((ROOT/'data/award_voting').glob('[0-9][0-9][0-9][0-9].json')):
+        year=int(path.stem)
+        if year<=votes.season.max():continue
+        names=stats[stats.year==year].set_index('Player Name').PlayerID.to_dict()
+        for row in json.loads(path.read_text())['DPOY']['voting']:
+            if row['points']<=0:continue
+            if row['player'] not in names:raise ValueError(('Unmatched DPOY voter',year,row['player']))
+            player_id=names[row['player']]
+            first_vote[player_id]=min(year,first_vote.get(player_id,year))
+    selections=pd.read_csv(ROOT/'data/defensive_reputation/all_defensive_selections.csv')
+    first_team=selections.groupby('player_id').season.min()
+    stats['prior_dpoy_votes']=(stats.PlayerID.map(first_vote)<stats.year).astype(float)
+    stats['prior_all_defense']=(stats.PlayerID.map(first_team)<stats.year).astype(float)
+    return stats[['PlayerID','year','prior_dpoy_votes','prior_all_defense']]
+
 def features_for(award):
     columns=previous_models()[award]['features'].copy()
-    if award=='DPOY':columns=[c for c in columns if c!='DRB']+['team_defensive_rank','team_wins']
+    if award=='DPOY':columns=[c for c in columns if c!='DRB']+['team_defensive_rank','team_wins','prior_dpoy_votes','prior_all_defense']
     if award=='SMOY':columns+=['conference_seed']
     if award=='MIP':columns=[c for c in columns if c!='availability_exponential']+MIP_TEAM_FEATURES+MIP_ARCHETYPE_FEATURES+['availability_exponential']
     return columns
@@ -104,10 +128,12 @@ def load_namespace(award):
     original_make=ns['make_groups']
     source_groups=original_make(previous['features'])
     context=team_context()
+    reputation=defensive_reputation() if award=='DPOY' else None
     def enrich(data):
         additions=[c for c in ['team_wins','team_defensive_rating','team_defensive_rank','conference_seed','seed_fallback'] if c not in data.columns]
         data=data.merge(context[['Season','Tm',*additions]],on=['Season','Tm'],how='left',validate='many_to_one')
         data[FEATURE]=availability_curve(data.games_below_threshold,data.schedule_games)
+        if award=='DPOY':data=data.merge(reputation,on=['PlayerID','year'],how='left',validate='many_to_one')
         if award=='MIP':data=add_mip_context(data)
         if award=='MVP':
             for stat in ('ppg','ws48'):data[stat+'_rank_exponential']=rank_curve(data[stat+'_rank'],data[stat+'_qualified_count'],stat)

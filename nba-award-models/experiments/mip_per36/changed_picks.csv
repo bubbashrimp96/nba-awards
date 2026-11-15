@@ -1,0 +1,6 @@
+variant,year,season,predicted,top3_players,actual,top1,top3,winner_rank,overlap,log_loss,predicted_baseline,winner_rank_baseline,log_loss_baseline
+add_five_per36,2005,2004-05,Primož Brezec,Primož Brezec / Dwyane Wade / LeBron James,Bobby Simmons,0,0,5,0.3333333333333333,2.5814130289371406,Dwyane Wade,5,2.562858435884057
+replace_per_game_deltas,2003,2002-03,Gilbert Arenas,Gilbert Arenas / Matt Harpring / Ricky Davis,Gilbert Arenas,1,1,1,0.6666666666666666,2.114337812596848,Ricky Davis,2,1.727835843429266
+replace_per_game_deltas,2007,2006-07,Kevin Martin,Kevin Martin / Andre Iguodala / Deron Williams,Monta Ellis,0,0,4,0.6666666666666666,2.5403781271186934,Amar'e Stoudemire,5,2.572429126479287
+replace_per_game_deltas,2010,2009-10,Kevin Durant,Kevin Durant / Aaron Brooks / Danilo Gallinari,Aaron Brooks,0,1,2,0.5,1.767662709683962,Aaron Brooks,1,1.2778040111888704
+replace_per_game_deltas,2021,2020-21,Julius Randle,Julius Randle / Michael Porter Jr. / Jerami Grant,Julius Randle,1,1,1,1.0,1.5874250477318426,Michael Porter Jr.,3,1.7229282134139752

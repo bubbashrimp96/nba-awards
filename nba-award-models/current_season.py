@@ -158,6 +158,7 @@ def players(year, teams):
     # Multi-team rows have no single schedule: use the league's average games played.
     team_games = team_games.fillna(teams.games_to_date.mean())
     frame['games_to_date'] = frame.G
+    frame['games_started_to_date'] = frame.GS
     frame['team_games_to_date'] = team_games
     scale = SEASON_GAMES / team_games
     for column in SCALED:

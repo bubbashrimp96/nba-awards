@@ -1,0 +1,29 @@
+scope,variant,year,season,predicted,actual,winner_rank,top1,top3,log_loss,training_forecast_seasons
+full_pool_neutral_missing,baseline,2020,2019-20,Bam Adebayo,Brandon Ingram,7,0,0,3.466189779458827,0
+matched_forecasts,baseline,2021,2020-21,Michael Porter Jr.,Julius Randle,3,0,1,1.6799028105507419,0
+full_pool_neutral_missing,baseline,2021,2020-21,Michael Porter Jr.,Julius Randle,3,0,1,1.7229282134139752,0
+matched_forecasts,baseline,2022,2021-22,Miles Bridges,Ja Morant,4,0,0,3.064924941519875,1
+full_pool_neutral_missing,baseline,2022,2021-22,Miles Bridges,Ja Morant,6,0,0,3.411952459479756,1
+matched_forecasts,baseline,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.2784608423793052,2
+full_pool_neutral_missing,baseline,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.2936142785370338,2
+full_pool_neutral_missing,add_expected_points,2020,2019-20,Bam Adebayo,Brandon Ingram,7,0,0,3.466189779458824,0
+matched_forecasts,add_expected_points,2021,2020-21,Michael Porter Jr.,Julius Randle,3,0,1,1.6799028105507419,0
+full_pool_neutral_missing,add_expected_points,2021,2020-21,Michael Porter Jr.,Julius Randle,3,0,1,1.722928213413975,0
+matched_forecasts,add_expected_points,2022,2021-22,Miles Bridges,Ja Morant,4,0,0,3.0319211456076545,1
+full_pool_neutral_missing,add_expected_points,2022,2021-22,Miles Bridges,Ja Morant,6,0,0,3.3296622011492665,1
+matched_forecasts,add_expected_points,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.22907552446732124,2
+full_pool_neutral_missing,add_expected_points,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.23853592688366562,2
+full_pool_neutral_missing,add_expected_points_rebounds_assists,2020,2019-20,Bam Adebayo,Brandon Ingram,7,0,0,3.466189779458831,0
+matched_forecasts,add_expected_points_rebounds_assists,2021,2020-21,Michael Porter Jr.,Julius Randle,3,0,1,1.6799028105507414,0
+full_pool_neutral_missing,add_expected_points_rebounds_assists,2021,2020-21,Michael Porter Jr.,Julius Randle,3,0,1,1.7229282134139747,0
+matched_forecasts,add_expected_points_rebounds_assists,2022,2021-22,Darius Garland,Ja Morant,5,0,0,3.9327040547474486,1
+full_pool_neutral_missing,add_expected_points_rebounds_assists,2022,2021-22,Darius Garland,Ja Morant,7,0,0,4.104540139651658,1
+matched_forecasts,add_expected_points_rebounds_assists,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.16512498585465638,2
+full_pool_neutral_missing,add_expected_points_rebounds_assists,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.1724544219229844,2
+full_pool_neutral_missing,replace_previous_year_deltas,2020,2019-20,Bam Adebayo,Brandon Ingram,7,0,0,3.2982968171816824,0
+matched_forecasts,replace_previous_year_deltas,2021,2020-21,Julius Randle,Julius Randle,1,1,1,1.550651408776678,0
+full_pool_neutral_missing,replace_previous_year_deltas,2021,2020-21,Julius Randle,Julius Randle,1,1,1,1.5986868153013862,0
+matched_forecasts,replace_previous_year_deltas,2022,2021-22,Darius Garland,Ja Morant,6,0,0,3.847042467615611,1
+full_pool_neutral_missing,replace_previous_year_deltas,2022,2021-22,Darius Garland,Ja Morant,8,0,0,4.0115786449570345,1
+matched_forecasts,replace_previous_year_deltas,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.5238499312250612,2
+full_pool_neutral_missing,replace_previous_year_deltas,2023,2022-23,Lauri Markkanen,Lauri Markkanen,1,1,1,0.5463557724720781,2

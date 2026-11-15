@@ -1,0 +1,807 @@
+year,coach,coach_id,Tm,games,wins,losses,team_wins,team_games,conference_seed,seed_fallback,preseason_win_total,preseason_schedule_games,team_net_rating,expected_team_wins,wins_above_expectation,top4_seed,franchise,prior_coy_same_team,prior_coy_any_team,conference_rank,flow_tier,flow_top4_record,flow_exceeded_expectations,flow_moderate_or_better,flow_runaway
+2001,Lon Kruger,krugelo99c,ATL,82,25,57,25.0,82.0,13.0,True,,,-5.5,,0.0,0.0,ATL,0.0,0.0,13.0,Unknown,,,0.0,0.0
+2001,Jim O'Brien,obrieji99c,BOS,48,24,24,36.0,82.0,9.0,True,,,-2.2,,0.0,0.0,BOS,0.0,0.0,9.0,Unknown,,,0.0,0.0
+2001,Paul Silas,silaspa01c,CHH,82,46,36,46.0,82.0,6.0,False,,,2.1,,0.0,0.0,CHO,0.0,0.0,6.0,Unknown,,,0.0,0.0
+2001,Tim Floyd,floydti99c,CHI,82,15,67,15.0,82.0,15.0,True,,,-10.0,,0.0,0.0,CHI,0.0,0.0,15.0,Unknown,,,0.0,0.0
+2001,Randy Wittman,wittmra01c,CLE,82,30,52,30.0,82.0,11.0,True,,,-4.2,,0.0,0.0,CLE,0.0,0.0,11.0,Unknown,,,0.0,0.0
+2001,Don Nelson,nelsodo01c,DAL,82,53,29,53.0,82.0,5.0,False,,,4.4,,0.0,0.0,DAL,0.0,1.0,4.5,Unknown,,,0.0,0.0
+2001,Dan Issel,isselda01c,DEN,82,40,42,40.0,82.0,11.0,True,,,-2.8,,0.0,0.0,DEN,0.0,0.0,11.0,Unknown,,,0.0,0.0
+2001,George Irvine,irvinge01c,DET,82,32,50,32.0,82.0,10.0,True,,,-1.8,,0.0,0.0,DET,0.0,0.0,10.0,Unknown,,,0.0,0.0
+2001,Dave Cowens,cowenda01c,GSW,82,17,65,17.0,82.0,14.0,True,,,-9.2,,0.0,0.0,GSW,0.0,0.0,14.0,Unknown,,,0.0,0.0
+2001,Rudy Tomjanovich,tomjaru01c,HOU,82,45,37,45.0,82.0,9.0,True,,,2.4,,0.0,0.0,HOU,0.0,0.0,9.0,Unknown,,,0.0,0.0
+2001,Isiah Thomas,thomais01c,IND,82,41,41,41.0,82.0,8.0,False,,,-0.2,,0.0,0.0,IND,0.0,0.0,8.0,Unknown,,,0.0,0.0
+2001,Alvin Gentry,gentral99c,LAC,82,31,51,31.0,82.0,12.0,True,,,-2.9,,0.0,0.0,LAC,0.0,0.0,12.0,Unknown,,,0.0,0.0
+2001,Phil Jackson,jacksph01c,LAL,82,56,26,56.0,82.0,2.0,False,,,3.5,,0.0,1.0,LAL,0.0,1.0,2.0,Unknown,,,0.0,0.0
+2001,Pat Riley,rileypa01c,MIA,82,50,32,50.0,82.0,3.0,False,,,2.3,,0.0,1.0,MIA,1.0,1.0,3.0,Unknown,,,0.0,0.0
+2001,George Karl,karlge01c,MIL,82,52,30,52.0,82.0,2.0,False,,,4.2,,0.0,1.0,MIL,0.0,0.0,2.0,Unknown,,,0.0,0.0
+2001,Flip Saunders,saundfl99c,MIN,82,47,35,47.0,82.0,8.0,False,,,1.6,,0.0,0.0,MIN,0.0,0.0,8.0,Unknown,,,0.0,0.0
+2001,Byron Scott,scottby01c,NJN,82,26,56,26.0,82.0,12.0,True,,,-5.4,,0.0,0.0,BRK,0.0,0.0,12.0,Unknown,,,0.0,0.0
+2001,Jeff Van Gundy,vanguje99c,NYK,82,48,34,48.0,82.0,4.0,False,,,3.0,,0.0,1.0,NYK,0.0,0.0,4.0,Unknown,,,0.0,0.0
+2001,Doc Rivers,riverdo01c,ORL,82,43,39,43.0,82.0,7.0,False,,,1.0,,0.0,0.0,ORL,1.0,1.0,7.0,Unknown,,,0.0,0.0
+2001,Larry Brown,brownla01c,PHI,82,56,26,56.0,82.0,1.0,False,,,4.6,,0.0,1.0,PHI,0.0,0.0,1.0,Unknown,,,0.0,0.0
+2001,Scott Skiles,skilesc01c,PHO,82,51,31,51.0,82.0,6.0,False,,,2.3,,0.0,0.0,PHO,0.0,0.0,6.0,Unknown,,,0.0,0.0
+2001,Mike Dunleavy,dunlemi01c,POR,82,50,32,50.0,82.0,7.0,False,,,4.2,,0.0,0.0,POR,1.0,1.0,7.0,Unknown,,,0.0,0.0
+2001,Rick Adelman,adelmri01c,SAC,82,55,27,55.0,82.0,3.0,False,,,5.7,,0.0,1.0,SAC,0.0,0.0,3.0,Unknown,,,0.0,0.0
+2001,Gregg Popovich,popovgr99c,SAS,82,58,24,58.0,82.0,1.0,False,,,8.3,,0.0,1.0,SAS,0.0,0.0,1.0,Unknown,,,0.0,0.0
+2001,Nate McMillan,mcmilna01c,SEA,67,38,29,44.0,82.0,10.0,True,,,0.2,,0.0,0.0,OKC,0.0,0.0,10.0,Unknown,,,0.0,0.0
+2001,Lenny Wilkens,wilkele01c,TOR,82,47,35,47.0,82.0,5.0,False,,,2.3,,0.0,0.0,TOR,0.0,1.0,5.0,Unknown,,,0.0,0.0
+2001,Jerry Sloan,sloanje01c,UTA,82,53,29,53.0,82.0,4.0,False,,,5.2,,0.0,1.0,UTA,0.0,0.0,4.5,Unknown,,,0.0,0.0
+2001,Sidney Lowe,lowesi01c,VAN,82,23,59,23.0,82.0,13.0,True,,,-6.0,,0.0,0.0,MEM,0.0,0.0,13.0,Unknown,,,0.0,0.0
+2001,Leonard Hamilton,hamille99c,WAS,82,19,63,19.0,82.0,14.0,True,,,-6.8,,0.0,0.0,WAS,0.0,0.0,14.0,Unknown,,,0.0,0.0
+2002,Lon Kruger,krugelo99c,ATL,82,33,49,33.0,82.0,12.0,False,,,-4.4,,0.0,0.0,ATL,0.0,0.0,12.0,Unknown,,,0.0,0.0
+2002,Jim O'Brien,obrieji99c,BOS,82,49,33,49.0,82.0,3.0,False,,,2.2,,0.0,1.0,BOS,0.0,0.0,3.0,Unknown,,,0.0,0.0
+2002,Paul Silas,silaspa01c,CHH,82,44,38,44.0,82.0,4.0,False,,,1.2,,0.0,1.0,CHO,0.0,0.0,4.5,Unknown,,,0.0,0.0
+2002,Bill Cartwright,cartwbi01c,CHI,55,17,38,21.0,82.0,15.0,False,,,-9.1,,0.0,0.0,CHI,0.0,0.0,15.0,Unknown,,,0.0,0.0
+2002,John Lucas,lucasjo01c,CLE,82,29,53,29.0,82.0,14.0,False,,,-3.6,,0.0,0.0,CLE,0.0,0.0,14.0,Unknown,,,0.0,0.0
+2002,Don Nelson,nelsodo01c,DAL,82,57,25,57.0,82.0,4.0,False,,,4.3,,0.0,1.0,DAL,0.0,1.0,4.0,Unknown,,,0.0,0.0
+2002,Mike Evans,evansmi01c,DEN,56,18,38,27.0,82.0,12.0,False,,,-6.3,,0.0,0.0,DEN,0.0,0.0,12.0,Unknown,,,0.0,0.0
+2002,Rick Carlisle,carliri01c,DET,82,50,32,50.0,82.0,2.0,False,,,2.3,,0.0,1.0,DET,0.0,0.0,2.0,Unknown,,,0.0,0.0
+2002,Brian Winters,wintebr01c,GSW,59,13,46,21.0,82.0,14.0,False,,,-5.6,,0.0,0.0,GSW,0.0,0.0,14.0,Unknown,,,0.0,0.0
+2002,Rudy Tomjanovich,tomjaru01c,HOU,82,28,54,28.0,82.0,11.0,False,,,-5.4,,0.0,0.0,HOU,0.0,0.0,11.0,Unknown,,,0.0,0.0
+2002,Isiah Thomas,thomais01c,IND,82,42,40,42.0,82.0,8.0,False,,,0.4,,0.0,0.0,IND,0.0,0.0,7.5,Unknown,,,0.0,0.0
+2002,Alvin Gentry,gentral99c,LAC,82,39,43,39.0,82.0,9.0,False,,,-0.4,,0.0,0.0,LAC,0.0,0.0,9.0,Unknown,,,0.0,0.0
+2002,Phil Jackson,jacksph01c,LAL,82,58,24,58.0,82.0,3.0,False,,,7.6,,0.0,1.0,LAL,0.0,1.0,2.5,Unknown,,,0.0,0.0
+2002,Sidney Lowe,lowesi01c,MEM,82,23,59,23.0,82.0,13.0,False,,,-8.0,,0.0,0.0,MEM,0.0,0.0,13.0,Unknown,,,0.0,0.0
+2002,Pat Riley,rileypa01c,MIA,82,36,46,36.0,82.0,11.0,False,,,-1.7,,0.0,0.0,MIA,1.0,1.0,11.0,Unknown,,,0.0,0.0
+2002,George Karl,karlge01c,MIL,82,41,41,41.0,82.0,9.0,False,,,-0.3,,0.0,0.0,MIL,0.0,0.0,9.0,Unknown,,,0.0,0.0
+2002,Flip Saunders,saundfl99c,MIN,82,50,32,50.0,82.0,5.0,False,,,3.4,,0.0,0.0,MIN,0.0,0.0,5.0,Unknown,,,0.0,0.0
+2002,Byron Scott,scottby01c,NJN,82,52,30,52.0,82.0,1.0,False,,,4.3,,0.0,1.0,BRK,0.0,0.0,1.0,Unknown,,,0.0,0.0
+2002,Don Chaney,chanedo01c,NYK,63,20,43,30.0,82.0,13.0,False,,,-4.2,,0.0,0.0,NYK,0.0,1.0,13.0,Unknown,,,0.0,0.0
+2002,Doc Rivers,riverdo01c,ORL,82,44,38,44.0,82.0,5.0,False,,,1.5,,0.0,0.0,ORL,1.0,1.0,4.5,Unknown,,,0.0,0.0
+2002,Larry Brown,brownla01c,PHI,82,43,39,43.0,82.0,6.0,False,,,1.8,,0.0,0.0,PHI,1.0,1.0,6.0,Unknown,,,0.0,0.0
+2002,Scott Skiles,skilesc01c,PHO,51,25,26,36.0,82.0,10.0,False,,,-0.7,,0.0,0.0,PHO,0.0,0.0,10.0,Unknown,,,0.0,0.0
+2002,Maurice Cheeks,cheekma01c,POR,82,49,33,49.0,82.0,6.0,False,,,3.3,,0.0,0.0,POR,0.0,0.0,6.0,Unknown,,,0.0,0.0
+2002,Rick Adelman,adelmri01c,SAC,82,61,21,61.0,82.0,1.0,False,,,8.1,,0.0,1.0,SAC,0.0,0.0,1.0,Unknown,,,0.0,0.0
+2002,Gregg Popovich,popovgr99c,SAS,82,58,24,58.0,82.0,2.0,False,,,6.9,,0.0,1.0,SAS,0.0,0.0,2.5,Unknown,,,0.0,0.0
+2002,Nate McMillan,mcmilna01c,SEA,82,45,37,45.0,82.0,7.0,False,,,3.3,,0.0,0.0,OKC,0.0,0.0,7.0,Unknown,,,0.0,0.0
+2002,Lenny Wilkens,wilkele01c,TOR,82,42,40,42.0,82.0,7.0,False,,,-0.6,,0.0,0.0,TOR,0.0,1.0,7.5,Unknown,,,0.0,0.0
+2002,Jerry Sloan,sloanje01c,UTA,82,44,38,44.0,82.0,8.0,False,,,0.9,,0.0,0.0,UTA,0.0,0.0,8.0,Unknown,,,0.0,0.0
+2002,Doug Collins,collido01c,WAS,82,37,45,37.0,82.0,10.0,False,,,-1.6,,0.0,0.0,WAS,0.0,0.0,10.0,Unknown,,,0.0,0.0
+2003,Terry Stotts,stottte99c,ATL,55,24,31,35.0,82.0,11.0,False,42.0,82.0,-3.8,42.0,-7.0,0.0,ATL,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2003,Jim O'Brien,obrieji99c,BOS,82,44,38,44.0,82.0,6.0,False,48.0,82.0,-0.6,48.0,-4.0,0.0,BOS,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2003,Bill Cartwright,cartwbi01c,CHI,82,30,52,30.0,82.0,12.0,False,30.0,82.0,-5.1,30.0,0.0,0.0,CHI,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2003,John Lucas,lucasjo01c,CLE,42,8,34,17.0,82.0,15.0,False,23.5,82.0,-9.9,23.5,-6.5,0.0,CLE,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2003,Don Nelson,nelsodo01c,DAL,82,60,22,60.0,82.0,3.0,False,57.5,82.0,8.3,57.5,2.5,1.0,DAL,0.0,1.0,1.5,Runaway,1.0,1.0,1.0,1.0
+2003,Jeff Bzdelik,bzdelje99c,DEN,82,17,65,17.0,82.0,14.0,False,19.5,82.0,-8.9,19.5,-2.5,0.0,DEN,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2003,Rick Carlisle,carliri01c,DET,82,50,32,50.0,82.0,1.0,False,42.0,82.0,4.2,42.0,8.0,1.0,DET,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2003,Eric Musselman,musseer99c,GSW,82,38,44,38.0,82.0,11.0,False,25.0,82.0,-1.3,25.0,13.0,0.0,GSW,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2003,Rudy Tomjanovich,tomjaru01c,HOU,82,43,39,43.0,82.0,9.0,False,40.5,82.0,1.5,40.5,2.5,0.0,HOU,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2003,Isiah Thomas,thomais01c,IND,82,48,34,48.0,82.0,3.0,False,43.0,82.0,3.5,43.0,5.0,1.0,IND,0.0,0.0,3.5,Runaway,1.0,1.0,1.0,1.0
+2003,Alvin Gentry,gentral99c,LAC,58,19,39,27.0,82.0,13.0,False,42.0,82.0,-4.0,42.0,-15.0,0.0,LAC,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2003,Phil Jackson,jacksph01c,LAL,82,50,32,50.0,82.0,5.0,False,58.5,82.0,2.2,58.5,-8.5,0.0,LAL,0.0,1.0,5.5,No chance,0.0,0.0,0.0,0.0
+2003,Hubie Brown,brownhu99c,MEM,74,28,46,28.0,82.0,12.0,False,30.0,82.0,-3.5,30.0,-2.0,0.0,MEM,0.0,1.0,12.0,No chance,0.0,0.0,0.0,0.0
+2003,Pat Riley,rileypa01c,MIA,82,25,57,25.0,82.0,13.0,False,35.0,82.0,-5.8,35.0,-10.0,0.0,MIA,1.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2003,George Karl,karlge01c,MIL,82,42,40,42.0,82.0,7.0,False,43.0,82.0,0.3,43.0,-1.0,0.0,MIL,0.0,0.0,7.5,No chance,0.0,0.0,0.0,0.0
+2003,Flip Saunders,saundfl99c,MIN,82,51,31,51.0,82.0,4.0,False,46.0,82.0,2.2,46.0,5.0,1.0,MIN,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2003,Byron Scott,scottby01c,NJN,82,49,33,49.0,82.0,2.0,False,50.5,82.0,5.4,50.5,-1.5,1.0,BRK,0.0,0.0,2.0,Moderate chance,1.0,0.0,1.0,0.0
+2003,Paul Silas,silaspa01c,NOH,82,47,35,47.0,82.0,5.0,False,48.0,82.0,2.4,48.0,-1.0,0.0,NOP,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2003,Don Chaney,chanedo01c,NYK,82,37,45,37.0,82.0,10.0,False,29.5,82.0,-1.3,29.5,7.5,0.0,NYK,0.0,1.0,9.5,Moderate chance,0.0,1.0,1.0,0.0
+2003,Doc Rivers,riverdo01c,ORL,82,42,40,42.0,82.0,8.0,False,48.0,82.0,0.0,48.0,-6.0,0.0,ORL,1.0,1.0,7.5,No chance,0.0,0.0,0.0,0.0
+2003,Larry Brown,brownla01c,PHI,82,48,34,48.0,82.0,4.0,False,46.0,82.0,2.6,46.0,2.0,1.0,PHI,1.0,1.0,3.5,Moderate chance,1.0,1.0,1.0,0.0
+2003,Frank Johnson,johnsfr01c,PHO,82,44,38,44.0,82.0,8.0,False,35.5,82.0,1.3,35.5,8.5,0.0,PHO,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2003,Maurice Cheeks,cheekma01c,POR,82,50,32,50.0,82.0,6.0,False,49.0,82.0,2.7,49.0,1.0,0.0,POR,0.0,0.0,5.5,Moderate chance,0.0,1.0,1.0,0.0
+2003,Rick Adelman,adelmri01c,SAC,82,59,23,59.0,82.0,2.0,False,57.5,82.0,6.6,57.5,1.5,1.0,SAC,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2003,Gregg Popovich,popovgr99c,SAS,82,60,22,60.0,82.0,1.0,False,55.5,82.0,5.8,55.5,4.5,1.0,SAS,0.0,0.0,1.5,Runaway,1.0,1.0,1.0,1.0
+2003,Nate McMillan,mcmilna01c,SEA,82,40,42,40.0,82.0,10.0,False,41.0,82.0,-0.2,41.0,-1.0,0.0,OKC,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2003,Lenny Wilkens,wilkele01c,TOR,82,24,58,24.0,82.0,14.0,False,45.0,82.0,-6.3,45.0,-21.0,0.0,TOR,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2003,Jerry Sloan,sloanje01c,UTA,82,47,35,47.0,82.0,7.0,False,39.0,82.0,2.6,39.0,8.0,0.0,UTA,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2003,Doug Collins,collido01c,WAS,82,37,45,37.0,82.0,9.0,False,41.5,82.0,-1.1,41.5,-4.5,0.0,WAS,0.0,0.0,9.5,No chance,0.0,0.0,0.0,0.0
+2004,Terry Stotts,stottte99c,ATL,82,28,54,28.0,82.0,12.0,False,33.0,82.0,-4.8,33.0,-5.0,0.0,ATL,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2004,Jim O'Brien,obrieji99c,BOS,46,22,24,36.0,82.0,8.0,False,43.5,82.0,-1.5,43.5,-7.5,0.0,BOS,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2004,Scott Skiles,skilesc01c,CHI,66,19,47,23.0,82.0,14.0,False,36.5,82.0,-6.5,36.5,-13.5,0.0,CHI,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2004,Paul Silas,silaspa01c,CLE,82,35,47,35.0,82.0,9.0,False,29.5,82.0,-2.6,29.5,5.5,0.0,CLE,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2004,Don Nelson,nelsodo01c,DAL,82,52,30,52.0,82.0,5.0,False,57.5,82.0,4.5,57.5,-5.5,0.0,DAL,0.0,1.0,5.0,No chance,0.0,0.0,0.0,0.0
+2004,Jeff Bzdelik,bzdelje99c,DEN,82,43,39,43.0,82.0,8.0,False,27.5,82.0,1.0,27.5,15.5,0.0,DEN,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2004,Larry Brown,brownla01c,DET,82,54,28,54.0,82.0,3.0,False,49.5,82.0,6.5,49.5,4.5,1.0,DET,0.0,1.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2004,Eric Musselman,musseer99c,GSW,82,37,45,37.0,82.0,11.0,False,31.5,82.0,-1.1,31.5,5.5,0.0,GSW,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2004,Jeff Van Gundy,vanguje99c,HOU,82,45,37,45.0,82.0,7.0,False,47.5,82.0,1.9,47.5,-2.5,0.0,HOU,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2004,Rick Carlisle,carliri01c,IND,82,61,21,61.0,82.0,1.0,False,47.5,82.0,6.3,47.5,13.5,1.0,IND,0.0,1.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2004,Mike Dunleavy,dunlemi01c,LAC,82,28,54,28.0,82.0,14.0,False,30.5,82.0,-4.7,30.5,-2.5,0.0,LAC,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2004,Phil Jackson,jacksph01c,LAL,82,56,26,56.0,82.0,2.0,False,58.5,82.0,4.1,58.5,-2.5,1.0,LAL,0.0,1.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2004,Hubie Brown,brownhu99c,MEM,82,50,32,50.0,82.0,6.0,False,31.5,82.0,2.6,31.5,18.5,0.0,MEM,0.0,1.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2004,Stan Van Gundy,vangust99c,MIA,82,42,40,42.0,82.0,4.0,False,35.0,82.0,0.3,35.0,7.0,1.0,MIA,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2004,Terry Porter,portete01c,MIL,82,41,41,41.0,82.0,6.0,False,31.5,82.0,1.1,31.5,9.5,0.0,MIL,0.0,0.0,5.5,Moderate chance,0.0,1.0,1.0,0.0
+2004,Flip Saunders,saundfl99c,MIN,82,58,24,58.0,82.0,1.0,False,54.5,82.0,5.7,54.5,3.5,1.0,MIN,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2004,Byron Scott,scottby01c,NJN,42,22,20,47.0,82.0,2.0,False,51.5,82.0,2.6,51.5,-4.5,1.0,BRK,0.0,0.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2004,Tim Floyd,floydti99c,NOH,82,41,41,41.0,82.0,5.0,False,46.5,82.0,0.1,46.5,-5.5,0.0,NOP,0.0,0.0,5.5,No chance,0.0,0.0,0.0,0.0
+2004,Lenny Wilkens,wilkele01c,NYK,42,23,19,39.0,82.0,7.0,False,33.5,82.0,-1.6,33.5,5.5,0.0,NYK,0.0,1.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2004,Johnny Davis,davisjo01c,ORL,71,20,51,21.0,82.0,15.0,False,44.5,82.0,-7.4,44.5,-23.5,0.0,ORL,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2004,Randy Ayers,ayersra99c,PHI,52,21,31,33.0,82.0,11.0,False,46.5,82.0,-2.6,46.5,-13.5,0.0,PHI,0.0,0.0,10.5,No chance,0.0,0.0,0.0,0.0
+2004,Mike D'Antoni,dantomi01c,PHO,61,21,40,29.0,82.0,13.0,False,45.5,82.0,-3.8,45.5,-16.5,0.0,PHO,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2004,Maurice Cheeks,cheekma01c,POR,82,41,41,41.0,82.0,10.0,False,44.5,82.0,-1.5,44.5,-3.5,0.0,POR,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2004,Rick Adelman,adelmri01c,SAC,82,55,27,55.0,82.0,4.0,False,55.5,82.0,5.4,55.5,-0.5,1.0,SAC,0.0,0.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2004,Gregg Popovich,popovgr99c,SAS,82,57,25,57.0,82.0,3.0,False,57.5,82.0,7.9,57.5,-0.5,1.0,SAS,1.0,1.0,2.0,No chance,1.0,0.0,0.0,0.0
+2004,Nate McMillan,mcmilna01c,SEA,82,37,45,37.0,82.0,12.0,False,36.5,82.0,-0.8,36.5,0.5,0.0,OKC,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2004,Kevin O'Neill,oneilke99c,TOR,82,33,49,33.0,82.0,10.0,False,38.5,82.0,-3.4,38.5,-5.5,0.0,TOR,0.0,0.0,10.5,No chance,0.0,0.0,0.0,0.0
+2004,Jerry Sloan,sloanje01c,UTA,82,42,40,42.0,82.0,9.0,False,25.5,82.0,-1.3,25.5,16.5,0.0,UTA,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2004,Eddie Jordan,jordaed01c,WAS,82,25,57,25.0,82.0,13.0,False,29.5,82.0,-5.7,29.5,-4.5,0.0,WAS,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2005,Mike Woodson,woodsmi01c,ATL,82,13,69,13.0,82.0,15.0,False,27.5,82.0,-10.2,27.5,-14.5,0.0,ATL,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2005,Doc Rivers,riverdo01c,BOS,82,45,37,45.0,82.0,3.0,False,40.5,82.0,0.8,40.5,4.5,1.0,BOS,0.0,1.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2005,Bernie Bickerstaff,bickebe99c,CHA,82,18,64,18.0,82.0,14.0,False,16.5,82.0,-6.2,16.5,1.5,0.0,CHO,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2005,Scott Skiles,skilesc01c,CHI,82,47,35,47.0,82.0,4.0,False,32.5,82.0,1.4,32.5,14.5,1.0,CHI,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2005,Paul Silas,silaspa01c,CLE,64,34,30,42.0,82.0,9.0,False,43.5,82.0,0.6,43.5,-1.5,0.0,CLE,0.0,0.0,8.5,No chance,0.0,0.0,0.0,0.0
+2005,Don Nelson,nelsodo01c,DAL,64,42,22,58.0,82.0,4.0,False,50.5,82.0,5.9,50.5,7.5,1.0,DAL,0.0,1.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2005,George Karl,karlge01c,DEN,40,32,8,49.0,82.0,7.0,False,49.5,82.0,2.2,49.5,-0.5,0.0,DEN,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2005,Larry Brown,brownla01c,DET,82,54,28,54.0,82.0,2.0,False,56.5,82.0,4.3,56.5,-2.5,1.0,DET,0.0,1.0,2.0,Moderate chance,1.0,0.0,1.0,0.0
+2005,Mike Montgomery,montgmi99c,GSW,82,34,48,34.0,82.0,12.0,False,35.5,82.0,-2.2,35.5,-1.5,0.0,GSW,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2005,Jeff Van Gundy,vanguje99c,HOU,82,51,31,51.0,82.0,5.0,False,50.5,82.0,4.3,50.5,0.5,0.0,HOU,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2005,Rick Carlisle,carliri01c,IND,82,44,38,44.0,82.0,6.0,False,51.5,82.0,1.0,51.5,-7.5,0.0,IND,0.0,1.0,6.0,No chance,0.0,0.0,0.0,0.0
+2005,Mike Dunleavy,dunlemi01c,LAC,82,37,45,37.0,82.0,10.0,False,32.5,82.0,-0.8,32.5,4.5,0.0,LAC,0.0,1.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2005,Rudy Tomjanovich,tomjaru01c,LAL,43,24,19,34.0,82.0,11.0,False,45.5,82.0,-3.2,45.5,-11.5,0.0,LAL,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2005,Mike Fratello,fratemi99c,MEM,66,40,26,45.0,82.0,8.0,False,47.5,82.0,2.7,47.5,-2.5,0.0,MEM,0.0,1.0,8.0,No chance,0.0,0.0,0.0,0.0
+2005,Stan Van Gundy,vangust99c,MIA,82,59,23,59.0,82.0,1.0,False,52.5,82.0,6.7,52.5,6.5,1.0,MIA,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2005,Terry Porter,portete01c,MIL,82,30,52,30.0,82.0,13.0,False,38.5,82.0,-3.0,38.5,-8.5,0.0,MIL,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2005,Flip Saunders,saundfl99c,MIN,51,25,26,44.0,82.0,9.0,False,55.5,82.0,1.6,55.5,-11.5,0.0,MIN,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2005,Lawrence Frank,frankla99c,NJN,82,42,40,42.0,82.0,8.0,False,37.5,82.0,-1.7,37.5,4.5,0.0,BRK,0.0,0.0,8.5,Moderate chance,0.0,1.0,1.0,0.0
+2005,Byron Scott,scottby01c,NOH,82,18,64,18.0,82.0,15.0,False,30.5,82.0,-7.7,30.5,-12.5,0.0,NOP,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2005,Herb Williams,willihe01c,NYK,43,16,27,33.0,82.0,12.0,False,41.5,82.0,-2.7,41.5,-8.5,0.0,NYK,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2005,Johnny Davis,davisjo01c,ORL,64,31,33,36.0,82.0,10.0,False,34.5,82.0,-2.3,34.5,1.5,0.0,ORL,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2005,Jim O'Brien,obrieji99c,PHI,82,43,39,43.0,82.0,7.0,False,38.5,82.0,-0.7,38.5,4.5,0.0,PHI,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2005,Mike D'Antoni,dantomi01c,PHO,82,62,20,62.0,82.0,1.0,False,44.5,82.0,7.0,44.5,17.5,1.0,PHO,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2005,Maurice Cheeks,cheekma01c,POR,55,22,33,27.0,82.0,13.0,False,40.5,82.0,-4.3,40.5,-13.5,0.0,POR,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2005,Rick Adelman,adelmri01c,SAC,82,50,32,50.0,82.0,6.0,False,52.5,82.0,2.3,52.5,-2.5,0.0,SAC,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2005,Gregg Popovich,popovgr99c,SAS,82,59,23,59.0,82.0,2.0,False,56.5,82.0,8.3,56.5,2.5,1.0,SAS,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2005,Nate McMillan,mcmilna01c,SEA,82,52,30,52.0,82.0,3.0,False,34.5,82.0,2.3,34.5,17.5,1.0,OKC,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2005,Sam Mitchell,mitchsa01c,TOR,82,33,49,33.0,82.0,11.0,False,34.5,82.0,-1.8,34.5,-1.5,0.0,TOR,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2005,Jerry Sloan,sloanje01c,UTA,82,26,56,26.0,82.0,14.0,False,45.5,82.0,-4.4,45.5,-19.5,0.0,UTA,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2005,Eddie Jordan,jordaed01c,WAS,82,45,37,45.0,82.0,5.0,False,33.5,82.0,-0.4,33.5,11.5,0.0,WAS,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2006,Mike Woodson,woodsmi01c,ATL,82,26,56,26.0,82.0,14.0,False,21.5,82.0,-5.3,21.5,4.5,0.0,ATL,0.0,0.0,13.5,Moderate chance,0.0,1.0,1.0,0.0
+2006,Doc Rivers,riverdo01c,BOS,82,33,49,33.0,82.0,11.0,False,40.5,82.0,-1.5,40.5,-7.5,0.0,BOS,0.0,1.0,11.0,No chance,0.0,0.0,0.0,0.0
+2006,Bernie Bickerstaff,bickebe99c,CHA,82,26,56,26.0,82.0,13.0,False,21.0,82.0,-4.4,21.0,5.0,0.0,CHO,0.0,0.0,13.5,Moderate chance,0.0,1.0,1.0,0.0
+2006,Scott Skiles,skilesc01c,CHI,82,41,41,41.0,82.0,7.0,False,43.0,82.0,0.7,43.0,-2.0,0.0,CHI,0.0,0.0,6.5,No chance,0.0,0.0,0.0,0.0
+2006,Mike Brown,brownmi99c,CLE,82,50,32,50.0,82.0,4.0,False,49.5,82.0,2.1,49.5,0.5,1.0,CLE,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2006,Avery Johnson,johnsav01c,DAL,82,60,22,60.0,82.0,4.0,False,52.5,82.0,6.7,52.5,7.5,1.0,DAL,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2006,George Karl,karlge01c,DEN,82,44,38,44.0,82.0,3.0,False,50.5,82.0,0.3,50.5,-6.5,1.0,DEN,0.0,0.0,7.5,No chance,0.0,0.0,0.0,0.0
+2006,Flip Saunders,saundfl99c,DET,82,64,18,64.0,82.0,1.0,False,51.5,82.0,7.6,51.5,12.5,1.0,DET,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2006,Mike Montgomery,montgmi99c,GSW,82,34,48,34.0,82.0,13.0,False,41.5,82.0,-1.4,41.5,-7.5,0.0,GSW,0.0,0.0,12.5,No chance,0.0,0.0,0.0,0.0
+2006,Jeff Van Gundy,vanguje99c,HOU,82,34,48,34.0,82.0,12.0,False,53.0,82.0,-1.7,53.0,-19.0,0.0,HOU,0.0,0.0,12.5,No chance,0.0,0.0,0.0,0.0
+2006,Rick Carlisle,carliri01c,IND,82,41,41,41.0,82.0,6.0,False,52.5,82.0,2.0,52.5,-11.5,0.0,IND,0.0,1.0,6.5,No chance,0.0,0.0,0.0,0.0
+2006,Mike Dunleavy,dunlemi01c,LAC,82,47,35,47.0,82.0,6.0,False,38.5,82.0,1.6,38.5,8.5,0.0,LAC,0.0,1.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2006,Phil Jackson,jacksph01c,LAL,82,45,37,45.0,82.0,7.0,False,41.5,82.0,2.6,41.5,3.5,0.0,LAL,0.0,1.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2006,Mike Fratello,fratemi99c,MEM,82,49,33,49.0,82.0,5.0,False,42.5,82.0,4.1,42.5,6.5,0.0,MEM,0.0,1.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2006,Pat Riley,rileypa01c,MIA,61,41,20,52.0,82.0,2.0,False,58.0,82.0,4.1,58.0,-6.0,1.0,MIA,1.0,1.0,2.0,No chance,1.0,0.0,0.0,0.0
+2006,Terry Stotts,stottte99c,MIL,82,40,42,40.0,82.0,8.0,False,35.5,82.0,-1.0,35.5,4.5,0.0,MIL,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2006,Dwane Casey,caseydw99c,MIN,82,33,49,33.0,82.0,14.0,False,44.0,82.0,-2.0,44.0,-11.0,0.0,MIN,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2006,Lawrence Frank,frankla99c,NJN,82,49,33,49.0,82.0,3.0,False,47.0,82.0,1.5,47.0,2.0,1.0,BRK,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2006,Byron Scott,scottby01c,NOK,82,38,44,38.0,82.0,10.0,False,21.5,82.0,-2.8,21.5,16.5,0.0,NOP,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2006,Larry Brown,brownla01c,NYK,82,23,59,23.0,82.0,15.0,False,41.5,82.0,-6.6,41.5,-18.5,0.0,NYK,0.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2006,Brian Hill,hillbr99c,ORL,82,36,46,36.0,82.0,10.0,False,34.5,82.0,-1.3,34.5,1.5,0.0,ORL,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2006,Maurice Cheeks,cheekma01c,PHI,82,38,44,38.0,82.0,9.0,False,42.5,82.0,-1.8,42.5,-4.5,0.0,PHI,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2006,Mike D'Antoni,dantomi01c,PHO,82,54,28,54.0,82.0,2.0,False,43.5,82.0,5.4,43.5,10.5,1.0,PHO,1.0,1.0,3.0,Moderate chance,1.0,1.0,1.0,0.0
+2006,Nate McMillan,mcmilna01c,POR,82,21,61,21.0,82.0,15.0,False,28.5,82.0,-10.7,28.5,-7.5,0.0,POR,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2006,Rick Adelman,adelmri01c,SAC,82,44,38,44.0,82.0,8.0,False,49.5,82.0,1.8,49.5,-5.5,0.0,SAC,0.0,0.0,7.5,No chance,0.0,0.0,0.0,0.0
+2006,Gregg Popovich,popovgr99c,SAS,82,63,19,63.0,82.0,1.0,False,58.5,82.0,7.5,58.5,4.5,1.0,SAS,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2006,Bob Hill,hillbo99c,SEA,52,22,30,35.0,82.0,11.0,False,43.0,82.0,-3.3,43.0,-8.0,0.0,OKC,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2006,Sam Mitchell,mitchsa01c,TOR,82,27,55,27.0,82.0,12.0,False,28.5,82.0,-3.2,28.5,-1.5,0.0,TOR,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2006,Jerry Sloan,sloanje01c,UTA,82,41,41,41.0,82.0,9.0,False,34.0,82.0,-2.7,34.0,7.0,0.0,UTA,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2006,Eddie Jordan,jordaed01c,WAS,82,42,40,42.0,82.0,5.0,False,40.0,82.0,1.9,40.0,2.0,0.0,WAS,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2007,Mike Woodson,woodsmi01c,ATL,82,30,52,30.0,82.0,13.0,False,28.0,82.0,-5.1,28.0,2.0,0.0,ATL,0.0,0.0,13.0,Moderate chance,0.0,1.0,1.0,0.0
+2007,Doc Rivers,riverdo01c,BOS,82,24,58,24.0,82.0,15.0,False,35.0,82.0,-3.5,35.0,-11.0,0.0,BOS,0.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2007,Bernie Bickerstaff,bickebe99c,CHA,82,33,49,33.0,82.0,11.0,False,32.0,82.0,-3.9,32.0,1.0,0.0,CHO,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2007,Scott Skiles,skilesc01c,CHI,82,49,33,49.0,82.0,5.0,False,48.0,82.0,5.2,48.0,1.0,0.0,CHI,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2007,Mike Brown,brownmi99c,CLE,82,50,32,50.0,82.0,2.0,False,48.0,82.0,3.8,48.0,2.0,1.0,CLE,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2007,Avery Johnson,johnsav01c,DAL,82,67,15,67.0,82.0,1.0,False,56.0,82.0,7.6,56.0,11.0,1.0,DAL,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2007,George Karl,karlge01c,DEN,82,45,37,45.0,82.0,6.0,False,41.5,82.0,1.7,41.5,3.5,0.0,DEN,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2007,Flip Saunders,saundfl99c,DET,82,53,29,53.0,82.0,1.0,False,51.5,82.0,4.8,51.5,1.5,1.0,DET,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2007,Don Nelson,nelsodo01c,GSW,82,42,40,42.0,82.0,8.0,False,35.0,82.0,-0.3,35.0,7.0,0.0,GSW,1.0,1.0,7.5,No chance,0.0,1.0,0.0,0.0
+2007,Jeff Van Gundy,vanguje99c,HOU,82,52,30,52.0,82.0,5.0,False,45.5,82.0,4.9,45.5,6.5,0.0,HOU,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2007,Rick Carlisle,carliri01c,IND,82,35,47,35.0,82.0,9.0,False,44.5,82.0,-2.5,44.5,-9.5,0.0,IND,0.0,1.0,9.5,No chance,0.0,0.0,0.0,0.0
+2007,Mike Dunleavy,dunlemi01c,LAC,82,40,42,40.0,82.0,9.0,False,47.0,82.0,-0.4,47.0,-7.0,0.0,LAC,0.0,1.0,9.0,No chance,0.0,0.0,0.0,0.0
+2007,Phil Jackson,jacksph01c,LAL,82,42,40,42.0,82.0,7.0,False,42.5,82.0,-0.2,42.5,-0.5,0.0,LAL,0.0,1.0,7.5,No chance,0.0,0.0,0.0,0.0
+2007,Tony Barone,baronto99c,MEM,52,16,36,22.0,82.0,15.0,False,40.0,82.0,-5.2,40.0,-18.0,0.0,MEM,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2007,Pat Riley,rileypa01c,MIA,82,44,38,44.0,82.0,4.0,False,51.5,82.0,-1.2,51.5,-7.5,1.0,MIA,1.0,1.0,5.0,No chance,0.0,0.0,0.0,0.0
+2007,Terry Stotts,stottte99c,MIL,64,23,41,28.0,82.0,14.0,False,42.0,82.0,-4.3,42.0,-14.0,0.0,MIL,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2007,Randy Wittman,wittmra01c,MIN,42,12,30,32.0,82.0,13.0,False,36.0,82.0,-4.0,36.0,-4.0,0.0,MIN,0.0,0.0,12.5,No chance,0.0,0.0,0.0,0.0
+2007,Lawrence Frank,frankla99c,NJN,82,41,41,41.0,82.0,6.0,False,46.5,82.0,-0.9,46.5,-5.5,0.0,BRK,0.0,0.0,6.5,No chance,0.0,0.0,0.0,0.0
+2007,Byron Scott,scottby01c,NOK,82,39,43,39.0,82.0,10.0,False,40.5,82.0,-1.6,40.5,-1.5,0.0,NOP,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2007,Isiah Thomas,thomais01c,NYK,82,33,49,33.0,82.0,12.0,False,30.5,82.0,-3.1,30.5,2.5,0.0,NYK,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2007,Brian Hill,hillbr99c,ORL,82,40,42,40.0,82.0,8.0,False,37.0,82.0,0.8,37.0,3.0,0.0,ORL,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2007,Maurice Cheeks,cheekma01c,PHI,82,35,47,35.0,82.0,10.0,False,35.5,82.0,-3.2,35.5,-0.5,0.0,PHI,0.0,0.0,9.5,No chance,0.0,0.0,0.0,0.0
+2007,Mike D'Antoni,dantomi01c,PHO,82,61,21,61.0,82.0,2.0,False,55.0,82.0,7.4,55.0,6.0,1.0,PHO,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2007,Nate McMillan,mcmilna01c,POR,82,32,50,32.0,82.0,12.0,False,24.0,82.0,-4.8,24.0,8.0,0.0,POR,0.0,0.0,12.5,Moderate chance,0.0,1.0,1.0,0.0
+2007,Eric Musselman,musseer99c,SAC,82,33,49,33.0,82.0,11.0,False,44.0,82.0,-1.6,44.0,-11.0,0.0,SAC,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2007,Gregg Popovich,popovgr99c,SAS,82,58,24,58.0,82.0,3.0,False,56.0,82.0,9.2,56.0,2.0,1.0,SAS,1.0,1.0,3.0,Moderate chance,1.0,1.0,1.0,0.0
+2007,Bob Hill,hillbo99c,SEA,82,31,51,31.0,82.0,14.0,False,35.5,82.0,-3.0,35.5,-4.5,0.0,OKC,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2007,Sam Mitchell,mitchsa01c,TOR,82,47,35,47.0,82.0,3.0,False,32.5,82.0,1.2,32.5,14.5,1.0,TOR,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2007,Jerry Sloan,sloanje01c,UTA,82,51,31,51.0,82.0,4.0,False,39.0,82.0,3.0,39.0,12.0,1.0,UTA,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2007,Eddie Jordan,jordaed01c,WAS,82,41,41,41.0,82.0,7.0,False,39.0,82.0,-0.4,39.0,2.0,0.0,WAS,0.0,0.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2008,Mike Woodson,woodsmi01c,ATL,82,37,45,37.0,82.0,8.0,False,38.5,82.0,-1.8,38.5,-1.5,0.0,ATL,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2008,Doc Rivers,riverdo01c,BOS,82,66,16,66.0,82.0,1.0,False,49.5,82.0,10.8,49.5,16.5,1.0,BOS,0.0,1.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2008,Sam Vincent,vincesa01c,CHA,82,32,50,32.0,82.0,12.0,False,35.5,82.0,-4.5,35.5,-3.5,0.0,CHO,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2008,Jim Boylan,boylaji99c,CHI,56,24,32,33.0,82.0,11.0,False,50.5,82.0,-3.1,50.5,-17.5,0.0,CHI,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2008,Mike Brown,brownmi99c,CLE,82,45,37,45.0,82.0,4.0,False,49.5,82.0,-0.6,49.5,-4.5,1.0,CLE,0.0,0.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2008,Avery Johnson,johnsav01c,DAL,82,51,31,51.0,82.0,7.0,False,56.5,82.0,4.8,56.5,-5.5,0.0,DAL,1.0,1.0,7.0,No chance,0.0,0.0,0.0,0.0
+2008,George Karl,karlge01c,DEN,82,50,32,50.0,82.0,8.0,False,48.5,82.0,3.4,48.5,1.5,0.0,DEN,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2008,Flip Saunders,saundfl99c,DET,82,59,23,59.0,82.0,2.0,False,50.5,82.0,8.3,50.5,8.5,1.0,DET,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2008,Don Nelson,nelsodo01c,GSW,82,48,34,48.0,82.0,9.0,False,42.5,82.0,1.9,42.5,5.5,0.0,GSW,1.0,1.0,9.0,No chance,0.0,1.0,0.0,0.0
+2008,Rick Adelman,adelmri01c,HOU,82,55,27,55.0,82.0,5.0,False,53.5,82.0,4.8,53.5,1.5,0.0,HOU,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2008,Jim O'Brien,obrieji99c,IND,82,36,46,36.0,82.0,9.0,False,30.5,82.0,-1.2,30.5,5.5,0.0,IND,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2008,Mike Dunleavy,dunlemi01c,LAC,82,23,59,23.0,82.0,12.0,False,30.5,82.0,-7.5,30.5,-7.5,0.0,LAC,0.0,1.0,12.0,No chance,0.0,0.0,0.0,0.0
+2008,Phil Jackson,jacksph01c,LAL,82,57,25,57.0,82.0,1.0,False,43.5,82.0,7.3,43.5,13.5,1.0,LAL,0.0,1.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2008,Marc Iavaroni,iavarma01c,MEM,82,22,60,22.0,82.0,14.0,False,32.5,82.0,-6.3,32.5,-10.5,0.0,MEM,0.0,0.0,13.5,No chance,0.0,0.0,0.0,0.0
+2008,Pat Riley,rileypa01c,MIA,82,15,67,15.0,82.0,15.0,False,46.5,82.0,-9.4,46.5,-31.5,0.0,MIA,1.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2008,Larry Krystkowiak,krystla01c,MIL,82,26,56,26.0,82.0,13.0,False,35.5,82.0,-7.2,35.5,-9.5,0.0,MIL,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2008,Randy Wittman,wittmra01c,MIN,82,22,60,22.0,82.0,13.0,False,19.5,82.0,-7.3,19.5,2.5,0.0,MIN,0.0,0.0,13.5,Moderate chance,0.0,1.0,1.0,0.0
+2008,Lawrence Frank,frankla99c,NJN,82,34,48,34.0,82.0,10.0,False,43.5,82.0,-5.4,43.5,-9.5,0.0,BRK,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2008,Byron Scott,scottby01c,NOH,82,56,26,56.0,82.0,2.0,False,37.5,82.0,5.6,37.5,18.5,1.0,NOP,0.0,0.0,2.5,Runaway,1.0,1.0,1.0,1.0
+2008,Isiah Thomas,thomais01c,NYK,82,23,59,23.0,82.0,14.0,False,37.5,82.0,-6.8,37.5,-14.5,0.0,NYK,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2008,Stan Van Gundy,vangust99c,ORL,82,52,30,52.0,82.0,3.0,False,47.5,82.0,5.6,47.5,4.5,1.0,ORL,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2008,Maurice Cheeks,cheekma01c,PHI,82,40,42,40.0,82.0,7.0,False,32.5,82.0,0.5,32.5,7.5,0.0,PHI,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2008,Mike D'Antoni,dantomi01c,PHO,82,55,27,55.0,82.0,6.0,False,55.5,82.0,5.0,55.5,-0.5,0.0,PHO,1.0,1.0,4.5,No chance,0.0,0.0,0.0,0.0
+2008,Nate McMillan,mcmilna01c,POR,82,41,41,41.0,82.0,10.0,False,30.5,82.0,-0.8,30.5,10.5,0.0,POR,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2008,Reggie Theus,theusre01c,SAC,82,38,44,38.0,82.0,11.0,False,34.5,82.0,-2.4,34.5,3.5,0.0,SAC,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2008,Gregg Popovich,popovgr99c,SAS,82,56,26,56.0,82.0,3.0,False,54.5,82.0,5.3,54.5,1.5,1.0,SAS,1.0,1.0,2.5,Moderate chance,1.0,1.0,1.0,0.0
+2008,P.J. Carlesimo,carlepj99c,SEA,82,20,62,20.0,82.0,15.0,False,27.5,82.0,-8.6,27.5,-7.5,0.0,OKC,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2008,Sam Mitchell,mitchsa01c,TOR,82,41,41,41.0,82.0,6.0,False,41.5,82.0,3.3,41.5,-0.5,0.0,TOR,1.0,1.0,6.0,No chance,0.0,0.0,0.0,0.0
+2008,Jerry Sloan,sloanje01c,UTA,82,54,28,54.0,82.0,4.0,False,47.5,82.0,7.2,47.5,6.5,1.0,UTA,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2008,Eddie Jordan,jordaed01c,WAS,82,43,39,43.0,82.0,5.0,False,39.5,82.0,-0.3,39.5,3.5,0.0,WAS,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2009,Mike Woodson,woodsmi01c,ATL,82,47,35,47.0,82.0,4.0,False,36.5,82.0,1.7,36.5,10.5,1.0,ATL,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2009,Doc Rivers,riverdo01c,BOS,82,62,20,62.0,82.0,2.0,False,53.5,82.0,7.9,53.5,8.5,1.0,BOS,0.0,1.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2009,Larry Brown,brownla01c,CHA,82,35,47,35.0,82.0,10.0,False,36.5,82.0,-1.3,36.5,-1.5,0.0,CHO,0.0,1.0,10.0,No chance,0.0,0.0,0.0,0.0
+2009,Vinny Del Negro,delnevi01c,CHI,82,41,41,41.0,82.0,7.0,False,40.5,82.0,-0.3,40.5,0.5,0.0,CHI,0.0,0.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2009,Mike Brown,brownmi99c,CLE,82,66,16,66.0,82.0,1.0,False,47.5,82.0,9.6,47.5,18.5,1.0,CLE,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2009,Rick Carlisle,carliri01c,DAL,82,50,32,50.0,82.0,6.0,False,46.5,82.0,2.0,46.5,3.5,0.0,DAL,0.0,1.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2009,George Karl,karlge01c,DEN,82,54,28,54.0,82.0,2.0,False,40.5,82.0,3.4,40.5,13.5,1.0,DEN,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2009,Michael Curry,currymi01c,DET,82,39,43,39.0,82.0,8.0,False,50.5,82.0,-0.6,50.5,-11.5,0.0,DET,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2009,Don Nelson,nelsodo01c,GSW,82,29,53,29.0,82.0,10.0,False,37.5,82.0,-3.7,37.5,-8.5,0.0,GSW,1.0,1.0,10.0,No chance,0.0,0.0,0.0,0.0
+2009,Rick Adelman,adelmri01c,HOU,82,53,29,53.0,82.0,5.0,False,53.5,82.0,4.2,53.5,-0.5,0.0,HOU,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2009,Jim O'Brien,obrieji99c,IND,82,36,46,36.0,82.0,9.0,False,35.5,82.0,-1.0,35.5,0.5,0.0,IND,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2009,Mike Dunleavy,dunlemi01c,LAC,82,19,63,19.0,82.0,14.0,False,34.5,82.0,-9.2,34.5,-15.5,0.0,LAC,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2009,Phil Jackson,jacksph01c,LAL,82,65,17,65.0,82.0,1.0,False,54.5,82.0,7.9,54.5,10.5,1.0,LAL,0.0,1.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2009,Marc Iavaroni,iavarma01c,MEM,41,11,30,24.0,82.0,12.0,False,22.5,82.0,-6.0,22.5,1.5,0.0,MEM,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2009,Erik Spoelstra,spoeler99c,MIA,82,43,39,43.0,82.0,5.0,False,37.5,82.0,0.3,37.5,5.5,0.0,MIA,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2009,Scott Skiles,skilesc01c,MIL,82,34,48,34.0,82.0,12.0,False,30.5,82.0,-1.1,30.5,3.5,0.0,MIL,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2009,Kevin McHale,mchalke01c,MIN,63,20,43,24.0,82.0,11.0,False,30.5,82.0,-5.0,30.5,-6.5,0.0,MIN,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2009,Lawrence Frank,frankla99c,NJN,82,34,48,34.0,82.0,11.0,False,27.5,82.0,-2.7,27.5,6.5,0.0,BRK,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2009,Byron Scott,scottby01c,NOH,82,49,33,49.0,82.0,7.0,False,51.5,82.0,1.8,51.5,-2.5,0.0,NOP,1.0,1.0,7.0,No chance,0.0,0.0,0.0,0.0
+2009,Mike D'Antoni,dantomi01c,NYK,82,32,50,32.0,82.0,14.0,False,32.5,82.0,-2.5,32.5,-0.5,0.0,NYK,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2009,Scott Brooks,brooksc01c,OKC,69,22,47,23.0,82.0,13.0,False,25.5,82.0,-6.2,25.5,-2.5,0.0,OKC,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2009,Stan Van Gundy,vangust99c,ORL,82,59,23,59.0,82.0,3.0,False,47.5,82.0,7.1,47.5,11.5,1.0,ORL,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2009,Tony DiLeo,dileoto99c,PHI,59,32,27,41.0,82.0,6.0,False,48.5,82.0,0.2,48.5,-7.5,0.0,PHI,0.0,0.0,6.5,No chance,0.0,0.0,0.0,0.0
+2009,Terry Porter,portete01c,PHO,51,28,23,46.0,82.0,9.0,False,46.5,82.0,2.0,46.5,-0.5,0.0,PHO,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2009,Nate McMillan,mcmilna01c,POR,82,54,28,54.0,82.0,4.0,False,44.5,82.0,6.0,44.5,9.5,1.0,POR,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2009,Kenny Natt,nattke01c,SAC,58,11,47,17.0,82.0,15.0,False,28.5,82.0,-9.0,28.5,-11.5,0.0,SAC,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2009,Gregg Popovich,popovgr99c,SAS,82,54,28,54.0,82.0,3.0,False,48.5,82.0,4.2,48.5,5.5,1.0,SAS,1.0,1.0,3.0,Moderate chance,1.0,1.0,1.0,0.0
+2009,Jay Triano,trianja99c,TOR,65,25,40,33.0,82.0,13.0,False,47.5,82.0,-3.0,47.5,-14.5,0.0,TOR,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2009,Jerry Sloan,sloanje01c,UTA,82,48,34,48.0,82.0,8.0,False,51.5,82.0,2.7,51.5,-3.5,0.0,UTA,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2009,Ed Tapscott,tapsced99c,WAS,71,18,53,19.0,82.0,15.0,False,38.5,82.0,-8.1,38.5,-19.5,0.0,WAS,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2010,Mike Woodson,woodsmi01c,ATL,82,53,29,53.0,82.0,3.0,False,44.5,82.0,4.9,44.5,8.5,1.0,ATL,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2010,Doc Rivers,riverdo01c,BOS,82,50,32,50.0,82.0,4.0,False,56.5,82.0,3.7,56.5,-6.5,1.0,BOS,0.0,1.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2010,Larry Brown,brownla01c,CHA,82,44,38,44.0,82.0,7.0,False,36.5,82.0,1.9,36.5,7.5,0.0,CHO,0.0,1.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Vinny Del Negro,delnevi01c,CHI,82,41,41,41.0,82.0,8.0,False,40.5,82.0,-1.6,40.5,0.5,0.0,CHI,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Mike Brown,brownmi99c,CLE,82,61,21,61.0,82.0,1.0,False,61.5,82.0,6.8,61.5,-0.5,1.0,CLE,1.0,1.0,1.0,No chance,1.0,0.0,0.0,0.0
+2010,Rick Carlisle,carliri01c,DAL,82,55,27,55.0,82.0,2.0,False,48.5,82.0,2.8,48.5,6.5,1.0,DAL,0.0,1.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2010,George Karl,karlge01c,DEN,82,53,29,53.0,82.0,4.0,False,52.5,82.0,4.4,52.5,0.5,1.0,DEN,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2010,John Kuester,kuestjo01c,DET,82,27,55,27.0,82.0,12.0,False,41.5,82.0,-5.9,41.5,-14.5,0.0,DET,0.0,0.0,12.5,No chance,0.0,0.0,0.0,0.0
+2010,Don Nelson,nelsodo01c,GSW,82,26,56,26.0,82.0,13.0,False,34.5,82.0,-3.3,34.5,-8.5,0.0,GSW,1.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2010,Rick Adelman,adelmri01c,HOU,82,42,40,42.0,82.0,9.0,False,35.5,82.0,0.0,35.5,6.5,0.0,HOU,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Jim O'Brien,obrieji99c,IND,82,32,50,32.0,82.0,10.0,False,34.5,82.0,-3.0,34.5,-2.5,0.0,IND,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2010,Mike Dunleavy,dunlemi01c,LAC,49,21,28,29.0,82.0,12.0,False,34.5,82.0,-6.8,34.5,-5.5,0.0,LAC,0.0,1.0,12.0,No chance,0.0,0.0,0.0,0.0
+2010,Phil Jackson,jacksph01c,LAL,82,57,25,57.0,82.0,1.0,False,62.0,82.0,4.9,62.0,-5.0,1.0,LAL,0.0,1.0,1.0,Moderate chance,1.0,0.0,1.0,0.0
+2010,Lionel Hollins,hollili01c,MEM,82,40,42,40.0,82.0,10.0,False,27.5,82.0,-1.5,27.5,12.5,0.0,MEM,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Erik Spoelstra,spoeler99c,MIA,82,47,35,47.0,82.0,5.0,False,40.0,82.0,2.4,40.0,7.0,0.0,MIA,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Scott Skiles,skilesc01c,MIL,82,46,36,46.0,82.0,6.0,False,26.5,82.0,2.1,26.5,19.5,0.0,MIL,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Kurt Rambis,rambiku01c,MIN,82,15,67,15.0,82.0,15.0,False,26.5,82.0,-9.8,26.5,-11.5,0.0,MIN,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2010,Kiki Vandeweghe,vandeki01c,NJN,64,12,52,12.0,82.0,15.0,False,27.5,82.0,-9.6,27.5,-15.5,0.0,BRK,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2010,Jeff Bower,bowerje99c,NOH,73,34,39,37.0,82.0,11.0,False,46.5,82.0,-2.4,46.5,-9.5,0.0,NOP,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2010,Mike D'Antoni,dantomi01c,NYK,82,29,53,29.0,82.0,11.0,False,31.5,82.0,-4.0,31.5,-2.5,0.0,NYK,0.0,1.0,11.0,No chance,0.0,0.0,0.0,0.0
+2010,Scott Brooks,brooksc01c,OKC,82,50,32,50.0,82.0,8.0,False,33.5,82.0,3.5,33.5,16.5,0.0,OKC,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Stan Van Gundy,vangust99c,ORL,82,59,23,59.0,82.0,2.0,False,57.5,82.0,7.9,57.5,1.5,1.0,ORL,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2010,Eddie Jordan,jordaed01c,PHI,82,27,55,27.0,82.0,13.0,False,40.5,82.0,-4.1,40.5,-13.5,0.0,PHI,0.0,0.0,12.5,No chance,0.0,0.0,0.0,0.0
+2010,Alvin Gentry,gentral99c,PHO,82,54,28,54.0,82.0,3.0,False,40.5,82.0,4.8,40.5,13.5,1.0,PHO,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2010,Nate McMillan,mcmilna01c,POR,82,50,32,50.0,82.0,6.0,False,52.5,82.0,3.5,52.5,-2.5,0.0,POR,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2010,Paul Westphal,westppa01c,SAC,82,25,57,25.0,82.0,14.0,False,24.5,82.0,-4.7,24.5,0.5,0.0,SAC,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2010,Gregg Popovich,popovgr99c,SAS,82,50,32,50.0,82.0,7.0,False,54.5,82.0,5.4,54.5,-4.5,0.0,SAS,1.0,1.0,7.0,No chance,0.0,0.0,0.0,0.0
+2010,Jay Triano,trianja99c,TOR,82,40,42,40.0,82.0,9.0,False,40.5,82.0,-2.0,40.5,-0.5,0.0,TOR,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2010,Jerry Sloan,sloanje01c,UTA,82,53,29,53.0,82.0,5.0,False,49.5,82.0,5.7,49.5,3.5,0.0,UTA,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2010,Flip Saunders,saundfl99c,WAS,82,26,56,26.0,82.0,14.0,False,41.5,82.0,-5.3,41.5,-15.5,0.0,WAS,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2011,Larry Drew,drewla01c,ATL,82,44,38,44.0,82.0,5.0,False,46.5,82.0,-0.7,46.5,-2.5,0.0,ATL,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2011,Doc Rivers,riverdo01c,BOS,82,56,26,56.0,82.0,3.0,False,52.5,82.0,5.7,52.5,3.5,1.0,BOS,0.0,1.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2011,Paul Silas,silaspa01c,CHA,54,25,29,34.0,82.0,10.0,False,39.5,82.0,-4.2,39.5,-5.5,0.0,CHO,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2011,Tom Thibodeau,thiboto99c,CHI,82,62,20,62.0,82.0,1.0,False,46.5,82.0,7.8,46.5,15.5,1.0,CHI,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2011,Byron Scott,scottby01c,CLE,82,19,63,19.0,82.0,15.0,False,30.5,82.0,-9.5,30.5,-11.5,0.0,CLE,0.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2011,Rick Carlisle,carliri01c,DAL,82,57,25,57.0,82.0,3.0,False,49.5,82.0,4.4,49.5,7.5,1.0,DAL,0.0,1.0,2.5,Runaway,1.0,1.0,1.0,1.0
+2011,George Karl,karlge01c,DEN,82,50,32,50.0,82.0,5.0,False,43.5,82.0,4.9,43.5,6.5,0.0,DEN,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2011,John Kuester,kuestjo01c,DET,82,30,52,30.0,82.0,11.0,False,30.5,82.0,-3.7,30.5,-0.5,0.0,DET,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2011,Keith Smart,smartke01c,GSW,82,36,46,36.0,82.0,12.0,False,30.5,82.0,-2.3,30.5,5.5,0.0,GSW,0.0,0.0,12.0,Moderate chance,0.0,1.0,1.0,0.0
+2011,Rick Adelman,adelmri01c,HOU,82,43,39,43.0,82.0,9.0,False,48.5,82.0,2.3,48.5,-5.5,0.0,HOU,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2011,Jim O'Brien,obrieji99c,IND,44,17,27,37.0,82.0,8.0,False,33.5,82.0,-0.9,33.5,3.5,0.0,IND,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2011,Vinny Del Negro,delnevi01c,LAC,82,32,50,32.0,82.0,13.0,False,36.5,82.0,-3.2,36.5,-4.5,0.0,LAC,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2011,Phil Jackson,jacksph01c,LAL,82,57,25,57.0,82.0,2.0,False,56.5,82.0,6.3,56.5,0.5,1.0,LAL,0.0,1.0,2.5,Runaway,1.0,1.0,1.0,1.0
+2011,Lionel Hollins,hollili01c,MEM,82,46,36,46.0,82.0,8.0,False,38.5,82.0,2.5,38.5,7.5,0.0,MEM,0.0,0.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2011,Erik Spoelstra,spoeler99c,MIA,82,58,24,58.0,82.0,2.0,False,64.5,82.0,7.8,64.5,-6.5,1.0,MIA,0.0,0.0,2.0,Moderate chance,1.0,0.0,1.0,0.0
+2011,Scott Skiles,skilesc01c,MIL,82,35,47,35.0,82.0,9.0,False,45.5,82.0,-0.8,45.5,-10.5,0.0,MIL,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2011,Kurt Rambis,rambiku01c,MIN,82,17,65,17.0,82.0,15.0,False,23.5,82.0,-6.7,23.5,-6.5,0.0,MIN,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2011,Avery Johnson,johnsav01c,NJN,82,24,58,24.0,82.0,12.0,False,24.5,82.0,-6.8,24.5,-0.5,0.0,BRK,0.0,1.0,12.0,No chance,0.0,0.0,0.0,0.0
+2011,Monty Williams,willimo01c,NOH,82,46,36,46.0,82.0,7.0,False,41.5,82.0,1.0,41.5,4.5,0.0,NOP,0.0,0.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2011,Mike D'Antoni,dantomi01c,NYK,82,42,40,42.0,82.0,6.0,False,35.5,82.0,1.0,35.5,6.5,0.0,NYK,0.0,1.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2011,Scott Brooks,brooksc01c,OKC,82,55,27,55.0,82.0,4.0,False,51.5,82.0,3.9,51.5,3.5,1.0,OKC,1.0,1.0,4.0,Moderate chance,1.0,1.0,1.0,0.0
+2011,Stan Van Gundy,vangust99c,ORL,82,52,30,52.0,82.0,4.0,False,54.5,82.0,5.6,54.5,-2.5,1.0,ORL,0.0,0.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2011,Doug Collins,collido01c,PHI,82,41,41,41.0,82.0,7.0,False,34.5,82.0,1.5,34.5,6.5,0.0,PHI,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2011,Alvin Gentry,gentral99c,PHO,82,40,42,40.0,82.0,10.0,False,41.5,82.0,-0.8,41.5,-1.5,0.0,PHO,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2011,Nate McMillan,mcmilna01c,POR,82,48,34,48.0,82.0,6.0,False,51.5,82.0,1.6,51.5,-3.5,0.0,POR,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2011,Paul Westphal,westppa01c,SAC,82,24,58,24.0,82.0,14.0,False,27.5,82.0,-5.5,27.5,-3.5,0.0,SAC,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2011,Gregg Popovich,popovgr99c,SAS,82,61,21,61.0,82.0,1.0,False,49.5,82.0,6.1,49.5,11.5,1.0,SAS,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2011,Jay Triano,trianja99c,TOR,82,22,60,22.0,82.0,14.0,False,26.5,82.0,-6.5,26.5,-4.5,0.0,TOR,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2011,Jerry Sloan,sloanje01c,UTA,54,31,23,39.0,82.0,11.0,False,49.5,82.0,-1.8,49.5,-10.5,0.0,UTA,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2011,Flip Saunders,saundfl99c,WAS,82,23,59,23.0,82.0,13.0,False,32.5,82.0,-7.8,32.5,-9.5,0.0,WAS,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2012,Larry Drew,drewla01c,ATL,66,40,26,40.0,66.0,5.0,False,34.5,66.0,3.8,34.5,5.5,0.0,ATL,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2012,Doc Rivers,riverdo01c,BOS,66,39,27,39.0,66.0,4.0,False,40.5,66.0,2.6,40.5,-1.5,1.0,BOS,0.0,1.0,5.0,No chance,0.0,0.0,0.0,0.0
+2012,Paul Silas,silaspa01c,CHA,66,7,59,7.0,66.0,15.0,False,19.5,66.0,-15.0,19.5,-12.5,0.0,CHO,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2012,Tom Thibodeau,thiboto99c,CHI,66,50,16,50.0,66.0,1.0,False,47.5,66.0,8.8,47.5,2.5,1.0,CHI,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2012,Byron Scott,scottby01c,CLE,66,21,45,21.0,66.0,13.0,False,17.5,66.0,-7.6,17.5,3.5,0.0,CLE,0.0,1.0,13.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Rick Carlisle,carliri01c,DAL,66,36,30,36.0,66.0,7.0,False,44.5,66.0,1.1,44.5,-8.5,0.0,DAL,0.0,1.0,7.5,No chance,0.0,0.0,0.0,0.0
+2012,George Karl,karlge01c,DEN,66,38,28,38.0,66.0,6.0,False,36.5,66.0,3.2,36.5,1.5,0.0,DEN,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Lawrence Frank,frankla99c,DET,66,25,41,25.0,66.0,10.0,False,21.5,66.0,-5.0,21.5,3.5,0.0,DET,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Mark Jackson,jacksma01c,GSW,66,23,43,23.0,66.0,13.0,False,29.5,66.0,-3.4,29.5,-6.5,0.0,GSW,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2012,Kevin McHale,mchalke01c,HOU,66,34,32,34.0,66.0,9.0,False,33.5,66.0,0.2,33.5,0.5,0.0,HOU,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Frank Vogel,vogelfr99c,IND,66,42,24,42.0,66.0,3.0,False,36.5,66.0,3.3,36.5,5.5,1.0,IND,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2012,Vinny Del Negro,delnevi01c,LAC,66,40,26,40.0,66.0,5.0,False,42.5,66.0,2.7,42.5,-2.5,0.0,LAC,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2012,Mike Brown,brownmi99c,LAL,66,41,25,41.0,66.0,3.0,False,42.5,66.0,1.3,42.5,-1.5,1.0,LAL,0.0,1.0,3.5,Moderate chance,1.0,0.0,1.0,0.0
+2012,Lionel Hollins,hollili01c,MEM,66,41,25,41.0,66.0,4.0,False,37.5,66.0,2.2,37.5,3.5,1.0,MEM,0.0,0.0,3.5,Runaway,1.0,1.0,1.0,1.0
+2012,Erik Spoelstra,spoeler99c,MIA,66,46,20,46.0,66.0,2.0,False,47.5,66.0,6.4,47.5,-1.5,1.0,MIA,0.0,0.0,2.0,Moderate chance,1.0,0.0,1.0,0.0
+2012,Scott Skiles,skilesc01c,MIL,66,31,35,31.0,66.0,9.0,False,31.5,66.0,0.4,31.5,-0.5,0.0,MIL,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2012,Rick Adelman,adelmri01c,MIN,66,26,40,26.0,66.0,12.0,False,23.5,66.0,-2.2,23.5,2.5,0.0,MIN,0.0,0.0,12.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Avery Johnson,johnsav01c,NJN,66,22,44,22.0,66.0,12.0,False,27.5,66.0,-6.3,27.5,-5.5,0.0,BRK,0.0,1.0,12.0,No chance,0.0,0.0,0.0,0.0
+2012,Monty Williams,willimo01c,NOH,66,21,45,21.0,66.0,15.0,False,25.5,66.0,-4.0,25.5,-4.5,0.0,NOP,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2012,Mike D'Antoni,dantomi01c,NYK,42,18,24,36.0,66.0,7.0,False,41.5,66.0,3.2,41.5,-5.5,0.0,NYK,0.0,1.0,7.0,No chance,0.0,0.0,0.0,0.0
+2012,Scott Brooks,brooksc01c,OKC,66,47,19,47.0,66.0,2.0,False,46.5,66.0,6.3,46.5,0.5,1.0,OKC,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2012,Stan Van Gundy,vangust99c,ORL,66,37,29,37.0,66.0,6.0,False,37.5,66.0,0.6,37.5,-0.5,0.0,ORL,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2012,Doug Collins,collido01c,PHI,66,35,31,35.0,66.0,8.0,False,36.5,66.0,4.6,36.5,-1.5,0.0,PHI,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2012,Alvin Gentry,gentral99c,PHO,66,33,33,33.0,66.0,10.0,False,29.5,66.0,-0.1,29.5,3.5,0.0,PHO,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Nate McMillan,mcmilna01c,POR,43,20,23,28.0,66.0,11.0,False,37.5,66.0,-0.9,37.5,-9.5,0.0,POR,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2012,Keith Smart,smartke01c,SAC,59,20,39,22.0,66.0,14.0,False,20.5,66.0,-5.8,20.5,1.5,0.0,SAC,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Gregg Popovich,popovgr99c,SAS,66,50,16,50.0,66.0,1.0,False,40.5,66.0,7.7,40.5,9.5,1.0,SAS,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2012,Dwane Casey,caseydw99c,TOR,66,23,43,23.0,66.0,11.0,False,16.5,66.0,-3.9,16.5,6.5,0.0,TOR,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2012,Tyrone Corbin,corbity01c,UTA,66,36,30,36.0,66.0,8.0,False,25.5,66.0,0.5,25.5,10.5,0.0,UTA,0.0,0.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2012,Randy Wittman,wittmra01c,WAS,49,18,31,20.0,66.0,14.0,False,20.5,66.0,-5.0,20.5,-0.5,0.0,WAS,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2013,Larry Drew,drewla01c,ATL,82,44,38,44.0,82.0,6.0,False,42.5,82.0,0.3,42.5,1.5,0.0,ATL,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2013,Doc Rivers,riverdo01c,BOS,81,41,40,41.0,81.0,7.0,False,51.5,82.0,-0.5,50.8719512195122,-9.871951219512198,0.0,BOS,0.0,1.0,7.0,No chance,0.0,0.0,0.0,0.0
+2013,P.J. Carlesimo,carlepj99c,BRK,54,35,19,49.0,82.0,4.0,False,44.5,82.0,2.0,44.5,4.5,1.0,BRK,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2013,Mike Dunlap,dunlami99c,CHA,82,21,61,21.0,82.0,14.0,False,19.5,82.0,-9.9,19.5,1.5,0.0,CHO,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2013,Tom Thibodeau,thiboto99c,CHI,82,45,37,45.0,82.0,5.0,False,47.5,82.0,0.5,47.5,-2.5,0.0,CHI,1.0,1.0,5.0,No chance,0.0,0.0,0.0,0.0
+2013,Byron Scott,scottby01c,CLE,82,24,58,24.0,82.0,13.0,False,31.5,82.0,-5.0,31.5,-7.5,0.0,CLE,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2013,Rick Carlisle,carliri01c,DAL,82,41,41,41.0,82.0,10.0,False,44.5,82.0,-0.6,44.5,-3.5,0.0,DAL,0.0,1.0,10.0,No chance,0.0,0.0,0.0,0.0
+2013,George Karl,karlge01c,DEN,82,57,25,57.0,82.0,3.0,False,49.5,82.0,5.1,49.5,7.5,1.0,DEN,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2013,Lawrence Frank,frankla99c,DET,82,29,53,29.0,82.0,11.0,False,32.5,82.0,-4.5,32.5,-3.5,0.0,DET,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2013,Mark Jackson,jacksma01c,GSW,82,47,35,47.0,82.0,6.0,False,35.5,82.0,0.9,35.5,11.5,0.0,GSW,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2013,Kevin McHale,mchalke01c,HOU,82,45,37,45.0,82.0,8.0,False,31.5,82.0,3.5,31.5,13.5,0.0,HOU,0.0,0.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2013,Frank Vogel,vogelfr99c,IND,81,49,32,49.0,81.0,3.0,False,51.5,82.0,4.4,50.8719512195122,-1.871951219512198,1.0,IND,0.0,0.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2013,Vinny Del Negro,delnevi01c,LAC,82,56,26,56.0,82.0,4.0,False,49.5,82.0,6.9,49.5,6.5,1.0,LAC,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2013,Mike D'Antoni,dantomi01c,LAL,72,40,32,45.0,82.0,7.0,False,58.5,82.0,1.1,58.5,-13.5,0.0,LAL,0.0,1.0,7.5,No chance,0.0,0.0,0.0,0.0
+2013,Lionel Hollins,hollili01c,MEM,82,56,26,56.0,82.0,5.0,False,48.5,82.0,4.5,48.5,7.5,0.0,MEM,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2013,Erik Spoelstra,spoeler99c,MIA,82,66,16,66.0,82.0,1.0,False,60.5,82.0,8.2,60.5,5.5,1.0,MIA,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2013,Jim Boylan,boylaji99c,MIL,50,22,28,38.0,82.0,8.0,False,36.5,82.0,-1.7,36.5,1.5,0.0,MIL,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2013,Rick Adelman,adelmri01c,MIN,82,31,51,31.0,82.0,12.0,False,39.5,82.0,-2.2,39.5,-8.5,0.0,MIN,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2013,Monty Williams,willimo01c,NOH,82,27,55,27.0,82.0,14.0,False,26.5,82.0,-4.4,26.5,0.5,0.0,NOP,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2013,Mike Woodson,woodsmi01c,NYK,82,54,28,54.0,82.0,2.0,False,46.5,82.0,4.5,46.5,7.5,1.0,NYK,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2013,Scott Brooks,brooksc01c,OKC,82,60,22,60.0,82.0,1.0,False,60.5,82.0,9.9,60.5,-0.5,1.0,OKC,1.0,1.0,1.0,No chance,1.0,0.0,0.0,0.0
+2013,Jacque Vaughn,vaughja01c,ORL,82,20,62,20.0,82.0,15.0,False,23.5,82.0,-7.4,23.5,-3.5,0.0,ORL,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2013,Doug Collins,collido01c,PHI,82,34,48,34.0,82.0,9.0,False,47.5,82.0,-3.7,47.5,-13.5,0.0,PHI,0.0,0.0,9.5,No chance,0.0,0.0,0.0,0.0
+2013,Lindsey Hunter,hunteli01c,PHO,41,12,29,25.0,82.0,15.0,False,33.5,82.0,-6.7,33.5,-8.5,0.0,PHO,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2013,Terry Stotts,stottte99c,POR,82,33,49,33.0,82.0,11.0,False,34.5,82.0,-3.4,34.5,-1.5,0.0,POR,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2013,Keith Smart,smartke01c,SAC,82,28,54,28.0,82.0,13.0,False,29.5,82.0,-4.7,29.5,-1.5,0.0,SAC,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2013,Gregg Popovich,popovgr99c,SAS,82,58,24,58.0,82.0,2.0,False,54.5,82.0,6.7,54.5,3.5,1.0,SAS,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2013,Dwane Casey,caseydw99c,TOR,82,34,48,34.0,82.0,10.0,False,32.5,82.0,-1.4,32.5,1.5,0.0,TOR,0.0,0.0,9.5,Moderate chance,0.0,1.0,1.0,0.0
+2013,Tyrone Corbin,corbity01c,UTA,82,43,39,43.0,82.0,9.0,False,42.5,82.0,-0.2,42.5,0.5,0.0,UTA,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2013,Randy Wittman,wittmra01c,WAS,82,29,53,29.0,82.0,12.0,False,27.5,82.0,-2.3,27.5,1.5,0.0,WAS,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2014,Mike Budenholzer,budenmi99c,ATL,82,38,44,38.0,82.0,8.0,False,39.5,82.0,-0.7,39.5,-1.5,0.0,ATL,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2014,Brad Stevens,stevebr99c,BOS,82,25,57,25.0,82.0,12.0,False,28.5,82.0,-4.6,28.5,-3.5,0.0,BOS,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2014,Jason Kidd,kiddja01c,BRK,82,44,38,44.0,82.0,6.0,False,52.5,82.0,-1.3,52.5,-8.5,0.0,BRK,0.0,0.0,5.5,No chance,0.0,0.0,0.0,0.0
+2014,Steve Clifford,cliffst99c,CHA,82,43,39,43.0,82.0,7.0,False,26.0,82.0,-0.4,26.0,17.0,0.0,CHO,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2014,Tom Thibodeau,thiboto99c,CHI,82,48,34,48.0,82.0,4.0,False,56.5,82.0,1.9,56.5,-8.5,1.0,CHI,1.0,1.0,3.5,No chance,1.0,0.0,0.0,0.0
+2014,Mike Brown,brownmi99c,CLE,82,33,49,33.0,82.0,10.0,False,40.5,82.0,-3.6,40.5,-7.5,0.0,CLE,1.0,1.0,10.0,No chance,0.0,0.0,0.0,0.0
+2014,Rick Carlisle,carliri01c,DAL,82,49,33,49.0,82.0,8.0,False,43.5,82.0,2.3,43.5,5.5,0.0,DAL,0.0,1.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2014,Brian Shaw,shawbr01c,DEN,82,36,46,36.0,82.0,11.0,False,46.5,82.0,-2.2,46.5,-10.5,0.0,DEN,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2014,Maurice Cheeks,cheekma01c,DET,50,21,29,29.0,82.0,11.0,False,40.5,82.0,-3.7,40.5,-11.5,0.0,DET,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2014,Mark Jackson,jacksma01c,GSW,82,51,31,51.0,82.0,6.0,False,51.0,82.0,4.9,51.0,0.0,0.0,GSW,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2014,Kevin McHale,mchalke01c,HOU,82,54,28,54.0,82.0,4.0,False,54.5,82.0,4.6,54.5,-0.5,1.0,HOU,0.0,0.0,4.5,No chance,0.0,0.0,0.0,0.0
+2014,Frank Vogel,vogelfr99c,IND,82,56,26,56.0,82.0,1.0,False,54.5,82.0,4.7,54.5,1.5,1.0,IND,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2014,Doc Rivers,riverdo01c,LAC,82,57,25,57.0,82.0,3.0,False,57.5,82.0,7.3,57.5,-0.5,1.0,LAC,0.0,1.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2014,Mike D'Antoni,dantomi01c,LAL,82,27,55,27.0,82.0,14.0,False,36.5,82.0,-6.0,36.5,-9.5,0.0,LAL,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2014,Dave Joerger,joergda99c,MEM,82,50,32,50.0,82.0,7.0,False,50.5,82.0,1.7,50.5,-0.5,0.0,MEM,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2014,Erik Spoelstra,spoeler99c,MIA,82,54,28,54.0,82.0,2.0,False,61.5,82.0,5.1,61.5,-7.5,1.0,MIA,0.0,0.0,2.0,Moderate chance,1.0,0.0,1.0,0.0
+2014,Larry Drew,drewla01c,MIL,82,15,67,15.0,82.0,15.0,False,28.5,82.0,-8.3,28.5,-13.5,0.0,MIL,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2014,Rick Adelman,adelmri01c,MIN,82,40,42,40.0,82.0,10.0,False,40.5,82.0,2.6,40.5,-0.5,0.0,MIN,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2014,Monty Williams,willimo01c,NOP,82,34,48,34.0,82.0,12.0,False,39.0,82.0,-3.0,39.0,-5.0,0.0,NOP,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2014,Mike Woodson,woodsmi01c,NYK,82,37,45,37.0,82.0,9.0,False,50.0,82.0,-1.1,50.0,-13.0,0.0,NYK,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2014,Scott Brooks,brooksc01c,OKC,82,59,23,59.0,82.0,2.0,False,51.5,82.0,6.4,51.5,7.5,1.0,OKC,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2014,Jacque Vaughn,vaughja01c,ORL,82,23,59,23.0,82.0,13.0,False,23.5,82.0,-5.7,23.5,-0.5,0.0,ORL,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2014,Brett Brown,brownbr99c,PHI,82,19,63,19.0,82.0,14.0,False,16.5,82.0,-10.0,16.5,2.5,0.0,PHI,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2014,Jeff Hornacek,hornaje01c,PHO,82,48,34,48.0,82.0,9.0,False,20.5,82.0,2.6,20.5,27.5,0.0,PHO,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2014,Terry Stotts,stottte99c,POR,82,54,28,54.0,82.0,5.0,False,38.5,82.0,4.2,38.5,15.5,0.0,POR,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2014,Michael Malone,malonmi99c,SAC,82,28,54,28.0,82.0,13.0,False,31.5,82.0,-2.7,31.5,-3.5,0.0,SAC,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2014,Gregg Popovich,popovgr99c,SAS,82,62,20,62.0,82.0,1.0,False,55.5,82.0,8.1,55.5,6.5,1.0,SAS,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2014,Dwane Casey,caseydw99c,TOR,82,48,34,48.0,82.0,3.0,False,35.5,82.0,3.3,35.5,12.5,1.0,TOR,0.0,0.0,3.5,Runaway,1.0,1.0,1.0,1.0
+2014,Tyrone Corbin,corbity01c,UTA,82,25,57,25.0,82.0,15.0,False,26.5,82.0,-7.6,26.5,-1.5,0.0,UTA,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2014,Randy Wittman,wittmra01c,WAS,82,44,38,44.0,82.0,5.0,False,39.5,82.0,1.3,39.5,4.5,0.0,WAS,0.0,0.0,5.5,Moderate chance,0.0,1.0,1.0,0.0
+2015,Mike Budenholzer,budenmi99c,ATL,82,60,22,60.0,82.0,1.0,False,42.5,82.0,5.9,42.5,17.5,1.0,ATL,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2015,Brad Stevens,stevebr99c,BOS,82,40,42,40.0,82.0,7.0,False,27.0,82.0,0.3,27.0,13.0,0.0,BOS,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2015,Lionel Hollins,hollili01c,BRK,82,38,44,38.0,82.0,8.0,False,41.5,82.0,-3.0,41.5,-3.5,0.0,BRK,0.0,0.0,8.5,No chance,0.0,0.0,0.0,0.0
+2015,Tom Thibodeau,thiboto99c,CHI,82,50,32,50.0,82.0,3.0,False,55.5,82.0,3.0,55.5,-5.5,1.0,CHI,1.0,1.0,3.0,No chance,1.0,0.0,0.0,0.0
+2015,Steve Clifford,cliffst99c,CHO,82,33,49,33.0,82.0,11.0,False,45.0,82.0,-3.4,45.0,-12.0,0.0,CHO,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2015,David Blatt,blattda99c,CLE,82,53,29,53.0,82.0,2.0,False,58.5,82.0,4.8,58.5,-5.5,1.0,CLE,0.0,0.0,2.0,Moderate chance,1.0,0.0,1.0,0.0
+2015,Rick Carlisle,carliri01c,DAL,82,50,32,50.0,82.0,7.0,False,49.5,82.0,3.2,49.5,0.5,0.0,DAL,0.0,1.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2015,Brian Shaw,shawbr01c,DEN,59,20,39,30.0,82.0,12.0,False,42.0,82.0,-3.3,42.0,-12.0,0.0,DEN,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2015,Stan Van Gundy,vangust99c,DET,82,32,50,32.0,82.0,12.0,False,36.0,82.0,-1.1,36.0,-4.0,0.0,DET,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2015,Steve Kerr,kerrst01c,GSW,82,67,15,67.0,82.0,1.0,False,52.5,82.0,9.9,52.5,14.5,1.0,GSW,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2015,Kevin McHale,mchalke01c,HOU,82,56,26,56.0,82.0,2.0,False,49.0,82.0,3.4,49.0,7.0,1.0,HOU,0.0,0.0,2.5,Runaway,1.0,1.0,1.0,1.0
+2015,Frank Vogel,vogelfr99c,IND,82,38,44,38.0,82.0,9.0,False,33.5,82.0,0.2,33.5,4.5,0.0,IND,0.0,0.0,8.5,Moderate chance,0.0,1.0,1.0,0.0
+2015,Doc Rivers,riverdo01c,LAC,82,56,26,56.0,82.0,3.0,False,56.5,82.0,6.9,56.5,-0.5,1.0,LAC,0.0,1.0,2.5,Moderate chance,1.0,0.0,1.0,0.0
+2015,Byron Scott,scottby01c,LAL,82,21,61,21.0,82.0,14.0,False,29.0,82.0,-7.1,29.0,-8.0,0.0,LAL,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2015,Dave Joerger,joergda99c,MEM,82,55,27,55.0,82.0,5.0,False,48.5,82.0,3.5,48.5,6.5,0.0,MEM,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2015,Erik Spoelstra,spoeler99c,MIA,82,37,45,37.0,82.0,10.0,False,44.0,82.0,-3.0,44.0,-7.0,0.0,MIA,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2015,Jason Kidd,kiddja01c,MIL,82,41,41,41.0,82.0,6.0,False,24.5,82.0,0.6,24.5,16.5,0.0,MIL,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2015,Flip Saunders,saundfl99c,MIN,82,16,66,16.0,82.0,15.0,False,29.0,82.0,-9.1,29.0,-13.0,0.0,MIN,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2015,Monty Williams,willimo01c,NOP,82,45,37,45.0,82.0,8.0,False,43.0,82.0,0.8,43.0,2.0,0.0,NOP,0.0,0.0,8.5,Moderate chance,0.0,1.0,1.0,0.0
+2015,Derek Fisher,fishede01c,NYK,82,17,65,17.0,82.0,15.0,False,40.0,82.0,-10.1,40.0,-23.0,0.0,NYK,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2015,Scott Brooks,brooksc01c,OKC,82,45,37,45.0,82.0,9.0,False,53.0,82.0,2.1,53.0,-8.0,0.0,OKC,1.0,1.0,8.5,No chance,0.0,0.0,0.0,0.0
+2015,Jacque Vaughn,vaughja01c,ORL,52,15,37,25.0,82.0,13.0,False,26.5,82.0,-5.9,26.5,-1.5,0.0,ORL,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2015,Brett Brown,brownbr99c,PHI,82,18,64,18.0,82.0,14.0,False,16.0,82.0,-9.0,16.0,2.0,0.0,PHI,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2015,Jeff Hornacek,hornaje01c,PHO,82,39,43,39.0,82.0,10.0,False,44.0,82.0,-1.1,44.0,-5.0,0.0,PHO,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2015,Terry Stotts,stottte99c,POR,82,51,31,51.0,82.0,4.0,False,49.0,82.0,4.3,49.0,2.0,1.0,POR,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2015,George Karl,karlge01c,SAC,30,11,19,29.0,82.0,13.0,False,29.5,82.0,-3.7,29.5,-0.5,0.0,SAC,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2015,Gregg Popovich,popovgr99c,SAS,82,55,27,55.0,82.0,6.0,False,57.0,82.0,6.3,57.0,-2.0,0.0,SAS,1.0,1.0,4.5,No chance,0.0,0.0,0.0,0.0
+2015,Dwane Casey,caseydw99c,TOR,82,49,33,49.0,82.0,4.0,False,48.5,82.0,3.1,48.5,0.5,1.0,TOR,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2015,Quin Snyder,snydequ01c,UTA,82,38,44,38.0,82.0,11.0,False,27.0,82.0,0.1,27.0,11.0,0.0,UTA,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2015,Randy Wittman,wittmra01c,WAS,82,46,36,46.0,82.0,5.0,False,48.5,82.0,0.6,48.5,-2.5,0.0,WAS,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2016,Mike Budenholzer,budenmi99c,ATL,82,48,34,48.0,82.0,4.0,False,49.5,82.0,3.9,49.5,-1.5,1.0,ATL,1.0,1.0,4.5,No chance,0.0,0.0,0.0,0.0
+2016,Brad Stevens,stevebr99c,BOS,82,48,34,48.0,82.0,5.0,False,45.5,82.0,3.3,45.5,2.5,0.0,BOS,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2016,Tony Brown,brownto01c,BRK,45,11,34,21.0,82.0,14.0,False,27.5,82.0,-7.4,27.5,-6.5,0.0,BRK,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2016,Fred Hoiberg,hoibefr99c,CHI,82,42,40,42.0,82.0,9.0,False,50.5,82.0,-1.4,50.5,-8.5,0.0,CHI,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2016,Steve Clifford,cliffst99c,CHO,82,48,34,48.0,82.0,6.0,False,34.0,82.0,2.7,34.0,14.0,0.0,CHO,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2016,David Blatt,blattda99c,CLE,41,30,11,57.0,82.0,1.0,False,56.5,82.0,6.3,56.5,0.5,1.0,CLE,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2016,Rick Carlisle,carliri01c,DAL,82,42,40,42.0,82.0,6.0,False,36.5,82.0,-0.4,36.5,5.5,0.0,DAL,0.0,1.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2016,Michael Malone,malonmi99c,DEN,82,33,49,33.0,82.0,11.0,False,27.5,82.0,-3.3,27.5,5.5,0.0,DEN,0.0,0.0,10.5,Moderate chance,0.0,1.0,1.0,0.0
+2016,Stan Van Gundy,vangust99c,DET,82,44,38,44.0,82.0,8.0,False,36.5,82.0,0.3,36.5,7.5,0.0,DET,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2016,Steve Kerr,kerrst01c,GSW,82,73,9,73.0,82.0,1.0,False,59.5,82.0,10.6,59.5,13.5,1.0,GSW,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2016,J.B. Bickerstaff,bickejb01c,HOU,71,37,34,41.0,82.0,8.0,False,56.5,82.0,0.0,56.5,-15.5,0.0,HOU,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2016,Frank Vogel,vogelfr99c,IND,82,45,37,45.0,82.0,7.0,False,41.5,82.0,1.6,41.5,3.5,0.0,IND,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2016,Doc Rivers,riverdo01c,LAC,82,53,29,53.0,82.0,4.0,False,56.5,82.0,4.5,56.5,-3.5,1.0,LAC,0.0,1.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2016,Byron Scott,scottby01c,LAL,82,17,65,17.0,82.0,15.0,False,28.5,82.0,-9.7,28.5,-11.5,0.0,LAL,0.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2016,Dave Joerger,joergda99c,MEM,82,42,40,42.0,82.0,7.0,False,50.5,82.0,-2.4,50.5,-8.5,0.0,MEM,0.0,0.0,6.5,No chance,0.0,0.0,0.0,0.0
+2016,Erik Spoelstra,spoeler99c,MIA,82,48,34,48.0,82.0,3.0,False,46.5,82.0,1.7,46.5,1.5,1.0,MIA,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2016,Jason Kidd,kiddja01c,MIL,82,33,49,33.0,82.0,12.0,False,42.5,82.0,-4.5,42.5,-9.5,0.0,MIL,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2016,Sam Mitchell,mitchsa01c,MIN,82,29,53,29.0,82.0,13.0,False,27.5,82.0,-3.5,27.5,1.5,0.0,MIN,0.0,1.0,13.0,Moderate chance,0.0,1.0,1.0,0.0
+2016,Alvin Gentry,gentral99c,NOP,82,30,52,30.0,82.0,12.0,False,45.0,82.0,-3.7,45.0,-15.0,0.0,NOP,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2016,Derek Fisher,fishede01c,NYK,54,23,31,32.0,82.0,13.0,False,29.5,82.0,-2.8,29.5,2.5,0.0,NYK,0.0,0.0,13.0,Moderate chance,0.0,1.0,1.0,0.0
+2016,Billy Donovan,donovbi99c,OKC,82,55,27,55.0,82.0,3.0,False,57.5,82.0,7.4,57.5,-2.5,1.0,OKC,0.0,0.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2016,Scott Skiles,skilesc01c,ORL,82,35,47,35.0,82.0,11.0,False,34.5,82.0,-1.6,34.5,0.5,0.0,ORL,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2016,Brett Brown,brownbr99c,PHI,82,10,72,10.0,82.0,15.0,False,20.5,82.0,-10.2,20.5,-10.5,0.0,PHI,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2016,Jeff Hornacek,hornaje01c,PHO,49,14,35,23.0,82.0,14.0,False,36.5,82.0,-6.5,36.5,-13.5,0.0,PHO,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2016,Terry Stotts,stottte99c,POR,82,44,38,44.0,82.0,5.0,False,28.5,82.0,0.8,28.5,15.5,0.0,POR,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2016,George Karl,karlge01c,SAC,82,33,49,33.0,82.0,10.0,False,36.0,82.0,-2.3,36.0,-3.0,0.0,SAC,0.0,1.0,10.5,No chance,0.0,0.0,0.0,0.0
+2016,Gregg Popovich,popovgr99c,SAS,82,67,15,67.0,82.0,2.0,False,56.5,82.0,11.1,56.5,10.5,1.0,SAS,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2016,Dwane Casey,caseydw99c,TOR,82,56,26,56.0,82.0,2.0,False,46.5,82.0,4.4,46.5,9.5,1.0,TOR,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2016,Quin Snyder,snydequ01c,UTA,82,40,42,40.0,82.0,9.0,False,42.5,82.0,1.8,42.5,-2.5,0.0,UTA,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2016,Randy Wittman,wittmra01c,WAS,82,41,41,41.0,82.0,10.0,False,45.5,82.0,-0.5,45.5,-4.5,0.0,WAS,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2017,Mike Budenholzer,budenmi99c,ATL,82,43,39,43.0,82.0,5.0,False,43.5,82.0,-0.7,43.5,-0.5,0.0,ATL,1.0,1.0,5.0,No chance,0.0,0.0,0.0,0.0
+2017,Brad Stevens,stevebr99c,BOS,82,53,29,53.0,82.0,1.0,False,52.5,82.0,2.6,52.5,0.5,1.0,BOS,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2017,Kenny Atkinson,atkinke01c,BRK,82,20,62,20.0,82.0,15.0,False,21.5,82.0,-6.5,21.5,-1.5,0.0,BRK,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2017,Fred Hoiberg,hoibefr99c,CHI,82,41,41,41.0,82.0,8.0,False,39.0,82.0,0.3,39.0,2.0,0.0,CHI,0.0,0.0,8.5,Moderate chance,0.0,1.0,1.0,0.0
+2017,Steve Clifford,cliffst99c,CHO,82,36,46,36.0,82.0,11.0,False,42.5,82.0,0.0,42.5,-6.5,0.0,CHO,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2017,Tyronn Lue,luety01c,CLE,82,51,31,51.0,82.0,2.0,False,56.5,82.0,3.1,56.5,-5.5,1.0,CLE,0.0,0.0,2.5,Moderate chance,1.0,0.0,1.0,0.0
+2017,Rick Carlisle,carliri01c,DAL,82,33,49,33.0,82.0,11.0,False,39.5,82.0,-3.0,39.5,-6.5,0.0,DAL,0.0,1.0,11.0,No chance,0.0,0.0,0.0,0.0
+2017,Michael Malone,malonmi99c,DEN,82,40,42,40.0,82.0,9.0,False,37.0,82.0,0.4,37.0,3.0,0.0,DEN,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2017,Stan Van Gundy,vangust99c,DET,82,37,45,37.0,82.0,10.0,False,44.5,82.0,-1.4,44.5,-7.5,0.0,DET,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2017,Steve Kerr,kerrst01c,GSW,82,67,15,67.0,82.0,1.0,False,66.5,82.0,11.4,66.5,0.5,1.0,GSW,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2017,Mike D'Antoni,dantomi01c,HOU,82,55,27,55.0,82.0,3.0,False,44.0,82.0,5.7,44.0,11.0,1.0,HOU,0.0,1.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2017,Nate McMillan,mcmilna01c,IND,82,42,40,42.0,82.0,7.0,False,44.5,82.0,-0.2,44.5,-2.5,0.0,IND,0.0,0.0,6.5,No chance,0.0,0.0,0.0,0.0
+2017,Doc Rivers,riverdo01c,LAC,82,51,31,51.0,82.0,4.0,False,53.5,82.0,4.4,53.5,-2.5,1.0,LAC,0.0,1.0,4.5,No chance,0.0,0.0,0.0,0.0
+2017,Luke Walton,waltolu01c,LAL,82,26,56,26.0,82.0,14.0,False,24.5,82.0,-6.7,24.5,1.5,0.0,LAL,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2017,David Fizdale,fizdada01c,MEM,82,43,39,43.0,82.0,7.0,False,42.5,82.0,0.5,42.5,0.5,0.0,MEM,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2017,Erik Spoelstra,spoeler99c,MIA,82,41,41,41.0,82.0,9.0,False,34.5,82.0,1.0,34.5,6.5,0.0,MIA,0.0,0.0,8.5,Moderate chance,0.0,1.0,1.0,0.0
+2017,Jason Kidd,kiddja01c,MIL,82,42,40,42.0,82.0,6.0,False,34.5,82.0,-0.2,34.5,7.5,0.0,MIL,0.0,0.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2017,Tom Thibodeau,thiboto99c,MIN,82,31,51,31.0,82.0,13.0,False,41.5,82.0,-0.9,41.5,-10.5,0.0,MIN,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2017,Alvin Gentry,gentral99c,NOP,82,34,48,34.0,82.0,10.0,False,36.5,82.0,-2.1,36.5,-2.5,0.0,NOP,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2017,Jeff Hornacek,hornaje01c,NYK,82,31,51,31.0,82.0,12.0,False,38.5,82.0,-3.6,38.5,-7.5,0.0,NYK,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2017,Billy Donovan,donovbi99c,OKC,82,47,35,47.0,82.0,6.0,False,45.0,82.0,0.8,45.0,2.0,0.0,OKC,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2017,Frank Vogel,vogelfr99c,ORL,82,29,53,29.0,82.0,13.0,False,37.5,82.0,-6.5,37.5,-8.5,0.0,ORL,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2017,Brett Brown,brownbr99c,PHI,82,28,54,28.0,82.0,14.0,False,23.5,82.0,-5.5,23.5,4.5,0.0,PHI,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2017,Earl Watson,watsoea01c,PHO,82,24,58,24.0,82.0,15.0,False,29.5,82.0,-5.2,29.5,-5.5,0.0,PHO,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2017,Terry Stotts,stottte99c,POR,82,41,41,41.0,82.0,8.0,False,45.5,82.0,-0.6,45.5,-4.5,0.0,POR,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2017,Dave Joerger,joergda99c,SAC,82,32,50,32.0,82.0,12.0,False,33.5,82.0,-4.2,33.5,-1.5,0.0,SAC,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2017,Gregg Popovich,popovgr99c,SAS,82,61,21,61.0,82.0,2.0,False,57.5,82.0,7.4,57.5,3.5,1.0,SAS,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2017,Dwane Casey,caseydw99c,TOR,82,51,31,51.0,82.0,3.0,False,50.5,82.0,4.3,50.5,0.5,1.0,TOR,0.0,0.0,2.5,Runaway,1.0,1.0,1.0,1.0
+2017,Quin Snyder,snydequ01c,UTA,82,51,31,51.0,82.0,5.0,False,47.5,82.0,4.3,47.5,3.5,0.0,UTA,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2017,Scott Brooks,brooksc01c,WAS,82,49,33,49.0,82.0,4.0,False,42.5,82.0,1.7,42.5,6.5,1.0,WAS,0.0,1.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2018,Mike Budenholzer,budenmi99c,ATL,82,24,58,24.0,82.0,15.0,False,25.5,82.0,-5.7,25.5,-1.5,0.0,ATL,1.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2018,Brad Stevens,stevebr99c,BOS,82,55,27,55.0,82.0,2.0,False,53.5,82.0,3.6,53.5,1.5,1.0,BOS,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2018,Kenny Atkinson,atkinke01c,BRK,82,28,54,28.0,82.0,12.0,False,27.5,82.0,-3.6,27.5,0.5,0.0,BRK,0.0,0.0,12.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,Fred Hoiberg,hoibefr99c,CHI,82,27,55,27.0,82.0,13.0,False,22.0,82.0,-7.0,22.0,5.0,0.0,CHI,0.0,0.0,13.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,Steve Clifford,cliffst99c,CHO,82,36,46,36.0,82.0,10.0,False,42.5,82.0,-0.1,42.5,-6.5,0.0,CHO,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2018,Tyronn Lue,luety01c,CLE,82,50,32,50.0,82.0,4.0,False,53.5,82.0,1.0,53.5,-3.5,1.0,CLE,0.0,0.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2018,Rick Carlisle,carliri01c,DAL,82,24,58,24.0,82.0,13.0,False,35.5,82.0,-2.9,35.5,-11.5,0.0,DAL,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2018,Michael Malone,malonmi99c,DEN,82,46,36,46.0,82.0,9.0,False,45.5,82.0,1.4,45.5,0.5,0.0,DEN,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,Stan Van Gundy,vangust99c,DET,82,39,43,39.0,82.0,9.0,False,38.5,82.0,-0.1,38.5,0.5,0.0,DET,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,Steve Kerr,kerrst01c,GSW,82,58,24,58.0,82.0,2.0,False,67.5,82.0,5.9,67.5,-9.5,1.0,GSW,1.0,1.0,2.0,No chance,1.0,0.0,0.0,0.0
+2018,Mike D'Antoni,dantomi01c,HOU,82,65,17,65.0,82.0,1.0,False,55.5,82.0,8.4,55.5,9.5,1.0,HOU,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2018,Nate McMillan,mcmilna01c,IND,82,48,34,48.0,82.0,5.0,False,31.5,82.0,1.3,31.5,16.5,0.0,IND,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,Doc Rivers,riverdo01c,LAC,82,42,40,42.0,82.0,10.0,False,43.5,82.0,0.2,43.5,-1.5,0.0,LAC,0.0,1.0,10.0,No chance,0.0,0.0,0.0,0.0
+2018,Luke Walton,waltolu01c,LAL,82,35,47,35.0,82.0,11.0,False,33.5,82.0,-1.3,33.5,1.5,0.0,LAL,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,J.B. Bickerstaff,bickejb01c,MEM,63,15,48,22.0,82.0,14.0,False,37.5,82.0,-6.8,37.5,-15.5,0.0,MEM,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2018,Erik Spoelstra,spoeler99c,MIA,82,44,38,44.0,82.0,6.0,False,43.5,82.0,0.4,43.5,0.5,0.0,MIA,0.0,0.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2018,Jason Kidd,kiddja01c,MIL,45,23,22,44.0,82.0,7.0,False,47.5,82.0,-0.2,47.5,-3.5,0.0,MIL,0.0,0.0,6.5,No chance,0.0,0.0,0.0,0.0
+2018,Tom Thibodeau,thiboto99c,MIN,82,47,35,47.0,82.0,8.0,False,48.5,82.0,2.3,48.5,-1.5,0.0,MIN,0.0,1.0,7.5,No chance,0.0,0.0,0.0,0.0
+2018,Alvin Gentry,gentral99c,NOP,82,48,34,48.0,82.0,6.0,False,39.5,82.0,1.1,39.5,8.5,0.0,NOP,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,Jeff Hornacek,hornaje01c,NYK,82,29,53,29.0,82.0,11.0,False,30.5,82.0,-3.4,30.5,-1.5,0.0,NYK,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2018,Billy Donovan,donovbi99c,OKC,82,48,34,48.0,82.0,4.0,False,53.5,82.0,3.7,53.5,-5.5,1.0,OKC,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2018,Frank Vogel,vogelfr99c,ORL,82,25,57,25.0,82.0,14.0,False,33.5,82.0,-4.7,33.5,-8.5,0.0,ORL,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2018,Brett Brown,brownbr99c,PHI,82,52,30,52.0,82.0,3.0,False,39.5,82.0,4.6,39.5,12.5,1.0,PHI,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2018,Jay Triano,trianja99c,PHO,79,21,58,21.0,82.0,15.0,False,28.5,82.0,-9.0,28.5,-7.5,0.0,PHO,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2018,Terry Stotts,stottte99c,POR,82,49,33,49.0,82.0,3.0,False,42.5,82.0,2.7,42.5,6.5,1.0,POR,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2018,Dave Joerger,joergda99c,SAC,82,27,55,27.0,82.0,12.0,False,27.5,82.0,-7.3,27.5,-0.5,0.0,SAC,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2018,Gregg Popovich,popovgr99c,SAS,82,47,35,47.0,82.0,7.0,False,55.0,82.0,3.0,55.0,-8.0,0.0,SAS,1.0,1.0,7.5,No chance,0.0,0.0,0.0,0.0
+2018,Dwane Casey,caseydw99c,TOR,82,59,23,59.0,82.0,1.0,False,48.5,82.0,7.7,48.5,10.5,1.0,TOR,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2018,Quin Snyder,snydequ01c,UTA,82,48,34,48.0,82.0,5.0,False,40.5,82.0,4.4,40.5,7.5,0.0,UTA,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2018,Scott Brooks,brooksc01c,WAS,82,43,39,43.0,82.0,8.0,False,48.5,82.0,0.4,48.5,-5.5,0.0,WAS,0.0,1.0,8.0,No chance,0.0,0.0,0.0,0.0
+2019,Lloyd Pierce,piercll01c,ATL,82,29,53,29.0,82.0,12.0,False,23.5,82.0,-5.5,23.5,5.5,0.0,ATL,0.0,0.0,12.0,Moderate chance,0.0,1.0,1.0,0.0
+2019,Brad Stevens,stevebr99c,BOS,82,49,33,49.0,82.0,4.0,False,59.0,82.0,4.3,59.0,-10.0,1.0,BOS,0.0,0.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2019,Kenny Atkinson,atkinke01c,BRK,82,42,40,42.0,82.0,6.0,False,32.0,82.0,-0.1,32.0,10.0,0.0,BRK,0.0,0.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2019,Jim Boylen,boyleji02c,CHI,58,17,41,22.0,82.0,13.0,False,30.0,82.0,-8.3,30.0,-8.0,0.0,CHI,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2019,James Borrego,borreja99c,CHO,82,39,43,39.0,82.0,9.0,False,35.5,82.0,-1.3,35.5,3.5,0.0,CHO,0.0,0.0,9.5,Moderate chance,0.0,1.0,1.0,0.0
+2019,Larry Drew,drewla01c,CLE,76,19,57,19.0,82.0,14.0,False,30.5,82.0,-10.0,30.5,-11.5,0.0,CLE,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2019,Rick Carlisle,carliri01c,DAL,82,33,49,33.0,82.0,14.0,False,35.5,82.0,-1.5,35.5,-2.5,0.0,DAL,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2019,Michael Malone,malonmi99c,DEN,82,54,28,54.0,82.0,2.0,False,47.5,82.0,4.0,47.5,6.5,1.0,DEN,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2019,Dwane Casey,caseydw99c,DET,82,41,41,41.0,82.0,8.0,False,38.5,82.0,-0.3,38.5,2.5,0.0,DET,0.0,1.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2019,Steve Kerr,kerrst01c,GSW,82,57,25,57.0,82.0,1.0,False,62.5,82.0,6.5,62.5,-5.5,1.0,GSW,1.0,1.0,1.0,No chance,1.0,0.0,0.0,0.0
+2019,Mike D'Antoni,dantomi01c,HOU,82,53,29,53.0,82.0,4.0,False,56.5,82.0,4.8,56.5,-3.5,1.0,HOU,1.0,1.0,3.5,No chance,1.0,0.0,0.0,0.0
+2019,Nate McMillan,mcmilna01c,IND,82,48,34,48.0,82.0,5.0,False,47.5,82.0,3.4,47.5,0.5,0.0,IND,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2019,Doc Rivers,riverdo01c,LAC,82,48,34,48.0,82.0,8.0,False,37.0,82.0,1.0,37.0,11.0,0.0,LAC,0.0,1.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2019,Luke Walton,waltolu01c,LAL,82,37,45,37.0,82.0,10.0,False,48.5,82.0,-1.6,48.5,-11.5,0.0,LAL,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2019,J.B. Bickerstaff,bickejb01c,MEM,82,33,49,33.0,82.0,12.0,False,34.5,82.0,-2.4,34.5,-1.5,0.0,MEM,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2019,Erik Spoelstra,spoeler99c,MIA,82,39,43,39.0,82.0,10.0,False,43.0,82.0,-0.4,43.0,-4.0,0.0,MIA,0.0,0.0,9.5,No chance,0.0,0.0,0.0,0.0
+2019,Mike Budenholzer,budenmi99c,MIL,82,60,22,60.0,82.0,1.0,False,48.0,82.0,8.6,48.0,12.0,1.0,MIL,0.0,1.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2019,Ryan Saunders,saundry01c,MIN,42,17,25,36.0,82.0,11.0,False,41.5,82.0,-1.6,41.5,-5.5,0.0,MIN,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2019,Alvin Gentry,gentral99c,NOP,82,33,49,33.0,82.0,13.0,False,45.5,82.0,-1.3,45.5,-12.5,0.0,NOP,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2019,David Fizdale,fizdada01c,NYK,82,17,65,17.0,82.0,15.0,False,28.5,82.0,-8.9,28.5,-11.5,0.0,NYK,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2019,Billy Donovan,donovbi99c,OKC,82,49,33,49.0,82.0,6.0,False,48.5,82.0,3.4,48.5,0.5,0.0,OKC,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2019,Steve Clifford,cliffst99c,ORL,82,42,40,42.0,82.0,7.0,False,31.0,82.0,0.6,31.0,11.0,0.0,ORL,0.0,0.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2019,Brett Brown,brownbr99c,PHI,82,51,31,51.0,82.0,3.0,False,53.5,82.0,2.6,53.5,-2.5,1.0,PHI,0.0,0.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2019,Igor Kokoskov,kokosig01c,PHO,82,19,63,19.0,82.0,15.0,False,29.0,82.0,-8.9,29.0,-10.0,0.0,PHO,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2019,Terry Stotts,stottte99c,POR,82,53,29,53.0,82.0,3.0,False,42.0,82.0,4.2,42.0,11.0,1.0,POR,0.0,0.0,3.5,Runaway,1.0,1.0,1.0,1.0
+2019,Dave Joerger,joergda99c,SAC,82,39,43,39.0,82.0,9.0,False,26.0,82.0,-1.2,26.0,13.0,0.0,SAC,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2019,Gregg Popovich,popovgr99c,SAS,82,48,34,48.0,82.0,7.0,False,43.5,82.0,1.6,43.5,4.5,0.0,SAS,1.0,1.0,7.5,No chance,0.0,1.0,0.0,0.0
+2019,Nick Nurse,nurseni01c,TOR,82,58,24,58.0,82.0,2.0,False,55.5,82.0,5.8,55.5,2.5,1.0,TOR,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2019,Quin Snyder,snydequ01c,UTA,82,50,32,50.0,82.0,5.0,False,49.5,82.0,5.0,49.5,0.5,0.0,UTA,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2019,Scott Brooks,brooksc01c,WAS,82,32,50,32.0,82.0,11.0,False,45.5,82.0,-2.7,45.5,-13.5,0.0,WAS,0.0,1.0,11.0,No chance,0.0,0.0,0.0,0.0
+2020,Lloyd Pierce,piercll01c,ATL,67,20,47,20.0,67.0,14.0,False,33.5,82.0,-7.4,27.371951219512194,-7.371951219512194,0.0,ATL,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2020,Brad Stevens,stevebr99c,BOS,72,48,24,48.0,72.0,3.0,False,48.5,82.0,6.3,42.58536585365854,5.414634146341463,1.0,BOS,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2020,Kenny Atkinson,atkinke01c,BRK,62,28,34,35.0,72.0,7.0,False,43.5,82.0,-0.5,38.19512195121951,-3.1951219512195124,0.0,BRK,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2020,Jim Boylen,boyleji02c,CHI,65,22,43,22.0,65.0,11.0,False,33.5,82.0,-3.1,26.554878048780488,-4.554878048780488,0.0,CHI,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2020,James Borrego,borreja99c,CHO,65,23,42,23.0,65.0,9.0,False,23.5,82.0,-7.0,18.628048780487806,4.371951219512194,0.0,CHO,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2020,John Beilein,beilejo99c,CLE,54,14,40,19.0,65.0,15.0,False,24.5,82.0,-7.9,19.420731707317074,-0.4207317073170742,0.0,CLE,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2020,Rick Carlisle,carliri01c,DAL,75,43,32,43.0,75.0,7.0,False,40.5,82.0,4.8,37.042682926829265,5.957317073170735,0.0,DAL,0.0,1.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2020,Michael Malone,malonmi99c,DEN,73,46,27,46.0,73.0,3.0,False,53.0,82.0,2.2,47.18292682926829,-1.1829268292682897,1.0,DEN,0.0,0.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2020,Dwane Casey,caseydw99c,DET,66,20,46,20.0,66.0,13.0,False,37.5,82.0,-3.5,30.182926829268293,-10.182926829268293,0.0,DET,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2020,Steve Kerr,kerrst01c,GSW,65,15,50,15.0,65.0,15.0,False,47.5,82.0,-8.6,37.65243902439025,-22.652439024390247,0.0,GSW,1.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2020,Mike D'Antoni,dantomi01c,HOU,72,44,28,44.0,72.0,4.0,False,54.0,82.0,2.7,47.41463414634146,-3.414634146341463,1.0,HOU,1.0,1.0,5.0,No chance,0.0,0.0,0.0,0.0
+2020,Nate McMillan,mcmilna01c,IND,73,45,28,45.0,73.0,4.0,False,46.5,82.0,1.9,41.396341463414636,3.603658536585364,1.0,IND,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2020,Doc Rivers,riverdo01c,LAC,72,49,23,49.0,72.0,2.0,False,53.5,82.0,6.3,46.97560975609756,2.024390243902438,1.0,LAC,0.0,1.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2020,Frank Vogel,vogelfr99c,LAL,71,52,19,52.0,71.0,1.0,False,50.5,82.0,5.6,43.72560975609756,8.274390243902438,1.0,LAL,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2020,Taylor Jenkins,jenkita01c,MEM,73,34,39,34.0,73.0,9.0,False,27.5,82.0,-1.0,24.48170731707317,9.51829268292683,0.0,MEM,0.0,0.0,9.5,Moderate chance,0.0,1.0,1.0,0.0
+2020,Erik Spoelstra,spoeler99c,MIA,73,44,29,44.0,73.0,5.0,False,43.5,82.0,2.7,38.72560975609756,5.274390243902438,0.0,MIA,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2020,Mike Budenholzer,budenmi99c,MIL,73,56,17,56.0,73.0,1.0,False,57.5,82.0,9.4,51.1890243902439,4.810975609756099,1.0,MIL,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2020,Ryan Saunders,saundry01c,MIN,64,19,45,19.0,64.0,14.0,False,35.5,82.0,-4.0,27.70731707317073,-8.707317073170731,0.0,MIN,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2020,Alvin Gentry,gentral99c,NOP,72,30,42,30.0,72.0,13.0,False,37.5,82.0,-1.3,32.926829268292686,-2.9268292682926855,0.0,NOP,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2020,Mike Miller,millemi99c,NYK,44,17,27,21.0,66.0,12.0,False,26.5,82.0,-6.5,21.329268292682926,-0.3292682926829258,0.0,NYK,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2020,Billy Donovan,donovbi99c,OKC,72,44,28,44.0,72.0,5.0,False,32.5,82.0,2.1,28.536585365853657,15.463414634146343,0.0,OKC,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2020,Steve Clifford,cliffst99c,ORL,73,33,40,33.0,73.0,8.0,False,41.5,82.0,-1.3,36.94512195121951,-3.9451219512195124,0.0,ORL,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2020,Brett Brown,brownbr99c,PHI,73,43,30,43.0,73.0,6.0,False,54.5,82.0,2.3,48.51829268292683,-5.518292682926827,0.0,PHI,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2020,Monty Williams,willimo01c,PHO,73,34,39,34.0,73.0,10.0,False,29.5,82.0,0.5,26.26219512195122,7.737804878048781,0.0,PHO,0.0,0.0,9.5,Moderate chance,0.0,1.0,1.0,0.0
+2020,Terry Stotts,stottte99c,POR,74,35,39,35.0,74.0,8.0,False,46.5,82.0,-1.1,41.96341463414634,-6.963414634146339,0.0,POR,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2020,Luke Walton,waltolu01c,SAC,72,31,41,31.0,72.0,12.0,False,37.5,82.0,-1.9,32.926829268292686,-1.9268292682926855,0.0,SAC,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2020,Gregg Popovich,popovgr99c,SAS,71,32,39,32.0,71.0,11.0,False,46.5,82.0,-0.9,40.26219512195122,-8.262195121951223,0.0,SAS,1.0,1.0,11.0,No chance,0.0,0.0,0.0,0.0
+2020,Nick Nurse,nurseni01c,TOR,72,53,19,53.0,72.0,2.0,False,46.5,82.0,6.1,40.829268292682926,12.170731707317074,1.0,TOR,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2020,Quin Snyder,snydequ01c,UTA,72,44,28,44.0,72.0,6.0,False,53.5,82.0,2.5,46.97560975609756,-2.975609756097562,0.0,UTA,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2020,Scott Brooks,brooksc01c,WAS,72,25,47,25.0,72.0,10.0,False,27.0,82.0,-4.5,23.70731707317073,1.2926829268292686,0.0,WAS,0.0,1.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2021,Nate McMillan,mcmilna01c,ATL,38,27,11,41.0,72.0,5.0,False,34.5,72.0,2.2,34.5,6.5,0.0,ATL,0.0,0.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2021,Brad Stevens,stevebr99c,BOS,72,36,36,36.0,72.0,7.0,False,44.5,72.0,1.2,44.5,-8.5,0.0,BOS,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2021,Steve Nash,nashst01c,BRK,72,48,24,48.0,72.0,2.0,False,45.5,72.0,4.2,45.5,2.5,1.0,BRK,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2021,Billy Donovan,donovbi99c,CHI,72,31,41,31.0,72.0,11.0,False,29.5,72.0,-1.1,29.5,1.5,0.0,CHI,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2021,James Borrego,borreja99c,CHO,72,33,39,33.0,72.0,10.0,False,26.5,72.0,-1.9,26.5,6.5,0.0,CHO,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2021,J.B. Bickerstaff,bickejb01c,CLE,72,22,50,22.0,72.0,13.0,False,22.5,72.0,-8.3,22.5,-0.5,0.0,CLE,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2021,Rick Carlisle,carliri01c,DAL,72,42,30,42.0,72.0,5.0,False,42.5,72.0,2.3,42.5,-0.5,0.0,DAL,0.0,1.0,6.0,No chance,0.0,0.0,0.0,0.0
+2021,Michael Malone,malonmi99c,DEN,72,47,25,47.0,72.0,3.0,False,44.5,72.0,4.8,44.5,2.5,1.0,DEN,0.0,0.0,3.5,Runaway,1.0,1.0,1.0,1.0
+2021,Dwane Casey,caseydw99c,DET,72,20,52,20.0,72.0,15.0,False,23.5,72.0,-4.5,23.5,-3.5,0.0,DET,0.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2021,Steve Kerr,kerrst01c,GSW,72,39,33,39.0,72.0,9.0,False,37.5,72.0,1.1,37.5,1.5,0.0,GSW,1.0,1.0,8.0,No chance,0.0,1.0,0.0,0.0
+2021,Stephen Silas,silasst01c,HOU,72,17,55,17.0,72.0,15.0,False,34.5,72.0,-7.4,34.5,-17.5,0.0,HOU,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2021,Nate Bjorkgren,bjorkna99c,IND,72,34,38,34.0,72.0,9.0,False,38.5,72.0,0.1,38.5,-4.5,0.0,IND,0.0,0.0,8.5,No chance,0.0,0.0,0.0,0.0
+2021,Tyronn Lue,luety01c,LAC,72,47,25,47.0,72.0,4.0,False,46.5,72.0,6.1,46.5,0.5,1.0,LAC,0.0,0.0,3.5,Runaway,1.0,1.0,1.0,1.0
+2021,Frank Vogel,vogelfr99c,LAL,72,42,30,42.0,72.0,7.0,False,47.5,72.0,2.9,47.5,-5.5,0.0,LAL,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2021,Taylor Jenkins,jenkita01c,MEM,72,38,34,38.0,72.0,8.0,False,31.5,72.0,1.2,31.5,6.5,0.0,MEM,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2021,Erik Spoelstra,spoeler99c,MIA,72,40,32,40.0,72.0,6.0,False,43.5,72.0,-0.1,43.5,-3.5,0.0,MIA,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2021,Mike Budenholzer,budenmi99c,MIL,72,46,26,46.0,72.0,3.0,False,49.5,72.0,5.8,49.5,-3.5,1.0,MIL,1.0,1.0,3.0,No chance,1.0,0.0,0.0,0.0
+2021,Chris Finch,finchch01c,MIN,41,16,25,23.0,72.0,13.0,False,29.5,72.0,-5.3,29.5,-6.5,0.0,MIN,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2021,Stan Van Gundy,vangust99c,NOP,72,31,41,31.0,72.0,11.0,False,36.5,72.0,-0.3,36.5,-5.5,0.0,NOP,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2021,Tom Thibodeau,thiboto99c,NYK,72,41,31,41.0,72.0,4.0,False,21.5,72.0,2.4,21.5,19.5,1.0,NYK,0.0,1.0,4.5,Moderate chance,0.0,1.0,1.0,0.0
+2021,Mark Daigneault,daignma99c,OKC,72,22,50,22.0,72.0,14.0,False,22.5,72.0,-10.6,22.5,-0.5,0.0,OKC,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2021,Steve Clifford,cliffst99c,ORL,72,21,51,21.0,72.0,14.0,False,31.5,72.0,-9.3,31.5,-10.5,0.0,ORL,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2021,Doc Rivers,riverdo01c,PHI,72,49,23,49.0,72.0,1.0,False,43.5,72.0,5.5,43.5,5.5,1.0,PHI,0.0,1.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2021,Monty Williams,willimo01c,PHO,72,51,21,51.0,72.0,2.0,False,38.5,72.0,5.9,38.5,12.5,1.0,PHO,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2021,Terry Stotts,stottte99c,POR,72,42,30,42.0,72.0,6.0,False,40.5,72.0,1.8,40.5,1.5,0.0,POR,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2021,Luke Walton,waltolu01c,SAC,72,31,41,31.0,72.0,12.0,False,28.5,72.0,-3.8,28.5,2.5,0.0,SAC,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2021,Gregg Popovich,popovgr99c,SAS,72,33,39,33.0,72.0,10.0,False,28.5,72.0,-1.5,28.5,4.5,0.0,SAS,1.0,1.0,10.0,No chance,0.0,1.0,0.0,0.0
+2021,Nick Nurse,nurseni01c,TOR,72,27,45,27.0,72.0,12.0,False,42.5,72.0,-0.4,42.5,-15.5,0.0,TOR,1.0,1.0,12.0,No chance,0.0,0.0,0.0,0.0
+2021,Quin Snyder,snydequ01c,UTA,72,52,20,52.0,72.0,1.0,False,41.5,72.0,9.0,41.5,10.5,1.0,UTA,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2021,Scott Brooks,brooksc01c,WAS,72,34,38,34.0,72.0,8.0,False,32.5,72.0,-1.6,32.5,1.5,0.0,WAS,0.0,1.0,8.5,Moderate chance,0.0,1.0,1.0,0.0
+2022,Nate McMillan,mcmilna01c,ATL,82,43,39,43.0,82.0,8.0,False,47.5,82.0,1.6,47.5,-4.5,0.0,ATL,0.0,0.0,9.5,No chance,0.0,0.0,0.0,0.0
+2022,Ime Udoka,udokaim01c,BOS,82,51,31,51.0,82.0,2.0,False,45.5,82.0,7.4,45.5,5.5,1.0,BOS,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2022,Steve Nash,nashst01c,BRK,82,44,38,44.0,82.0,7.0,False,56.5,82.0,0.9,56.5,-12.5,0.0,BRK,0.0,0.0,7.5,No chance,0.0,0.0,0.0,0.0
+2022,Billy Donovan,donovbi99c,CHI,82,46,36,46.0,82.0,6.0,False,42.5,82.0,-0.5,42.5,3.5,0.0,CHI,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2022,James Borrego,borreja99c,CHO,82,43,39,43.0,82.0,10.0,False,38.5,82.0,0.5,38.5,4.5,0.0,CHO,0.0,0.0,9.5,Moderate chance,0.0,1.0,1.0,0.0
+2022,J.B. Bickerstaff,bickejb01c,CLE,82,44,38,44.0,82.0,9.0,False,26.5,82.0,2.1,26.5,17.5,0.0,CLE,0.0,0.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2022,Jason Kidd,kiddja01c,DAL,82,52,30,52.0,82.0,4.0,False,48.5,82.0,3.5,48.5,3.5,1.0,DAL,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2022,Michael Malone,malonmi99c,DEN,82,48,34,48.0,82.0,6.0,False,47.5,82.0,2.3,47.5,0.5,0.0,DEN,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2022,Dwane Casey,caseydw99c,DET,82,23,59,23.0,82.0,14.0,False,24.5,82.0,-7.7,24.5,-1.5,0.0,DET,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2022,Steve Kerr,kerrst01c,GSW,82,53,29,53.0,82.0,3.0,False,48.5,82.0,5.5,48.5,4.5,1.0,GSW,1.0,1.0,3.0,Moderate chance,1.0,1.0,1.0,0.0
+2022,Stephen Silas,silasst01c,HOU,82,20,62,20.0,82.0,15.0,False,27.5,82.0,-8.3,27.5,-7.5,0.0,HOU,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2022,Rick Carlisle,carliri01c,IND,82,25,57,25.0,82.0,13.0,False,42.5,82.0,-3.6,42.5,-17.5,0.0,IND,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2022,Tyronn Lue,luety01c,LAC,82,42,40,42.0,82.0,9.0,False,45.5,82.0,0.0,45.5,-3.5,0.0,LAC,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2022,Frank Vogel,vogelfr99c,LAL,82,33,49,33.0,82.0,11.0,False,52.5,82.0,-2.9,52.5,-19.5,0.0,LAL,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2022,Taylor Jenkins,jenkita01c,MEM,82,56,26,56.0,82.0,2.0,False,41.5,82.0,5.3,41.5,14.5,1.0,MEM,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2022,Erik Spoelstra,spoeler99c,MIA,82,53,29,53.0,82.0,1.0,False,48.5,82.0,4.5,48.5,4.5,1.0,MIA,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2022,Mike Budenholzer,budenmi99c,MIL,82,51,31,51.0,82.0,3.0,False,54.5,82.0,3.2,54.5,-3.5,1.0,MIL,1.0,1.0,3.0,No chance,1.0,0.0,0.0,0.0
+2022,Chris Finch,finchch01c,MIN,82,46,36,46.0,82.0,7.0,False,35.5,82.0,2.7,35.5,10.5,0.0,MIN,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2022,Willie Green,greenwi01c,NOP,82,36,46,36.0,82.0,8.0,False,39.5,82.0,-0.8,39.5,-3.5,0.0,NOP,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2022,Tom Thibodeau,thiboto99c,NYK,82,37,45,37.0,82.0,11.0,False,41.5,82.0,-0.4,41.5,-4.5,0.0,NYK,1.0,1.0,11.0,No chance,0.0,0.0,0.0,0.0
+2022,Mark Daigneault,daignma99c,OKC,82,24,58,24.0,82.0,14.0,False,23.5,82.0,-8.0,23.5,0.5,0.0,OKC,0.0,0.0,14.0,Moderate chance,0.0,1.0,1.0,0.0
+2022,Jamahl Mosley,mosleja01c,ORL,82,22,60,22.0,82.0,15.0,False,22.5,82.0,-8.1,22.5,-0.5,0.0,ORL,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2022,Doc Rivers,riverdo01c,PHI,82,51,31,51.0,82.0,4.0,False,50.5,82.0,2.8,50.5,0.5,1.0,PHI,0.0,1.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2022,Monty Williams,willimo01c,PHO,82,64,18,64.0,82.0,1.0,False,51.5,82.0,7.5,51.5,12.5,1.0,PHO,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2022,Chauncey Billups,billuch01c,POR,82,27,55,27.0,82.0,13.0,False,44.5,82.0,-9.1,44.5,-17.5,0.0,POR,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2022,Alvin Gentry,gentral99c,SAC,65,24,41,30.0,82.0,12.0,False,36.5,82.0,-5.2,36.5,-6.5,0.0,SAC,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2022,Gregg Popovich,popovgr99c,SAS,82,34,48,34.0,82.0,10.0,False,28.5,82.0,0.2,28.5,5.5,0.0,SAS,1.0,1.0,10.0,No chance,0.0,1.0,0.0,0.0
+2022,Nick Nurse,nurseni01c,TOR,82,48,34,48.0,82.0,5.0,False,35.5,82.0,2.2,35.5,12.5,0.0,TOR,1.0,1.0,5.0,No chance,0.0,1.0,0.0,0.0
+2022,Quin Snyder,snydequ01c,UTA,82,49,33,49.0,82.0,5.0,False,52.5,82.0,6.2,52.5,-3.5,0.0,UTA,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2022,Wes Unseld,unselwe02c,WAS,82,35,47,35.0,82.0,12.0,False,33.5,82.0,-3.4,33.5,1.5,0.0,WAS,0.0,0.0,12.0,Moderate chance,0.0,1.0,1.0,0.0
+2023,Nate McMillan,mcmilna01c,ATL,59,29,30,41.0,82.0,7.0,False,46.5,82.0,0.1,46.5,-5.5,0.0,ATL,0.0,0.0,8.5,No chance,0.0,0.0,0.0,0.0
+2023,Joe Mazzulla,mazzujo99c,BOS,82,57,25,57.0,82.0,2.0,False,54.5,82.0,6.7,54.5,2.5,1.0,BOS,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2023,Jacque Vaughn,vaughja01c,BRK,75,43,32,45.0,82.0,6.0,False,50.5,82.0,1.1,50.5,-5.5,0.0,BRK,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2023,Billy Donovan,donovbi99c,CHI,82,40,42,40.0,82.0,9.0,False,41.5,82.0,1.3,41.5,-1.5,0.0,CHI,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2023,Steve Clifford,cliffst99c,CHO,82,27,55,27.0,82.0,14.0,False,34.5,82.0,-6.3,34.5,-7.5,0.0,CHO,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2023,J.B. Bickerstaff,bickejb01c,CLE,82,51,31,51.0,82.0,4.0,False,46.5,82.0,5.6,46.5,4.5,1.0,CLE,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2023,Jason Kidd,kiddja01c,DAL,82,38,44,38.0,82.0,11.0,False,48.5,82.0,-0.2,48.5,-10.5,0.0,DAL,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2023,Michael Malone,malonmi99c,DEN,82,53,29,53.0,82.0,1.0,False,51.5,82.0,3.3,51.5,1.5,1.0,DEN,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2023,Dwane Casey,caseydw99c,DET,82,17,65,17.0,82.0,15.0,False,29.5,82.0,-7.9,29.5,-12.5,0.0,DET,0.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2023,Steve Kerr,kerrst01c,GSW,82,44,38,44.0,82.0,6.0,False,52.5,82.0,1.7,52.5,-8.5,0.0,GSW,1.0,1.0,5.5,No chance,0.0,0.0,0.0,0.0
+2023,Stephen Silas,silasst01c,HOU,82,22,60,22.0,82.0,14.0,False,23.5,82.0,-8.1,23.5,-1.5,0.0,HOU,0.0,0.0,14.5,No chance,0.0,0.0,0.0,0.0
+2023,Rick Carlisle,carliri01c,IND,82,35,47,35.0,82.0,11.0,False,24.5,82.0,-3.3,24.5,10.5,0.0,IND,0.0,1.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2023,Tyronn Lue,luety01c,LAC,82,44,38,44.0,82.0,5.0,False,52.5,82.0,0.5,52.5,-8.5,0.0,LAC,0.0,0.0,5.5,No chance,0.0,0.0,0.0,0.0
+2023,Darvin Ham,hamda01c,LAL,82,43,39,43.0,82.0,7.0,False,44.5,82.0,0.7,44.5,-1.5,0.0,LAL,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2023,Taylor Jenkins,jenkita01c,MEM,82,51,31,51.0,82.0,2.0,False,49.5,82.0,4.0,49.5,1.5,1.0,MEM,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2023,Erik Spoelstra,spoeler99c,MIA,82,44,38,44.0,82.0,8.0,False,49.5,82.0,-0.5,49.5,-5.5,0.0,MIA,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2023,Mike Budenholzer,budenmi99c,MIL,82,58,24,58.0,82.0,1.0,False,53.5,82.0,3.4,53.5,4.5,1.0,MIL,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2023,Chris Finch,finchch01c,MIN,82,42,40,42.0,82.0,8.0,False,49.5,82.0,0.2,49.5,-7.5,0.0,MIN,0.0,0.0,8.5,No chance,0.0,0.0,0.0,0.0
+2023,Willie Green,greenwi01c,NOP,82,42,40,42.0,82.0,10.0,False,45.5,82.0,1.9,45.5,-3.5,0.0,NOP,0.0,0.0,8.5,No chance,0.0,0.0,0.0,0.0
+2023,Tom Thibodeau,thiboto99c,NYK,82,47,35,47.0,82.0,5.0,False,38.5,82.0,2.8,38.5,8.5,0.0,NYK,1.0,1.0,5.0,No chance,0.0,1.0,0.0,0.0
+2023,Mark Daigneault,daignma99c,OKC,82,40,42,40.0,82.0,9.0,False,23.5,82.0,1.0,23.5,16.5,0.0,OKC,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2023,Jamahl Mosley,mosleja01c,ORL,82,34,48,34.0,82.0,13.0,False,26.5,82.0,-2.3,26.5,7.5,0.0,ORL,0.0,0.0,13.0,Moderate chance,0.0,1.0,1.0,0.0
+2023,Doc Rivers,riverdo01c,PHI,82,54,28,54.0,82.0,3.0,False,50.5,82.0,4.4,50.5,3.5,1.0,PHI,0.0,1.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2023,Monty Williams,willimo01c,PHO,82,45,37,45.0,82.0,4.0,False,52.5,82.0,2.2,52.5,-7.5,1.0,PHO,1.0,1.0,4.0,No chance,1.0,0.0,0.0,0.0
+2023,Chauncey Billups,billuch01c,POR,82,33,49,33.0,82.0,13.0,False,39.5,82.0,-4.0,39.5,-6.5,0.0,POR,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2023,Mike Brown,brownmi99c,SAC,82,48,34,48.0,82.0,3.0,False,34.5,82.0,2.6,34.5,13.5,1.0,SAC,0.0,1.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2023,Gregg Popovich,popovgr99c,SAS,82,22,60,22.0,82.0,15.0,False,22.5,82.0,-9.9,22.5,-0.5,0.0,SAS,1.0,1.0,14.5,No chance,0.0,0.0,0.0,0.0
+2023,Nick Nurse,nurseni01c,TOR,82,41,41,41.0,82.0,10.0,False,46.5,82.0,1.5,46.5,-5.5,0.0,TOR,1.0,1.0,8.5,No chance,0.0,0.0,0.0,0.0
+2023,Will Hardy,hardywi99c,UTA,82,37,45,37.0,82.0,12.0,False,23.5,82.0,-0.7,23.5,13.5,0.0,UTA,0.0,0.0,12.0,Moderate chance,0.0,1.0,1.0,0.0
+2023,Wes Unseld,unselwe02c,WAS,82,35,47,35.0,82.0,12.0,False,35.5,82.0,-1.2,35.5,-0.5,0.0,WAS,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2024,Quin Snyder,snydequ01c,ATL,82,36,46,36.0,82.0,10.0,False,42.5,82.0,-2.0,42.5,-6.5,0.0,ATL,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2024,Joe Mazzulla,mazzujo99c,BOS,82,64,18,64.0,82.0,1.0,False,54.5,82.0,11.7,54.5,9.5,1.0,BOS,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2024,Jacque Vaughn,vaughja01c,BRK,54,21,33,32.0,82.0,11.0,False,37.5,82.0,-2.9,37.5,-5.5,0.0,BRK,0.0,0.0,11.0,No chance,0.0,0.0,0.0,0.0
+2024,Billy Donovan,donovbi99c,CHI,82,39,43,39.0,82.0,9.0,False,37.5,82.0,-1.7,37.5,1.5,0.0,CHI,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2024,Steve Clifford,cliffst99c,CHO,82,21,61,21.0,82.0,13.0,False,31.5,82.0,-10.6,31.5,-10.5,0.0,CHO,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2024,J.B. Bickerstaff,bickejb01c,CLE,82,48,34,48.0,82.0,4.0,False,50.5,82.0,2.5,50.5,-2.5,1.0,CLE,0.0,0.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2024,Jason Kidd,kiddja01c,DAL,82,50,32,50.0,82.0,5.0,False,45.5,82.0,2.1,45.5,4.5,0.0,DAL,0.0,0.0,5.0,Moderate chance,0.0,1.0,1.0,0.0
+2024,Michael Malone,malonmi99c,DEN,82,57,25,57.0,82.0,2.0,False,52.5,82.0,5.5,52.5,4.5,1.0,DEN,0.0,0.0,1.5,Runaway,1.0,1.0,1.0,1.0
+2024,Monty Williams,willimo01c,DET,82,14,68,14.0,82.0,15.0,False,28.5,82.0,-9.0,28.5,-14.5,0.0,DET,0.0,1.0,15.0,No chance,0.0,0.0,0.0,0.0
+2024,Steve Kerr,kerrst01c,GSW,82,46,36,46.0,82.0,10.0,False,48.5,82.0,2.4,48.5,-2.5,0.0,GSW,1.0,1.0,9.5,No chance,0.0,0.0,0.0,0.0
+2024,Ime Udoka,udokaim01c,HOU,82,41,41,41.0,82.0,11.0,False,31.5,82.0,0.9,31.5,9.5,0.0,HOU,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2024,Rick Carlisle,carliri01c,IND,82,47,35,47.0,82.0,6.0,False,38.5,82.0,2.9,38.5,8.5,0.0,IND,0.0,1.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2024,Tyronn Lue,luety01c,LAC,82,51,31,51.0,82.0,4.0,False,46.5,82.0,3.4,46.5,4.5,1.0,LAC,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2024,Darvin Ham,hamda01c,LAL,82,47,35,47.0,82.0,7.0,False,47.5,82.0,0.6,47.5,-0.5,0.0,LAL,0.0,0.0,8.0,No chance,0.0,0.0,0.0,0.0
+2024,Taylor Jenkins,jenkita01c,MEM,82,27,55,27.0,82.0,13.0,False,45.5,82.0,-6.9,45.5,-18.5,0.0,MEM,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2024,Erik Spoelstra,spoeler99c,MIA,82,46,36,46.0,82.0,8.0,False,45.5,82.0,1.8,45.5,0.5,0.0,MIA,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2024,Adrian Griffin,griffad01c,MIL,43,30,13,49.0,82.0,3.0,False,54.5,82.0,2.6,54.5,-5.5,1.0,MIL,0.0,0.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2024,Chris Finch,finchch01c,MIN,82,56,26,56.0,82.0,3.0,False,44.5,82.0,6.3,44.5,11.5,1.0,MIN,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2024,Willie Green,greenwi01c,NOP,82,49,33,49.0,82.0,8.0,False,44.5,82.0,4.6,44.5,4.5,0.0,NOP,0.0,0.0,6.5,Moderate chance,0.0,1.0,1.0,0.0
+2024,Tom Thibodeau,thiboto99c,NYK,82,50,32,50.0,82.0,2.0,False,45.5,82.0,4.9,45.5,4.5,1.0,NYK,1.0,1.0,2.0,Moderate chance,1.0,1.0,1.0,0.0
+2024,Mark Daigneault,daignma99c,OKC,82,57,25,57.0,82.0,1.0,False,44.5,82.0,7.3,44.5,12.5,1.0,OKC,0.0,0.0,1.5,Runaway,1.0,1.0,1.0,1.0
+2024,Jamahl Mosley,mosleja01c,ORL,82,47,35,47.0,82.0,5.0,False,37.5,82.0,2.2,37.5,9.5,0.0,ORL,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2024,Nick Nurse,nurseni01c,PHI,82,47,35,47.0,82.0,7.0,False,48.5,82.0,3.1,48.5,-1.5,0.0,PHI,0.0,1.0,6.0,No chance,0.0,0.0,0.0,0.0
+2024,Frank Vogel,vogelfr99c,PHO,82,49,33,49.0,82.0,6.0,False,51.5,82.0,3.1,51.5,-2.5,0.0,PHO,0.0,0.0,6.5,No chance,0.0,0.0,0.0,0.0
+2024,Chauncey Billups,billuch01c,POR,82,21,61,21.0,82.0,15.0,False,28.5,82.0,-9.0,28.5,-7.5,0.0,POR,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2024,Mike Brown,brownmi99c,SAC,82,46,36,46.0,82.0,9.0,False,44.5,82.0,1.8,44.5,1.5,0.0,SAC,1.0,1.0,9.5,No chance,0.0,1.0,0.0,0.0
+2024,Gregg Popovich,popovgr99c,SAS,82,22,60,22.0,82.0,14.0,False,28.5,82.0,-6.4,28.5,-6.5,0.0,SAS,1.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2024,Darko Rajakovic,rajakda01c,TOR,82,25,57,25.0,82.0,12.0,False,36.5,82.0,-6.3,36.5,-11.5,0.0,TOR,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2024,Will Hardy,hardywi99c,UTA,82,31,51,31.0,82.0,12.0,False,35.5,82.0,-5.1,35.5,-4.5,0.0,UTA,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2024,Wes Unseld,unselwe02c,WAS,43,7,36,15.0,82.0,14.0,False,24.5,82.0,-8.7,24.5,-9.5,0.0,WAS,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2025,Quin Snyder,snydequ01c,ATL,82,40,42,40.0,82.0,9.0,False,36.5,82.0,-1.1,36.5,3.5,0.0,ATL,0.0,0.0,8.0,Moderate chance,0.0,1.0,1.0,0.0
+2025,Joe Mazzulla,mazzujo99c,BOS,82,61,21,61.0,82.0,2.0,False,58.5,82.0,9.4,58.5,2.5,1.0,BOS,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2025,Jordi Fernandez,fernajo99c,BRK,82,26,56,26.0,82.0,12.0,False,19.5,82.0,-7.3,19.5,6.5,0.0,BRK,0.0,0.0,12.0,Moderate chance,0.0,1.0,1.0,0.0
+2025,Billy Donovan,donovbi99c,CHI,82,39,43,39.0,82.0,10.0,False,28.5,82.0,-1.6,28.5,10.5,0.0,CHI,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2025,Charles Lee,leech01c,CHO,82,19,63,19.0,82.0,14.0,False,30.5,82.0,-9.1,30.5,-11.5,0.0,CHO,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2025,Kenny Atkinson,atkinke01c,CLE,82,64,18,64.0,82.0,1.0,False,48.5,82.0,9.2,48.5,15.5,1.0,CLE,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2025,Jason Kidd,kiddja01c,DAL,82,39,43,39.0,82.0,10.0,False,49.5,82.0,-1.3,49.5,-10.5,0.0,DAL,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2025,Michael Malone,malonmi99c,DEN,79,47,32,50.0,82.0,4.0,False,51.5,82.0,3.8,51.5,-1.5,1.0,DEN,0.0,0.0,4.0,Moderate chance,1.0,0.0,1.0,0.0
+2025,J.B. Bickerstaff,bickejb01c,DET,82,44,38,44.0,82.0,6.0,False,25.5,82.0,2.1,25.5,18.5,0.0,DET,0.0,0.0,6.0,Moderate chance,0.0,1.0,1.0,0.0
+2025,Steve Kerr,kerrst01c,GSW,82,48,34,48.0,82.0,7.0,False,43.5,82.0,3.2,43.5,4.5,0.0,GSW,1.0,1.0,7.5,No chance,0.0,1.0,0.0,0.0
+2025,Ime Udoka,udokaim01c,HOU,82,52,30,52.0,82.0,2.0,False,43.5,82.0,4.6,43.5,8.5,1.0,HOU,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2025,Rick Carlisle,carliri01c,IND,82,50,32,50.0,82.0,4.0,False,46.5,82.0,2.1,46.5,3.5,1.0,IND,0.0,1.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2025,Tyronn Lue,luety01c,LAC,82,50,32,50.0,82.0,5.0,False,35.5,82.0,4.9,35.5,14.5,0.0,LAC,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2025,JJ Redick,redicjj01c,LAL,82,50,32,50.0,82.0,3.0,False,43.5,82.0,1.2,43.5,6.5,1.0,LAL,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2025,Taylor Jenkins,jenkita01c,MEM,73,44,29,48.0,82.0,8.0,False,47.5,82.0,4.7,47.5,0.5,0.0,MEM,0.0,0.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2025,Erik Spoelstra,spoeler99c,MIA,82,37,45,37.0,82.0,8.0,False,44.5,82.0,0.4,44.5,-7.5,0.0,MIA,0.0,0.0,10.0,No chance,0.0,0.0,0.0,0.0
+2025,Doc Rivers,riverdo01c,MIL,82,48,34,48.0,82.0,5.0,False,49.5,82.0,2.4,49.5,-1.5,0.0,MIL,0.0,1.0,5.0,No chance,0.0,0.0,0.0,0.0
+2025,Chris Finch,finchch01c,MIN,82,49,33,49.0,82.0,6.0,False,51.5,82.0,5.0,51.5,-2.5,0.0,MIN,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2025,Willie Green,greenwi01c,NOP,82,21,61,21.0,82.0,14.0,False,46.5,82.0,-9.4,46.5,-25.5,0.0,NOP,0.0,0.0,14.0,No chance,0.0,0.0,0.0,0.0
+2025,Tom Thibodeau,thiboto99c,NYK,82,51,31,51.0,82.0,3.0,False,53.5,82.0,4.0,53.5,-2.5,1.0,NYK,1.0,1.0,3.0,No chance,1.0,0.0,0.0,0.0
+2025,Mark Daigneault,daignma99c,OKC,82,68,14,68.0,82.0,1.0,False,57.5,82.0,12.7,57.5,10.5,1.0,OKC,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2025,Jamahl Mosley,mosleja01c,ORL,82,41,41,41.0,82.0,7.0,False,47.5,82.0,-0.2,47.5,-6.5,0.0,ORL,0.0,0.0,7.0,No chance,0.0,0.0,0.0,0.0
+2025,Nick Nurse,nurseni01c,PHI,82,24,58,24.0,82.0,13.0,False,50.5,82.0,-6.3,50.5,-26.5,0.0,PHI,0.0,1.0,13.0,No chance,0.0,0.0,0.0,0.0
+2025,Mike Budenholzer,budenmi99c,PHO,82,36,46,36.0,82.0,11.0,False,48.5,82.0,-3.0,48.5,-12.5,0.0,PHO,0.0,1.0,11.5,No chance,0.0,0.0,0.0,0.0
+2025,Chauncey Billups,billuch01c,POR,82,36,46,36.0,82.0,12.0,False,21.5,82.0,-2.7,21.5,14.5,0.0,POR,0.0,0.0,11.5,Moderate chance,0.0,1.0,1.0,0.0
+2025,Doug Christie,chrisdo01c,SAC,51,27,24,40.0,82.0,9.0,False,46.5,82.0,0.6,46.5,-6.5,0.0,SAC,0.0,0.0,9.0,No chance,0.0,0.0,0.0,0.0
+2025,Mitch Johnson,johnsmi99c,SAS,77,32,45,34.0,82.0,13.0,False,35.5,82.0,-2.8,35.5,-1.5,0.0,SAS,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2025,Darko Rajakovic,rajakda01c,TOR,82,30,52,30.0,82.0,11.0,False,29.5,82.0,-4.1,29.5,0.5,0.0,TOR,0.0,0.0,11.0,Moderate chance,0.0,1.0,1.0,0.0
+2025,Will Hardy,hardywi99c,UTA,82,17,65,17.0,82.0,15.0,False,28.5,82.0,-9.2,28.5,-11.5,0.0,UTA,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2025,Brian Keefe,keefebr01c,WAS,82,18,64,18.0,82.0,15.0,False,20.5,82.0,-12.2,20.5,-2.5,0.0,WAS,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2026,Quin Snyder,snydequ01c,ATL,82,46,36,46.0,82.0,6.0,False,46.5,82.0,2.2,46.5,-0.5,0.0,ATL,0.0,0.0,5.5,No chance,0.0,0.0,0.0,0.0
+2026,Joe Mazzulla,mazzujo99c,BOS,82,56,26,56.0,82.0,2.0,False,41.5,82.0,8.3,41.5,14.5,1.0,BOS,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2026,Jordi Fernandez,fernajo99c,BRK,82,20,62,20.0,82.0,13.0,False,19.5,82.0,-10.0,19.5,0.5,0.0,BRK,0.0,0.0,13.0,Moderate chance,0.0,1.0,1.0,0.0
+2026,Billy Donovan,donovbi99c,CHI,82,31,51,31.0,82.0,12.0,False,33.5,82.0,-5.3,33.5,-2.5,0.0,CHI,0.0,0.0,12.0,No chance,0.0,0.0,0.0,0.0
+2026,Charles Lee,leech01c,CHO,82,44,38,44.0,82.0,9.0,False,27.5,82.0,4.9,27.5,16.5,0.0,CHO,0.0,0.0,9.0,Moderate chance,0.0,1.0,1.0,0.0
+2026,Kenny Atkinson,atkinke01c,CLE,82,52,30,52.0,82.0,4.0,False,56.5,82.0,4.1,56.5,-4.5,1.0,CLE,1.0,1.0,4.0,No chance,1.0,0.0,0.0,0.0
+2026,Jason Kidd,kiddja01c,DAL,82,26,56,26.0,82.0,12.0,False,41.5,82.0,-5.2,41.5,-15.5,0.0,DAL,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2026,David Adelman,adelmda01c,DEN,82,54,28,54.0,82.0,3.0,False,53.5,82.0,5.2,53.5,0.5,1.0,DEN,0.0,0.0,3.0,Runaway,1.0,1.0,1.0,1.0
+2026,J.B. Bickerstaff,bickejb01c,DET,82,60,22,60.0,82.0,1.0,False,46.5,82.0,8.4,46.5,13.5,1.0,DET,0.0,0.0,1.0,Runaway,1.0,1.0,1.0,1.0
+2026,Steve Kerr,kerrst01c,GSW,82,37,45,37.0,82.0,10.0,False,47.5,82.0,-0.5,47.5,-10.5,0.0,GSW,1.0,1.0,10.0,No chance,0.0,0.0,0.0,0.0
+2026,Ime Udoka,udokaim01c,HOU,82,52,30,52.0,82.0,5.0,False,52.5,82.0,5.4,52.5,-0.5,0.0,HOU,0.0,0.0,5.0,No chance,0.0,0.0,0.0,0.0
+2026,Rick Carlisle,carliri01c,IND,82,19,63,19.0,82.0,14.0,False,37.5,82.0,-7.8,37.5,-18.5,0.0,IND,0.0,1.0,14.0,No chance,0.0,0.0,0.0,0.0
+2026,Tyronn Lue,luety01c,LAC,82,42,40,42.0,82.0,9.0,False,49.5,82.0,1.1,49.5,-7.5,0.0,LAC,0.0,0.0,8.5,No chance,0.0,0.0,0.0,0.0
+2026,JJ Redick,redicjj01c,LAL,82,53,29,53.0,82.0,4.0,False,46.5,82.0,1.5,46.5,6.5,1.0,LAL,0.0,0.0,4.0,Runaway,1.0,1.0,1.0,1.0
+2026,Tuomas Iisalo,iisaltu01c,MEM,82,25,57,25.0,82.0,13.0,False,39.5,82.0,-6.0,39.5,-14.5,0.0,MEM,0.0,0.0,13.0,No chance,0.0,0.0,0.0,0.0
+2026,Erik Spoelstra,spoeler99c,MIA,82,43,39,43.0,82.0,10.0,False,37.5,82.0,2.1,37.5,5.5,0.0,MIA,0.0,0.0,10.0,Moderate chance,0.0,1.0,1.0,0.0
+2026,Doc Rivers,riverdo01c,MIL,82,32,50,32.0,82.0,11.0,False,43.5,82.0,-6.1,43.5,-11.5,0.0,MIL,0.0,1.0,11.0,No chance,0.0,0.0,0.0,0.0
+2026,Chris Finch,finchch01c,MIN,82,49,33,49.0,82.0,6.0,False,49.5,82.0,3.1,49.5,-0.5,0.0,MIN,0.0,0.0,6.0,No chance,0.0,0.0,0.0,0.0
+2026,James Borrego,borreja99c,NOP,70,24,46,26.0,82.0,11.0,False,30.5,82.0,-4.4,30.5,-4.5,0.0,NOP,0.0,0.0,11.5,No chance,0.0,0.0,0.0,0.0
+2026,Mike Brown,brownmi99c,NYK,82,53,29,53.0,82.0,3.0,False,53.5,82.0,6.4,53.5,-0.5,1.0,NYK,0.0,1.0,3.0,Moderate chance,1.0,0.0,1.0,0.0
+2026,Mark Daigneault,daignma99c,OKC,82,64,18,64.0,82.0,1.0,False,62.5,82.0,11.1,62.5,1.5,1.0,OKC,1.0,1.0,1.0,Moderate chance,1.0,1.0,1.0,0.0
+2026,Jamahl Mosley,mosleja01c,ORL,82,45,37,45.0,82.0,8.0,False,51.5,82.0,0.6,51.5,-6.5,0.0,ORL,0.0,0.0,7.5,No chance,0.0,0.0,0.0,0.0
+2026,Nick Nurse,nurseni01c,PHI,82,45,37,45.0,82.0,7.0,False,43.5,82.0,-0.1,43.5,1.5,0.0,PHI,0.0,1.0,7.5,Moderate chance,0.0,1.0,1.0,0.0
+2026,Jordan Ott,ottjo99c,PHO,82,45,37,45.0,82.0,8.0,False,30.5,82.0,1.4,30.5,14.5,0.0,PHO,0.0,0.0,7.0,Moderate chance,0.0,1.0,1.0,0.0
+2026,Tiago Splitter,splitti01c,POR,81,42,39,42.0,82.0,7.0,False,35.5,82.0,-0.4,35.5,6.5,0.0,POR,0.0,0.0,8.5,Moderate chance,0.0,1.0,1.0,0.0
+2026,Doug Christie,chrisdo01c,SAC,82,22,60,22.0,82.0,14.0,False,35.5,82.0,-9.7,35.5,-13.5,0.0,SAC,0.0,0.0,14.5,No chance,0.0,0.0,0.0,0.0
+2026,Mitch Johnson,johnsmi99c,SAS,82,62,20,62.0,82.0,2.0,False,44.5,82.0,8.4,44.5,17.5,1.0,SAS,0.0,0.0,2.0,Runaway,1.0,1.0,1.0,1.0
+2026,Darko Rajakovic,rajakda01c,TOR,82,46,36,46.0,82.0,5.0,False,39.5,82.0,2.9,39.5,6.5,0.0,TOR,0.0,0.0,5.5,Moderate chance,0.0,1.0,1.0,0.0
+2026,Will Hardy,hardywi99c,UTA,82,22,60,22.0,82.0,15.0,False,18.5,82.0,-8.2,18.5,3.5,0.0,UTA,0.0,0.0,14.5,Moderate chance,0.0,1.0,1.0,0.0
+2026,Brian Keefe,keefebr01c,WAS,82,17,65,17.0,82.0,15.0,False,20.5,82.0,-11.8,20.5,-3.5,0.0,WAS,0.0,0.0,15.0,No chance,0.0,0.0,0.0,0.0
+2027,Quin Snyder,snydequ01c,ATL,13,7,6,,,,,,,1.4,,,,ATL,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Joe Mazzulla,mazzujo99c,BOS,12,10,2,,,,,,,11.7,,,,BOS,1.0,1.0,,Unknown,,,0.0,0.0
+2027,Jordi Fernandez,fernajo99c,BRK,11,3,8,,,,,,,-5.2,,,,BRK,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Tiago Splitter,splitti01c,CHI,11,2,9,,,,,,,-12.9,,,,CHI,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Charles Lee,leech01c,CHO,12,4,8,,,,,,,-11.2,,,,CHO,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Kenny Atkinson,atkinke01c,CLE,13,6,7,,,,,,,0.9,,,,CLE,1.0,1.0,,Unknown,,,0.0,0.0
+2027,Dusty May,maydu99c,DAL,12,7,5,,,,,,,0.8,,,,DAL,0.0,0.0,,Unknown,,,0.0,0.0
+2027,David Adelman,adelmda01c,DEN,10,6,4,,,,,,,0.7,,,,DEN,0.0,0.0,,Unknown,,,0.0,0.0
+2027,J.B. Bickerstaff,bickejb01c,DET,11,8,3,,,,,,,7.2,,,,DET,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Steve Kerr,kerrst01c,GSW,13,8,5,,,,,,,4.1,,,,GSW,1.0,1.0,,Unknown,,,0.0,0.0
+2027,Ime Udoka,udokaim01c,HOU,13,10,3,,,,,,,9.1,,,,HOU,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Rick Carlisle,carliri01c,IND,13,5,8,,,,,,,-1.5,,,,IND,0.0,1.0,,Unknown,,,0.0,0.0
+2027,Tyronn Lue,luety01c,LAC,11,3,8,,,,,,,-5.1,,,,LAC,0.0,0.0,,Unknown,,,0.0,0.0
+2027,JJ Redick,redicjj01c,LAL,13,11,2,,,,,,,8.0,,,,LAL,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Tuomas Iisalo,iisaltu01c,MEM,12,8,4,,,,,,,7.8,,,,MEM,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Erik Spoelstra,spoeler99c,MIA,12,6,6,,,,,,,-3.2,,,,MIA,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Taylor Jenkins,jenkita01c,MIL,13,1,12,,,,,,,-14.2,,,,MIL,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Chris Finch,finchch01c,MIN,12,9,3,,,,,,,13.4,,,,MIN,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Jamahl Mosley,mosleja01c,NOP,13,4,9,,,,,,,-8.8,,,,NOP,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Mike Brown,brownmi99c,NYK,12,6,6,,,,,,,5.9,,,,NYK,0.0,1.0,,Unknown,,,0.0,0.0
+2027,Mark Daigneault,daignma99c,OKC,13,8,5,,,,,,,3.7,,,,OKC,1.0,1.0,,Unknown,,,0.0,0.0
+2027,Sean Sweeney,sweense01c,ORL,12,5,7,,,,,,,-3.7,,,,ORL,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Nick Nurse,nurseni01c,PHI,13,10,3,,,,,,,1.5,,,,PHI,0.0,1.0,,Unknown,,,0.0,0.0
+2027,Jordan Ott,ottjo99c,PHO,11,5,6,,,,,,,-3.8,,,,PHO,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Micah Nori,norimi01c,POR,12,9,3,,,,,,,7.7,,,,POR,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Doug Christie,chrisdo01c,SAC,12,1,11,,,,,,,-12.2,,,,SAC,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Mitch Johnson,johnsmi99c,SAS,13,11,2,,,,,,,13.0,,,,SAS,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Darko Rajakovic,rajakda01c,TOR,12,5,7,,,,,,,1.7,,,,TOR,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Will Hardy,hardywi99c,UTA,13,1,12,,,,,,,-11.3,,,,UTA,0.0,0.0,,Unknown,,,0.0,0.0
+2027,Brian Keefe,keefebr01c,WAS,13,4,9,,,,,,,-5.5,,,,WAS,0.0,0.0,,Unknown,,,0.0,0.0

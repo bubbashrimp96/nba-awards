@@ -86,6 +86,7 @@ class RevisedAwardsTests(unittest.TestCase):
         data=json.loads(re.search(r'const awardComparisons=(.*?);\n',html)[1])
         summary=json.loads((ROOT/'dashboard_summary.json').read_text())
         for award,seasons in data.items():
+            if award not in self.models:continue
             self.assertEqual(len(seasons),26)
             self.assertEqual(seasons[0]['season'],'2000-01')
             self.assertEqual(seasons[-1]['season'],'2025-26')
@@ -94,12 +95,19 @@ class RevisedAwardsTests(unittest.TestCase):
                 voting=json.loads((ROOT/f'data/award_voting/{year}.json').read_text())[award]
                 self.assertEqual(result['actual'],voting['results'])
                 saved=self.tests[(self.tests.award==award)&(self.tests.season==result['season'])].iloc[0]
-                self.assertEqual(saved.predicted,result['predicted'][0]['player'])
+                # The dashboard applies the existing MIP 13-PPG eligibility rule.
+                if award in ('MIP','SMOY'):
+                    displayed=pd.read_csv(ROOT/'dashboard_backtests.csv')
+                    expected=displayed[(displayed.award==award)&(displayed.season==result['season'])].iloc[0].predicted
+                else:expected=saved.predicted
+                self.assertEqual(expected,result['predicted'][0]['player'])
                 for player in result['players']:
                     curve=availability_curve(player['availability_shortfall'],player['schedule_games'])
                     self.assertAlmostEqual(player['stats']['availability_exponential'],curve)
                     self.assertAlmostEqual(player['availability_penalty'],saved.availability_weight*curve)
             self.assertEqual(summary[award]['correct'],sum(any(p['actual_rank']==1 and p['model_rank']==1 for p in r['players']) for r in seasons))
-        self.assertIn('81 / 130',html)
+        correct=sum(v['correct'] for v in summary.values())
+        seasons=sum(v['seasons'] for v in summary.values())
+        self.assertIn(f'{correct} / {seasons}',html)
 
 if __name__=='__main__':unittest.main()

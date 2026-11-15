@@ -18,20 +18,20 @@
       "ws48_rank_exponential"
     ],
     "coefficients": [
-      0.9674881104423996,
-      0.6779108773053687,
-      0.21157677636690322,
-      0.6309734737058577,
-      0.4457804146245442,
-      -0.1337822395761736,
-      0.3594460290234988,
-      1.2268884302579104,
-      0.9248231660275503,
-      0.42158068462726184,
-      -0.5942162842553855,
-      0.5580009363700996,
-      -0.003018156723769624,
-      -0.046199874824462035
+      0.9674986288337641,
+      0.6779852277918161,
+      0.21183186215635513,
+      0.6306907010160717,
+      0.4451359067342897,
+      -0.13371808562448706,
+      0.35865762297867987,
+      1.2278689377225591,
+      0.925137990035614,
+      0.4217255162212062,
+      -0.595246634142934,
+      0.5580041638947556,
+      -0.0030221726874658807,
+      -0.04623485804552741
     ],
     "half_life": 20,
     "regularization": 0.03,
@@ -105,19 +105,23 @@
       "MPG",
       "availability_exponential",
       "team_defensive_rank",
-      "team_wins"
+      "team_wins",
+      "prior_dpoy_votes",
+      "prior_all_defense"
     ],
     "coefficients": [
-      0.2722799725767785,
-      0.4851061572198201,
-      0.8356811668503418,
-      0.33803134317241046,
-      -0.9250802799552729,
-      -0.3318272088885043,
-      0.3663541419834329,
-      -0.05090572506464596,
-      -0.6506919468244677,
-      0.5292145870812247
+      0.30943716180879227,
+      0.36906635171298213,
+      0.663830589489782,
+      0.2878078909300691,
+      -0.8474555923986871,
+      -0.06011443288878796,
+      0.05642512796331992,
+      -0.09111131899879003,
+      -0.8286059917815966,
+      0.4030610607061069,
+      0.6505576872628976,
+      0.6015043313763929
     ],
     "half_life": 5,
     "regularization": 0.1,
@@ -128,9 +132,12 @@
     "availability_growth_fraction": 0.1,
     "availability_curve": "exponential_minus_linear",
     "retrospective_warning": "Rules revised after examining 2016\u201317 ROY and 2022\u201323 MVP. Historical fits use prior seasons, but these are retrospective comparisons; display now covers 2000\u201301 to 2025\u201326.",
+    "reputation": "Binary prior_dpoy_votes and prior_all_defense flags; any positive DPOY votes or first/second All-Defensive selection in a strictly earlier season. Learned weights, not eligibility cutoffs.",
     "team_context": "Player DRB removed. Add team defensive rating rank (negative fitted coefficient) and team wins (nonnegative fitted coefficient). NBA regular-season advanced ratings from 1996\u201397 onward; historical Basketball Reference team-rating archive for earlier training.",
     "sources": {
-      "team_defense": "60e23c070a430ebf523a473604299377a3a694c10553e9aeeb7103025e7bb6dd"
+      "team_defense": "60e23c070a430ebf523a473604299377a3a694c10553e9aeeb7103025e7bb6dd",
+      "all_defensive_selections": "d0059533cf61f2bfc17408edcffa440335f45cb694070ff1931503652f697734",
+      "prior_dpoy_votes_archive": "2d7b59bfce52548467d4071c7bb242e6bf098e73e5b2f5d74b904b8d4001e643"
     }
   },
   "MIP": {

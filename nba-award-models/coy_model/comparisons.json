@@ -6,19 +6,19 @@
    {
     "rank": 1,
     "player": "Rick Adelman",
-    "share": 0.2054834442446736,
+    "share": 0.20548344424467366,
     "score": 3.0719151181583984
    },
    {
     "rank": 2,
     "player": "Phil Jackson",
-    "share": 0.1529503918942493,
-    "score": 2.7766632835850493
+    "share": 0.15295039189424925,
+    "score": 2.776663283585049
    },
    {
     "rank": 3,
     "player": "Gregg Popovich",
-    "share": 0.1468102632552728,
+    "share": 0.14681026325527283,
     "score": 2.7356906776734244
    }
   ],
@@ -54,7 +54,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -64,14 +66,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.9853733339175523,
-   0.2578663138929967,
+   0.9853733339175526,
+   0.25786631389299675,
    0.0,
-   0.8237582768542188,
-   -0.2681962306499155
+   0.8237582768542184,
+   -0.26819623064991555,
+   0.0,
+   0.0
   ],
   "players": [
    {
@@ -86,12 +93,19 @@
      "wins_above_expectation": 0.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": 1.0,
-    "coach_record": "61-21"
+    "coach_record": "61-21",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    },
    {
     "player": "Phil Jackson",
@@ -105,12 +119,19 @@
      "wins_above_expectation": 0.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": 3.0,
-    "coach_record": "58-24"
+    "coach_record": "58-24",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    },
    {
     "player": "Gregg Popovich",
@@ -124,12 +145,19 @@
      "wins_above_expectation": 0.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": 2.0,
-    "coach_record": "58-24"
+    "coach_record": "58-24",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    },
    {
     "player": "Rick Carlisle",
@@ -143,12 +171,19 @@
      "wins_above_expectation": 0.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": 2.0,
-    "coach_record": "50-32"
+    "coach_record": "50-32",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    },
    {
     "player": "Byron Scott",
@@ -162,12 +197,19 @@
      "wins_above_expectation": 0.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": 1.0,
-    "coach_record": "52-30"
+    "coach_record": "52-30",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    }
   ]
  },
@@ -178,20 +220,20 @@
    {
     "rank": 1,
     "player": "Don Nelson",
-    "share": 0.12488858962468084,
-    "score": 2.0069264193384493
+    "share": 0.12488858962468087,
+    "score": 2.0069264193384497
    },
    {
     "rank": 2,
     "player": "Gregg Popovich",
-    "share": 0.12488858962468084,
-    "score": 2.0069264193384493
+    "share": 0.12488858962468087,
+    "score": 2.0069264193384497
    },
    {
     "rank": 3,
     "player": "Rick Adelman",
-    "share": 0.1184069458215267,
-    "score": 1.953631747229965
+    "share": 0.11840694582152671,
+    "score": 1.9536317472299651
    }
   ],
   "actual": [
@@ -226,7 +268,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -236,14 +280,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6186742965096532,
+   0.6186742965096531,
    0.0,
    0.0,
-   0.9943276492772399,
-   -0.22062209315489434
+   0.9943276492772403,
+   -0.22062209315489445,
+   0.0,
+   0.0
   ],
   "players": [
    {
@@ -258,12 +307,19 @@
      "wins_above_expectation": 2.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 57.5,
     "conference_seed": 3.0,
-    "coach_record": "60-22"
+    "coach_record": "60-22",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Gregg Popovich",
@@ -277,12 +333,19 @@
      "wins_above_expectation": 4.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 55.5,
     "conference_seed": 1.0,
-    "coach_record": "60-22"
+    "coach_record": "60-22",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Rick Adelman",
@@ -296,12 +359,19 @@
      "wins_above_expectation": 1.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 57.5,
     "conference_seed": 2.0,
-    "coach_record": "59-23"
+    "coach_record": "59-23",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Eric Musselman",
@@ -315,12 +385,19 @@
      "wins_above_expectation": 13.0,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 11.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 11.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 25.0,
     "conference_seed": 11.0,
-    "coach_record": "38-44"
+    "coach_record": "38-44",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Jerry Sloan",
@@ -334,12 +411,19 @@
      "wins_above_expectation": 8.0,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 7.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 7.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 39.0,
     "conference_seed": 7.0,
-    "coach_record": "47-35"
+    "coach_record": "47-35",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -350,20 +434,20 @@
    {
     "rank": 1,
     "player": "Rick Carlisle",
-    "share": 0.21420051969333337,
-    "score": 2.9202078943090917
+    "share": 0.2476198274710458,
+    "score": 3.268517193020515
    },
    {
     "rank": 2,
     "player": "Flip Saunders",
-    "share": 0.12680421339169679,
-    "score": 2.3959395801845567
+    "share": 0.15164923044105297,
+    "score": 2.778192736326112
    },
    {
     "rank": 3,
     "player": "Larry Brown",
-    "share": 0.09482689852809587,
-    "score": 2.105348418854662
+    "share": 0.11407857622590539,
+    "score": 2.4935100528769754
    }
   ],
   "actual": [
@@ -406,7 +490,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -416,14 +502,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.8940051688269037,
-   0.04325512753519955,
-   0.26495793484781505,
-   0.8426090308419724,
-   -0.2650018686894191
+   0.8629510534754973,
+   0.027283484246609306,
+   0.24254892592057503,
+   0.8195848959169947,
+   -0.24502022702675147,
+   0.10756223999427723,
+   0.37701230014497844
   ],
   "players": [
    {
@@ -438,12 +529,19 @@
      "wins_above_expectation": 13.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 47.5,
     "conference_seed": 1.0,
-    "coach_record": "61-21"
+    "coach_record": "61-21",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Flip Saunders",
@@ -457,12 +555,19 @@
      "wins_above_expectation": 3.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 54.5,
     "conference_seed": 1.0,
-    "coach_record": "58-24"
+    "coach_record": "58-24",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Larry Brown",
@@ -476,18 +581,25 @@
      "wins_above_expectation": 4.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 49.5,
     "conference_seed": 3.0,
-    "coach_record": "54-28"
+    "coach_record": "54-28",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Hubie Brown",
     "team": "MEM",
     "eligible": true,
-    "model_rank": 7,
+    "model_rank": 9,
     "actual_rank": 1,
     "stats": {
      "team_wins": 50.0,
@@ -495,12 +607,19 @@
      "wins_above_expectation": 18.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 6.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 6.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 31.5,
     "conference_seed": 6.0,
-    "coach_record": "50-32"
+    "coach_record": "50-32",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Jerry Sloan",
@@ -514,18 +633,25 @@
      "wins_above_expectation": 16.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 9.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 9.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 25.5,
     "conference_seed": 9.0,
-    "coach_record": "42-40"
+    "coach_record": "42-40",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Terry Porter",
     "team": "MIL",
     "eligible": true,
-    "model_rank": 14,
+    "model_rank": 13,
     "actual_rank": 3,
     "stats": {
      "team_wins": 41.0,
@@ -533,18 +659,25 @@
      "wins_above_expectation": 9.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 6.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 6.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 31.5,
     "conference_seed": 6.0,
-    "coach_record": "41-41"
+    "coach_record": "41-41",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Stan Van Gundy",
     "team": "MIA",
     "eligible": true,
-    "model_rank": 9,
+    "model_rank": 7,
     "actual_rank": 3,
     "stats": {
      "team_wins": 42.0,
@@ -552,12 +685,19 @@
      "wins_above_expectation": 7.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 4.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 4.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 35.0,
     "conference_seed": 4.0,
-    "coach_record": "42-40"
+    "coach_record": "42-40",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -568,20 +708,20 @@
    {
     "rank": 1,
     "player": "Mike D'Antoni",
-    "share": 0.3184214402680762,
-    "score": 3.6515868614475804
+    "share": 0.3169845233757574,
+    "score": 3.760186428265331
    },
    {
     "rank": 2,
     "player": "Nate McMillan",
-    "share": 0.15172090009031614,
-    "score": 2.9102537215974023
+    "share": 0.15166318344427526,
+    "score": 3.022995641456014
    },
    {
     "rank": 3,
     "player": "Don Nelson",
-    "share": 0.0892228413863091,
-    "score": 2.3793481483781007
+    "share": 0.09051460677885804,
+    "score": 2.5068447162919054
    }
   ],
   "actual": [
@@ -616,7 +756,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -626,14 +768,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.8035058267109347,
-   0.08858763614146353,
-   0.9146117750382512,
-   0.348941777474158,
-   -0.2586998519276032
+   0.8002777237590912,
+   0.0871737049017523,
+   0.8984766813649381,
+   0.34423303295340835,
+   -0.25541918668774644,
+   0.15290631965186216,
+   0.0
   ],
   "players": [
    {
@@ -648,12 +795,19 @@
      "wins_above_expectation": 17.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 44.5,
     "conference_seed": 1.0,
-    "coach_record": "62-20"
+    "coach_record": "62-20",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Nate McMillan",
@@ -667,12 +821,19 @@
      "wins_above_expectation": 17.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 34.5,
     "conference_seed": 3.0,
-    "coach_record": "52-30"
+    "coach_record": "52-30",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Don Nelson",
@@ -686,12 +847,19 @@
      "wins_above_expectation": 7.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 4.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 4.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 50.5,
     "conference_seed": 4.0,
-    "coach_record": "42-22"
+    "coach_record": "42-22",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Rick Carlisle",
@@ -705,12 +873,19 @@
      "wins_above_expectation": -7.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 6.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 6.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 0.0
     },
     "imputed": [],
     "expected_team_wins": 51.5,
     "conference_seed": 6.0,
-    "coach_record": "44-38"
+    "coach_record": "44-38",
+    "flow_tier": "No chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 0.0
    }
   ]
  },
@@ -721,20 +896,20 @@
    {
     "rank": 1,
     "player": "Flip Saunders",
-    "share": 0.3903669450217166,
-    "score": 4.102810430473728
+    "share": 0.39624967898063296,
+    "score": 4.241078306759637
    },
    {
     "rank": 2,
     "player": "Avery Johnson",
-    "share": 0.1476116818918195,
-    "score": 3.1303083036765584
+    "share": 0.15220678676061528,
+    "score": 3.2842738272138527
    },
    {
     "rank": 3,
     "player": "Gregg Popovich",
-    "share": 0.10501318481993205,
-    "score": 2.789809161021447
+    "share": 0.10014023934760294,
+    "score": 2.8656053887407777
    }
   ],
   "actual": [
@@ -769,7 +944,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -779,14 +956,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.8099724394823546,
-   0.25462999553721677,
-   1.0598645652876306,
-   0.30147567426653815,
-   -0.23809634283265946
+   0.7983185062534274,
+   0.24850262213580535,
+   1.042627375343046,
+   0.28739169325958625,
+   -0.2303217876138498,
+   0.12702194291501698,
+   0.08763798409403169
   ],
   "players": [
    {
@@ -801,12 +983,19 @@
      "wins_above_expectation": 12.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 51.5,
     "conference_seed": 1.0,
-    "coach_record": "64-18"
+    "coach_record": "64-18",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Avery Johnson",
@@ -820,12 +1009,19 @@
      "wins_above_expectation": 7.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 4.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 4.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 52.5,
     "conference_seed": 4.0,
-    "coach_record": "60-22"
+    "coach_record": "60-22",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Gregg Popovich",
@@ -839,12 +1035,19 @@
      "wins_above_expectation": 4.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 58.5,
     "conference_seed": 1.0,
-    "coach_record": "63-19"
+    "coach_record": "63-19",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Mike D'Antoni",
@@ -858,12 +1061,19 @@
      "wins_above_expectation": 10.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 43.5,
     "conference_seed": 2.0,
-    "coach_record": "54-28"
+    "coach_record": "54-28",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -874,20 +1084,20 @@
    {
     "rank": 1,
     "player": "Avery Johnson",
-    "share": 0.34404770098225756,
-    "score": 3.878664507665077
+    "share": 0.31046696418268394,
+    "score": 3.865989198291116
    },
    {
     "rank": 2,
-    "player": "Mike D'Antoni",
-    "share": 0.11971394401864409,
-    "score": 2.8229892914219334
+    "player": "Sam Mitchell",
+    "share": 0.11868795741824034,
+    "score": 2.9044095406614625
    },
    {
     "rank": 3,
-    "player": "Jerry Sloan",
-    "share": 0.11482826160290122,
-    "score": 2.7813218290565587
+    "player": "Mike D'Antoni",
+    "share": 0.11228947682868372,
+    "score": 2.848991849589792
    }
   ],
   "actual": [
@@ -922,7 +1132,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -932,14 +1144,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.7758489506317908,
-   0.32292484346021955,
-   0.9178779857559078,
-   0.32948393513852003,
-   -0.3175432312731766
+   0.7469006094363156,
+   0.3061615744860035,
+   0.8850718058739259,
+   0.30110600722490577,
+   -0.28861737496813883,
+   0.13784720084800822,
+   0.2335175703278327
   ],
   "players": [
    {
@@ -954,56 +1171,25 @@
      "wins_above_expectation": 11.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 56.0,
     "conference_seed": 1.0,
-    "coach_record": "67-15"
-   },
-   {
-    "player": "Mike D'Antoni",
-    "team": "PHO",
-    "eligible": true,
-    "model_rank": 2,
-    "actual_rank": 5,
-    "stats": {
-     "team_wins": 61.0,
-     "team_net_rating": 7.4,
-     "wins_above_expectation": 6.0,
-     "top4_seed": 1.0,
-     "prior_coy_same_team": 1.0,
-     "conference_seed": 2.0
-    },
-    "imputed": [],
-    "expected_team_wins": 55.0,
-    "conference_seed": 2.0,
-    "coach_record": "61-21"
-   },
-   {
-    "player": "Jerry Sloan",
-    "team": "UTA",
-    "eligible": true,
-    "model_rank": 3,
-    "actual_rank": 2,
-    "stats": {
-     "team_wins": 51.0,
-     "team_net_rating": 3.0,
-     "wins_above_expectation": 12.0,
-     "top4_seed": 1.0,
-     "prior_coy_same_team": 0.0,
-     "conference_seed": 4.0
-    },
-    "imputed": [],
-    "expected_team_wins": 39.0,
-    "conference_seed": 4.0,
-    "coach_record": "51-31"
+    "coach_record": "67-15",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Sam Mitchell",
     "team": "TOR",
     "eligible": true,
-    "model_rank": 4,
+    "model_rank": 2,
     "actual_rank": 1,
     "stats": {
      "team_wins": 47.0,
@@ -1011,12 +1197,71 @@
      "wins_above_expectation": 14.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 32.5,
     "conference_seed": 3.0,
-    "coach_record": "47-35"
+    "coach_record": "47-35",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
+   },
+   {
+    "player": "Mike D'Antoni",
+    "team": "PHO",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 61.0,
+     "team_net_rating": 7.4,
+     "wins_above_expectation": 6.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 55.0,
+    "conference_seed": 2.0,
+    "coach_record": "61-21",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
+   },
+   {
+    "player": "Jerry Sloan",
+    "team": "UTA",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 51.0,
+     "team_net_rating": 3.0,
+     "wins_above_expectation": 12.0,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 4.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 39.0,
+    "conference_seed": 4.0,
+    "coach_record": "51-31",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -1027,20 +1272,20 @@
    {
     "rank": 1,
     "player": "Doc Rivers",
-    "share": 0.30115892188490856,
-    "score": 3.7329673042690716
+    "share": 0.31369953049953425,
+    "score": 4.0982328446772485
    },
    {
     "rank": 2,
     "player": "Byron Scott",
-    "share": 0.2012215296077652,
-    "score": 3.329735637672006
+    "share": 0.21836124948538121,
+    "score": 3.7359480251681796
    },
    {
     "rank": 3,
     "player": "Phil Jackson",
-    "share": 0.13163058442888997,
-    "score": 2.905328595532675
+    "share": 0.1437708818913098,
+    "score": 3.3180181605943977
    }
   ],
   "actual": [
@@ -1075,7 +1320,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -1085,14 +1332,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5935672791479738,
-   0.19241637210358714,
-   1.0808777253769157,
-   0.49338176969104647,
-   -0.4516364051076089
+   0.5629853982982926,
+   0.16497054867433622,
+   1.0459825324382364,
+   0.4374603310518162,
+   -0.37993079988215567,
+   0.12213615468751773,
+   0.4651228591656022
   ],
   "players": [
    {
@@ -1107,12 +1359,19 @@
      "wins_above_expectation": 16.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 49.5,
     "conference_seed": 1.0,
-    "coach_record": "66-16"
+    "coach_record": "66-16",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Byron Scott",
@@ -1126,12 +1385,19 @@
      "wins_above_expectation": 18.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 37.5,
     "conference_seed": 2.0,
-    "coach_record": "56-26"
+    "coach_record": "56-26",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Phil Jackson",
@@ -1145,12 +1411,19 @@
      "wins_above_expectation": 13.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 43.5,
     "conference_seed": 1.0,
-    "coach_record": "57-25"
+    "coach_record": "57-25",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Rick Adelman",
@@ -1164,12 +1437,19 @@
      "wins_above_expectation": 1.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 53.5,
     "conference_seed": 5.0,
-    "coach_record": "55-27"
+    "coach_record": "55-27",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -1180,20 +1460,20 @@
    {
     "rank": 1,
     "player": "Mike Brown",
-    "share": 0.364030250598276,
-    "score": 4.163297608527721
+    "share": 0.3587711321888137,
+    "score": 4.497472928454333
    },
    {
     "rank": 2,
     "player": "Phil Jackson",
-    "share": 0.11993220420090642,
-    "score": 3.052987256441619
+    "share": 0.12460737764484421,
+    "score": 3.4399560732926613
    },
    {
     "rank": 3,
     "player": "Stan Van Gundy",
-    "share": 0.10441911209922747,
-    "score": 2.9144733630834176
+    "share": 0.11010671145866473,
+    "score": 3.316238257774557
    }
   ],
   "actual": [
@@ -1228,7 +1508,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -1238,14 +1520,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5568970573246086,
-   0.15450278161109188,
-   1.1523565967247638,
-   0.5230583747841717,
-   -0.41046085726611814
+   0.5232250916882047,
+   0.12241090556016067,
+   1.1077255042673544,
+   0.46104858680753436,
+   -0.33910800187171625,
+   0.11879026328640101,
+   0.4903283478713596
   ],
   "players": [
    {
@@ -1260,12 +1547,19 @@
      "wins_above_expectation": 18.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 47.5,
     "conference_seed": 1.0,
-    "coach_record": "66-16"
+    "coach_record": "66-16",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Phil Jackson",
@@ -1279,12 +1573,19 @@
      "wins_above_expectation": 10.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 54.5,
     "conference_seed": 1.0,
-    "coach_record": "65-17"
+    "coach_record": "65-17",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Stan Van Gundy",
@@ -1298,18 +1599,25 @@
      "wins_above_expectation": 11.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 47.5,
     "conference_seed": 3.0,
-    "coach_record": "59-23"
+    "coach_record": "59-23",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Rick Adelman",
     "team": "HOU",
     "eligible": true,
-    "model_rank": 11,
+    "model_rank": 12,
     "actual_rank": 2,
     "stats": {
      "team_wins": 53.0,
@@ -1317,12 +1625,19 @@
      "wins_above_expectation": -0.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 0.0
     },
     "imputed": [],
     "expected_team_wins": 53.5,
     "conference_seed": 5.0,
-    "coach_record": "53-29"
+    "coach_record": "53-29",
+    "flow_tier": "No chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 0.0
    }
   ]
  },
@@ -1333,20 +1648,20 @@
    {
     "rank": 1,
     "player": "Alvin Gentry",
-    "share": 0.18487385173238635,
-    "score": 3.076789959692705
+    "share": 0.2255642546668002,
+    "score": 3.4614596522179784
    },
    {
     "rank": 2,
     "player": "Scott Skiles",
-    "share": 0.159025915177702,
-    "score": 2.926183427207699
+    "share": 0.13115024238145112,
+    "score": 2.919198145208882
    },
    {
     "rank": 3,
-    "player": "Scott Brooks",
-    "share": 0.1364878373146892,
-    "score": 2.7733517564629833
+    "player": "Mike Woodson",
+    "share": 0.11570525559734365,
+    "score": 2.7939006482921913
    }
   ],
   "actual": [
@@ -1381,7 +1696,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -1391,14 +1708,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.557047332866093,
-   0.24189627705934372,
-   1.2093389245403567,
-   0.46125199747972484,
-   -0.3843375509538863
+   0.5257025453863368,
+   0.21198156649786312,
+   1.168912441101145,
+   0.40506377185391396,
+   -0.3209946683240432,
+   0.10501340138738365,
+   0.457348209922402
   ],
   "players": [
    {
@@ -1413,12 +1735,19 @@
      "wins_above_expectation": 13.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 40.5,
     "conference_seed": 3.0,
-    "coach_record": "54-28"
+    "coach_record": "54-28",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Scott Skiles",
@@ -1432,18 +1761,51 @@
      "wins_above_expectation": 19.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 6.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 6.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 26.5,
     "conference_seed": 6.0,
-    "coach_record": "46-36"
+    "coach_record": "46-36",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
+   },
+   {
+    "player": "Mike Woodson",
+    "team": "ATL",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 8,
+    "stats": {
+     "team_wins": 53.0,
+     "team_net_rating": 4.9,
+     "wins_above_expectation": 8.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 44.5,
+    "conference_seed": 3.0,
+    "coach_record": "53-29",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Scott Brooks",
     "team": "OKC",
     "eligible": true,
-    "model_rank": 3,
+    "model_rank": 4,
     "actual_rank": 1,
     "stats": {
      "team_wins": 50.0,
@@ -1451,18 +1813,25 @@
      "wins_above_expectation": 16.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 8.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 8.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 33.5,
     "conference_seed": 8.0,
-    "coach_record": "50-32"
+    "coach_record": "50-32",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Nate McMillan",
     "team": "POR",
     "eligible": true,
-    "model_rank": 15,
+    "model_rank": 16,
     "actual_rank": 3,
     "stats": {
      "team_wins": 50.0,
@@ -1470,12 +1839,19 @@
      "wins_above_expectation": -2.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 6.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 6.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 0.0
     },
     "imputed": [],
     "expected_team_wins": 52.5,
     "conference_seed": 6.0,
-    "coach_record": "50-32"
+    "coach_record": "50-32",
+    "flow_tier": "No chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 0.0
    }
   ]
  },
@@ -1486,20 +1862,20 @@
    {
     "rank": 1,
     "player": "Tom Thibodeau",
-    "share": 0.511142371365077,
-    "score": 4.586183622567832
+    "share": 0.5426595014780182,
+    "score": 4.833382505700425
    },
    {
     "rank": 2,
     "player": "Gregg Popovich",
-    "share": 0.14689138295668458,
-    "score": 3.33922888014347
+    "share": 0.12177436368345447,
+    "score": 3.339070305890459
    },
    {
     "rank": 3,
     "player": "Rick Carlisle",
-    "share": 0.07552207036000227,
-    "score": 2.673960394116765
+    "share": 0.08476098000049286,
+    "score": 2.976735746954451
    }
   ],
   "actual": [
@@ -1534,7 +1910,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -1544,14 +1922,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5414532399814825,
-   0.2762609365342764,
-   1.273342273445792,
-   0.29763013458990667,
-   -0.35354149635268634
+   0.5173444158841904,
+   0.2539337914699348,
+   1.247507562424654,
+   0.2470879060151334,
+   -0.31126116140716176,
+   0.11812747070032928,
+   0.31463431071142667
   ],
   "players": [
    {
@@ -1566,12 +1949,19 @@
      "wins_above_expectation": 15.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 46.5,
     "conference_seed": 1.0,
-    "coach_record": "62-20"
+    "coach_record": "62-20",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Gregg Popovich",
@@ -1585,12 +1975,19 @@
      "wins_above_expectation": 11.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 49.5,
     "conference_seed": 1.0,
-    "coach_record": "61-21"
+    "coach_record": "61-21",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Rick Carlisle",
@@ -1604,12 +2001,19 @@
      "wins_above_expectation": 7.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 49.5,
     "conference_seed": 3.0,
-    "coach_record": "57-25"
+    "coach_record": "57-25",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Doug Collins",
@@ -1623,12 +2027,19 @@
      "wins_above_expectation": 6.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 7.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 7.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 34.5,
     "conference_seed": 7.0,
-    "coach_record": "41-41"
+    "coach_record": "41-41",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -1639,20 +2050,20 @@
    {
     "rank": 1,
     "player": "Gregg Popovich",
-    "share": 0.3505234053624347,
-    "score": 3.6986802178452307
+    "share": 0.30923880400980164,
+    "score": 3.660350785238495
    },
    {
     "rank": 2,
     "player": "Tyrone Corbin",
-    "share": 0.14677496075565583,
-    "score": 2.8281532711044224
+    "share": 0.13939364769378965,
+    "score": 2.8635389066852537
    },
    {
     "rank": 3,
     "player": "Frank Vogel",
-    "share": 0.09310215593085645,
-    "score": 2.372950077698743
+    "share": 0.11868051758621746,
+    "score": 2.7026721349129437
    }
   ],
   "actual": [
@@ -1687,7 +2098,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -1697,14 +2110,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5376805788660877,
-   0.3147339166691054,
-   1.310567891473298,
-   0.29906890375610823,
-   -0.37217090198944847
+   0.5102020353150353,
+   0.2882624075699731,
+   1.281847593585233,
+   0.24431997251979057,
+   -0.32078333835958667,
+   0.10399452936327579,
+   0.352734995169164
   ],
   "players": [
    {
@@ -1719,12 +2137,19 @@
      "wins_above_expectation": 9.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 40.5,
     "conference_seed": 1.0,
-    "coach_record": "50-16"
+    "coach_record": "50-16",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Tyrone Corbin",
@@ -1738,12 +2163,19 @@
      "wins_above_expectation": 10.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 8.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 8.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 25.5,
     "conference_seed": 8.0,
-    "coach_record": "36-30"
+    "coach_record": "36-30",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Frank Vogel",
@@ -1757,18 +2189,25 @@
      "wins_above_expectation": 5.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 36.5,
     "conference_seed": 3.0,
-    "coach_record": "42-24"
+    "coach_record": "42-24",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Tom Thibodeau",
     "team": "CHI",
     "eligible": true,
-    "model_rank": 4,
+    "model_rank": 6,
     "actual_rank": 2,
     "stats": {
      "team_wins": 50.0,
@@ -1776,12 +2215,19 @@
      "wins_above_expectation": 2.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 47.5,
     "conference_seed": 1.0,
-    "coach_record": "50-16"
+    "coach_record": "50-16",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -1792,20 +2238,20 @@
    {
     "rank": 1,
     "player": "Erik Spoelstra",
-    "share": 0.15370183964008854,
-    "score": 3.19537543370009
+    "share": 0.17150280994310652,
+    "score": 3.443028435994171
    },
    {
     "rank": 2,
     "player": "Kevin McHale",
-    "share": 0.15344523317011044,
-    "score": 3.1937045303941765
+    "share": 0.13991263615611346,
+    "score": 3.2394469853812913
    },
    {
     "rank": 3,
     "player": "George Karl",
-    "share": 0.12161717159610015,
-    "score": 2.96123898754207
+    "share": 0.13818439408756084,
+    "score": 3.2270177673058313
    }
   ],
   "actual": [
@@ -1840,7 +2286,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -1850,14 +2298,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5659869923045352,
-   0.35563513099874144,
-   1.3359069757377438,
-   0.3165368553630684,
-   -0.21852294483701926
+   0.5475968813391939,
+   0.33903592046758896,
+   1.3164928851948257,
+   0.279046857647542,
+   -0.1715964312813628,
+   0.10380138033975683,
+   0.26312950966070725
   ],
   "players": [
    {
@@ -1872,12 +2325,19 @@
      "wins_above_expectation": 5.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 60.5,
     "conference_seed": 1.0,
-    "coach_record": "66-16"
+    "coach_record": "66-16",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Kevin McHale",
@@ -1891,12 +2351,19 @@
      "wins_above_expectation": 13.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 8.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 8.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 31.5,
     "conference_seed": 8.0,
-    "coach_record": "45-37"
+    "coach_record": "45-37",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "George Karl",
@@ -1910,18 +2377,25 @@
      "wins_above_expectation": 7.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 49.5,
     "conference_seed": 3.0,
-    "coach_record": "57-25"
+    "coach_record": "57-25",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Mike Woodson",
     "team": "NYK",
     "eligible": true,
-    "model_rank": 5,
+    "model_rank": 4,
     "actual_rank": 3,
     "stats": {
      "team_wins": 54.0,
@@ -1929,12 +2403,19 @@
      "wins_above_expectation": 7.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 46.5,
     "conference_seed": 2.0,
-    "coach_record": "54-28"
+    "coach_record": "54-28",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -1945,20 +2426,20 @@
    {
     "rank": 1,
     "player": "Jeff Hornacek",
-    "share": 0.42501558315180094,
-    "score": 4.333794778686788
+    "share": 0.40553551849435104,
+    "score": 4.350528632830994
    },
    {
     "rank": 2,
     "player": "Terry Stotts",
-    "share": 0.11909965316459561,
-    "score": 3.061629508415987
+    "share": 0.11464742176051697,
+    "score": 3.0871816923993096
    },
    {
     "rank": 3,
     "player": "Dwane Casey",
-    "share": 0.0819673613638468,
-    "score": 2.6879900800752514
+    "share": 0.10898947597314289,
+    "score": 3.036571498126213
    }
   ],
   "actual": [
@@ -1993,7 +2474,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -2003,14 +2486,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5802700206037836,
-   0.33189813305011245,
-   1.284922437130885,
-   0.3780512622508321,
-   -0.22825268541428576
+   0.5516386579240676,
+   0.3133243696574242,
+   1.2627549016919573,
+   0.3241609387747134,
+   -0.16594404750581968,
+   0.10879333201649946,
+   0.35271642551066185
   ],
   "players": [
    {
@@ -2025,12 +2513,19 @@
      "wins_above_expectation": 27.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 9.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 9.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 20.5,
     "conference_seed": 9.0,
-    "coach_record": "48-34"
+    "coach_record": "48-34",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Terry Stotts",
@@ -2044,12 +2539,19 @@
      "wins_above_expectation": 15.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 38.5,
     "conference_seed": 5.0,
-    "coach_record": "54-28"
+    "coach_record": "54-28",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Dwane Casey",
@@ -2063,12 +2565,19 @@
      "wins_above_expectation": 12.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 35.5,
     "conference_seed": 3.0,
-    "coach_record": "48-34"
+    "coach_record": "48-34",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Gregg Popovich",
@@ -2082,12 +2591,19 @@
      "wins_above_expectation": 6.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 55.5,
     "conference_seed": 1.0,
-    "coach_record": "62-20"
+    "coach_record": "62-20",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Tom Thibodeau",
@@ -2101,12 +2617,19 @@
      "wins_above_expectation": -8.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 4.0
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 4.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 0.0
     },
     "imputed": [],
     "expected_team_wins": 56.5,
     "conference_seed": 4.0,
-    "coach_record": "48-34"
+    "coach_record": "48-34",
+    "flow_tier": "No chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 0.0
    }
   ]
  },
@@ -2117,20 +2640,20 @@
    {
     "rank": 1,
     "player": "Steve Kerr",
-    "share": 0.3825285752120181,
-    "score": 4.299194470815727
+    "share": 0.39763568008957484,
+    "score": 4.579450371521351
    },
    {
     "rank": 2,
     "player": "Mike Budenholzer",
-    "share": 0.28747812681646645,
-    "score": 4.013537890607624
+    "share": 0.30382713664194205,
+    "score": 4.310373072317209
    },
    {
     "rank": 3,
     "player": "Kevin McHale",
-    "share": 0.053529952434506804,
-    "score": 2.3326324697313976
+    "share": 0.05912279138116614,
+    "score": 2.6735306531482967
    }
   ],
   "actual": [
@@ -2165,7 +2688,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -2175,14 +2700,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6217244566961723,
-   0.40038207369472584,
-   1.1176581858884846,
-   0.42381135522859864,
-   -0.06537914804011591
+   0.5976834325571598,
+   0.3853679715891186,
+   1.0923766259449463,
+   0.3762381206314566,
+   -0.007665500225372216,
+   0.14089959091406992,
+   0.3062076749683334
   ],
   "players": [
    {
@@ -2197,12 +2727,19 @@
      "wins_above_expectation": 14.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 52.5,
     "conference_seed": 1.0,
-    "coach_record": "67-15"
+    "coach_record": "67-15",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Mike Budenholzer",
@@ -2216,12 +2753,19 @@
      "wins_above_expectation": 17.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 42.5,
     "conference_seed": 1.0,
-    "coach_record": "60-22"
+    "coach_record": "60-22",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Kevin McHale",
@@ -2235,12 +2779,19 @@
      "wins_above_expectation": 7.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 49.0,
     "conference_seed": 2.0,
-    "coach_record": "56-26"
+    "coach_record": "56-26",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Jason Kidd",
@@ -2254,12 +2805,19 @@
      "wins_above_expectation": 16.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 6.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 6.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 24.5,
     "conference_seed": 6.0,
-    "coach_record": "41-41"
+    "coach_record": "41-41",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -2270,20 +2828,20 @@
    {
     "rank": 1,
     "player": "Steve Kerr",
-    "share": 0.439684685565209,
-    "score": 4.57788732206016
+    "share": 0.47906356213678064,
+    "score": 4.841263451168944
    },
    {
     "rank": 2,
     "player": "Gregg Popovich",
-    "share": 0.2183847657936185,
-    "score": 3.8780879635064274
+    "share": 0.1851164467027688,
+    "score": 3.8904152336896196
    },
    {
     "rank": 3,
     "player": "Dwane Casey",
-    "share": 0.07605447895966522,
-    "score": 2.8232793876650044
+    "share": 0.08889152670800327,
+    "score": 3.156846990346442
    }
   ],
   "actual": [
@@ -2318,7 +2876,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -2328,14 +2888,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6172826364586341,
-   0.36988567887288026,
-   1.1455234414069655,
-   0.4480153523172085,
-   -0.06065398157116332
+   0.5888767417353313,
+   0.3522601866005559,
+   1.1168079688231336,
+   0.3959620698679008,
+   -0.0013191951155500498,
+   0.1352571045256559,
+   0.3312750456200145
   ],
   "players": [
    {
@@ -2350,12 +2915,19 @@
      "wins_above_expectation": 13.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 59.5,
     "conference_seed": 1.0,
-    "coach_record": "73-9"
+    "coach_record": "73-9",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Gregg Popovich",
@@ -2369,12 +2941,19 @@
      "wins_above_expectation": 10.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 56.5,
     "conference_seed": 2.0,
-    "coach_record": "67-15"
+    "coach_record": "67-15",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Dwane Casey",
@@ -2388,12 +2967,19 @@
      "wins_above_expectation": 9.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 46.5,
     "conference_seed": 2.0,
-    "coach_record": "56-26"
+    "coach_record": "56-26",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Terry Stotts",
@@ -2407,12 +2993,19 @@
      "wins_above_expectation": 15.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 28.5,
     "conference_seed": 5.0,
-    "coach_record": "44-38"
+    "coach_record": "44-38",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -2423,20 +3016,20 @@
    {
     "rank": 1,
     "player": "Mike D'Antoni",
-    "share": 0.42319415963271245,
-    "score": 4.383227934000168
+    "share": 0.46769411634103575,
+    "score": 4.6838550693400025
    },
    {
     "rank": 2,
     "player": "Steve Kerr",
-    "share": 0.13325893858989707,
-    "score": 3.227690996187288
+    "share": 0.10888684904698324,
+    "score": 3.2263498455831856
    },
    {
     "rank": 3,
     "player": "Gregg Popovich",
-    "share": 0.12291491909011838,
-    "score": 3.1468892553540466
+    "share": 0.10241227675059622,
+    "score": 3.1650471802339473
    }
   ],
   "actual": [
@@ -2471,7 +3064,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -2481,14 +3076,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.671934376816614,
-   0.39330892833021613,
-   1.1344783130418907,
-   0.4285895894936006,
-   -0.11141916408560405
+   0.6364464054889041,
+   0.3749080685285885,
+   1.1046138178343632,
+   0.37338613133259074,
+   -0.04223903458427906,
+   0.1251734636616313,
+   0.36829647113228675
   ],
   "players": [
    {
@@ -2503,12 +3103,19 @@
      "wins_above_expectation": 11.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 44.0,
     "conference_seed": 3.0,
-    "coach_record": "55-27"
+    "coach_record": "55-27",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Steve Kerr",
@@ -2522,12 +3129,19 @@
      "wins_above_expectation": 0.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 66.5,
     "conference_seed": 1.0,
-    "coach_record": "67-15"
+    "coach_record": "67-15",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Gregg Popovich",
@@ -2541,18 +3155,25 @@
      "wins_above_expectation": 3.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 57.5,
     "conference_seed": 2.0,
-    "coach_record": "61-21"
+    "coach_record": "61-21",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Erik Spoelstra",
     "team": "MIA",
     "eligible": true,
-    "model_rank": 8,
+    "model_rank": 9,
     "actual_rank": 2,
     "stats": {
      "team_wins": 41.0,
@@ -2560,12 +3181,19 @@
      "wins_above_expectation": 6.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 9.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 9.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 34.5,
     "conference_seed": 9.0,
-    "coach_record": "41-41"
+    "coach_record": "41-41",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -2575,21 +3203,21 @@
   "predicted": [
    {
     "rank": 1,
-    "player": "Mike D'Antoni",
-    "share": 0.2531358523542826,
-    "score": 3.9477686776964447
+    "player": "Dwane Casey",
+    "share": 0.26978028756642963,
+    "score": 4.187384507390572
    },
    {
     "rank": 2,
-    "player": "Dwane Casey",
-    "share": 0.23415509241553492,
-    "score": 3.8698260511675313
+    "player": "Mike D'Antoni",
+    "share": 0.2073816616076644,
+    "score": 3.924337500899701
    },
    {
     "rank": 3,
     "player": "Brett Brown",
-    "share": 0.16793869466719305,
-    "score": 3.537441367367423
+    "share": 0.19767234403475895,
+    "score": 3.8763874612670106
    }
   ],
   "actual": [
@@ -2624,7 +3252,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -2634,40 +3264,26 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.642715754150116,
-   0.40034553778431226,
-   1.192365921789325,
-   0.4464986735543517,
-   -0.14446481809720157
+   0.6080491701190293,
+   0.38427906494402087,
+   1.155090240704261,
+   0.38256165521120933,
+   -0.0676239784313774,
+   0.11353835649422087,
+   0.4030345881463754
   ],
   "players": [
-   {
-    "player": "Mike D'Antoni",
-    "team": "HOU",
-    "eligible": true,
-    "model_rank": 1,
-    "actual_rank": 5,
-    "stats": {
-     "team_wins": 65.0,
-     "team_net_rating": 8.4,
-     "wins_above_expectation": 9.5,
-     "top4_seed": 1.0,
-     "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
-    },
-    "imputed": [],
-    "expected_team_wins": 55.5,
-    "conference_seed": 1.0,
-    "coach_record": "65-17"
-   },
    {
     "player": "Dwane Casey",
     "team": "TOR",
     "eligible": true,
-    "model_rank": 2,
+    "model_rank": 1,
     "actual_rank": 1,
     "stats": {
      "team_wins": 59.0,
@@ -2675,12 +3291,45 @@
      "wins_above_expectation": 10.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 48.5,
     "conference_seed": 1.0,
-    "coach_record": "59-23"
+    "coach_record": "59-23",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
+   },
+   {
+    "player": "Mike D'Antoni",
+    "team": "HOU",
+    "eligible": true,
+    "model_rank": 2,
+    "actual_rank": 5,
+    "stats": {
+     "team_wins": 65.0,
+     "team_net_rating": 8.4,
+     "wins_above_expectation": 9.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 1.0,
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 55.5,
+    "conference_seed": 1.0,
+    "coach_record": "65-17",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Brett Brown",
@@ -2694,18 +3343,25 @@
      "wins_above_expectation": 12.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 39.5,
     "conference_seed": 3.0,
-    "coach_record": "52-30"
+    "coach_record": "52-30",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Quin Snyder",
     "team": "UTA",
     "eligible": true,
-    "model_rank": 6,
+    "model_rank": 7,
     "actual_rank": 2,
     "stats": {
      "team_wins": 48.0,
@@ -2713,18 +3369,25 @@
      "wins_above_expectation": 7.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 40.5,
     "conference_seed": 5.0,
-    "coach_record": "48-34"
+    "coach_record": "48-34",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Brad Stevens",
     "team": "BOS",
     "eligible": true,
-    "model_rank": 8,
+    "model_rank": 6,
     "actual_rank": 3,
     "stats": {
      "team_wins": 55.0,
@@ -2732,12 +3395,19 @@
      "wins_above_expectation": 1.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 53.5,
     "conference_seed": 2.0,
-    "coach_record": "55-27"
+    "coach_record": "55-27",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -2748,20 +3418,20 @@
    {
     "rank": 1,
     "player": "Mike Budenholzer",
-    "share": 0.3824055888644801,
-    "score": 4.102047949402474
+    "share": 0.4087227216676157,
+    "score": 4.436682686910169
    },
    {
     "rank": 2,
     "player": "Terry Stotts",
-    "share": 0.1492706185524163,
-    "score": 3.16132704358672
+    "share": 0.1664246397836953,
+    "score": 3.538188295955183
    },
    {
     "rank": 3,
     "player": "Michael Malone",
-    "share": 0.08109991373577123,
-    "score": 2.5512480505441526
+    "share": 0.09227309058091449,
+    "score": 2.9483982589068924
    }
   ],
   "actual": [
@@ -2796,7 +3466,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -2806,14 +3478,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6287521197207515,
-   0.4559197754614628,
-   1.1639231995805683,
-   0.45195818716498465,
-   -0.19408225353258643
+   0.5956204465592098,
+   0.4369926346084032,
+   1.1236361281630787,
+   0.37846637973873154,
+   -0.10479984022621026,
+   0.11271639842557203,
+   0.44575905815528727
   ],
   "players": [
    {
@@ -2828,12 +3505,19 @@
      "wins_above_expectation": 12.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 48.0,
     "conference_seed": 1.0,
-    "coach_record": "60-22"
+    "coach_record": "60-22",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Terry Stotts",
@@ -2847,12 +3531,19 @@
      "wins_above_expectation": 11.0,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 42.0,
     "conference_seed": 3.0,
-    "coach_record": "53-29"
+    "coach_record": "53-29",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Michael Malone",
@@ -2866,12 +3557,19 @@
      "wins_above_expectation": 6.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 47.5,
     "conference_seed": 2.0,
-    "coach_record": "54-28"
+    "coach_record": "54-28",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Doc Rivers",
@@ -2885,12 +3583,19 @@
      "wins_above_expectation": 11.0,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 8.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 8.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 37.0,
     "conference_seed": 8.0,
-    "coach_record": "48-34"
+    "coach_record": "48-34",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -2901,20 +3606,20 @@
    {
     "rank": 1,
     "player": "Nick Nurse",
-    "share": 0.2877950161057416,
-    "score": 4.01081321625388
+    "share": 0.3198666665247267,
+    "score": 4.349291533885303
    },
    {
     "rank": 2,
     "player": "Frank Vogel",
-    "share": 0.14185451985308323,
-    "score": 3.3033667635220576
+    "share": 0.16203564831376235,
+    "score": 3.669203654375785
    },
    {
     "rank": 3,
     "player": "Mike Budenholzer",
-    "share": 0.1285851987943721,
-    "score": 3.2051564494328195
+    "share": 0.10091886115765038,
+    "score": 3.195704131135677
    }
   ],
   "actual": [
@@ -2949,7 +3654,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -2959,14 +3666,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6326995970113164,
-   0.5152900536318668,
-   1.166370910310463,
-   0.44778459378116753,
-   -0.2038617219332357
+   0.5976527572174276,
+   0.4930581916921467,
+   1.1235094948248994,
+   0.3722619938533809,
+   -0.11371454685381871,
+   0.11237290954530496,
+   0.45483155009421106
   ],
   "players": [
    {
@@ -2981,12 +3693,19 @@
      "wins_above_expectation": 12.170731707317074,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 40.829268292682926,
     "conference_seed": 2.0,
-    "coach_record": "53-19"
+    "coach_record": "53-19",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Frank Vogel",
@@ -3000,12 +3719,19 @@
      "wins_above_expectation": 8.274390243902438,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 43.72560975609756,
     "conference_seed": 1.0,
-    "coach_record": "52-19"
+    "coach_record": "52-19",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Mike Budenholzer",
@@ -3019,12 +3745,19 @@
      "wins_above_expectation": 4.810975609756099,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 51.1890243902439,
     "conference_seed": 1.0,
-    "coach_record": "56-17"
+    "coach_record": "56-17",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Billy Donovan",
@@ -3038,12 +3771,19 @@
      "wins_above_expectation": 15.463414634146343,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 28.536585365853657,
     "conference_seed": 5.0,
-    "coach_record": "44-28"
+    "coach_record": "44-28",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -3054,20 +3794,20 @@
    {
     "rank": 1,
     "player": "Quin Snyder",
-    "share": 0.2539198931376693,
-    "score": 4.097700660431212
+    "share": 0.2827210942848634,
+    "score": 4.436730690618793
    },
    {
     "rank": 2,
-    "player": "Tom Thibodeau",
-    "share": 0.24538047071060284,
-    "score": 4.063491772157243
+    "player": "Monty Williams",
+    "share": 0.2610310088566852,
+    "score": 4.3569090196400175
    },
    {
     "rank": 3,
-    "player": "Monty Williams",
-    "share": 0.2326602887601877,
-    "score": 4.010261226016635
+    "player": "Tom Thibodeau",
+    "share": 0.17360312950599743,
+    "score": 3.949041640666445
    }
   ],
   "actual": [
@@ -3102,7 +3842,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -3112,14 +3854,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6455813011720677,
-   0.5104367094758653,
-   1.1787589621004897,
-   0.4636923691299793,
-   -0.2173854944632848
+   0.6083861419765242,
+   0.48725881386581044,
+   1.1360791956249805,
+   0.3812629562138322,
+   -0.12256800834936372,
+   0.10768389629145092,
+   0.47664924191312424
   ],
   "players": [
    {
@@ -3134,37 +3881,25 @@
      "wins_above_expectation": 10.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 41.5,
     "conference_seed": 1.0,
-    "coach_record": "52-20"
-   },
-   {
-    "player": "Tom Thibodeau",
-    "team": "NYK",
-    "eligible": true,
-    "model_rank": 2,
-    "actual_rank": 1,
-    "stats": {
-     "team_wins": 41.0,
-     "team_net_rating": 2.4,
-     "wins_above_expectation": 19.5,
-     "top4_seed": 1.0,
-     "prior_coy_same_team": 0.0,
-     "conference_seed": 4.0
-    },
-    "imputed": [],
-    "expected_team_wins": 21.5,
-    "conference_seed": 4.0,
-    "coach_record": "41-31"
+    "coach_record": "52-20",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Monty Williams",
     "team": "PHO",
     "eligible": true,
-    "model_rank": 3,
+    "model_rank": 2,
     "actual_rank": 2,
     "stats": {
      "team_wins": 51.0,
@@ -3172,12 +3907,45 @@
      "wins_above_expectation": 12.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 38.5,
     "conference_seed": 2.0,
-    "coach_record": "51-21"
+    "coach_record": "51-21",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
+   },
+   {
+    "player": "Tom Thibodeau",
+    "team": "NYK",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 1,
+    "stats": {
+     "team_wins": 41.0,
+     "team_net_rating": 2.4,
+     "wins_above_expectation": 19.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 4.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 21.5,
+    "conference_seed": 4.0,
+    "coach_record": "41-31",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -3188,20 +3956,20 @@
    {
     "rank": 1,
     "player": "Monty Williams",
-    "share": 0.32342954931854373,
-    "score": 4.1466111138727815
+    "share": 0.33629685888464317,
+    "score": 4.410640084928362
    },
    {
     "rank": 2,
     "player": "Taylor Jenkins",
-    "share": 0.23018584752120172,
-    "score": 3.806516815439596
+    "share": 0.24670961501482053,
+    "score": 4.100857803742697
    },
    {
     "rank": 3,
     "player": "J.B. Bickerstaff",
-    "share": 0.08471586917868426,
-    "score": 2.8069327416884957
+    "share": 0.07041645887453954,
+    "score": 2.847072833114594
    }
   ],
   "actual": [
@@ -3236,7 +4004,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -3246,14 +4016,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5757971548869955,
-   0.46333399250924207,
-   1.2511096422937387,
-   0.4991356455968827,
-   -0.1858714695225328
+   0.5405318222145999,
+   0.4397975627022091,
+   1.227148813598232,
+   0.43968694607718806,
+   -0.11620577443054385,
+   0.10669215200761249,
+   0.35862523648004696
   ],
   "players": [
    {
@@ -3268,12 +4043,19 @@
      "wins_above_expectation": 12.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 51.5,
     "conference_seed": 1.0,
-    "coach_record": "64-18"
+    "coach_record": "64-18",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Taylor Jenkins",
@@ -3287,12 +4069,19 @@
      "wins_above_expectation": 14.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 41.5,
     "conference_seed": 2.0,
-    "coach_record": "56-26"
+    "coach_record": "56-26",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "J.B. Bickerstaff",
@@ -3306,12 +4095,19 @@
      "wins_above_expectation": 17.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 9.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 9.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 26.5,
     "conference_seed": 9.0,
-    "coach_record": "44-38"
+    "coach_record": "44-38",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Erik Spoelstra",
@@ -3325,12 +4121,19 @@
      "wins_above_expectation": 4.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 48.5,
     "conference_seed": 1.0,
-    "coach_record": "53-29"
+    "coach_record": "53-29",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -3341,20 +4144,20 @@
    {
     "rank": 1,
     "player": "Mike Brown",
-    "share": 0.23228747180550685,
-    "score": 3.5202393656628193
+    "share": 0.25683914287157295,
+    "score": 3.8465705100912437
    },
    {
     "rank": 2,
-    "player": "Mark Daigneault",
-    "share": 0.1151142841655728,
-    "score": 2.818189068688866
+    "player": "Joe Mazzulla",
+    "share": 0.12071847194797049,
+    "score": 3.0915816809381598
    },
    {
     "rank": 3,
-    "player": "Joe Mazzulla",
-    "share": 0.11170840330847015,
-    "score": 2.78815559273773
+    "player": "J.B. Bickerstaff",
+    "share": 0.10206316691423806,
+    "score": 2.923712429458984
    }
   ],
   "actual": [
@@ -3389,7 +4192,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -3399,14 +4204,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6363116869837245,
-   0.4690241081293897,
-   1.2309716260997172,
-   0.4864025419286447,
-   -0.20385111506367903
+   0.5989000178575787,
+   0.4448558593198442,
+   1.2061048329624813,
+   0.42477039721757814,
+   -0.13225466280215872,
+   0.11161689199278003,
+   0.3646827269413225
   ],
   "players": [
    {
@@ -3421,37 +4231,25 @@
      "wins_above_expectation": 13.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 34.5,
     "conference_seed": 3.0,
-    "coach_record": "48-34"
-   },
-   {
-    "player": "Mark Daigneault",
-    "team": "OKC",
-    "eligible": true,
-    "model_rank": 2,
-    "actual_rank": 2,
-    "stats": {
-     "team_wins": 40.0,
-     "team_net_rating": 1.0,
-     "wins_above_expectation": 16.5,
-     "top4_seed": 0.0,
-     "prior_coy_same_team": 0.0,
-     "conference_seed": 9.0
-    },
-    "imputed": [],
-    "expected_team_wins": 23.5,
-    "conference_seed": 9.0,
-    "coach_record": "40-42"
+    "coach_record": "48-34",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Joe Mazzulla",
     "team": "BOS",
     "eligible": true,
-    "model_rank": 3,
+    "model_rank": 2,
     "actual_rank": 3,
     "stats": {
      "team_wins": 57.0,
@@ -3459,12 +4257,71 @@
      "wins_above_expectation": 2.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 54.5,
     "conference_seed": 2.0,
-    "coach_record": "57-25"
+    "coach_record": "57-25",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
+   },
+   {
+    "player": "J.B. Bickerstaff",
+    "team": "CLE",
+    "eligible": true,
+    "model_rank": 3,
+    "actual_rank": 4,
+    "stats": {
+     "team_wins": 51.0,
+     "team_net_rating": 5.6,
+     "wins_above_expectation": 4.5,
+     "top4_seed": 1.0,
+     "prior_coy_same_team": 0.0,
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 4.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 46.5,
+    "conference_seed": 4.0,
+    "coach_record": "51-31",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
+   },
+   {
+    "player": "Mark Daigneault",
+    "team": "OKC",
+    "eligible": true,
+    "model_rank": 4,
+    "actual_rank": 2,
+    "stats": {
+     "team_wins": 40.0,
+     "team_net_rating": 1.0,
+     "wins_above_expectation": 16.5,
+     "top4_seed": 0.0,
+     "prior_coy_same_team": 0.0,
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 9.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
+    },
+    "imputed": [],
+    "expected_team_wins": 23.5,
+    "conference_seed": 9.0,
+    "coach_record": "40-42",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -3475,20 +4332,20 @@
    {
     "rank": 1,
     "player": "Joe Mazzulla",
-    "share": 0.2835881368900245,
-    "score": 4.203048286787988
+    "share": 0.2893820636380071,
+    "score": 4.479863792706619
    },
    {
     "rank": 2,
     "player": "Mark Daigneault",
-    "share": 0.23162258961665594,
-    "score": 4.00063460158233
+    "share": 0.24509777859582924,
+    "score": 4.31377318542037
    },
    {
     "rank": 3,
     "player": "Chris Finch",
-    "share": 0.17335379399412867,
-    "score": 3.710859881649771
+    "share": 0.1855234353803902,
+    "score": 4.035297168534046
    }
   ],
   "actual": [
@@ -3523,7 +4380,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -3533,14 +4392,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6106672953935027,
-   0.4504080064189471,
-   1.2652781205369912,
-   0.523448506168437,
-   -0.20935483355084245
+   0.5692665427357312,
+   0.4216781119330255,
+   1.2424177041794178,
+   0.45362014438091985,
+   -0.13140378378816944,
+   0.1157188041189683,
+   0.39423211344341647
   ],
   "players": [
    {
@@ -3555,12 +4419,19 @@
      "wins_above_expectation": 9.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 54.5,
     "conference_seed": 1.0,
-    "coach_record": "64-18"
+    "coach_record": "64-18",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Mark Daigneault",
@@ -3574,12 +4445,19 @@
      "wins_above_expectation": 12.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 44.5,
     "conference_seed": 1.0,
-    "coach_record": "57-25"
+    "coach_record": "57-25",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Chris Finch",
@@ -3593,12 +4471,19 @@
      "wins_above_expectation": 11.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 3.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 3.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 44.5,
     "conference_seed": 3.0,
-    "coach_record": "56-26"
+    "coach_record": "56-26",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Jamahl Mosley",
@@ -3612,12 +4497,19 @@
      "wins_above_expectation": 9.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 37.5,
     "conference_seed": 5.0,
-    "coach_record": "47-35"
+    "coach_record": "47-35",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -3628,20 +4520,20 @@
    {
     "rank": 1,
     "player": "Kenny Atkinson",
-    "share": 0.3295386187702622,
-    "score": 4.150513669207409
+    "share": 0.36023201237690416,
+    "score": 4.436970318069093
    },
    {
     "rank": 2,
     "player": "Mark Daigneault",
-    "share": 0.2332787024092089,
-    "score": 3.80505400440414
+    "share": 0.1799770677149747,
+    "score": 3.7430514565719615
    },
    {
     "rank": 3,
     "player": "Tyronn Lue",
-    "share": 0.0654978823800007,
-    "score": 2.53483793001636
+    "share": 0.08267462602987159,
+    "score": 2.965134750862909
    }
   ],
   "actual": [
@@ -3676,7 +4568,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -3686,14 +4580,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5983993603362892,
-   0.4457122850836278,
-   1.2714449819352744,
-   0.5321182240605984,
-   -0.20386315378309863
+   0.5552608417791539,
+   0.41463322089905413,
+   1.2465948371475766,
+   0.4594139119288379,
+   -0.12634477068359867,
+   0.11432552473900372,
+   0.40579138632845396
   ],
   "players": [
    {
@@ -3708,12 +4607,19 @@
      "wins_above_expectation": 15.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 48.5,
     "conference_seed": 1.0,
-    "coach_record": "64-18"
+    "coach_record": "64-18",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Mark Daigneault",
@@ -3727,12 +4633,19 @@
      "wins_above_expectation": 10.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 1.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 57.5,
     "conference_seed": 1.0,
-    "coach_record": "68-14"
+    "coach_record": "68-14",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Tyronn Lue",
@@ -3746,18 +4659,25 @@
      "wins_above_expectation": 14.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 5.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 5.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 35.5,
     "conference_seed": 5.0,
-    "coach_record": "50-32"
+    "coach_record": "50-32",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "J.B. Bickerstaff",
     "team": "DET",
     "eligible": true,
-    "model_rank": 4,
+    "model_rank": 6,
     "actual_rank": 2,
     "stats": {
      "team_wins": 44.0,
@@ -3765,18 +4685,25 @@
      "wins_above_expectation": 18.5,
      "top4_seed": 0.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 6.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 0.0,
+     "conference_seed": 6.0,
+     "flow_top4_record": 0.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 25.5,
     "conference_seed": 6.0,
-    "coach_record": "44-38"
+    "coach_record": "44-38",
+    "flow_tier": "Moderate chance",
+    "flow_top4_record": 0.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Ime Udoka",
     "team": "HOU",
     "eligible": true,
-    "model_rank": 6,
+    "model_rank": 5,
     "actual_rank": 3,
     "stats": {
      "team_wins": 52.0,
@@ -3784,12 +4711,19 @@
      "wins_above_expectation": 8.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 43.5,
     "conference_seed": 2.0,
-    "coach_record": "52-30"
+    "coach_record": "52-30",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -3800,20 +4734,20 @@
    {
     "rank": 1,
     "player": "Mitch Johnson",
-    "share": 0.3467088373833784,
-    "score": 4.463653824120403
+    "share": 0.3633220890355669,
+    "score": 4.770855765775105
    },
    {
     "rank": 2,
     "player": "J.B. Bickerstaff",
-    "share": 0.18576312608505477,
-    "score": 3.839640828184429
+    "share": 0.19804195862683877,
+    "score": 4.1640449478085095
    },
    {
     "rank": 3,
     "player": "Joe Mazzulla",
-    "share": 0.17557059543387163,
-    "score": 3.7832096969614497
+    "share": 0.18916812144904646,
+    "score": 4.118202178444861
    }
   ],
   "actual": [
@@ -3848,7 +4782,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -3858,14 +4794,19 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.6202321423289515,
-   0.4496805888773514,
-   1.2709026371872694,
-   0.5327307156901583,
-   -0.2359573488727774
+   0.5766431007222318,
+   0.4205564208731411,
+   1.2451512261033575,
+   0.45810460717513296,
+   -0.15101809338078506,
+   0.112186919026527,
+   0.4245675659102388
   ],
   "players": [
    {
@@ -3880,12 +4821,19 @@
      "wins_above_expectation": 17.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 44.5,
     "conference_seed": 2.0,
-    "coach_record": "62-20"
+    "coach_record": "62-20",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "J.B. Bickerstaff",
@@ -3899,12 +4847,19 @@
      "wins_above_expectation": 13.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 1.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 1.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 46.5,
     "conference_seed": 1.0,
-    "coach_record": "60-22"
+    "coach_record": "60-22",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    },
    {
     "player": "Joe Mazzulla",
@@ -3918,12 +4873,19 @@
      "wins_above_expectation": 14.5,
      "top4_seed": 1.0,
      "prior_coy_same_team": 0.0,
-     "conference_seed": 2.0
+     "flow_moderate_or_better": 1.0,
+     "flow_runaway": 1.0,
+     "conference_seed": 2.0,
+     "flow_top4_record": 1.0,
+     "flow_exceeded_expectations": 1.0
     },
     "imputed": [],
     "expected_team_wins": 41.5,
     "conference_seed": 2.0,
-    "coach_record": "56-26"
+    "coach_record": "56-26",
+    "flow_tier": "Runaway",
+    "flow_top4_record": 1.0,
+    "flow_exceeded_expectations": 1.0
    }
   ]
  },
@@ -3933,21 +4895,21 @@
   "predicted": [
    {
     "rank": 1,
-    "player": "Mitch Johnson",
-    "share": 0.060332225986077244,
-    "score": 0.6581024794819018
+    "player": "Chris Finch",
+    "share": 0.0658385864228643,
+    "score": 0.7512925502247697
    },
    {
     "rank": 2,
-    "player": "Chris Finch",
-    "share": 0.058653892191782304,
-    "score": 0.6298900268033406
+    "player": "Mitch Johnson",
+    "share": 0.06437848175040047,
+    "score": 0.7288659069344781
    },
    {
     "rank": 3,
     "player": "Ime Udoka",
-    "share": 0.05328908877612846,
-    "score": 0.533967687696233
+    "share": 0.051734231007735006,
+    "score": 0.5102061348541346
    }
   ],
   "actual": [],
@@ -3957,7 +4919,9 @@
    "team_net_rating",
    "wins_above_expectation",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_moderate_or_better",
+   "flow_runaway"
   ],
   "display_features": [
    "coach_record",
@@ -3967,53 +4931,72 @@
    "wins_above_expectation",
    "conference_seed",
    "top4_seed",
-   "prior_coy_same_team"
+   "prior_coy_same_team",
+   "flow_top4_record",
+   "flow_exceeded_expectations",
+   "flow_tier"
   ],
   "coefficients": [
-   0.5869035687557295,
-   0.4701484452444347,
-   1.2539600763488108,
-   0.5394618225461839,
-   -0.2339032965244392
+   0.5406630760778605,
+   0.44027581103977154,
+   1.2243251573073388,
+   0.4614302294725076,
+   -0.1483239365342119,
+   0.11450748773365392,
+   0.4375536692353679
   ],
   "players": [
    {
-    "player": "Mitch Johnson",
-    "team": "SAS",
+    "player": "Chris Finch",
+    "team": "MIN",
     "eligible": true,
     "model_rank": 1,
     "actual_rank": null,
     "stats": {
      "team_wins": null,
-     "team_net_rating": 11.6,
+     "team_net_rating": 13.4,
      "wins_above_expectation": null,
      "top4_seed": null,
      "prior_coy_same_team": 0.0,
-     "conference_seed": null
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": null,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": null,
-    "coach_record": "9-2"
+    "coach_record": "9-3",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    },
    {
-    "player": "Chris Finch",
-    "team": "MIN",
+    "player": "Mitch Johnson",
+    "team": "SAS",
     "eligible": true,
     "model_rank": 2,
     "actual_rank": null,
     "stats": {
      "team_wins": null,
-     "team_net_rating": 11.1,
+     "team_net_rating": 13.0,
      "wins_above_expectation": null,
      "top4_seed": null,
      "prior_coy_same_team": 0.0,
-     "conference_seed": null
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": null,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": null,
-    "coach_record": "8-3"
+    "coach_record": "11-2",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    },
    {
     "player": "Ime Udoka",
@@ -4023,16 +5006,23 @@
     "actual_rank": null,
     "stats": {
      "team_wins": null,
-     "team_net_rating": 9.4,
+     "team_net_rating": 9.1,
      "wins_above_expectation": null,
      "top4_seed": null,
      "prior_coy_same_team": 0.0,
-     "conference_seed": null
+     "flow_moderate_or_better": 0.0,
+     "flow_runaway": 0.0,
+     "conference_seed": null,
+     "flow_top4_record": null,
+     "flow_exceeded_expectations": null
     },
     "imputed": [],
     "expected_team_wins": null,
     "conference_seed": null,
-    "coach_record": "8-3"
+    "coach_record": "10-3",
+    "flow_tier": "Unknown",
+    "flow_top4_record": null,
+    "flow_exceeded_expectations": null
    }
   ]
  }

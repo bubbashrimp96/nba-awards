@@ -1,0 +1,7 @@
+period,variant,seasons,top1,top3,log_loss,winners_excluded
+all,baseline,25,11,21,1.5770162950345639,0
+all,learned_flow,25,12,21,1.5579063420968342,0
+all,hard_exclusions,25,11,21,1.5151681079879007,0
+expectations_available,baseline,24,11,21,1.5220103918341017,0
+expectations_available,learned_flow,24,12,21,1.5021041908573,0
+expectations_available,hard_exclusions,24,11,21,1.4575851969938274,0

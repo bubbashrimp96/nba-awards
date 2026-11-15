@@ -14,13 +14,13 @@ PAGE = ROOT / 'output/artifacts/nba-award-models-browser.html'
 OUTPUT = ROOT / 'output/artifacts/projections.json'
 TOP = 5
 MARKET_TOP = 10
-MIP_MIN_PPG = 13.0
+MIN_PPG = {'MIP': 13.0, 'SMOY': 11.5}
 
 
 DISPLAY_SWAP = {'availability_exponential': 'games_below_threshold', 'ppg_rank_exponential': 'ppg_rank', 'ws48_rank_exponential': 'ws48_rank',
                 'league_standing': 'league_rank', 'conference_standing': 'conference_rank'}
 CLUTCH_COLUMNS = ['clutch_record', 'gp', 'clutch_pts', 'clutch_fg_pct', 'clutch_plus_minus', 'clutch_win_pct', 'team_wins']
-COACH_COLUMNS = ['record_to_date', 'team_wins', 'team_net_rating', 'expected_team_wins', 'wins_above_expectation', 'conference_seed', 'top4_seed', 'prior_coy_same_team']
+COACH_COLUMNS = ['record_to_date', 'team_wins', 'team_net_rating', 'expected_team_wins', 'wins_above_expectation', 'conference_seed', 'top4_seed', 'prior_coy_same_team', 'flow_top4_record', 'flow_exceeded_expectations', 'flow_tier']
 
 
 def display_columns(features):
@@ -74,6 +74,7 @@ def top_rows(frame, scores, columns, name_column='Player Name', extra=None):
 
 def player_awards(year, stats):
     played = stats.set_index('PlayerID').games_to_date
+    started = stats.set_index('PlayerID').games_started_to_date
     from revised_award_core import load_namespace, features_for
     models = json.loads((ROOT / 'revised_awards/models.json').read_text())
     result = {}
@@ -89,18 +90,22 @@ def player_awards(year, stats):
             continue
         scores = np.einsum('ij,j->i', group['x'], np.array(model['coefficients']))
         frame = group['g']
-        if award == 'MIP':
-            eligible = frame.PTS.ge(MIP_MIN_PPG).to_numpy()
+        if award in MIN_PPG:
+            eligible = frame.PTS.ge(MIN_PPG[award]).to_numpy()
             frame, scores = frame.loc[eligible].copy(), scores[eligible]
             if frame.empty:
-                result[award] = dict(error='No MIP candidates averaging at least 13 PPG yet')
+                result[award] = dict(error=f'No {award} candidates averaging at least {MIN_PPG[award]:g} PPG yet')
                 continue
-        games = lambda row: dict(games_to_date=number(played.get(row['PlayerID'])))
+        def games(row):
+            values=dict(games_to_date=number(played.get(row['PlayerID'])))
+            if award=='SMOY':values['games_started_to_date']=number(started.get(row['PlayerID']))
+            return values
         shown = display_columns(columns)
+        if award=='SMOY':shown.insert(shown.index('games_to_date')+1,'games_started_to_date')
         rows, pool, ranking = top_rows(frame, scores, shown, extra=games)
         result[award] = dict(top=rows, pool_size=pool, features=columns, columns=shown, _ranking=ranking)
-        if award == 'MIP':
-            result[award]['eligibility_note'] = 'MIP eligibility: at least 13 PPG this season. Historical comparisons apply the same cutoff using the original prior-season fitted weights.'
+        if award in MIN_PPG:
+            result[award]['eligibility_note'] = f'{"6MOY" if award == "SMOY" else award} eligibility: at least {MIN_PPG[award]:g} PPG this season. Historical comparisons apply the same cutoff using the original prior-season fitted weights.'
     return result
 
 

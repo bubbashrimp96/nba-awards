@@ -211,3 +211,48 @@ through 2025–26 comparison is 8/26 winner first, 14/26 winner top three and 2.
 mean log loss; the recency-weighted Accuracy Score is 45.0. The isolated experiment
 and season comparison are saved in `experiments/mip_13ppg`. Rebuild just these
 historical results with `.venv/bin/python build_dashboard_data.py --award MIP`.
+
+## DPOY prior defensive recognition
+
+DPOY now adds `prior_dpoy_votes` and `prior_all_defense`: binary flags for any
+positive DPOY votes or any first/second All-Defensive selection in a strictly
+earlier season. These are learned score features, not eligibility cutoffs.
+Archive votes begin in 1983; selection history begins in 1969. Selections are
+stored in `data/defensive_reputation/all_defensive_selections.csv` with source
+links, including the NBA's 2025–26 selections for current projections. Voting
+beyond the archive is read from the existing full season voting caches.
+
+The approved offline experiment is in `experiments/dpoy_reputation/`: 2000–01
+through 2025–26 winner picks improve 15 → 17, top-three coverage falls 19 → 18,
+and mean log loss improves 1.885249 → 1.575657. Results are retrospective.
+Historical fits retain the existing half-life and regularization and exclude
+same-season recognition. Run `build_revised_awards.py`, `build_dashboard_data.py`
+and `project_current.py` to rebuild. Verify with `test_dpoy_reputation.py`.
+
+## Sixth Man minimum scoring
+
+Sixth Man candidates must average at least 11.5 PPG (11.5 qualifies). Current
+projections and historical dashboard comparisons filter candidates using the
+existing fitted weights and renormalize shares over the remaining pool. MIP
+retains its separate 13 PPG cutoff. Actual voting results stay visible. Excluded
+winners count as misses; log loss uses a documented 1e-15 probability floor.
+Seasons with fewer than three eligible players show only those who qualify.
+
+## Coach of the Year flowchart
+
+The supplied flowchart is implemented as two nested, nonnegative fitted bonuses:
+`flow_moderate_or_better` and an extra `flow_runaway` bonus. Every coach remains
+eligible. A top-four conference record, no earlier COY win with the same franchise,
+and wins strictly above schedule-adjusted preseason expectations yield Runaway.
+The other paths follow `coy_flow.py`; Unknown inputs give no flow adjustment.
+Record-based conference rank is used, with average ranks for ties, rather than
+historical division-based playoff seeds. Before 2002–03 expectations are Unknown.
+
+The 25-season prior-only comparison improves winner picks 11 → 12, keeps top-three
+coverage at 21, and improves log loss 1.577016 → 1.557906. All 24 winners in seasons
+with available expectations fall in Moderate chance or Runaway. These are
+retrospective results, and Runaway is a rule label, not a calibrated probability.
+See `experiments/coy_flow/` for the frozen baseline and comparison. The app displays
+each coach's tier and its two additional flowchart conditions in historical and
+current tables. Rebuild with `build_coy.py`, `build_dashboard_data.py`, then
+`project_current.py`; verify with `test_coy_flow.py`.

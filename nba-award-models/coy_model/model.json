@@ -4,21 +4,26 @@
     "team_net_rating",
     "wins_above_expectation",
     "top4_seed",
-    "prior_coy_same_team"
+    "prior_coy_same_team",
+    "flow_moderate_or_better",
+    "flow_runaway"
   ],
   "coefficients": [
-    0.5869035687557295,
-    0.4701484452444347,
-    1.2539600763488108,
-    0.5394618225461839,
-    -0.2339032965244392
+    0.5406630760778605,
+    0.44027581103977154,
+    1.2243251573073388,
+    0.4614302294725076,
+    -0.1483239365342119,
+    0.11450748773365392,
+    0.4375536692353679
   ],
   "half_life": 20,
   "regularization": 0.3,
   "trained_through": 2026,
   "candidate_pool": "One coach per team-season: the coach with the most regular-season games for that team",
-  "standardization": "Within-season z scores, except raw 0/1 top-four seed and prior-COY indicators",
-  "constraints": "Team wins, net rating, wins above expectation and top-four seed nonnegative; prior COY with same team unconstrained",
+  "standardization": "Within-season z scores, except raw 0/1 top-four seed, prior-COY and nested flowchart-tier indicators",
+  "constraints": "Team wins, net rating, wins above expectation, top-four seed and both flowchart adjustments nonnegative; prior COY with same team unconstrained",
+  "flowchart": "Top-four conference record + no prior COY with this franchise + above preseason expected wins = Runaway. One nested moderate-or-better bonus and one additional Runaway bonus, fitted on earlier seasons. No hard exclusions. Missing expectations or record rank = Unknown with zero flow adjustment. Top-four uses record-based average rank for ties, not historical playoff seed.",
   "expectations": "Preseason market win totals from 2002-03; earlier seasons carry a neutral zero",
   "retrospective_warning": "Features chosen by hand after the fact; prior-season fitting only, but not an untouched test."
 }

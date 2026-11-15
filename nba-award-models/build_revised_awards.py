@@ -43,6 +43,7 @@ for award in ('MVP','ROY','DPOY','MIP','SMOY'):
                     feature=stat+'_rank_exponential';row[stat+'_rank']=int(player[stat+'_rank']);row[stat+'_qualified_count']=int(player[stat+'_qualified_count'])
                     row[feature]=float(player[feature]);row[stat+'_rank_penalty']=float(fitted[columns.index(feature)]*player[feature])
             if award=='DPOY':
+                row['prior_dpoy_votes']=float(player.prior_dpoy_votes);row['prior_all_defense']=float(player.prior_all_defense)
                 row['team_defensive_rank']=float(player.team_defensive_rank);row['team_wins']=float(player.team_wins)
             if award=='SMOY':row['conference_seed']=float(player.conference_seed)
             rankings.append(row)
@@ -56,8 +57,11 @@ for award in ('MVP','ROY','DPOY','MIP','SMOY'):
         model['rank_penalties']='PPG marginal penalty doubles each 5% of qualified field below fifth; WS48 remains 10%. Both exponential, zero through fifth; unqualified players excluded.'
         model['ppg_rank_growth_fraction']=PPG_GROWTH;model['ws48_rank_growth_fraction']=WS48_GROWTH
     if award=='DPOY':
+        model['reputation']='Binary prior_dpoy_votes and prior_all_defense flags; any positive DPOY votes or first/second All-Defensive selection in a strictly earlier season. Learned weights, not eligibility cutoffs.'
         model['team_context']='Player DRB removed. Add team defensive rating rank (negative fitted coefficient) and team wins (nonnegative fitted coefficient). NBA regular-season advanced ratings from 1996–97 onward; historical Basketball Reference team-rating archive for earlier training.'
         model['sources']=dict(model.get('sources',{}),team_defense=hashlib.sha256((ROOT/'data/team_defense/team_defense.csv').read_bytes()).hexdigest())
+        model['sources']['all_defensive_selections']=hashlib.sha256((ROOT/'data/defensive_reputation/all_defensive_selections.csv').read_bytes()).hexdigest()
+        model['sources']['prior_dpoy_votes_archive']=hashlib.sha256((ROOT/'data/award_voting/historical_award_shares.csv').read_bytes()).hexdigest()
     if award=='SMOY':model['team_context']='Add reported conference seed with negative fitted coefficient; missing/zero historical seeds and the incomplete 1999–00 feed use record-based conference rank, flagged. No top-four cutoff.'
     models[award]=model
     now=[r for r in tests if r['award']==award];before=[r for r in comparisons if r['award']==award]
@@ -79,7 +83,8 @@ remain exponential. Each award fits a strictly negative strength on prior season
 MVP PPG rank growth doubles over 5% of the qualified field, previously 10%.
 WS48 rank growth remains 10%. Qualifications, zero penalty through fifth and
 other MVP inputs remain. DPOY removes player DRB, adds team defensive-rating
-rank (negative coefficient) and team wins (nonnegative coefficient). Sixth Man
+rank (negative coefficient), team wins (nonnegative coefficient), and binary
+prior DPOY-vote / prior All-Defensive-selection flags (strictly earlier seasons). Sixth Man
 adds conference seed (negative coefficient), with documented historical fallback
 to record-based rank when reported seeds are missing/zero or from the incomplete
 1999–00 feed. These are fitted inputs, not hard top-five/top-four eligibility cuts.

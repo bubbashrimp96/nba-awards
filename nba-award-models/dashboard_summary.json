@@ -3,13 +3,13 @@
     "seasons": 26,
     "correct": 17,
     "top3": 23,
-    "mean_log_loss": 1.7614142931536896
+    "mean_log_loss": 1.7613366580810397
   },
   "DPOY": {
     "seasons": 26,
-    "correct": 15,
-    "top3": 19,
-    "mean_log_loss": 1.8852491967695537
+    "correct": 17,
+    "top3": 18,
+    "mean_log_loss": 1.575656977774196
   },
   "ROY": {
     "seasons": 26,
@@ -19,9 +19,9 @@
   },
   "SMOY": {
     "seasons": 26,
-    "correct": 17,
-    "top3": 25,
-    "mean_log_loss": 0.8715395647247328
+    "correct": 18,
+    "top3": 26,
+    "mean_log_loss": 0.7758369448703432
   },
   "MIP": {
     "seasons": 26,
@@ -37,8 +37,8 @@
   },
   "COY": {
     "seasons": 25,
-    "correct": 11,
+    "correct": 12,
     "top3": 21,
-    "mean_log_loss": 1.5770162950345636
+    "mean_log_loss": 1.5579063420968344
   }
 }

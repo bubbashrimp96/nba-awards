@@ -1,0 +1,50 @@
+{
+  "formula": "This season per-36 minus immediately previous season per-36. Cached per-36 columns; player-ID match; gaps remain missing, filled by candidate-season median.",
+  "variants": {
+    "baseline": [
+      [],
+      []
+    ],
+    "add_points_per36": [
+      [
+        "delta_PTS_36"
+      ],
+      []
+    ],
+    "add_points_rebounds_assists_per36": [
+      [
+        "delta_PTS_36",
+        "delta_AST_36",
+        "delta_TRB_36"
+      ],
+      []
+    ],
+    "add_five_per36": [
+      [
+        "delta_PTS_36",
+        "delta_AST_36",
+        "delta_TRB_36",
+        "delta_STL_36",
+        "delta_BLK_36"
+      ],
+      []
+    ],
+    "replace_per_game_deltas": [
+      [
+        "delta_PTS_36",
+        "delta_AST_36",
+        "delta_TRB_36"
+      ],
+      [
+        "delta_PTS",
+        "delta_AST",
+        "delta_TRB"
+      ]
+    ]
+  },
+  "half_life": 20,
+  "regularization": 0.3,
+  "baseline_reproduced": true,
+  "eligibility": "13 PPG ranking cutoff retained; original training candidate pools retained.",
+  "warning": "Retrospective comparison of five predefined variants. Chronological splits are diagnostic, not untouched validation."
+}

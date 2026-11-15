@@ -1,0 +1,76 @@
+variant,year,season,predicted,actual,winner_rank,top1,top3,log_loss,winner_tier,winner_excluded
+baseline,2002,2001-02,Rick Adelman,Rick Carlisle,6,0,0,2.8971579718456577,Unknown,False
+baseline,2003,2002-03,Don Nelson,Gregg Popovich,2,0,1,2.08033322211125,Runaway,False
+baseline,2004,2003-04,Rick Carlisle,Hubie Brown,7,0,0,3.183374960937315,Moderate chance,False
+baseline,2005,2004-05,Mike D'Antoni,Mike D'Antoni,1,1,1,1.1443794897536135,Runaway,False
+baseline,2006,2005-06,Flip Saunders,Avery Johnson,2,0,1,1.9131702243390802,Runaway,False
+baseline,2007,2006-07,Avery Johnson,Sam Mitchell,4,0,0,2.299170884081588,Runaway,False
+baseline,2008,2007-08,Doc Rivers,Byron Scott,2,0,1,1.6033488404784775,Runaway,False
+baseline,2009,2008-09,Mike Brown,Mike Brown,1,1,1,1.0105183087592922,Runaway,False
+baseline,2010,2009-10,Alvin Gentry,Scott Brooks,3,0,1,1.9915197722488036,Moderate chance,False
+baseline,2011,2010-11,Tom Thibodeau,Tom Thibodeau,1,1,1,0.6711071143449951,Runaway,False
+baseline,2012,2011-12,Gregg Popovich,Gregg Popovich,1,1,1,1.0483277976686947,Moderate chance,False
+baseline,2013,2012-13,Erik Spoelstra,George Karl,3,0,1,2.1068771056360798,Runaway,False
+baseline,2014,2013-14,Jeff Hornacek,Gregg Popovich,4,0,0,2.583419009378195,Moderate chance,False
+baseline,2015,2014-15,Steve Kerr,Mike Budenholzer,2,0,1,1.2466085022773885,Runaway,False
+baseline,2016,2015-16,Steve Kerr,Steve Kerr,1,1,1,0.821697432682779,Runaway,False
+baseline,2017,2016-17,Mike D'Antoni,Mike D'Antoni,1,1,1,0.8599241990230845,Runaway,False
+baseline,2018,2017-18,Mike D'Antoni,Dwane Casey,2,0,1,1.4517715950708894,Runaway,False
+baseline,2019,2018-19,Mike Budenholzer,Mike Budenholzer,1,1,1,0.9612734826803112,Runaway,False
+baseline,2020,2019-20,Nick Nurse,Nick Nurse,1,1,1,1.2455068018930553,Runaway,False
+baseline,2021,2020-21,Quin Snyder,Tom Thibodeau,2,0,1,1.4049453313284848,Moderate chance,False
+baseline,2022,2021-22,Monty Williams,Monty Williams,1,1,1,1.1287739652075492,Runaway,False
+baseline,2023,2022-23,Mike Brown,Mike Brown,1,1,1,1.459779571759949,Runaway,False
+baseline,2024,2023-24,Joe Mazzulla,Mark Daigneault,2,0,1,1.462646000834836,Runaway,False
+baseline,2025,2024-25,Kenny Atkinson,Kenny Atkinson,1,1,1,1.110061727748835,Runaway,False
+baseline,2026,2025-26,Mitch Johnson,Joe Mazzulla,3,0,1,1.739714063773886,Runaway,False
+learned_flow,2002,2001-02,Rick Adelman,Rick Carlisle,6,0,0,2.8971579718456577,Unknown,False
+learned_flow,2003,2002-03,Don Nelson,Gregg Popovich,2,0,1,2.0803332221112494,Runaway,False
+learned_flow,2004,2003-04,Rick Carlisle,Hubie Brown,9,0,0,3.3583415038069107,Moderate chance,False
+learned_flow,2005,2004-05,Mike D'Antoni,Mike D'Antoni,1,1,1,1.1489023284551911,Runaway,False
+learned_flow,2006,2005-06,Flip Saunders,Avery Johnson,2,0,1,1.8825152434802728,Runaway,False
+learned_flow,2007,2006-07,Avery Johnson,Sam Mitchell,2,0,1,2.1312574364455763,Runaway,False
+learned_flow,2008,2007-08,Doc Rivers,Byron Scott,2,0,1,1.521604479950031,Runaway,False
+learned_flow,2009,2008-09,Mike Brown,Mike Brown,1,1,1,1.0250706085872137,Runaway,False
+learned_flow,2010,2009-10,Alvin Gentry,Scott Brooks,4,0,0,2.1893039635853038,Moderate chance,False
+learned_flow,2011,2010-11,Tom Thibodeau,Tom Thibodeau,1,1,1,0.6112732248395154,Runaway,False
+learned_flow,2012,2011-12,Gregg Popovich,Gregg Popovich,1,1,1,1.1736414720518884,Moderate chance,False
+learned_flow,2013,2012-13,Erik Spoelstra,George Karl,3,0,1,1.979166296690797,Runaway,False
+learned_flow,2014,2013-14,Jeff Hornacek,Gregg Popovich,4,0,0,2.624941012097952,Moderate chance,False
+learned_flow,2015,2014-15,Steve Kerr,Mike Budenholzer,2,0,1,1.1912963687742597,Runaway,False
+learned_flow,2016,2015-16,Steve Kerr,Steve Kerr,1,1,1,0.7359219928031985,Runaway,False
+learned_flow,2017,2016-17,Mike D'Antoni,Mike D'Antoni,1,1,1,0.7599407943143821,Runaway,False
+learned_flow,2018,2017-18,Dwane Casey,Dwane Casey,1,1,1,1.310147401011786,Runaway,False
+learned_flow,2019,2018-19,Mike Budenholzer,Mike Budenholzer,1,1,1,0.8947182949789875,Runaway,False
+learned_flow,2020,2019-20,Nick Nurse,Nick Nurse,1,1,1,1.1398510371284547,Runaway,False
+learned_flow,2021,2020-21,Quin Snyder,Tom Thibodeau,3,0,1,1.7509834498100931,Moderate chance,False
+learned_flow,2022,2021-22,Monty Williams,Monty Williams,1,1,1,1.0897610004976621,Runaway,False
+learned_flow,2023,2022-23,Mike Brown,Mike Brown,1,1,1,1.3593052932695635,Runaway,False
+learned_flow,2024,2023-24,Joe Mazzulla,Mark Daigneault,2,0,1,1.4060980517456523,Runaway,False
+learned_flow,2025,2024-25,Kenny Atkinson,Kenny Atkinson,1,1,1,1.021006976294539,Runaway,False
+learned_flow,2026,2025-26,Mitch Johnson,Joe Mazzulla,3,0,1,1.6651191278447197,Runaway,False
+hard_exclusions,2002,2001-02,Rick Adelman,Rick Carlisle,6,0,0,2.8971579718456577,Unknown,False
+hard_exclusions,2003,2002-03,Don Nelson,Gregg Popovich,2,0,1,1.8683134093408145,Runaway,False
+hard_exclusions,2004,2003-04,Rick Carlisle,Hubie Brown,6,0,0,2.9916165731799222,Moderate chance,False
+hard_exclusions,2005,2004-05,Mike D'Antoni,Mike D'Antoni,1,1,1,1.0708305865628565,Runaway,False
+hard_exclusions,2006,2005-06,Flip Saunders,Avery Johnson,2,0,1,1.873821112732376,Runaway,False
+hard_exclusions,2007,2006-07,Avery Johnson,Sam Mitchell,4,0,0,2.2532962859486494,Runaway,False
+hard_exclusions,2008,2007-08,Doc Rivers,Byron Scott,2,0,1,1.554414853915675,Runaway,False
+hard_exclusions,2009,2008-09,Mike Brown,Mike Brown,1,1,1,0.9691916495562514,Runaway,False
+hard_exclusions,2010,2009-10,Alvin Gentry,Scott Brooks,3,0,1,1.9195130367781639,Moderate chance,False
+hard_exclusions,2011,2010-11,Tom Thibodeau,Tom Thibodeau,1,1,1,0.6464978161150624,Runaway,False
+hard_exclusions,2012,2011-12,Gregg Popovich,Gregg Popovich,1,1,1,0.988108298802201,Moderate chance,False
+hard_exclusions,2013,2012-13,Erik Spoelstra,George Karl,3,0,1,2.05736306501305,Runaway,False
+hard_exclusions,2014,2013-14,Jeff Hornacek,Gregg Popovich,4,0,0,2.5131148829640457,Moderate chance,False
+hard_exclusions,2015,2014-15,Steve Kerr,Mike Budenholzer,2,0,1,1.2024260463882528,Runaway,False
+hard_exclusions,2016,2015-16,Steve Kerr,Steve Kerr,1,1,1,0.7963897795945735,Runaway,False
+hard_exclusions,2017,2016-17,Mike D'Antoni,Mike D'Antoni,1,1,1,0.8250700550382296,Runaway,False
+hard_exclusions,2018,2017-18,Mike D'Antoni,Dwane Casey,2,0,1,1.4128986345625072,Runaway,False
+hard_exclusions,2019,2018-19,Mike Budenholzer,Mike Budenholzer,1,1,1,0.8922088557003709,Runaway,False
+hard_exclusions,2020,2019-20,Nick Nurse,Nick Nurse,1,1,1,1.2064131604593298,Runaway,False
+hard_exclusions,2021,2020-21,Quin Snyder,Tom Thibodeau,2,0,1,1.3612317274193113,Moderate chance,False
+hard_exclusions,2022,2021-22,Monty Williams,Monty Williams,1,1,1,1.0410458152521374,Runaway,False
+hard_exclusions,2023,2022-23,Mike Brown,Mike Brown,1,1,1,1.3531088039019705,Runaway,False
+hard_exclusions,2024,2023-24,Joe Mazzulla,Mark Daigneault,2,0,1,1.4279977617775936,Runaway,False
+hard_exclusions,2025,2024-25,Kenny Atkinson,Kenny Atkinson,1,1,1,1.0547379639411323,Runaway,False
+hard_exclusions,2026,2025-26,Mitch Johnson,Joe Mazzulla,3,0,1,1.7024345529073779,Runaway,False

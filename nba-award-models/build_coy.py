@@ -21,14 +21,15 @@ from bs4 import BeautifulSoup, Comment
 from scipy.optimize import minimize
 from scipy.special import logsumexp, softmax
 from revised_award_core import team_context
+from coy_flow import add_flow, FLOW_FEATURES
 from build_clutch import voting_table
 
 ROOT = Path(__file__).resolve().parent
 RAW = ROOT / 'data/coy/raw'
 OUT = ROOT / 'coy_model'; OUT.mkdir(exist_ok=True)
-FEATURES = ['team_wins', 'team_net_rating', 'wins_above_expectation', 'top4_seed', 'prior_coy_same_team']
-RAW_TERMS = {'top4_seed', 'prior_coy_same_team'}
-POSITIVE = {'team_wins', 'team_net_rating', 'wins_above_expectation', 'top4_seed'}
+FEATURES = ['team_wins', 'team_net_rating', 'wins_above_expectation', 'top4_seed', 'prior_coy_same_team', *FLOW_FEATURES]
+RAW_TERMS = {'top4_seed', 'prior_coy_same_team', *FLOW_FEATURES}
+POSITIVE = {'team_wins', 'team_net_rating', 'wins_above_expectation', 'top4_seed', *FLOW_FEATURES}
 HALF_LIFE, REGULARIZATION = 20, 0.3
 # Relocations/renames: compare franchises, not abbreviations.
 FRANCHISE = {'SEA': 'OKC', 'NJN': 'BRK', 'NOH': 'NOP', 'NOK': 'NOP', 'CHA': 'CHO', 'CHH': 'CHO', 'VAN': 'MEM'}
@@ -105,7 +106,7 @@ def net_ratings(years):
 
 def build_pool():
     pool = coaches()
-    context = team_context()[['year', 'Tm', 'team_wins', 'team_games', 'conference_seed', 'seed_fallback']]
+    context = team_context()[['year', 'Tm', 'team_wins', 'team_games', 'conference_seed', 'conference_rank', 'seed_fallback']]
     pool = pool.merge(context, on=['year', 'Tm'], how='left', validate='one_to_one')
     expectations = pd.read_csv(ROOT / 'data/preseason_wins/team_expectations.csv')[['year', 'Tm', 'preseason_win_total', 'preseason_schedule_games']]
     pool = pool.merge(expectations, on=['year', 'Tm'], how='left', validate='one_to_one')
@@ -118,7 +119,7 @@ def build_pool():
     pool['prior_coy_same_team'] = [float(((winners.year < y) & (winners.coach_id == c) & (winners.franchise == f)).any())
                                    for y, c, f in zip(pool.year, pool.coach_id, pool.franchise)]
     pool['prior_coy_any_team'] = [float(((winners.year < y) & (winners.coach_id == c)).any()) for y, c in zip(pool.year, pool.coach_id)]
-    return pool, winners
+    return add_flow(pool), winners
 
 
 def design(frame):
@@ -187,21 +188,24 @@ def main():
                 continue
             row = row.iloc[0]
             players.append(dict(player=row.coach, team=row.Tm, eligible=True, model_rank=model_rank[cid], actual_rank=actual_rank.get(cid),
-                                stats={f: (None if pd.isna(row[f]) else float(row[f])) for f in FEATURES + ['conference_seed']}, imputed=[],
+                                stats={f: (None if pd.isna(row[f]) else float(row[f])) for f in FEATURES + ['conference_seed','flow_top4_record','flow_exceeded_expectations']}, imputed=[],
                                 expected_team_wins=None if pd.isna(row.expected_team_wins) else float(row.expected_team_wins),
                                 conference_seed=None if pd.isna(row.conference_seed) else float(row.conference_seed),
-                                coach_record=f'{row.wins}-{row.losses}'))
+                                coach_record=f'{row.wins}-{row.losses}', flow_tier=row.flow_tier,
+                                flow_top4_record=None if pd.isna(row.flow_top4_record) else float(row.flow_top4_record),
+                                flow_exceeded_expectations=None if pd.isna(row.flow_exceeded_expectations) else float(row.flow_exceeded_expectations)))
         seasons.append(dict(season=group['season'], in_progress=votes is None,
                             predicted=[dict(rank=r, player=frame.coach[i], share=float(shares[i]), score=float(scores[i])) for r, i in enumerate(order[:3], 1)],
                             actual=votes['results'] if votes else [], source=votes['source'] if votes else '',
-                            features=FEATURES, display_features=['coach_record', 'team_wins', 'team_net_rating', 'expected_team_wins', 'wins_above_expectation', 'conference_seed', 'top4_seed', 'prior_coy_same_team'],
+                            features=FEATURES, display_features=['coach_record', 'team_wins', 'team_net_rating', 'expected_team_wins', 'wins_above_expectation', 'conference_seed', 'top4_seed', 'prior_coy_same_team', 'flow_top4_record', 'flow_exceeded_expectations', 'flow_tier'],
                             coefficients=coef.tolist(), players=players))
     final = fit(labelled)
     model = dict(features=FEATURES, coefficients=final.tolist(), half_life=HALF_LIFE, regularization=REGULARIZATION,
                  trained_through=max(g['year'] for g in labelled),
                  candidate_pool='One coach per team-season: the coach with the most regular-season games for that team',
-                 standardization='Within-season z scores, except raw 0/1 top-four seed and prior-COY indicators',
-                 constraints='Team wins, net rating, wins above expectation and top-four seed nonnegative; prior COY with same team unconstrained',
+                 standardization='Within-season z scores, except raw 0/1 top-four seed, prior-COY and nested flowchart-tier indicators',
+                 constraints='Team wins, net rating, wins above expectation, top-four seed and both flowchart adjustments nonnegative; prior COY with same team unconstrained',
+                 flowchart='Top-four conference record + no prior COY with this franchise + above preseason expected wins = Runaway. One nested moderate-or-better bonus and one additional Runaway bonus, fitted on earlier seasons. No hard exclusions. Missing expectations or record rank = Unknown with zero flow adjustment. Top-four uses record-based average rank for ties, not historical playoff seed.',
                  expectations='Preseason market win totals from 2002-03; earlier seasons carry a neutral zero',
                  retrospective_warning='Features chosen by hand after the fact; prior-season fitting only, but not an untouched test.')
     (OUT / 'model.json').write_text(json.dumps(model, indent=2) + '\n')

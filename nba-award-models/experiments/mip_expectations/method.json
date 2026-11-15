@@ -1,0 +1,32 @@
+{
+  "extracted_player_forecasts": 620,
+  "publication_seasons": [
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23"
+  ],
+  "primary_test_seasons": [
+    "2021-22",
+    "2022-23"
+  ],
+  "half_life": 20,
+  "regularization": 0.3,
+  "cutoff_ppg": 13,
+  "forecast_training": "Only seasons earlier than predicted year. Surprise terms are zero for years with no publication or without a forecast for the actual winner. Other missing candidates receive neutral standardized surprise. Existing training pools and baseline features retained.",
+  "matched_pool": "At least 13 actual PPG, original MIP pool, and published forecast. Baseline and variants use identical matched scoring pools.",
+  "full_pool": "All original MIP candidates with at least 13 PPG; missing forecasts receive neutral standardized surprise.",
+  "source_dates": {
+    "2020": "2019-08-30",
+    "2021": "2020-12-02",
+    "2022": "2021-09-17",
+    "2023": "2022-09-12"
+  },
+  "raw_hashes": {
+    "raw_2020.json": "10561ecde49c9370a357120c9acd1aa819d284360d375f6252b9135aa4f945d2",
+    "raw_2021.json": "6f52577abb3fa8ee38ecbfdce52a9f083bce76ab49bc066486f8cd6eb633a9b9",
+    "raw_2022.json": "6151257004578bc1b53b9b83d67430d8eca98c35a234369592eeb19a33d8d819",
+    "raw_2023.json": "453b409183cf7b724ddd030c60088b00fbfa6ba963190728c4d47bb061adc8d3"
+  },
+  "warning": "Recovered current copies of dated historical publications; independent opening-night snapshot verification unavailable. Very small test: only one then two prior usable expectation seasons. Forecast coverage incomplete, especially among lower-ranked candidates. No active model change."
+}
