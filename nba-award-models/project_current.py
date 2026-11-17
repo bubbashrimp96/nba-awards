@@ -173,6 +173,37 @@ def attach_odds(year, awards):
 MOVEMENT_PLAYERS = 10
 
 
+def attach_teams(year, awards):
+    """Resolve chart and market names against the full roster, including ineligible players."""
+    import gzip
+    from bs4 import BeautifulSoup
+    from fetch_odds import name_key
+    teams = {}
+    for page, name_field, team_field in [('per_game', 'name_display', 'team_name_abbr'), ('coaches', 'coach', 'team')]:
+        path = ROOT / f'data/current/{year}/raw/{page}.html.gz'
+        if not path.exists():
+            continue
+        soup = BeautifulSoup(gzip.decompress(path.read_bytes()).decode().replace('<!--', '').replace('-->', ''), 'html.parser')
+        for row in soup.select('table tbody tr'):
+            name = row.find(attrs={'data-stat': name_field})
+            team = row.find(attrs={'data-stat': team_field})
+            if name and team:
+                code = team.get_text(strip=True)
+                if code and code not in ('TOT', '2TM', '3TM', '4TM', '5TM'):
+                    # The last team stint is the current team for traded players.
+                    teams[name_key(name.get_text(strip=True).replace('*', ''))] = code
+    overrides = ROOT / f'data/current/{year}/team_overrides.json'
+    if overrides.exists():
+        for row in json.loads(overrides.read_text()):
+            teams.setdefault(name_key(row['player']), row['team'])
+    for item in awards.values():
+        for rows in [item.get('top', []), item.get('market_top', []), item.get('bookmaker_quotes', []), item.get('movement', {}).get('players', [])]:
+            for row in rows:
+                team = teams.get(name_key(row.get('player', row.get('name', ''))))
+                if team:
+                    row['team'] = team
+
+
 def attach_movement(year, awards):
     """Daily odds movement from fetch_odds_history.py, as aligned arrays per player and source.
 
@@ -291,6 +322,7 @@ def main(year):
                'league and conference positions and seeds rank teams by those wins. '
                'Scored with each award’s final model fitted on all completed seasons. Shares are model shares within the candidate pool, not calibrated odds.',
         odds=odds, movement=movement, awards=awards, conference_standings=league_standings, all_stars=all_stars)
+    attach_teams(year, awards)
     OUTPUT.write_text(json.dumps(projections, ensure_ascii=False, indent=1) + '\n')
     embed(projections)
     for award, item in awards.items():
