@@ -256,3 +256,21 @@ See `experiments/coy_flow/` for the frozen baseline and comparison. The app disp
 each coach's tier and its two additional flowchart conditions in historical and
 current tables. Rebuild with `build_coy.py`, `build_dashboard_data.py`, then
 `project_current.py`; verify with `test_coy_flow.py`.
+
+## Shared mobile dashboard
+
+The saved mobile dashboard is hosted at https://nemo-nba-awards.latterode64.chatgpt.site.
+Anyone with the link can view it. Refresh data locally with `serve.py`, then ask
+Codex to "publish the latest NBA Awards dashboard". Publishing is a separate step;
+refreshing the desktop app does not change the hosted snapshot automatically.
+
+`export_mobile.py` exports the latest embedded data and applies the mobile menu,
+readable scrollable tables, snapshot timestamp, and read-only controls:
+
+```sh
+.venv/bin/python export_mobile.py --output /Users/jeevie/sites/nba-awards-mobile/dist
+```
+
+The Sites source checkout and update instructions are in
+`/Users/jeevie/sites/nba-awards-mobile/README.md`. Reuse its existing
+`.openai/hosting.json` project ID for future publications.
