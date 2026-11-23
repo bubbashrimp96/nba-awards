@@ -172,6 +172,8 @@ def main():
         frame, votes = group['g'], group['votes']
         model_rank = {frame.coach_id[i]: r for r, i in enumerate(order, 1)}
         actual_rank = {v['id']: v['rank'] for v in votes['voting']} if votes else {}
+        actual_points = {v['id']: v['points'] for v in votes['voting']} if votes else {}
+        model_shares = dict(zip(frame.coach_id, map(float, shares)))
         if votes:
             winner = votes['voting'][0]
             rank = model_rank[winner['id']]
@@ -184,10 +186,11 @@ def main():
             row = frame[frame.coach_id == cid]
             if row.empty:
                 vote = next(v for v in votes['voting'] if v['id'] == cid)
-                players.append(dict(player=vote['player'], team=vote['team'], stats={}, imputed=[], eligible=False, model_rank=None, actual_rank=vote['rank']))
+                players.append(dict(player=vote['player'], team=vote['team'], stats={}, imputed=[], eligible=False, model_rank=None, actual_rank=vote['rank'], actual_points=vote['points'], model_share=None))
                 continue
             row = row.iloc[0]
             players.append(dict(player=row.coach, team=row.Tm, eligible=True, model_rank=model_rank[cid], actual_rank=actual_rank.get(cid),
+                                actual_points=actual_points.get(cid, 0) if votes else None, model_share=model_shares[cid],
                                 stats={f: (None if pd.isna(row[f]) else float(row[f])) for f in FEATURES + ['conference_seed','flow_top4_record','flow_exceeded_expectations']}, imputed=[],
                                 expected_team_wins=None if pd.isna(row.expected_team_wins) else float(row.expected_team_wins),
                                 conference_seed=None if pd.isna(row.conference_seed) else float(row.conference_seed),

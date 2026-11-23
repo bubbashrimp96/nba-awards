@@ -103,7 +103,9 @@ for award in ([args.award] if args.award else ('MVP', 'DPOY', 'ROY', 'SMOY', 'MI
             for player in predicted:
                 assert model_ranks[namespace['key'](player['player'])] == player['rank']
         actual = json.loads((ROOT / f'data/award_voting/{year}.json').read_text())[award]
-        actual_ranks = {namespace['key'](p['player']): p['rank'] for p in actual['voting']}
+        votes_by_player = {namespace['key'](p['player']): p for p in actual['voting']}
+        model_shares = {namespace['key'](name): float(share)
+                        for name, share in zip(group['g']['Player Name'], probabilities)}
         assert len(predicted) == min(3,len(group['g']))
         columns = (mvp_model if award == 'MVP' else models[award])['features']
         pool = group['g']
@@ -131,7 +133,9 @@ for award in ([args.award] if args.award else ('MVP', 'DPOY', 'ROY', 'SMOY', 'MI
                                      league_rank=float(row.league_rank) if math.isfinite(float(row.league_rank)) else None,
                                      conference_rank=float(row.conference_rank) if math.isfinite(float(row.conference_rank)) else None,
                                      model_rank=model_ranks.get(identity),
-                                     actual_rank=actual_ranks.get(identity),
+                                     actual_rank=votes_by_player.get(identity, {}).get('rank'),
+                                     actual_points=votes_by_player.get(identity, {}).get('points', 0),
+                                     model_share=model_shares.get(identity),
                                      team_defensive_rating=float(row.team_defensive_rating) if math.isfinite(float(row.team_defensive_rating)) else None,
                                      seed_fallback=bool(row.seed_fallback),
                                      games_played=float(row.G),

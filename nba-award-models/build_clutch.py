@@ -137,6 +137,8 @@ def main():
         model_rank = {frame.name_key[i]: r for r, i in enumerate(order, 1)}
         votes = voting.get(group['year'])
         actual_rank = {key(v['player']): v['rank'] for v in votes['voting']} if votes else {}
+        actual_points = {key(v['player']): v['points'] for v in votes['voting']} if votes else {}
+        model_shares = dict(zip(frame.name_key, map(float, shares)))
         if votes:
             winner_rank = model_rank[key(votes['voting'][0]['player'])]
             tests.append(dict(award='CPOY', season=group['season'], predicted=frame.player[order[0]], actual=votes['voting'][0]['player'],
@@ -151,12 +153,13 @@ def main():
                 continue
             players.append(dict(player=row.player, team=row.Tm, stats={f: (None if pd.isna(row[f]) else float(row[f])) for f in FEATURES + ['gp']}, imputed=[],
                                 eligible=True, model_rank=model_rank[row.name_key], actual_rank=actual_rank.get(row.name_key),
+                                actual_points=actual_points.get(row.name_key, 0) if votes else None, model_share=model_shares[row.name_key],
                                 clutch_record=f'{int(row.w)}-{int(row.l)}', clutch_games=int(row.gp)))
         missing = shown - set(frame.name_key)
         for name in missing:
             vote = next(v for v in votes['voting'] if key(v['player']) == name)
             players.append(dict(player=vote['player'], team=vote.get('team') or '', stats={}, imputed=[], eligible=False,
-                                model_rank=None, actual_rank=vote['rank']))
+                                model_rank=None, actual_rank=vote['rank'], actual_points=vote['points'], model_share=None))
         seasons.append(dict(season=group['season'], in_progress=votes is None,
                             predicted=[dict(rank=r, player=frame.player[i], share=float(shares[i]), score=float(scores[i])) for r, i in enumerate(order[:3], 1)],
                             actual=votes['results'] if votes else [], source=votes['source'] if votes else 'https://www.nba.com/stats/players/clutch-traditional?PerMode=Totals',

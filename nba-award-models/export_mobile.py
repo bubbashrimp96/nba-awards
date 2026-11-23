@@ -6,6 +6,7 @@ Then ask Codex to publish the latest saved dashboard to the existing NEMO Site.
 import argparse
 import json
 from pathlib import Path
+from shutil import copyfile
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
@@ -64,6 +65,8 @@ def export(output):
     soup.select_one('.side .foot').clear();soup.select_one('.side .foot').string='Saved dashboard · 7 award models'
     script=soup.new_tag('script');script.string=MOBILE_SCRIPT;soup.body.append(script)
     (output/'index.html').write_text(str(soup))
+    for asset in ('award-ballots.js', 'award-ballots.json'):
+        copyfile(source.parent / asset, output / asset)
     # Standalone snapshot uses embedded data so HTML and JSON cannot get out of sync.
     (output/'projections.json').write_text(json.dumps(data,ensure_ascii=False,indent=1)+'\n')
     print(f'Exported saved dashboard to {output}')

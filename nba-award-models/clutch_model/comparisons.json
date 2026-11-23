@@ -91,7 +91,9 @@
     "model_rank": 1,
     "actual_rank": 1,
     "clutch_record": "22-17",
-    "clutch_games": 39
+    "clutch_games": 39,
+    "actual_points": 460.0,
+    "model_share": 0.394439517951938
    },
    {
     "player": "Demar Derozan",
@@ -109,7 +111,9 @@
     "model_rank": 2,
     "actual_rank": 3,
     "clutch_record": "14-20",
-    "clutch_games": 34
+    "clutch_games": 34,
+    "actual_points": 80.0,
+    "model_share": 0.09575770727234288
    },
    {
     "player": "Jimmy Butler Iii",
@@ -127,7 +131,9 @@
     "model_rank": 3,
     "actual_rank": 2,
     "clutch_record": "25-18",
-    "clutch_games": 43
+    "clutch_games": 43,
+    "actual_points": 104.0,
+    "model_share": 0.06928616089880585
    }
   ]
  },
@@ -223,7 +229,9 @@
     "model_rank": 1,
     "actual_rank": 1,
     "clutch_record": "23-20",
-    "clutch_games": 43
+    "clutch_games": 43,
+    "actual_points": 298.0,
+    "model_share": 0.3865067527063105
    },
    {
     "player": "Demar Derozan",
@@ -241,7 +249,9 @@
     "model_rank": 2,
     "actual_rank": 2,
     "clutch_record": "24-16",
-    "clutch_games": 40
+    "clutch_games": 40,
+    "actual_points": 272.0,
+    "model_share": 0.25799749052728366
    },
    {
     "player": "Nikola Jokić",
@@ -259,7 +269,9 @@
     "model_rank": 3,
     "actual_rank": 4,
     "clutch_record": "23-13",
-    "clutch_games": 36
+    "clutch_games": 36,
+    "actual_points": 85.0,
+    "model_share": 0.06652844916332336
    },
    {
     "player": "Shai Gilgeous-Alexander",
@@ -277,7 +289,9 @@
     "model_rank": 5,
     "actual_rank": 3,
     "clutch_record": "23-11",
-    "clutch_games": 34
+    "clutch_games": 34,
+    "actual_points": 160.0,
+    "model_share": 0.04031791506469
    }
   ]
  },
@@ -373,7 +387,9 @@
     "model_rank": 2,
     "actual_rank": 3,
     "clutch_record": "19-23",
-    "clutch_games": 42
+    "clutch_games": 42,
+    "actual_points": 47.0,
+    "model_share": 0.16966384099073722
    },
    {
     "player": "Jalen Brunson",
@@ -391,7 +407,9 @@
     "model_rank": 1,
     "actual_rank": 1,
     "clutch_record": "17-11",
-    "clutch_games": 28
+    "clutch_games": 28,
+    "actual_points": 426.0,
+    "model_share": 0.2380008403915137
    },
    {
     "player": "Nikola Jokić",
@@ -409,7 +427,9 @@
     "model_rank": 3,
     "actual_rank": 2,
     "clutch_record": "19-14",
-    "clutch_games": 33
+    "clutch_games": 33,
+    "actual_points": 312.0,
+    "model_share": 0.1428551245697821
    }
   ]
  },
@@ -505,7 +525,9 @@
     "model_rank": 1,
     "actual_rank": 1,
     "clutch_record": "20-7",
-    "clutch_games": 27
+    "clutch_games": 27,
+    "actual_points": 484.0,
+    "model_share": 0.32789507348657776
    },
    {
     "player": "Jamal Murray",
@@ -523,7 +545,9 @@
     "model_rank": 2,
     "actual_rank": 2,
     "clutch_record": "20-18",
-    "clutch_games": 38
+    "clutch_games": 38,
+    "actual_points": 117.0,
+    "model_share": 0.16540188404814463
    },
    {
     "player": "Nikola Jokić",
@@ -541,7 +565,9 @@
     "model_rank": 3,
     "actual_rank": 6,
     "clutch_record": "15-17",
-    "clutch_games": 32
+    "clutch_games": 32,
+    "actual_points": 37.0,
+    "model_share": 0.08835050126572758
    },
    {
     "player": "Anthony Edwards",
@@ -559,7 +585,9 @@
     "model_rank": 5,
     "actual_rank": 3,
     "clutch_record": "15-9",
-    "clutch_games": 24
+    "clutch_games": 24,
+    "actual_points": 116.0,
+    "model_share": 0.06888079804679786
    }
   ]
  }
