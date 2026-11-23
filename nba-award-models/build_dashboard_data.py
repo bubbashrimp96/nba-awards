@@ -16,7 +16,7 @@ namespace = {'__file__': str(ROOT / 'model.py')}
 exec((ROOT / 'model.py').read_text().split('summary=[]; backtests=[];')[0], namespace)
 models = json.loads((ROOT / 'models.json').read_text())
 models.update(json.loads((ROOT / 'revised_awards/models.json').read_text()))
-from revised_award_core import load_namespace, availability_curve, rank_curve, team_context, defensive_reputation, prior_all_star, player_quality, band, ALLSTAR_CENTRE, ALLSTAR_SPREAD, ORIGIN_CENTRE, ORIGIN_SPREAD
+from revised_award_core import add_preseason_surprise, load_namespace, availability_curve, rank_curve, team_context, defensive_reputation, prior_all_star, player_quality, band, ALLSTAR_CENTRE, ALLSTAR_SPREAD, ORIGIN_CENTRE, ORIGIN_SPREAD
 from exponential_availability_core import FEATURE
 award_namespaces = {award:load_namespace(award) for award in ('MVP','ROY','DPOY','MIP','SMOY')}
 stats = namespace['d'].copy()
@@ -48,6 +48,7 @@ stats = stats.merge(player_quality(), on=['PlayerID','year'], how='left', valida
 stats['second_year'] = stats.experience.eq(1).astype(float)
 stats['allstar_jump_fit'] = band(stats.quality, ALLSTAR_CENTRE, ALLSTAR_SPREAD)
 stats['origin_fit'] = band(stats.quality_prior, ORIGIN_CENTRE, ORIGIN_SPREAD)
+stats = add_preseason_surprise(stats)
 mvp_groups = mvp_namespace['make_groups'](mvp_model['features'])
 comparisons = {}
 metrics = {}
@@ -122,6 +123,9 @@ for award in ([args.award] if args.award else ('MVP', 'DPOY', 'ROY', 'SMOY', 'MI
                     value = float(pool[column].median())
                     imputed.append(column)
                 values[column] = value
+            if 'surprise_PTS' in columns:
+                expected = float(row.expected_PTS)
+                values['expected_PTS'] = expected if math.isfinite(expected) else None
             players[identity] = dict(player=row['Player Name'], team=row.Tm, stats=values,
                                      imputed=imputed, eligible=bool(pool.name_key.eq(identity).any()),
                                      league_rank=float(row.league_rank) if math.isfinite(float(row.league_rank)) else None,

@@ -59,6 +59,12 @@ def reference_rows(market, name_key):
                     row[source] = 1 / price
     for player in market.get('references', {}).get('oddschecker', {}).get('rows', []):
         rows.setdefault(name_key(player['name']), dict(name=player['name']))['oddschecker'] = player['decimal_odds']
+    for player in market.get('references', {}).get('oddschecker_books', {}).get('rows', []):
+        row = rows.setdefault(name_key(player['name']), dict(name=player['name']))
+        for book, value in player['books'].items():
+            row['oc_' + book] = value
+        if player.get('movement'):
+            row['oc_movement'] = player['movement']
     return sorted(rows.values(), key=lambda p: (p.get('sportsbet', float('inf')), p.get('neds', float('inf')), p['name']))
 
 
@@ -83,4 +89,70 @@ def chart_reference(history, award):
         value = player.get('sources', {}).get('sportsbooks', {}).get(latest)
         if isinstance(value, (int, float)) and 0 < value <= 1:
             result['rows'].append(dict(name=player['name'], decimal_odds=1/value))
+    return result
+
+
+# Individual US sportsbooks from Oddschecker's US odds grid (page-embedded data).
+US_BOOKS = [('U1', 'fanduel', 'FanDuel'), ('U6', 'draftkings', 'DraftKings'), ('UG', 'betmgm', 'BetMGM'),
+            ('J3', 'bet365', 'bet365'), ('E6', 'caesars', 'Caesars'), ('UR', 'borgata', 'Borgata'),
+            ('U2', 'betrivers', 'BetRivers'), ('FNP', 'fanatics', 'Fanatics')]
+BROWSER_UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+              '(KHTML, like Gecko) Chrome/130 Safari/537.36')
+
+
+def _devalue(x):
+    """Undo the page's island serialisation: [0, value] scalars/objects, [1, [...]] arrays."""
+    if isinstance(x, list) and len(x) == 2 and x[0] in (0, 1):
+        kind, value = x
+        if kind == 1:
+            return [_devalue(i) for i in value]
+        return _devalue(value) if isinstance(value, dict) else value
+    if isinstance(x, dict):
+        return {k: _devalue(v) for k, v in x.items()}
+    return x
+
+
+def parse_oddschecker_books(page_html):
+    """Per-book decimal prices and Oddschecker's own movement flag for every bet in the grid."""
+    import html as html_lib, json, re
+    codes = {code: key for code, key, _ in US_BOOKS}
+    for raw in re.findall(r'props="([^"]*oddsGrids[^"]*)"', page_html):
+        args = _devalue(json.loads(html_lib.unescape(raw))).get('componentArgs')
+        grids = (args[1] if isinstance(args, list) and len(args) > 1 else args or {}).get('oddsGrids') if args else None
+        grids = _devalue(grids) if grids else None
+        if not grids:
+            continue
+        for grid in grids.values():
+            data = (grid.get('queries') or [{}])[0].get('state', {}).get('data', {})
+            rows = []
+            for bet in data.get('bets', []):
+                books, movement = {}, {}
+                for odd in bet.get('odds', []):
+                    key = codes.get(odd.get('bookmakerCode'))
+                    value = odd.get('decimal')
+                    if key and odd.get('status') == 'ACTIVE' and isinstance(value, (int, float)) and value > 1:
+                        books[key] = float(value)
+                        if odd.get('movement') in ('SHORTENING', 'DRIFTING'):
+                            movement[key] = odd['movement'].lower()
+                if books:
+                    rows.append(dict(name=(bet.get('name') or '').strip(), books=books, movement=movement))
+            if rows:
+                return rows
+    return []
+
+
+def fetch_oddschecker_books(session, award):
+    url = oddschecker_url(award)
+    result = dict(url=url, kind='us_books', status='unavailable', rows=[],
+                  books=[dict(key=key, name=name) for _, key, name in US_BOOKS],
+                  checked_at=datetime.now(timezone.utc).isoformat(timespec='seconds'))
+    try:
+        response = session.get(url, headers={'User-Agent': BROWSER_UA, 'Accept': 'text/html'}, timeout=30)
+        response.raise_for_status()
+        result['rows'] = parse_oddschecker_books(response.text)
+        if not result['rows']:
+            raise LookupError('no active US book prices on the page')
+        result.update(status='available', fetched_at=result['checked_at'])
+    except Exception as error:
+        result['error'] = f'Oddschecker US books unavailable: {error}'
     return result

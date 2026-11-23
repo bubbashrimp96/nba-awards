@@ -3,7 +3,7 @@
     "seasons": 26,
     "correct": 17,
     "top3": 23,
-    "mean_log_loss": 1.7613366580810397
+    "mean_log_loss": 1.7614142931536896
   },
   "DPOY": {
     "seasons": 26,
@@ -25,9 +25,9 @@
   },
   "MIP": {
     "seasons": 26,
-    "correct": 8,
+    "correct": 10,
     "top3": 14,
-    "mean_log_loss": 2.0276785312123393
+    "mean_log_loss": 1.9601612917192326
   },
   "CPOY": {
     "seasons": 4,

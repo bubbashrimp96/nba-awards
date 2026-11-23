@@ -33,7 +33,7 @@ The award explorer has five keyboard-accessible award tabs, with all eleven seas
 
 Run `python3 build_dashboard_data.py` to rebuild the dashboard's embedded comparison data from the cached voting results and historical model fits. MVP keeps its saved PER-replacement top-three shares and refits that model to recover full historical ranks; all awards fit only prior seasons using saved model settings. The dashboard works directly from a local file, without a server.
 
-The sidebar separates Summary, Model vs Actual, Methodology, and Sources & Notes into distinct views, with browser back/forward support. Results default to the latest season; the season buttons also support all seasons. Shareable links use `#results/MVP/2025-26` (older `#award-MVP` links remain supported).
+The sidebar separates Summary, Historical Projections, Methodology, and Sources & Notes into distinct views, with browser back/forward support. Results default to the latest season; the season buttons also support all seasons. Shareable links use `#results/MVP/2025-26` (older `#award-MVP` links remain supported).
 
 Each comparison includes compact input tables with players as rows and model inputs as columns, using smaller text and wrapped headers to fit without horizontal scrolling for the union of both top threes. It shows model/actual ranks, team, all award model features, and candidate-pool eligibility. Values are before standardization; missing values use the model's season candidate-pool median and are marked. Percentage changes are shown in percentage points. MVP tables display record-based league/conference positions (average ranks for ties); the model continues to use normalized 0–1 standings internally.
 
@@ -274,3 +274,14 @@ readable scrollable tables, snapshot timestamp, and read-only controls:
 The Sites source checkout and update instructions are in
 `/Users/jeevie/sites/nba-awards-mobile/README.md`. Reuse its existing
 `.openai/hosting.json` project ID for future publications.
+
+### MIP: points vs preseason projection (2026-11-23)
+
+The active MIP model adds `surprise_PTS` = actual PPG − consensus preseason projected PPG. Projections are the mean of
+whichever of ESPN (fantasy projections 2008–09 to 2014–15, fantasy API 2017–18 on), Razzball, Hashtag Basketball and
+FantasyPros published a line before opening night; raw sources live in `data/preseason_player_projections/sources/`
+and `build_preseason_projections.py` writes `expected_lines.csv` and `coverage.csv`. Seasons covering under half of
+their 13+ PPG players (everything before 2008–09, and 2013–14) are a constant zero. The 2026–27 line is ESPN + Hashtag
+(checked against season-to-date scoring for in-season drift). Dashboard MIP first picks 8/26 → 10/26, log loss
+2.028 → 1.960; other awards unchanged. Rebuild: `python3 build_preseason_projections.py`, `python3 build_revised_awards.py`,
+`python3 build_dashboard_data.py`, `python3 project_current.py`. Research: `experiments/mip_expectations/all_years/REPORT.md`.

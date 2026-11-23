@@ -3,7 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from reference_odds import reference_rows, parse_oddschecker, chart_reference
+from reference_odds import reference_rows, parse_oddschecker, chart_reference, parse_oddschecker_books
 from bookmaker_movement import merge_bookmaker_history, merge_latest_market_snapshot
 from fetch_odds import name_key
 
@@ -49,6 +49,20 @@ class ReferenceOddsTests(unittest.TestCase):
             {'betId': 1, 'bookmakerCode': 'BF', 'status': 'ACTIVE', 'oddsDecimal': 100},
             {'betId': 1, 'bookmakerCode': 'Z', 'status': 'SUSPENDED', 'oddsDecimal': 100}]}
         self.assertEqual(parse_oddschecker(data), [{'name': 'A', 'decimal_odds': 5}])
+
+    def test_us_books_parse_island_data_and_flow_into_rows(self):
+        import html, json
+        grid = {'3587448609': [0, {'queries': [1, [[0, {'state': [0, {'data': [0, {'bets': [1, [[0, {'name': [0, 'A'], 'odds': [1, [
+            [0, {'bookmakerCode': [0, 'U6'], 'status': [0, 'ACTIVE'], 'decimal': [0, 3.5], 'movement': [0, 'SHORTENING']}],
+            [0, {'bookmakerCode': [0, 'E6'], 'status': [0, 'SUSPENDED'], 'decimal': [0, 9.0]}],
+            [0, {'bookmakerCode': [0, 'XX'], 'status': [0, 'ACTIVE'], 'decimal': [0, 4.0]}]]]}]]]}]}]}]]]}]}
+        props = html.escape(json.dumps({'componentArgs': [1, [[0, 'x'], [0, {'oddsGrids': [0, grid]}]]]}))
+        rows = parse_oddschecker_books(f'<astro-island props="{props}"></astro-island>')
+        self.assertEqual(rows, [{'name': 'A', 'books': {'draftkings': 3.5}, 'movement': {'draftkings': 'shortening'}}])
+        market = {'players': [], 'references': {'oddschecker_books': {'rows': rows}}}
+        row = reference_rows(market, name_key)[0]
+        self.assertEqual(row['oc_draftkings'], 3.5)
+        self.assertEqual(row['oc_movement'], {'draftkings': 'shortening'})
 
     def test_observed_history_latest_quote_without_backfilling(self):
         with tempfile.TemporaryDirectory() as directory:

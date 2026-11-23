@@ -31,6 +31,8 @@ def display_columns(features):
         for item in {'allstar_jump_fit': ['quality', shown], 'origin_fit': ['quality_prior', shown]}.get(feature, [shown]):
             if item not in columns:
                 columns.append(item)
+        if feature == 'surprise_PTS' and 'expected_PTS' not in columns:
+            columns.insert(len(columns) - 1, 'expected_PTS')
         if feature == 'team_wins' and 'wins_above_expectation' in features and 'expected_team_wins' not in features:
             columns.append('expected_team_wins')
     front = ['games_to_date', 'G', 'team_wins', 'expected_team_wins', 'wins_above_expectation', 'team_defensive_rank', 'conference_seed', 'league_rank', 'conference_rank']
@@ -150,22 +152,33 @@ def attach_odds(year, awards):
         if not market or item.get('error'):
             continue
         market.setdefault('references', {})['oddschecker'] = chart_reference(chart_history, award)
-        priced = {name_key(p['name']): p for p in market['players']}
-        def sources(p):
-            return {k: round(v['prob'], 4) for k, v in p['sources'].items()}
-        for row in item['top']:
-            p = priced.get(name_key(row['player']))
-            row['market'] = p['market'] if p else None
-            row['market_sources'] = sources(p) if p else {}
-        model = {name_key(r['player']): r for r in ranking}
-        item['market_top'] = [dict(rank=i, player=model[name_key(p['name'])]['player'] if name_key(p['name']) in model else p['name'], market=p['market'], market_sources=sources(p), wide=p['wide'],
-                                   model_rank=model[name_key(p['name'])]['rank'] if name_key(p['name']) in model else None,
-                                   model_share=model[name_key(p['name'])]['share'] if name_key(p['name']) in model else None,
-                                   team=model[name_key(p['name'])]['team'] if name_key(p['name']) in model else None)
-                              for i, p in enumerate(market['players'][:MARKET_TOP], 1)]
-        item['market_links'] = market['sources']
         from reference_odds import reference_rows
-        item['bookmaker_quotes'] = reference_rows(market, name_key)
+        quotes = reference_rows(market, name_key)
+        # Market (Model top five row, Market top ten) = equal-weight mean of every sportsbook price:
+        # Sportsbet, Neds and each Oddschecker US book. Exchanges are excluded here but stay in the chart's Combined.
+        books = {}
+        for q in quotes:
+            au = {k: 1 / q[k] for k in ('sportsbet', 'neds') if q.get(k, 0) > 1}
+            us = [1 / v for k, v in q.items() if k.startswith('oc_') and k != 'oc_movement' and isinstance(v, (int, float)) and v > 1]
+            probs = list(au.values()) + us
+            if probs:
+                src = {k: round(v, 4) for k, v in au.items()}
+                if us:
+                    src.update(us_books=round(sum(us) / len(us), 4), us_n=len(us))
+                books[name_key(q['name'])] = dict(name=q['name'], market=sum(probs) / len(probs), sources=src)
+        for row in item['top']:
+            p = books.get(name_key(row['player']))
+            row['market'] = p['market'] if p else None
+            row['market_sources'] = p['sources'] if p else {}
+        model = {name_key(r['player']): r for r in ranking}
+        ranked = sorted(books.items(), key=lambda kv: (-kv[1]['market'], kv[1]['name']))[:MARKET_TOP]
+        item['market_top'] = [dict(rank=i, player=model[k]['player'] if k in model else p['name'], market=p['market'], market_sources=p['sources'], wide=False,
+                                   model_rank=model[k]['rank'] if k in model else None,
+                                   model_share=model[k]['share'] if k in model else None,
+                                   team=model[k]['team'] if k in model else None)
+                              for i, (k, p) in enumerate(ranked, 1)]
+        item['market_links'] = {k: v for k, v in market['sources'].items() if k in ('sportsbet', 'neds')}
+        item['bookmaker_quotes'] = quotes
         item['reference_links'] = market.get('references', {})
     return dict(fetched_at=odds['fetched_at'], method=odds['method'], errors=odds.get('errors', []))
 

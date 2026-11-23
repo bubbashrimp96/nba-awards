@@ -39,6 +39,7 @@ def team_context():
 
 MIP_TEAM_FEATURES=['team_wins','expected_team_wins','wins_above_expectation','prior_all_star']
 MIP_ARCHETYPE_FEATURES=['second_year','allstar_jump_fit','origin_fit']
+MIP_EXPECTATION_FEATURES=['surprise_PTS']
 # Quality = mean of league percentiles of PPG and BPM among players with 250+ minutes (others = 0, fringe).
 # Band centres come from the general player population, not from MIP winners:
 #   destination = borderline All-Star (25th-percentile All-Star Game player, 1990+), spread = half the All-Star p10-p50 gap
@@ -89,6 +90,25 @@ def add_mip_context(data):
     data['second_year']=data.experience.eq(1).astype(float)
     data['allstar_jump_fit']=band(data.quality,ALLSTAR_CENTRE,ALLSTAR_SPREAD)
     data['origin_fit']=band(data.quality_prior,ORIGIN_CENTRE,ORIGIN_SPREAD)
+    return add_preseason_surprise(data)
+
+
+def preseason_lines():
+    """Consensus preseason expected per-game lines (build_preseason_projections.py) and usable seasons."""
+    folder=ROOT/'data/preseason_player_projections'
+    lines=pd.read_csv(folder/'expected_lines.csv')[['year','PlayerID','expected_PTS']]
+    coverage=pd.read_csv(folder/'coverage.csv')
+    return lines,set(coverage.loc[coverage.usable,'year'])
+
+def add_preseason_surprise(data):
+    """surprise_PTS = actual PPG − preseason expected PPG. Seasons without usable forecasts (before 2008–09,
+    and 2013–14) are a constant 0, so they carry no signal. In usable seasons, players without a forecast
+    are left missing and take the candidate-pool median like any other missing input."""
+    data=data.drop(columns=[c for c in ['expected_PTS','surprise_PTS'] if c in data.columns])
+    lines,usable=preseason_lines()
+    data=data.merge(lines,on=['year','PlayerID'],how='left',validate='many_to_one').copy()
+    data['surprise_PTS']=data.PTS-data.expected_PTS
+    data.loc[~data.year.isin(usable),'surprise_PTS']=0.0
     return data
 
 
@@ -119,7 +139,7 @@ def features_for(award):
     columns=previous_models()[award]['features'].copy()
     if award=='DPOY':columns=[c for c in columns if c!='DRB']+['team_defensive_rank','team_wins','prior_dpoy_votes','prior_all_defense']
     if award=='SMOY':columns+=['conference_seed']
-    if award=='MIP':columns=[c for c in columns if c!='availability_exponential']+MIP_TEAM_FEATURES+MIP_ARCHETYPE_FEATURES+['availability_exponential']
+    if award=='MIP':columns=[c for c in columns if c!='availability_exponential']+MIP_TEAM_FEATURES+MIP_ARCHETYPE_FEATURES+MIP_EXPECTATION_FEATURES+['availability_exponential']
     return columns
 
 def load_namespace(award):

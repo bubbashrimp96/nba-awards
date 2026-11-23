@@ -1,0 +1,17 @@
+scope,period,variant,seasons,top1,top3,mean_winner_rank,log_loss
+matched_forecasts,all_forecast_years,baseline,17,6,10,3.0588235294117645,1.932504885123882
+matched_forecasts,all_forecast_years,add_surprise_PTS,17,7,10,3.0,1.852485586468534
+matched_forecasts,all_forecast_years,add_surprise_PTS_REB_AST,17,7,10,3.235294117647059,1.903677437806796
+matched_forecasts,all_forecast_years,replace_prior_year_deltas,17,7,10,3.1176470588235294,1.9584755299737733
+matched_forecasts,3+_prior_forecast_seasons,baseline,14,5,9,2.857142857142857,1.7984050812615597
+matched_forecasts,3+_prior_forecast_seasons,add_surprise_PTS,14,6,9,2.7142857142857144,1.7107401551851267
+matched_forecasts,3+_prior_forecast_seasons,add_surprise_PTS_REB_AST,14,6,9,2.7857142857142856,1.7349480390792977
+matched_forecasts,3+_prior_forecast_seasons,replace_prior_year_deltas,14,7,9,2.642857142857143,1.7749546080157348
+full_pool,all_forecast_years,baseline,18,5,10,4.0,2.1041191088910463
+full_pool,all_forecast_years,add_surprise_PTS,18,7,10,3.8333333333333335,2.0090668938529657
+full_pool,all_forecast_years,add_surprise_PTS_REB_AST,18,7,10,4.055555555555555,2.056083168883055
+full_pool,all_forecast_years,replace_prior_year_deltas,18,7,10,3.4444444444444446,2.054852304496501
+full_pool,3+_prior_forecast_seasons,baseline,15,4,9,4.0,2.012928229809671
+full_pool,3+_prior_forecast_seasons,add_surprise_PTS,15,6,9,3.7333333333333334,1.9077403658411798
+full_pool,3+_prior_forecast_seasons,add_surprise_PTS_REB_AST,15,6,9,3.8,1.928736020527031
+full_pool,3+_prior_forecast_seasons,replace_prior_year_deltas,15,7,9,3.066666666666667,1.9021431315493205

@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 import argparse, csv, json, re, sys, time, unicodedata
 import requests
 from australian_odds import fetch_book
-from reference_odds import chart_reference
+from reference_odds import chart_reference, fetch_oddschecker_books
 
 ROOT = Path(__file__).resolve().parent
 AWARDS = {  # app code: (Polymarket event title suffix, Kalshi series)
@@ -128,7 +128,8 @@ def fetch(year):
         if sources:
             awards[award] = dict(players=combine(sources),
                                  sources={k: {key: value for key, value in v.items() if key != 'rows'} for k, v in sources.items()},
-                                 references={'oddschecker': chart_reference(chart_history, award)})
+                                 references={'oddschecker': chart_reference(chart_history, award),
+                                             'oddschecker_books': fetch_oddschecker_books(S, award)})
     if not awards:
         raise RuntimeError('no odds fetched: ' + '; '.join(errors))
     snapshot = dict(fetched_at=stamp, method='Equal-weight mean of available Sportsbet, Neds, Polymarket and Kalshi implied probabilities; raw implied probabilities are used with no margin adjustment or field normalisation. Decimal bookmaker prices are retained separately. Sportsbet is the primary displayed bookmaker reference; sources are not assumed to move simultaneously.', errors=errors, awards=awards)
