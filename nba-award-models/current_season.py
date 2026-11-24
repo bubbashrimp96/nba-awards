@@ -4,8 +4,9 @@ The historical pipelines read fixed CSV/JSON files. `install(year)` patches pand
 Path.read_text *in this process only* so those files gain the current season's rows; nothing on disk
 is modified. Run it in a fresh process (project_current.py does) before importing any model module.
 
-Projection rule: each team's record and each player's games, minutes and counting totals (totals
-columns, WS, OWS, DWS, VORP) are scaled by 82 / team games played so far. Per-game and rate stats are
+Projection rule: each player's games = games so far + (games / team games) x the team's remaining games,
+less any prolonged absence entered in the app (data/current/<year>/injuries.json); minutes and counting
+totals (totals columns, WS, OWS, DWS, VORP) are scaled to those projected games. Per-game and rate stats are
 unchanged. Leaderboard qualification and the availability penalty therefore apply to the projected
 full season. Early in a season this is a noisy pace estimate, not a forecast of regression.
 """
@@ -160,11 +161,84 @@ def players(year, teams):
     frame['games_to_date'] = frame.G
     frame['games_started_to_date'] = frame.GS
     frame['team_games_to_date'] = team_games
-    scale = SEASON_GAMES / team_games
+    # Projected games = games so far + current participation rate x the team games the player is available for.
+    # With no absence entered this equals the straight 82-game pace (G x 82 / team games).
+    remaining = (SEASON_GAMES - team_games).clip(lower=0)
+    out = pd.Series(0.0, index=frame.index)
+    absences = injuries(year)
+    if absences:
+        latest = current_teams(year)
+        played = teams.set_index('Tm').games_to_date
+        for player_id, entry in absences.items():
+            if player_id in out.index:
+                team = latest.get(player_id, frame.Tm[player_id])
+                out[player_id] = absence_games(year, team, entry, played.get(team, team_games[player_id]))['games']
+    out = np.minimum(out, remaining)
+    rate = (frame.G / team_games).clip(upper=1)
+    projected = frame.G + rate * (remaining - out)
+    frame['games_out_entered'] = out
+    frame['pace_games'] = (frame.G * SEASON_GAMES / team_games).clip(upper=SEASON_GAMES)
+    scale = (projected / frame.G.replace(0, np.nan)).fillna(SEASON_GAMES / team_games)
     for column in SCALED:
         frame[column] = frame[column] * scale
     frame['G'] = frame.G.clip(upper=SEASON_GAMES); frame['GS'] = frame.GS.clip(upper=SEASON_GAMES)
     return frame.reset_index()
+
+
+def injuries_path(year):
+    return ROOT / f'data/current/{year}/injuries.json'
+
+
+def current_teams(year):
+    """Each player's latest team: traded players' last listed stint, not the combined 2TM/3TM row."""
+    html = gzip.decompress(raw(year, 'per_game.html.gz').read_bytes()).decode()
+    soup = BeautifulSoup(html.replace('<!--', '').replace('-->', ''), 'html.parser')
+    teams = {}
+    for tr in soup.select('table#per_game_stats tbody tr'):
+        link = tr.select_one('[data-stat="name_display"] a'); team = tr.select_one('[data-stat="team_name_abbr"]')
+        code = team.get_text(strip=True) if team else ''
+        if link and re.fullmatch(r'[A-Z]{3}', code) and not re.fullmatch(r'\dTM', code):
+            teams[link['href'].split('/')[-1].split('.')[0]] = code
+    return teams
+
+
+def schedule(year):
+    path = ROOT / f'data/current/{year}/schedule.json'
+    return json.loads(path.read_text()) if path.exists() else None
+
+
+def absence_games(year, team, entry, team_played):
+    """Team games a player misses: the team's not-yet-played scheduled games dated within [start, end].
+
+    Games already played are skipped by count (the first `team_played` dated games), so a range that began in the
+    past only counts what is still to come, and the figure falls as the season goes on. Blank end = rest of season.
+    Legacy entries with a plain games_out / rest_of_season are honoured as entered.
+    """
+    remaining = max(SEASON_GAMES - int(team_played or 0), 0)
+    if not entry.get('start'):
+        games = remaining if entry.get('rest_of_season') else min(float(entry.get('games_out') or 0), remaining)
+        return dict(games=games, basis='entered')
+    calendar = schedule(year)
+    if calendar is None:
+        raise RuntimeError('No season schedule saved: run fetch_schedule.py')
+    dates = sorted(g['date'] for g in calendar['games'] if team in (g['away'], g['home']))
+    upcoming = dates[int(team_played or 0):]
+    end = entry.get('end') or '9999-12-31'
+    missed = [d for d in upcoming if entry['start'] <= d <= end]
+    games = len(missed)
+    unscheduled = max(remaining - len(upcoming), 0)  # NBA Cup knockout games, added to the calendar in December
+    if unscheduled and entry['start'] <= f'{year-1}-12-31' and end >= f'{year-1}-12-31':
+        games += unscheduled
+    return dict(games=float(min(games, remaining)), basis='schedule', first=missed[0] if missed else None,
+                last=missed[-1] if missed else None, unscheduled_included=unscheduled if games > len(missed) else 0)
+
+
+def injuries(year):
+    """Entered prolonged absences: {PlayerID: {player, start, end (blank = rest of season), note, entered_at}}."""
+    path = injuries_path(year)
+    if not path.exists():
+        return {}
+    return {row['PlayerID']: row for row in json.loads(path.read_text()).get('players', [])}
 
 
 def team_defense(year):

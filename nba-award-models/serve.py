@@ -10,6 +10,7 @@ Endpoints used by the Projections page:
   POST /api/odds-history  re-download daily odds movement (fetch_odds_history.py, a few minutes), then re-project
   POST /api/clutch      body = clutch table copied from NBA.com; saved, then re-project
   POST /api/preseason   body = "TEAM total" lines; saved as this season's preseason win totals, then re-project
+  POST /api/injuries    body = JSON {players: [{PlayerID, player, start, end, note}]} absences by date (blank end = rest of season); saved, then re-project
 Each run happens in a fresh subprocess (project_current.py patches file reads at import time).
 """
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
@@ -170,6 +171,44 @@ def save_preseason(text):
     return len(totals)
 
 
+def save_injuries(text):
+    """Body = JSON {players: [{PlayerID, player, games_out, rest_of_season, note}]}; replaces the saved list."""
+    import current_season
+    try:
+        entries = json.loads(text or '{}').get('players', [])
+    except json.JSONDecodeError as error:
+        raise ValueError(f'Bad injury list: {error}')
+    known = set(current_season.bbref_table(YEAR, 'per_game').index)
+    previous = current_season.injuries(YEAR)
+    stamp = datetime.now(timezone.utc).isoformat(timespec='seconds')
+    rows, seen = [], set()
+    for entry in entries:
+        player_id = str(entry.get('PlayerID') or '').strip()
+        if player_id not in known:
+            raise ValueError(f'Unknown player: {entry.get("player") or player_id or "(blank)"}; pick a name from the list')
+        if player_id in seen:
+            continue
+        seen.add(player_id)
+        name = entry.get('player', player_id)
+        start, end = (str(entry.get(k) or '').strip() or None for k in ('start', 'end'))
+        for label, value in (('start', start), ('end', end)):
+            if value and not re.fullmatch(r'\d{4}-\d{2}-\d{2}', value):
+                raise ValueError(f'{name}: {label} date must be YYYY-MM-DD')
+        if not start:
+            raise ValueError(f'{name}: enter the date the absence starts')
+        if end and end < start:
+            raise ValueError(f'{name}: the return date is before the start date')
+        row = dict(PlayerID=player_id, player=str(name)[:80], start=start, end=end, note=str(entry.get('note') or '')[:200])
+        old = previous.get(player_id)
+        same = old and all(old.get(k) == row[k] for k in ('start', 'end', 'note'))
+        row['entered_at'] = old.get('entered_at') if same else stamp
+        rows.append(row)
+    path = current_season.injuries_path(YEAR)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(dict(season=SEASON, updated_at=stamp, players=rows), indent=1) + '\n')
+    return len(rows)
+
+
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(SITE), **kwargs)
@@ -210,6 +249,10 @@ class Handler(SimpleHTTPRequestHandler):
                 except RuntimeError as error:
                     print(f'Team win totals fetch failed: {error}', flush=True)
                     message = 'Updated statistics and projections; team win markets unavailable, using saved/fallback team projections'
+                try:  # season calendar for injury date ranges; cached for a week (7 Basketball Reference pages)
+                    run('fetch_schedule.py', '--year', str(YEAR))
+                except RuntimeError as error:
+                    print(f'Schedule fetch failed: {error}', flush=True)
                 refresh_progress(percent=82,stage='Updating market odds')
                 try:
                     run('fetch_odds.py', '--year', str(YEAR))
@@ -224,6 +267,11 @@ class Handler(SimpleHTTPRequestHandler):
                 message = 'Fetched current odds and re-projected'
             elif self.path == '/api/clutch':
                 message = f'Saved {save_clutch(text)} clutch rows and re-projected'
+            elif self.path == '/api/injuries':
+                if not (ROOT / f'data/current/{YEAR}/schedule.json').exists():
+                    run('fetch_schedule.py', '--year', str(YEAR))
+                count = save_injuries(text)
+                message = f'Saved {count} absence{"" if count == 1 else "s"} and re-projected'
             elif self.path == '/api/preseason':
                 message = f'Saved {save_preseason(text)} preseason win totals and re-projected'
             else:

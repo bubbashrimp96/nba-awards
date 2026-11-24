@@ -287,6 +287,53 @@ def attach_movement(year, awards):
     return dict(fetched_at=data['fetched_at'], method=data['method'], errors=data.get('errors', []))
 
 
+def injury_rows(year, stats):
+    """Entered absences with their effect on projected games (the model inputs scale with them)."""
+    import current_season
+    by_id = stats.set_index('PlayerID')
+    entries = current_season.injuries(year)
+    latest = current_season.current_teams(year) if entries else {}
+    played = current_season.standings(year).set_index('Tm').games_to_date if entries else {}
+    rows = []
+    for player_id, entry in entries.items():
+        row = dict(PlayerID=player_id, player=entry.get('player', player_id), start=entry.get('start'), end=entry.get('end'),
+                   games_out=entry.get('games_out'), rest_of_season=bool(entry.get('rest_of_season')), note=entry.get('note', ''),
+                   entered_at=entry.get('entered_at'))
+        if player_id in by_id.index:
+            r = by_id.loc[player_id]
+            team = latest.get(player_id, str(r.Tm))
+            detail = current_season.absence_games(year, team, entry, played.get(team, r.team_games_to_date))
+            row.update(team=team, games_to_date=number(r.games_to_date), games_out_applied=number(r.games_out_entered),
+                       first_missed=detail.get('first'), last_missed=detail.get('last'), unscheduled_included=detail.get('unscheduled_included', 0),
+                       pace_games=number(r.pace_games), projected_games=number(r.G))
+        else:
+            row['missing'] = True
+        rows.append(row)
+    return sorted(rows, key=lambda r: r['player'])
+
+
+def team_calendar(year, teams):
+    """Each team's not-yet-played scheduled dates, so the page can preview games missed for a date range."""
+    import current_season
+    calendar = current_season.schedule(year)
+    if calendar is None:
+        return None
+    played = teams.set_index('Tm').games_to_date
+    out = {}
+    for tm in sorted(teams.Tm):
+        dates = sorted(g['date'] for g in calendar['games'] if tm in (g['away'], g['home']))
+        out[tm] = dict(played=int(played[tm]), remaining=max(82 - int(played[tm]), 0), upcoming=dates[int(played[tm]):])
+    return dict(fetched_at=calendar['fetched_at'], source=calendar['source'], teams=out)
+
+
+def player_list(stats, year):
+    import current_season
+    latest = current_season.current_teams(year)
+    frame = stats[stats.games_to_date.fillna(0) > 0].sort_values('PTS', ascending=False)
+    return [dict(id=pid, name=str(name), team=latest.get(pid, str(tm)), g=int(g)) for pid, name, tm, g in
+            zip(frame.PlayerID, frame['Player Name'], frame.Tm, frame.games_to_date)]
+
+
 def embed(projections):
     html = PAGE.read_text()
     blob = 'const awardProjections=' + json.dumps(projections, ensure_ascii=False, separators=(',', ':')) + ';\n'
@@ -330,11 +377,13 @@ def main(year):
         sources={name: dict(url=item['url'], fetched_at=item['fetched_at']) for name, item in manifest.items()},
         expectations_proxy=bool(overlay['expectations'].proxy.all()),
         expectations_source=str(overlay['expectations'].source.iloc[0]),
-        method='Player stats projected to an 82-game pace (games, minutes and counting totals scaled by 82 / team games). '
+        method='Player stats projected to an 82-game pace (games, minutes and counting totals scaled by 82 / team games), '
+               'less any absence entered on this page (team games inside the entered dates on the 2026–27 schedule; the rest at the player’s current participation rate). '
                'Projected team wins = the betting market’s expected final wins from sportsbook over/under win totals (lean priced in); '
                'league and conference positions and seeds rank teams by those wins. '
                'Scored with each award’s final model fitted on all completed seasons. Shares are model shares within the candidate pool, not calibrated odds.',
-        odds=odds, movement=movement, awards=awards, conference_standings=league_standings, all_stars=all_stars)
+        odds=odds, movement=movement, awards=awards, conference_standings=league_standings, all_stars=all_stars,
+        injuries=injury_rows(year, stats), players=player_list(stats, year), calendar=team_calendar(year, teams))
     attach_teams(year, awards)
     OUTPUT.write_text(json.dumps(projections, ensure_ascii=False, indent=1) + '\n')
     embed(projections)
