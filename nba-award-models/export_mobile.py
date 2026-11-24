@@ -65,7 +65,7 @@ def export(output):
     soup.select_one('.side .foot').clear();soup.select_one('.side .foot').string='Saved dashboard · 7 award models'
     script=soup.new_tag('script');script.string=MOBILE_SCRIPT;soup.body.append(script)
     (output/'index.html').write_text(str(soup))
-    for asset in ('award-ballots.js', 'award-ballots.json'):
+    for asset in ('award-ballots.js', 'award-ballots.json', 'award-candidates.json'):
         copyfile(source.parent / asset, output / asset)
     # Standalone snapshot uses embedded data so HTML and JSON cannot get out of sync.
     (output/'projections.json').write_text(json.dumps(data,ensure_ascii=False,indent=1)+'\n')
