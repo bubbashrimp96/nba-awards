@@ -136,6 +136,40 @@ def coach(year):
     return dict(top=rows, pool_size=size, features=model['features'], columns=COACH_COLUMNS, _ranking=ranking)
 
 
+def attach_voter_leans(year, awards, stats, teams):
+    """Last season's voters' ballot leans (voter_leans.py) applied to this season's model candidates."""
+    path = ROOT / 'output/artifacts/voter-leans.json'
+    if not path.exists():
+        return
+    import pandas as pd
+    import voter_leans
+    from build_award_ballots import ballot_key
+    from build_voting_tendencies import FIELDS, DELTAS, POSITION, number as num
+    leans = json.loads(path.read_text())
+    wins = teams.set_index('Tm').team_wins.to_dict()
+    label = stats.Season.iloc[0]
+    history = pd.read_csv(ROOT / 'data/basketball_stats.csv')
+    seasons = sorted(s for s in history.Season.unique() if s < label)
+    prior = history[history.Season.eq(seasons[-1])].drop_duplicates('PlayerID').set_index('PlayerID') if seasons else None
+    rows = {}
+    for _, row in stats.iterrows():
+        entry = dict(pos=POSITION.get(str(row['Pos']).split('-')[0]), team=row['Tm'])
+        entry.update({field: num(row[column]) for field, column in FIELDS.items()})
+        entry['wins'] = num(wins.get(row['Tm']))
+        before = prior.loc[row['PlayerID']] if prior is not None and row['PlayerID'] in prior.index else None
+        for field in DELTAS:
+            old = None if before is None else num(before[FIELDS[field]])
+            entry['d_' + field] = None if old is None or entry[field] is None else round(entry[field] - old, 3)
+        rows[ballot_key(row['Player Name'])] = entry
+    for award, item in awards.items():
+        if award not in leans or not item.get('_ranking'):
+            continue
+        try:
+            item['voter_lean'] = voter_leans.project(award, leans, item['_ranking'], rows)
+        except Exception as error:
+            item['voter_lean'] = dict(error=f'{type(error).__name__}: {error}')
+
+
 def attach_odds(year, awards):
     """Merge the latest fetch_odds.py snapshot: a market price on each model row, and the market's own top five."""
     path = ROOT / f'data/current/{year}/odds.json'
@@ -364,6 +398,7 @@ def main(year):
     awards = player_awards(year, stats)
     awards['CPOY'] = clutch(year)
     awards['COY'] = coach(year)
+    attach_voter_leans(year, awards, stats, teams)
     movement = attach_movement(year, awards)  # before attach_odds, which drops the internal rankings
     odds = attach_odds(year, awards)
     for item in awards.values():
